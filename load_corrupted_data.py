@@ -132,6 +132,94 @@ class CIFAR10(data.Dataset):
             if meta is True:
                 self.train_data = self.train_data[idx_to_meta]
                 self.train_labels = list(np.array(self.train_labels)[idx_to_meta])
+                # if you want the meta data is not clean
+                if corruption_type == 'hierarchical':
+                    self.train_coarse_labels = list(np.array(self.train_coarse_labels)[idx_to_meta])
+
+                if corruption_type == 'unif':
+                    C = uniform_mix_C(self.corruption_prob, num_classes)
+                    print(C)
+                    self.C = C
+                elif corruption_type == 'flip':
+                    C = flip_labels_C(self.corruption_prob, num_classes)
+                    print(C)
+                    self.C = C
+                elif corruption_type == 'flip2':
+                    C = flip_labels_C_two(self.corruption_prob, num_classes)
+                    print(C)
+                    self.C = C
+                elif corruption_type == 'hierarchical':
+                    assert num_classes == 100, 'You must use CIFAR-100 with the hierarchical corruption.'
+                    coarse_fine = []
+                    for i in range(20):
+                        coarse_fine.append(set())
+                    for i in range(len(self.train_labels)):
+                        coarse_fine[self.train_coarse_labels[i]].add(self.train_labels[i])
+                    for i in range(20):
+                        coarse_fine[i] = list(coarse_fine[i])
+
+                    C = np.eye(num_classes) * (1 - corruption_prob)
+
+                    for i in range(20):
+                        tmp = np.copy(coarse_fine[i])
+                        for j in range(len(tmp)):
+                            tmp2 = np.delete(np.copy(tmp), j)
+                            C[tmp[j], tmp2] += corruption_prob * 1/len(tmp2)
+                    self.C = C
+                    print(C)
+                elif corruption_type == 'clabels':
+                    net = wrn.WideResNet(40, num_classes, 2, dropRate=0.3).cuda()
+                    model_name = './cifar{}_labeler'.format(num_classes)
+                    net.load_state_dict(torch.load(model_name))
+                    net.eval()
+                else:
+                    assert False, "Invalid corruption type '{}' given. Must be in {'unif', 'flip', 'hierarchical'}".format(corruption_type)
+
+                
+                if corruption_type == 'clabels':
+                    mean = [x / 255 for x in [125.3, 123.0, 113.9]]
+                    std = [x / 255 for x in [63.0, 62.1, 66.7]]
+
+                    test_transform = transforms.Compose(
+                        [transforms.ToTensor(), transforms.Normalize(mean, std)])
+
+                    # obtain sampling probabilities
+                    sampling_probs = []
+                    print('Starting labeling')
+
+                    for i in range((len(self.train_labels) // 64) + 1):
+                        current = self.train_data[i*64:(i+1)*64]
+                        current = [Image.fromarray(current[i]) for i in range(len(current))]
+                        current = torch.cat([test_transform(current[i]).unsqueeze(0) for i in range(len(current))], dim=0)
+
+                        data = V(current).cuda()
+                        logits = net(data)
+                        smax = F.softmax(logits / 5)  # temperature of 1
+                        sampling_probs.append(smax.data.cpu().numpy())
+
+
+                    sampling_probs = np.concatenate(sampling_probs, 0)
+                    print('Finished labeling 1')
+
+                    new_labeling_correct = 0
+                    argmax_labeling_correct = 0
+                    for i in range(len(self.train_labels)):
+                        old_label = self.train_labels[i]
+                        new_label = np.random.choice(num_classes, p=sampling_probs[i])
+                        self.train_labels[i] = new_label
+                        if old_label == new_label:
+                            new_labeling_correct += 1
+                        if old_label == np.argmax(sampling_probs[i]):
+                            argmax_labeling_correct += 1
+                    print('Finished labeling 2')
+                    print('New labeling accuracy:', new_labeling_correct / len(self.train_labels))
+                    print('Argmax labeling accuracy:', argmax_labeling_correct / len(self.train_labels))
+                else:    
+                    for i in range(len(self.train_labels)):
+                        self.train_labels[i] = np.random.choice(num_classes, p=C[self.train_labels[i]])
+                    self.corruption_matrix = C
+            ### train data
+
             else:
                 self.train_data = self.train_data[idx_to_train]
                 self.train_labels = list(np.array(self.train_labels)[idx_to_train])
