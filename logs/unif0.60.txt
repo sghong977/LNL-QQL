@@ -30,3 +30,1711 @@ Epoch: 0
 Epoch: [1/120]	Iters: [50/490]	Loss: 1.8745	MetaLoss:2.5690	Prec@1 13.00	Prec_meta@1 14.00
 Epoch: [1/120]	Iters: [100/490]	Loss: 1.7104	MetaLoss:2.4268	Prec@1 8.00	Prec_meta@1 19.00
 Epoch: [1/120]	Iters: [150/490]	Loss: 1.6571	MetaLoss:2.3724	Prec@1 15.00	Prec_meta@1 12.00
+
+Namespace(augment=True, batch_size=100, corruption_prob=0.6, corruption_type='unif', dataset='cifar10', droprate=0, epochs=120, iters=60000, layers=28, lr=0.1, momentum=0.9, name='WideResNet-28-10', nesterov=True, num_meta=1000, prefetch=0, print_freq=10, resume='', seed=0, start_epoch=0, weight_decay=0.0005, widen_factor=10)
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+[[0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46]]
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+[[0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46 0.06]
+ [0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.06 0.46]]
+Files already downloaded and verified
+
+Epoch: 0
+Epoch: [1/120]	Iters: [50/490]	Loss: 1.8043	MetaLoss:2.5776	Prec@1 10.00	Prec_meta@1 11.00
+Epoch: [1/120]	Iters: [100/490]	Loss: 1.6377	MetaLoss:2.4466	Prec@1 11.00	Prec_meta@1 13.00
+Epoch: [1/120]	Iters: [150/490]	Loss: 1.5820	MetaLoss:2.3979	Prec@1 15.00	Prec_meta@1 17.00
+Epoch: [1/120]	Iters: [200/490]	Loss: 1.5503	MetaLoss:2.3692	Prec@1 9.00	Prec_meta@1 11.00
+Epoch: [1/120]	Iters: [250/490]	Loss: 1.5318	MetaLoss:2.3498	Prec@1 11.00	Prec_meta@1 20.00
+Epoch: [1/120]	Iters: [300/490]	Loss: 1.5198	MetaLoss:2.3350	Prec@1 9.00	Prec_meta@1 18.00
+Epoch: [1/120]	Iters: [350/490]	Loss: 1.5114	MetaLoss:2.3236	Prec@1 14.00	Prec_meta@1 19.00
+Epoch: [1/120]	Iters: [400/490]	Loss: 1.5055	MetaLoss:2.3142	Prec@1 14.00	Prec_meta@1 23.00
+Epoch: [1/120]	Iters: [450/490]	Loss: 1.5010	MetaLoss:2.3057	Prec@1 8.00	Prec_meta@1 13.00
+
+Test set: Average loss: 0.0208, Accuracy: 3046/10000 (30.4600%)
+
+
+Epoch: 1
+Epoch: [2/120]	Iters: [50/490]	Loss: 1.4871	MetaLoss:2.2372	Prec@1 17.00	Prec_meta@1 14.00
+Epoch: [2/120]	Iters: [100/490]	Loss: 1.4957	MetaLoss:2.2331	Prec@1 20.00	Prec_meta@1 23.00
+Epoch: [2/120]	Iters: [150/490]	Loss: 1.5017	MetaLoss:2.2293	Prec@1 16.00	Prec_meta@1 17.00
+Epoch: [2/120]	Iters: [200/490]	Loss: 1.5114	MetaLoss:2.2289	Prec@1 13.00	Prec_meta@1 12.00
+Epoch: [2/120]	Iters: [250/490]	Loss: 1.5223	MetaLoss:2.2277	Prec@1 30.00	Prec_meta@1 18.00
+Epoch: [2/120]	Iters: [300/490]	Loss: 1.5303	MetaLoss:2.2256	Prec@1 17.00	Prec_meta@1 9.00
+Epoch: [2/120]	Iters: [350/490]	Loss: 1.5401	MetaLoss:2.2237	Prec@1 23.00	Prec_meta@1 21.00
+Epoch: [2/120]	Iters: [400/490]	Loss: 1.5492	MetaLoss:2.2221	Prec@1 24.00	Prec_meta@1 23.00
+Epoch: [2/120]	Iters: [450/490]	Loss: 1.5600	MetaLoss:2.2212	Prec@1 20.00	Prec_meta@1 25.00
+
+Test set: Average loss: 0.0191, Accuracy: 3709/10000 (37.0900%)
+
+
+Epoch: 2
+Epoch: [3/120]	Iters: [50/490]	Loss: 1.6853	MetaLoss:2.2001	Prec@1 16.00	Prec_meta@1 19.00
+Epoch: [3/120]	Iters: [100/490]	Loss: 1.7000	MetaLoss:2.1990	Prec@1 24.00	Prec_meta@1 24.00
+Epoch: [3/120]	Iters: [150/490]	Loss: 1.7117	MetaLoss:2.1983	Prec@1 26.00	Prec_meta@1 23.00
+Epoch: [3/120]	Iters: [200/490]	Loss: 1.7266	MetaLoss:2.2003	Prec@1 18.00	Prec_meta@1 23.00
+Epoch: [3/120]	Iters: [250/490]	Loss: 1.7397	MetaLoss:2.2010	Prec@1 18.00	Prec_meta@1 17.00
+Epoch: [3/120]	Iters: [300/490]	Loss: 1.7562	MetaLoss:2.1995	Prec@1 19.00	Prec_meta@1 17.00
+Epoch: [3/120]	Iters: [350/490]	Loss: 1.7734	MetaLoss:2.1981	Prec@1 13.00	Prec_meta@1 22.00
+Epoch: [3/120]	Iters: [400/490]	Loss: 1.7882	MetaLoss:2.1987	Prec@1 30.00	Prec_meta@1 25.00
+Epoch: [3/120]	Iters: [450/490]	Loss: 1.8022	MetaLoss:2.1962	Prec@1 22.00	Prec_meta@1 25.00
+
+Test set: Average loss: 0.0187, Accuracy: 3753/10000 (37.5300%)
+
+
+Epoch: 3
+Epoch: [4/120]	Iters: [50/490]	Loss: 1.9532	MetaLoss:2.1864	Prec@1 25.00	Prec_meta@1 21.00
+Epoch: [4/120]	Iters: [100/490]	Loss: 1.9608	MetaLoss:2.1830	Prec@1 21.00	Prec_meta@1 20.00
+Epoch: [4/120]	Iters: [150/490]	Loss: 1.9609	MetaLoss:2.1842	Prec@1 28.00	Prec_meta@1 21.00
+Epoch: [4/120]	Iters: [200/490]	Loss: 1.9675	MetaLoss:2.1801	Prec@1 23.00	Prec_meta@1 26.00
+Epoch: [4/120]	Iters: [250/490]	Loss: 1.9725	MetaLoss:2.1775	Prec@1 25.00	Prec_meta@1 28.00
+Epoch: [4/120]	Iters: [300/490]	Loss: 1.9773	MetaLoss:2.1756	Prec@1 20.00	Prec_meta@1 16.00
+Epoch: [4/120]	Iters: [350/490]	Loss: 1.9863	MetaLoss:2.1742	Prec@1 29.00	Prec_meta@1 26.00
+Epoch: [4/120]	Iters: [400/490]	Loss: 1.9935	MetaLoss:2.1724	Prec@1 23.00	Prec_meta@1 24.00
+Epoch: [4/120]	Iters: [450/490]	Loss: 1.9996	MetaLoss:2.1715	Prec@1 28.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0181, Accuracy: 4186/10000 (41.8600%)
+
+
+Epoch: 4
+Epoch: [5/120]	Iters: [50/490]	Loss: 2.0661	MetaLoss:2.1564	Prec@1 25.00	Prec_meta@1 23.00
+Epoch: [5/120]	Iters: [100/490]	Loss: 2.0713	MetaLoss:2.1502	Prec@1 26.00	Prec_meta@1 26.00
+Epoch: [5/120]	Iters: [150/490]	Loss: 2.0788	MetaLoss:2.1507	Prec@1 27.00	Prec_meta@1 22.00
+Epoch: [5/120]	Iters: [200/490]	Loss: 2.0803	MetaLoss:2.1500	Prec@1 37.00	Prec_meta@1 23.00
+Epoch: [5/120]	Iters: [250/490]	Loss: 2.0798	MetaLoss:2.1468	Prec@1 33.00	Prec_meta@1 21.00
+Epoch: [5/120]	Iters: [300/490]	Loss: 2.0804	MetaLoss:2.1458	Prec@1 30.00	Prec_meta@1 23.00
+Epoch: [5/120]	Iters: [350/490]	Loss: 2.0817	MetaLoss:2.1446	Prec@1 35.00	Prec_meta@1 33.00
+Epoch: [5/120]	Iters: [400/490]	Loss: 2.0835	MetaLoss:2.1438	Prec@1 27.00	Prec_meta@1 25.00
+Epoch: [5/120]	Iters: [450/490]	Loss: 2.0854	MetaLoss:2.1432	Prec@1 23.00	Prec_meta@1 24.00
+
+Test set: Average loss: 0.0176, Accuracy: 4605/10000 (46.0500%)
+
+
+Epoch: 5
+Epoch: [6/120]	Iters: [50/490]	Loss: 2.1130	MetaLoss:2.1402	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [6/120]	Iters: [100/490]	Loss: 2.1033	MetaLoss:2.1284	Prec@1 33.00	Prec_meta@1 28.00
+Epoch: [6/120]	Iters: [150/490]	Loss: 2.0961	MetaLoss:2.1277	Prec@1 30.00	Prec_meta@1 29.00
+Epoch: [6/120]	Iters: [200/490]	Loss: 2.0967	MetaLoss:2.1302	Prec@1 26.00	Prec_meta@1 25.00
+Epoch: [6/120]	Iters: [250/490]	Loss: 2.0924	MetaLoss:2.1304	Prec@1 24.00	Prec_meta@1 34.00
+Epoch: [6/120]	Iters: [300/490]	Loss: 2.0938	MetaLoss:2.1306	Prec@1 27.00	Prec_meta@1 23.00
+Epoch: [6/120]	Iters: [350/490]	Loss: 2.0924	MetaLoss:2.1307	Prec@1 24.00	Prec_meta@1 30.00
+Epoch: [6/120]	Iters: [400/490]	Loss: 2.0924	MetaLoss:2.1310	Prec@1 24.00	Prec_meta@1 29.00
+Epoch: [6/120]	Iters: [450/490]	Loss: 2.0912	MetaLoss:2.1313	Prec@1 32.00	Prec_meta@1 29.00
+
+Test set: Average loss: 0.0167, Accuracy: 5300/10000 (53.0000%)
+
+
+Epoch: 6
+Epoch: [7/120]	Iters: [50/490]	Loss: 2.0797	MetaLoss:2.1130	Prec@1 26.00	Prec_meta@1 31.00
+Epoch: [7/120]	Iters: [100/490]	Loss: 2.0801	MetaLoss:2.1160	Prec@1 26.00	Prec_meta@1 28.00
+Epoch: [7/120]	Iters: [150/490]	Loss: 2.0859	MetaLoss:2.1189	Prec@1 26.00	Prec_meta@1 35.00
+Epoch: [7/120]	Iters: [200/490]	Loss: 2.0864	MetaLoss:2.1207	Prec@1 35.00	Prec_meta@1 26.00
+Epoch: [7/120]	Iters: [250/490]	Loss: 2.0849	MetaLoss:2.1190	Prec@1 24.00	Prec_meta@1 31.00
+Epoch: [7/120]	Iters: [300/490]	Loss: 2.0819	MetaLoss:2.1186	Prec@1 26.00	Prec_meta@1 31.00
+Epoch: [7/120]	Iters: [350/490]	Loss: 2.0805	MetaLoss:2.1182	Prec@1 34.00	Prec_meta@1 27.00
+Epoch: [7/120]	Iters: [400/490]	Loss: 2.0817	MetaLoss:2.1185	Prec@1 27.00	Prec_meta@1 28.00
+Epoch: [7/120]	Iters: [450/490]	Loss: 2.0845	MetaLoss:2.1184	Prec@1 27.00	Prec_meta@1 30.00
+
+Test set: Average loss: 0.0167, Accuracy: 4855/10000 (48.5500%)
+
+
+Epoch: 7
+Epoch: [8/120]	Iters: [50/490]	Loss: 2.0614	MetaLoss:2.1155	Prec@1 22.00	Prec_meta@1 26.00
+Epoch: [8/120]	Iters: [100/490]	Loss: 2.0786	MetaLoss:2.1122	Prec@1 26.00	Prec_meta@1 24.00
+Epoch: [8/120]	Iters: [150/490]	Loss: 2.0852	MetaLoss:2.1139	Prec@1 22.00	Prec_meta@1 37.00
+Epoch: [8/120]	Iters: [200/490]	Loss: 2.0859	MetaLoss:2.1132	Prec@1 28.00	Prec_meta@1 33.00
+Epoch: [8/120]	Iters: [250/490]	Loss: 2.0878	MetaLoss:2.1146	Prec@1 27.00	Prec_meta@1 38.00
+Epoch: [8/120]	Iters: [300/490]	Loss: 2.0878	MetaLoss:2.1138	Prec@1 23.00	Prec_meta@1 30.00
+Epoch: [8/120]	Iters: [350/490]	Loss: 2.0861	MetaLoss:2.1135	Prec@1 33.00	Prec_meta@1 31.00
+Epoch: [8/120]	Iters: [400/490]	Loss: 2.0861	MetaLoss:2.1123	Prec@1 25.00	Prec_meta@1 28.00
+Epoch: [8/120]	Iters: [450/490]	Loss: 2.0872	MetaLoss:2.1130	Prec@1 28.00	Prec_meta@1 19.00
+
+Test set: Average loss: 0.0172, Accuracy: 4884/10000 (48.8400%)
+
+
+Epoch: 8
+Epoch: [9/120]	Iters: [50/490]	Loss: 2.0755	MetaLoss:2.1090	Prec@1 22.00	Prec_meta@1 27.00
+Epoch: [9/120]	Iters: [100/490]	Loss: 2.0904	MetaLoss:2.1096	Prec@1 28.00	Prec_meta@1 36.00
+Epoch: [9/120]	Iters: [150/490]	Loss: 2.0832	MetaLoss:2.1096	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [9/120]	Iters: [200/490]	Loss: 2.0865	MetaLoss:2.1105	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [9/120]	Iters: [250/490]	Loss: 2.0832	MetaLoss:2.1100	Prec@1 40.00	Prec_meta@1 32.00
+Epoch: [9/120]	Iters: [300/490]	Loss: 2.0803	MetaLoss:2.1097	Prec@1 32.00	Prec_meta@1 25.00
+Epoch: [9/120]	Iters: [350/490]	Loss: 2.0813	MetaLoss:2.1080	Prec@1 22.00	Prec_meta@1 27.00
+Epoch: [9/120]	Iters: [400/490]	Loss: 2.0813	MetaLoss:2.1065	Prec@1 33.00	Prec_meta@1 37.00
+Epoch: [9/120]	Iters: [450/490]	Loss: 2.0812	MetaLoss:2.1072	Prec@1 26.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0173, Accuracy: 4769/10000 (47.6900%)
+
+
+Epoch: 9
+Epoch: [10/120]	Iters: [50/490]	Loss: 2.0913	MetaLoss:2.1128	Prec@1 24.00	Prec_meta@1 27.00
+Epoch: [10/120]	Iters: [100/490]	Loss: 2.0811	MetaLoss:2.1114	Prec@1 31.00	Prec_meta@1 21.00
+Epoch: [10/120]	Iters: [150/490]	Loss: 2.0800	MetaLoss:2.1125	Prec@1 24.00	Prec_meta@1 33.00
+Epoch: [10/120]	Iters: [200/490]	Loss: 2.0762	MetaLoss:2.1099	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [10/120]	Iters: [250/490]	Loss: 2.0744	MetaLoss:2.1101	Prec@1 35.00	Prec_meta@1 24.00
+Epoch: [10/120]	Iters: [300/490]	Loss: 2.0725	MetaLoss:2.1091	Prec@1 28.00	Prec_meta@1 30.00
+Epoch: [10/120]	Iters: [350/490]	Loss: 2.0731	MetaLoss:2.1076	Prec@1 31.00	Prec_meta@1 36.00
+Epoch: [10/120]	Iters: [400/490]	Loss: 2.0727	MetaLoss:2.1079	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [10/120]	Iters: [450/490]	Loss: 2.0738	MetaLoss:2.1083	Prec@1 34.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0173, Accuracy: 4614/10000 (46.1400%)
+
+
+Epoch: 10
+Epoch: [11/120]	Iters: [50/490]	Loss: 2.0856	MetaLoss:2.0995	Prec@1 30.00	Prec_meta@1 31.00
+Epoch: [11/120]	Iters: [100/490]	Loss: 2.0775	MetaLoss:2.1009	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [11/120]	Iters: [150/490]	Loss: 2.0714	MetaLoss:2.1010	Prec@1 26.00	Prec_meta@1 36.00
+Epoch: [11/120]	Iters: [200/490]	Loss: 2.0703	MetaLoss:2.1011	Prec@1 26.00	Prec_meta@1 25.00
+Epoch: [11/120]	Iters: [250/490]	Loss: 2.0673	MetaLoss:2.1043	Prec@1 24.00	Prec_meta@1 25.00
+Epoch: [11/120]	Iters: [300/490]	Loss: 2.0669	MetaLoss:2.1042	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [11/120]	Iters: [350/490]	Loss: 2.0647	MetaLoss:2.1033	Prec@1 33.00	Prec_meta@1 37.00
+Epoch: [11/120]	Iters: [400/490]	Loss: 2.0653	MetaLoss:2.1033	Prec@1 34.00	Prec_meta@1 26.00
+Epoch: [11/120]	Iters: [450/490]	Loss: 2.0648	MetaLoss:2.1028	Prec@1 29.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0158, Accuracy: 5826/10000 (58.2600%)
+
+
+Epoch: 11
+Epoch: [12/120]	Iters: [50/490]	Loss: 2.0618	MetaLoss:2.0972	Prec@1 28.00	Prec_meta@1 28.00
+Epoch: [12/120]	Iters: [100/490]	Loss: 2.0602	MetaLoss:2.0979	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [12/120]	Iters: [150/490]	Loss: 2.0597	MetaLoss:2.1017	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [12/120]	Iters: [200/490]	Loss: 2.0578	MetaLoss:2.1017	Prec@1 33.00	Prec_meta@1 31.00
+Epoch: [12/120]	Iters: [250/490]	Loss: 2.0579	MetaLoss:2.1015	Prec@1 28.00	Prec_meta@1 30.00
+Epoch: [12/120]	Iters: [300/490]	Loss: 2.0576	MetaLoss:2.1012	Prec@1 21.00	Prec_meta@1 29.00
+Epoch: [12/120]	Iters: [350/490]	Loss: 2.0578	MetaLoss:2.1015	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [12/120]	Iters: [400/490]	Loss: 2.0589	MetaLoss:2.1008	Prec@1 26.00	Prec_meta@1 39.00
+Epoch: [12/120]	Iters: [450/490]	Loss: 2.0599	MetaLoss:2.0996	Prec@1 32.00	Prec_meta@1 26.00
+
+Test set: Average loss: 0.0156, Accuracy: 5833/10000 (58.3300%)
+
+
+Epoch: 12
+Epoch: [13/120]	Iters: [50/490]	Loss: 2.0726	MetaLoss:2.0897	Prec@1 20.00	Prec_meta@1 36.00
+Epoch: [13/120]	Iters: [100/490]	Loss: 2.0738	MetaLoss:2.0901	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [13/120]	Iters: [150/490]	Loss: 2.0747	MetaLoss:2.0877	Prec@1 34.00	Prec_meta@1 34.00
+Epoch: [13/120]	Iters: [200/490]	Loss: 2.0723	MetaLoss:2.0911	Prec@1 34.00	Prec_meta@1 28.00
+Epoch: [13/120]	Iters: [250/490]	Loss: 2.0734	MetaLoss:2.0941	Prec@1 27.00	Prec_meta@1 28.00
+Epoch: [13/120]	Iters: [300/490]	Loss: 2.0722	MetaLoss:2.0952	Prec@1 24.00	Prec_meta@1 25.00
+Epoch: [13/120]	Iters: [350/490]	Loss: 2.0691	MetaLoss:2.0960	Prec@1 38.00	Prec_meta@1 33.00
+Epoch: [13/120]	Iters: [400/490]	Loss: 2.0682	MetaLoss:2.0949	Prec@1 21.00	Prec_meta@1 39.00
+Epoch: [13/120]	Iters: [450/490]	Loss: 2.0657	MetaLoss:2.0941	Prec@1 27.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0162, Accuracy: 5617/10000 (56.1700%)
+
+
+Epoch: 13
+Epoch: [14/120]	Iters: [50/490]	Loss: 2.0525	MetaLoss:2.0878	Prec@1 41.00	Prec_meta@1 27.00
+Epoch: [14/120]	Iters: [100/490]	Loss: 2.0468	MetaLoss:2.0897	Prec@1 18.00	Prec_meta@1 32.00
+Epoch: [14/120]	Iters: [150/490]	Loss: 2.0504	MetaLoss:2.0890	Prec@1 35.00	Prec_meta@1 29.00
+Epoch: [14/120]	Iters: [200/490]	Loss: 2.0524	MetaLoss:2.0926	Prec@1 30.00	Prec_meta@1 30.00
+Epoch: [14/120]	Iters: [250/490]	Loss: 2.0546	MetaLoss:2.0929	Prec@1 28.00	Prec_meta@1 36.00
+Epoch: [14/120]	Iters: [300/490]	Loss: 2.0560	MetaLoss:2.0935	Prec@1 28.00	Prec_meta@1 29.00
+Epoch: [14/120]	Iters: [350/490]	Loss: 2.0555	MetaLoss:2.0931	Prec@1 25.00	Prec_meta@1 30.00
+Epoch: [14/120]	Iters: [400/490]	Loss: 2.0533	MetaLoss:2.0937	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [14/120]	Iters: [450/490]	Loss: 2.0531	MetaLoss:2.0940	Prec@1 35.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0160, Accuracy: 5941/10000 (59.4100%)
+
+
+Epoch: 14
+Epoch: [15/120]	Iters: [50/490]	Loss: 2.0439	MetaLoss:2.0935	Prec@1 29.00	Prec_meta@1 40.00
+Epoch: [15/120]	Iters: [100/490]	Loss: 2.0486	MetaLoss:2.0884	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [15/120]	Iters: [150/490]	Loss: 2.0454	MetaLoss:2.0899	Prec@1 35.00	Prec_meta@1 23.00
+Epoch: [15/120]	Iters: [200/490]	Loss: 2.0452	MetaLoss:2.0903	Prec@1 34.00	Prec_meta@1 33.00
+Epoch: [15/120]	Iters: [250/490]	Loss: 2.0479	MetaLoss:2.0884	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [15/120]	Iters: [300/490]	Loss: 2.0488	MetaLoss:2.0881	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [15/120]	Iters: [350/490]	Loss: 2.0490	MetaLoss:2.0875	Prec@1 24.00	Prec_meta@1 28.00
+Epoch: [15/120]	Iters: [400/490]	Loss: 2.0496	MetaLoss:2.0876	Prec@1 46.00	Prec_meta@1 24.00
+Epoch: [15/120]	Iters: [450/490]	Loss: 2.0482	MetaLoss:2.0886	Prec@1 37.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0160, Accuracy: 5807/10000 (58.0700%)
+
+
+Epoch: 15
+Epoch: [16/120]	Iters: [50/490]	Loss: 2.0485	MetaLoss:2.0877	Prec@1 38.00	Prec_meta@1 42.00
+Epoch: [16/120]	Iters: [100/490]	Loss: 2.0437	MetaLoss:2.0870	Prec@1 34.00	Prec_meta@1 31.00
+Epoch: [16/120]	Iters: [150/490]	Loss: 2.0476	MetaLoss:2.0849	Prec@1 39.00	Prec_meta@1 29.00
+Epoch: [16/120]	Iters: [200/490]	Loss: 2.0422	MetaLoss:2.0864	Prec@1 38.00	Prec_meta@1 32.00
+Epoch: [16/120]	Iters: [250/490]	Loss: 2.0425	MetaLoss:2.0871	Prec@1 39.00	Prec_meta@1 27.00
+Epoch: [16/120]	Iters: [300/490]	Loss: 2.0415	MetaLoss:2.0858	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [16/120]	Iters: [350/490]	Loss: 2.0431	MetaLoss:2.0852	Prec@1 35.00	Prec_meta@1 31.00
+Epoch: [16/120]	Iters: [400/490]	Loss: 2.0451	MetaLoss:2.0855	Prec@1 31.00	Prec_meta@1 30.00
+Epoch: [16/120]	Iters: [450/490]	Loss: 2.0426	MetaLoss:2.0855	Prec@1 29.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0155, Accuracy: 6233/10000 (62.3300%)
+
+
+Epoch: 16
+Epoch: [17/120]	Iters: [50/490]	Loss: 2.0480	MetaLoss:2.0936	Prec@1 29.00	Prec_meta@1 23.00
+Epoch: [17/120]	Iters: [100/490]	Loss: 2.0490	MetaLoss:2.0903	Prec@1 36.00	Prec_meta@1 28.00
+Epoch: [17/120]	Iters: [150/490]	Loss: 2.0489	MetaLoss:2.0904	Prec@1 27.00	Prec_meta@1 30.00
+Epoch: [17/120]	Iters: [200/490]	Loss: 2.0454	MetaLoss:2.0898	Prec@1 26.00	Prec_meta@1 32.00
+Epoch: [17/120]	Iters: [250/490]	Loss: 2.0452	MetaLoss:2.0898	Prec@1 23.00	Prec_meta@1 32.00
+Epoch: [17/120]	Iters: [300/490]	Loss: 2.0426	MetaLoss:2.0891	Prec@1 28.00	Prec_meta@1 38.00
+Epoch: [17/120]	Iters: [350/490]	Loss: 2.0465	MetaLoss:2.0885	Prec@1 32.00	Prec_meta@1 33.00
+Epoch: [17/120]	Iters: [400/490]	Loss: 2.0467	MetaLoss:2.0870	Prec@1 25.00	Prec_meta@1 28.00
+Epoch: [17/120]	Iters: [450/490]	Loss: 2.0465	MetaLoss:2.0862	Prec@1 38.00	Prec_meta@1 26.00
+
+Test set: Average loss: 0.0155, Accuracy: 5803/10000 (58.0300%)
+
+
+Epoch: 17
+Epoch: [18/120]	Iters: [50/490]	Loss: 2.0620	MetaLoss:2.0842	Prec@1 29.00	Prec_meta@1 31.00
+Epoch: [18/120]	Iters: [100/490]	Loss: 2.0573	MetaLoss:2.0800	Prec@1 40.00	Prec_meta@1 35.00
+Epoch: [18/120]	Iters: [150/490]	Loss: 2.0504	MetaLoss:2.0823	Prec@1 32.00	Prec_meta@1 27.00
+Epoch: [18/120]	Iters: [200/490]	Loss: 2.0468	MetaLoss:2.0795	Prec@1 31.00	Prec_meta@1 30.00
+Epoch: [18/120]	Iters: [250/490]	Loss: 2.0476	MetaLoss:2.0796	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [18/120]	Iters: [300/490]	Loss: 2.0487	MetaLoss:2.0795	Prec@1 39.00	Prec_meta@1 34.00
+Epoch: [18/120]	Iters: [350/490]	Loss: 2.0491	MetaLoss:2.0801	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [18/120]	Iters: [400/490]	Loss: 2.0494	MetaLoss:2.0811	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [18/120]	Iters: [450/490]	Loss: 2.0494	MetaLoss:2.0815	Prec@1 26.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0157, Accuracy: 5988/10000 (59.8800%)
+
+
+Epoch: 18
+Epoch: [19/120]	Iters: [50/490]	Loss: 2.0299	MetaLoss:2.0877	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [19/120]	Iters: [100/490]	Loss: 2.0270	MetaLoss:2.0877	Prec@1 44.00	Prec_meta@1 37.00
+Epoch: [19/120]	Iters: [150/490]	Loss: 2.0334	MetaLoss:2.0853	Prec@1 28.00	Prec_meta@1 30.00
+Epoch: [19/120]	Iters: [200/490]	Loss: 2.0253	MetaLoss:2.0873	Prec@1 38.00	Prec_meta@1 31.00
+Epoch: [19/120]	Iters: [250/490]	Loss: 2.0306	MetaLoss:2.0879	Prec@1 30.00	Prec_meta@1 35.00
+Epoch: [19/120]	Iters: [300/490]	Loss: 2.0329	MetaLoss:2.0855	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [19/120]	Iters: [350/490]	Loss: 2.0333	MetaLoss:2.0848	Prec@1 26.00	Prec_meta@1 26.00
+Epoch: [19/120]	Iters: [400/490]	Loss: 2.0317	MetaLoss:2.0836	Prec@1 31.00	Prec_meta@1 35.00
+Epoch: [19/120]	Iters: [450/490]	Loss: 2.0320	MetaLoss:2.0839	Prec@1 27.00	Prec_meta@1 29.00
+
+Test set: Average loss: 0.0152, Accuracy: 6330/10000 (63.3000%)
+
+
+Epoch: 19
+Epoch: [20/120]	Iters: [50/490]	Loss: 2.0228	MetaLoss:2.0868	Prec@1 38.00	Prec_meta@1 33.00
+Epoch: [20/120]	Iters: [100/490]	Loss: 2.0209	MetaLoss:2.0877	Prec@1 33.00	Prec_meta@1 37.00
+Epoch: [20/120]	Iters: [150/490]	Loss: 2.0330	MetaLoss:2.0879	Prec@1 31.00	Prec_meta@1 30.00
+Epoch: [20/120]	Iters: [200/490]	Loss: 2.0344	MetaLoss:2.0830	Prec@1 32.00	Prec_meta@1 29.00
+Epoch: [20/120]	Iters: [250/490]	Loss: 2.0334	MetaLoss:2.0834	Prec@1 31.00	Prec_meta@1 31.00
+Epoch: [20/120]	Iters: [300/490]	Loss: 2.0371	MetaLoss:2.0829	Prec@1 28.00	Prec_meta@1 33.00
+Epoch: [20/120]	Iters: [350/490]	Loss: 2.0386	MetaLoss:2.0840	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [20/120]	Iters: [400/490]	Loss: 2.0377	MetaLoss:2.0826	Prec@1 30.00	Prec_meta@1 28.00
+Epoch: [20/120]	Iters: [450/490]	Loss: 2.0380	MetaLoss:2.0827	Prec@1 29.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0157, Accuracy: 5603/10000 (56.0300%)
+
+
+Epoch: 20
+Epoch: [21/120]	Iters: [50/490]	Loss: 2.0358	MetaLoss:2.0890	Prec@1 24.00	Prec_meta@1 34.00
+Epoch: [21/120]	Iters: [100/490]	Loss: 2.0277	MetaLoss:2.0813	Prec@1 34.00	Prec_meta@1 30.00
+Epoch: [21/120]	Iters: [150/490]	Loss: 2.0337	MetaLoss:2.0778	Prec@1 37.00	Prec_meta@1 27.00
+Epoch: [21/120]	Iters: [200/490]	Loss: 2.0385	MetaLoss:2.0789	Prec@1 39.00	Prec_meta@1 30.00
+Epoch: [21/120]	Iters: [250/490]	Loss: 2.0372	MetaLoss:2.0776	Prec@1 30.00	Prec_meta@1 33.00
+Epoch: [21/120]	Iters: [300/490]	Loss: 2.0354	MetaLoss:2.0796	Prec@1 32.00	Prec_meta@1 39.00
+Epoch: [21/120]	Iters: [350/490]	Loss: 2.0338	MetaLoss:2.0799	Prec@1 32.00	Prec_meta@1 33.00
+Epoch: [21/120]	Iters: [400/490]	Loss: 2.0348	MetaLoss:2.0799	Prec@1 28.00	Prec_meta@1 36.00
+Epoch: [21/120]	Iters: [450/490]	Loss: 2.0362	MetaLoss:2.0803	Prec@1 36.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0150, Accuracy: 6087/10000 (60.8700%)
+
+
+Epoch: 21
+Epoch: [22/120]	Iters: [50/490]	Loss: 2.0126	MetaLoss:2.0639	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [22/120]	Iters: [100/490]	Loss: 2.0202	MetaLoss:2.0698	Prec@1 33.00	Prec_meta@1 35.00
+Epoch: [22/120]	Iters: [150/490]	Loss: 2.0184	MetaLoss:2.0716	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [22/120]	Iters: [200/490]	Loss: 2.0196	MetaLoss:2.0740	Prec@1 38.00	Prec_meta@1 29.00
+Epoch: [22/120]	Iters: [250/490]	Loss: 2.0262	MetaLoss:2.0740	Prec@1 39.00	Prec_meta@1 30.00
+Epoch: [22/120]	Iters: [300/490]	Loss: 2.0300	MetaLoss:2.0760	Prec@1 36.00	Prec_meta@1 22.00
+Epoch: [22/120]	Iters: [350/490]	Loss: 2.0319	MetaLoss:2.0778	Prec@1 31.00	Prec_meta@1 33.00
+Epoch: [22/120]	Iters: [400/490]	Loss: 2.0380	MetaLoss:2.0781	Prec@1 30.00	Prec_meta@1 39.00
+Epoch: [22/120]	Iters: [450/490]	Loss: 2.0365	MetaLoss:2.0775	Prec@1 36.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0147, Accuracy: 6246/10000 (62.4600%)
+
+
+Epoch: 22
+Epoch: [23/120]	Iters: [50/490]	Loss: 2.0148	MetaLoss:2.0813	Prec@1 32.00	Prec_meta@1 46.00
+Epoch: [23/120]	Iters: [100/490]	Loss: 2.0136	MetaLoss:2.0747	Prec@1 21.00	Prec_meta@1 29.00
+Epoch: [23/120]	Iters: [150/490]	Loss: 2.0164	MetaLoss:2.0777	Prec@1 27.00	Prec_meta@1 32.00
+Epoch: [23/120]	Iters: [200/490]	Loss: 2.0223	MetaLoss:2.0767	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [23/120]	Iters: [250/490]	Loss: 2.0242	MetaLoss:2.0757	Prec@1 23.00	Prec_meta@1 41.00
+Epoch: [23/120]	Iters: [300/490]	Loss: 2.0265	MetaLoss:2.0757	Prec@1 28.00	Prec_meta@1 37.00
+Epoch: [23/120]	Iters: [350/490]	Loss: 2.0239	MetaLoss:2.0773	Prec@1 29.00	Prec_meta@1 32.00
+Epoch: [23/120]	Iters: [400/490]	Loss: 2.0280	MetaLoss:2.0785	Prec@1 34.00	Prec_meta@1 33.00
+Epoch: [23/120]	Iters: [450/490]	Loss: 2.0271	MetaLoss:2.0789	Prec@1 37.00	Prec_meta@1 29.00
+
+Test set: Average loss: 0.0174, Accuracy: 5597/10000 (55.9700%)
+
+
+Epoch: 23
+Epoch: [24/120]	Iters: [50/490]	Loss: 2.0267	MetaLoss:2.0775	Prec@1 29.00	Prec_meta@1 35.00
+Epoch: [24/120]	Iters: [100/490]	Loss: 2.0312	MetaLoss:2.0845	Prec@1 28.00	Prec_meta@1 31.00
+Epoch: [24/120]	Iters: [150/490]	Loss: 2.0334	MetaLoss:2.0825	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [24/120]	Iters: [200/490]	Loss: 2.0294	MetaLoss:2.0813	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [24/120]	Iters: [250/490]	Loss: 2.0280	MetaLoss:2.0799	Prec@1 30.00	Prec_meta@1 31.00
+Epoch: [24/120]	Iters: [300/490]	Loss: 2.0257	MetaLoss:2.0784	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [24/120]	Iters: [350/490]	Loss: 2.0255	MetaLoss:2.0794	Prec@1 36.00	Prec_meta@1 33.00
+Epoch: [24/120]	Iters: [400/490]	Loss: 2.0239	MetaLoss:2.0785	Prec@1 38.00	Prec_meta@1 39.00
+Epoch: [24/120]	Iters: [450/490]	Loss: 2.0254	MetaLoss:2.0788	Prec@1 32.00	Prec_meta@1 26.00
+
+Test set: Average loss: 0.0150, Accuracy: 6003/10000 (60.0300%)
+
+
+Epoch: 24
+Epoch: [25/120]	Iters: [50/490]	Loss: 2.0138	MetaLoss:2.0894	Prec@1 39.00	Prec_meta@1 25.00
+Epoch: [25/120]	Iters: [100/490]	Loss: 2.0242	MetaLoss:2.0826	Prec@1 41.00	Prec_meta@1 31.00
+Epoch: [25/120]	Iters: [150/490]	Loss: 2.0287	MetaLoss:2.0797	Prec@1 35.00	Prec_meta@1 33.00
+Epoch: [25/120]	Iters: [200/490]	Loss: 2.0271	MetaLoss:2.0798	Prec@1 34.00	Prec_meta@1 30.00
+Epoch: [25/120]	Iters: [250/490]	Loss: 2.0261	MetaLoss:2.0799	Prec@1 30.00	Prec_meta@1 34.00
+Epoch: [25/120]	Iters: [300/490]	Loss: 2.0283	MetaLoss:2.0807	Prec@1 40.00	Prec_meta@1 40.00
+Epoch: [25/120]	Iters: [350/490]	Loss: 2.0298	MetaLoss:2.0800	Prec@1 38.00	Prec_meta@1 29.00
+Epoch: [25/120]	Iters: [400/490]	Loss: 2.0290	MetaLoss:2.0794	Prec@1 26.00	Prec_meta@1 34.00
+Epoch: [25/120]	Iters: [450/490]	Loss: 2.0305	MetaLoss:2.0787	Prec@1 34.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0154, Accuracy: 6086/10000 (60.8600%)
+
+
+Epoch: 25
+Epoch: [26/120]	Iters: [50/490]	Loss: 2.0266	MetaLoss:2.0798	Prec@1 29.00	Prec_meta@1 31.00
+Epoch: [26/120]	Iters: [100/490]	Loss: 2.0247	MetaLoss:2.0756	Prec@1 30.00	Prec_meta@1 31.00
+Epoch: [26/120]	Iters: [150/490]	Loss: 2.0237	MetaLoss:2.0771	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [26/120]	Iters: [200/490]	Loss: 2.0303	MetaLoss:2.0773	Prec@1 38.00	Prec_meta@1 36.00
+Epoch: [26/120]	Iters: [250/490]	Loss: 2.0355	MetaLoss:2.0781	Prec@1 33.00	Prec_meta@1 39.00
+Epoch: [26/120]	Iters: [300/490]	Loss: 2.0342	MetaLoss:2.0787	Prec@1 24.00	Prec_meta@1 35.00
+Epoch: [26/120]	Iters: [350/490]	Loss: 2.0349	MetaLoss:2.0792	Prec@1 35.00	Prec_meta@1 42.00
+Epoch: [26/120]	Iters: [400/490]	Loss: 2.0331	MetaLoss:2.0792	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [26/120]	Iters: [450/490]	Loss: 2.0322	MetaLoss:2.0792	Prec@1 40.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0147, Accuracy: 6496/10000 (64.9600%)
+
+
+Epoch: 26
+Epoch: [27/120]	Iters: [50/490]	Loss: 2.0247	MetaLoss:2.0729	Prec@1 24.00	Prec_meta@1 35.00
+Epoch: [27/120]	Iters: [100/490]	Loss: 2.0200	MetaLoss:2.0746	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [27/120]	Iters: [150/490]	Loss: 2.0133	MetaLoss:2.0776	Prec@1 26.00	Prec_meta@1 26.00
+Epoch: [27/120]	Iters: [200/490]	Loss: 2.0190	MetaLoss:2.0762	Prec@1 37.00	Prec_meta@1 45.00
+Epoch: [27/120]	Iters: [250/490]	Loss: 2.0256	MetaLoss:2.0777	Prec@1 31.00	Prec_meta@1 30.00
+Epoch: [27/120]	Iters: [300/490]	Loss: 2.0291	MetaLoss:2.0787	Prec@1 33.00	Prec_meta@1 34.00
+Epoch: [27/120]	Iters: [350/490]	Loss: 2.0296	MetaLoss:2.0768	Prec@1 29.00	Prec_meta@1 29.00
+Epoch: [27/120]	Iters: [400/490]	Loss: 2.0273	MetaLoss:2.0765	Prec@1 42.00	Prec_meta@1 34.00
+Epoch: [27/120]	Iters: [450/490]	Loss: 2.0267	MetaLoss:2.0759	Prec@1 32.00	Prec_meta@1 37.00
+
+Test set: Average loss: 0.0158, Accuracy: 5962/10000 (59.6200%)
+
+
+Epoch: 27
+Epoch: [28/120]	Iters: [50/490]	Loss: 2.0261	MetaLoss:2.0664	Prec@1 32.00	Prec_meta@1 29.00
+Epoch: [28/120]	Iters: [100/490]	Loss: 2.0293	MetaLoss:2.0703	Prec@1 35.00	Prec_meta@1 29.00
+Epoch: [28/120]	Iters: [150/490]	Loss: 2.0272	MetaLoss:2.0729	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [28/120]	Iters: [200/490]	Loss: 2.0294	MetaLoss:2.0725	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [28/120]	Iters: [250/490]	Loss: 2.0288	MetaLoss:2.0720	Prec@1 37.00	Prec_meta@1 37.00
+Epoch: [28/120]	Iters: [300/490]	Loss: 2.0251	MetaLoss:2.0716	Prec@1 33.00	Prec_meta@1 30.00
+Epoch: [28/120]	Iters: [350/490]	Loss: 2.0265	MetaLoss:2.0734	Prec@1 40.00	Prec_meta@1 38.00
+Epoch: [28/120]	Iters: [400/490]	Loss: 2.0269	MetaLoss:2.0728	Prec@1 30.00	Prec_meta@1 28.00
+Epoch: [28/120]	Iters: [450/490]	Loss: 2.0270	MetaLoss:2.0723	Prec@1 33.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0153, Accuracy: 5783/10000 (57.8300%)
+
+
+Epoch: 28
+Epoch: [29/120]	Iters: [50/490]	Loss: 2.0282	MetaLoss:2.0671	Prec@1 26.00	Prec_meta@1 33.00
+Epoch: [29/120]	Iters: [100/490]	Loss: 2.0311	MetaLoss:2.0670	Prec@1 32.00	Prec_meta@1 33.00
+Epoch: [29/120]	Iters: [150/490]	Loss: 2.0281	MetaLoss:2.0684	Prec@1 38.00	Prec_meta@1 32.00
+Epoch: [29/120]	Iters: [200/490]	Loss: 2.0260	MetaLoss:2.0713	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [29/120]	Iters: [250/490]	Loss: 2.0298	MetaLoss:2.0734	Prec@1 25.00	Prec_meta@1 37.00
+Epoch: [29/120]	Iters: [300/490]	Loss: 2.0313	MetaLoss:2.0736	Prec@1 41.00	Prec_meta@1 34.00
+Epoch: [29/120]	Iters: [350/490]	Loss: 2.0296	MetaLoss:2.0722	Prec@1 34.00	Prec_meta@1 31.00
+Epoch: [29/120]	Iters: [400/490]	Loss: 2.0307	MetaLoss:2.0723	Prec@1 30.00	Prec_meta@1 26.00
+Epoch: [29/120]	Iters: [450/490]	Loss: 2.0316	MetaLoss:2.0720	Prec@1 34.00	Prec_meta@1 30.00
+
+Test set: Average loss: 0.0157, Accuracy: 6262/10000 (62.6200%)
+
+
+Epoch: 29
+Epoch: [30/120]	Iters: [50/490]	Loss: 2.0373	MetaLoss:2.0750	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [30/120]	Iters: [100/490]	Loss: 2.0246	MetaLoss:2.0728	Prec@1 44.00	Prec_meta@1 34.00
+Epoch: [30/120]	Iters: [150/490]	Loss: 2.0210	MetaLoss:2.0737	Prec@1 42.00	Prec_meta@1 28.00
+Epoch: [30/120]	Iters: [200/490]	Loss: 2.0223	MetaLoss:2.0740	Prec@1 45.00	Prec_meta@1 38.00
+Epoch: [30/120]	Iters: [250/490]	Loss: 2.0284	MetaLoss:2.0761	Prec@1 37.00	Prec_meta@1 28.00
+Epoch: [30/120]	Iters: [300/490]	Loss: 2.0263	MetaLoss:2.0760	Prec@1 36.00	Prec_meta@1 27.00
+Epoch: [30/120]	Iters: [350/490]	Loss: 2.0259	MetaLoss:2.0734	Prec@1 37.00	Prec_meta@1 30.00
+Epoch: [30/120]	Iters: [400/490]	Loss: 2.0275	MetaLoss:2.0743	Prec@1 39.00	Prec_meta@1 34.00
+Epoch: [30/120]	Iters: [450/490]	Loss: 2.0261	MetaLoss:2.0741	Prec@1 35.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0163, Accuracy: 5655/10000 (56.5500%)
+
+
+Epoch: 30
+Epoch: [31/120]	Iters: [50/490]	Loss: 2.0427	MetaLoss:2.0651	Prec@1 29.00	Prec_meta@1 37.00
+Epoch: [31/120]	Iters: [100/490]	Loss: 2.0307	MetaLoss:2.0662	Prec@1 33.00	Prec_meta@1 39.00
+Epoch: [31/120]	Iters: [150/490]	Loss: 2.0261	MetaLoss:2.0734	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [31/120]	Iters: [200/490]	Loss: 2.0255	MetaLoss:2.0720	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [31/120]	Iters: [250/490]	Loss: 2.0240	MetaLoss:2.0721	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [31/120]	Iters: [300/490]	Loss: 2.0269	MetaLoss:2.0729	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [31/120]	Iters: [350/490]	Loss: 2.0249	MetaLoss:2.0738	Prec@1 47.00	Prec_meta@1 38.00
+Epoch: [31/120]	Iters: [400/490]	Loss: 2.0249	MetaLoss:2.0750	Prec@1 35.00	Prec_meta@1 31.00
+Epoch: [31/120]	Iters: [450/490]	Loss: 2.0274	MetaLoss:2.0764	Prec@1 29.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0145, Accuracy: 6297/10000 (62.9700%)
+
+
+Epoch: 31
+Epoch: [32/120]	Iters: [50/490]	Loss: 2.0196	MetaLoss:2.0854	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [32/120]	Iters: [100/490]	Loss: 2.0262	MetaLoss:2.0788	Prec@1 31.00	Prec_meta@1 27.00
+Epoch: [32/120]	Iters: [150/490]	Loss: 2.0164	MetaLoss:2.0724	Prec@1 35.00	Prec_meta@1 25.00
+Epoch: [32/120]	Iters: [200/490]	Loss: 2.0140	MetaLoss:2.0734	Prec@1 29.00	Prec_meta@1 26.00
+Epoch: [32/120]	Iters: [250/490]	Loss: 2.0156	MetaLoss:2.0735	Prec@1 29.00	Prec_meta@1 32.00
+Epoch: [32/120]	Iters: [300/490]	Loss: 2.0171	MetaLoss:2.0730	Prec@1 37.00	Prec_meta@1 30.00
+Epoch: [32/120]	Iters: [350/490]	Loss: 2.0197	MetaLoss:2.0744	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [32/120]	Iters: [400/490]	Loss: 2.0189	MetaLoss:2.0759	Prec@1 37.00	Prec_meta@1 37.00
+Epoch: [32/120]	Iters: [450/490]	Loss: 2.0185	MetaLoss:2.0773	Prec@1 38.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0149, Accuracy: 6155/10000 (61.5500%)
+
+
+Epoch: 32
+Epoch: [33/120]	Iters: [50/490]	Loss: 2.0265	MetaLoss:2.0669	Prec@1 31.00	Prec_meta@1 29.00
+Epoch: [33/120]	Iters: [100/490]	Loss: 2.0182	MetaLoss:2.0634	Prec@1 29.00	Prec_meta@1 34.00
+Epoch: [33/120]	Iters: [150/490]	Loss: 2.0219	MetaLoss:2.0699	Prec@1 26.00	Prec_meta@1 32.00
+Epoch: [33/120]	Iters: [200/490]	Loss: 2.0170	MetaLoss:2.0721	Prec@1 32.00	Prec_meta@1 37.00
+Epoch: [33/120]	Iters: [250/490]	Loss: 2.0141	MetaLoss:2.0734	Prec@1 42.00	Prec_meta@1 39.00
+Epoch: [33/120]	Iters: [300/490]	Loss: 2.0129	MetaLoss:2.0730	Prec@1 34.00	Prec_meta@1 39.00
+Epoch: [33/120]	Iters: [350/490]	Loss: 2.0137	MetaLoss:2.0709	Prec@1 34.00	Prec_meta@1 21.00
+Epoch: [33/120]	Iters: [400/490]	Loss: 2.0151	MetaLoss:2.0701	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [33/120]	Iters: [450/490]	Loss: 2.0143	MetaLoss:2.0708	Prec@1 29.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0156, Accuracy: 5973/10000 (59.7300%)
+
+
+Epoch: 33
+Epoch: [34/120]	Iters: [50/490]	Loss: 2.0102	MetaLoss:2.0651	Prec@1 44.00	Prec_meta@1 34.00
+Epoch: [34/120]	Iters: [100/490]	Loss: 2.0174	MetaLoss:2.0671	Prec@1 31.00	Prec_meta@1 30.00
+Epoch: [34/120]	Iters: [150/490]	Loss: 2.0248	MetaLoss:2.0700	Prec@1 31.00	Prec_meta@1 37.00
+Epoch: [34/120]	Iters: [200/490]	Loss: 2.0299	MetaLoss:2.0684	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [34/120]	Iters: [250/490]	Loss: 2.0334	MetaLoss:2.0680	Prec@1 30.00	Prec_meta@1 32.00
+Epoch: [34/120]	Iters: [300/490]	Loss: 2.0314	MetaLoss:2.0691	Prec@1 26.00	Prec_meta@1 31.00
+Epoch: [34/120]	Iters: [350/490]	Loss: 2.0283	MetaLoss:2.0694	Prec@1 50.00	Prec_meta@1 35.00
+Epoch: [34/120]	Iters: [400/490]	Loss: 2.0268	MetaLoss:2.0697	Prec@1 36.00	Prec_meta@1 25.00
+Epoch: [34/120]	Iters: [450/490]	Loss: 2.0238	MetaLoss:2.0702	Prec@1 40.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0147, Accuracy: 6102/10000 (61.0200%)
+
+
+Epoch: 34
+Epoch: [35/120]	Iters: [50/490]	Loss: 2.0268	MetaLoss:2.0630	Prec@1 31.00	Prec_meta@1 36.00
+Epoch: [35/120]	Iters: [100/490]	Loss: 2.0225	MetaLoss:2.0691	Prec@1 35.00	Prec_meta@1 35.00
+Epoch: [35/120]	Iters: [150/490]	Loss: 2.0252	MetaLoss:2.0715	Prec@1 37.00	Prec_meta@1 37.00
+Epoch: [35/120]	Iters: [200/490]	Loss: 2.0309	MetaLoss:2.0751	Prec@1 29.00	Prec_meta@1 29.00
+Epoch: [35/120]	Iters: [250/490]	Loss: 2.0288	MetaLoss:2.0725	Prec@1 41.00	Prec_meta@1 27.00
+Epoch: [35/120]	Iters: [300/490]	Loss: 2.0294	MetaLoss:2.0715	Prec@1 28.00	Prec_meta@1 36.00
+Epoch: [35/120]	Iters: [350/490]	Loss: 2.0284	MetaLoss:2.0712	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [35/120]	Iters: [400/490]	Loss: 2.0279	MetaLoss:2.0711	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [35/120]	Iters: [450/490]	Loss: 2.0265	MetaLoss:2.0706	Prec@1 36.00	Prec_meta@1 30.00
+
+Test set: Average loss: 0.0152, Accuracy: 6357/10000 (63.5700%)
+
+
+Epoch: 35
+Epoch: [36/120]	Iters: [50/490]	Loss: 2.0173	MetaLoss:2.0765	Prec@1 33.00	Prec_meta@1 31.00
+Epoch: [36/120]	Iters: [100/490]	Loss: 2.0085	MetaLoss:2.0715	Prec@1 27.00	Prec_meta@1 32.00
+Epoch: [36/120]	Iters: [150/490]	Loss: 2.0147	MetaLoss:2.0764	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [36/120]	Iters: [200/490]	Loss: 2.0149	MetaLoss:2.0748	Prec@1 41.00	Prec_meta@1 31.00
+Epoch: [36/120]	Iters: [250/490]	Loss: 2.0088	MetaLoss:2.0739	Prec@1 46.00	Prec_meta@1 39.00
+Epoch: [36/120]	Iters: [300/490]	Loss: 2.0080	MetaLoss:2.0732	Prec@1 36.00	Prec_meta@1 45.00
+Epoch: [36/120]	Iters: [350/490]	Loss: 2.0122	MetaLoss:2.0730	Prec@1 37.00	Prec_meta@1 41.00
+Epoch: [36/120]	Iters: [400/490]	Loss: 2.0143	MetaLoss:2.0732	Prec@1 37.00	Prec_meta@1 25.00
+Epoch: [36/120]	Iters: [450/490]	Loss: 2.0151	MetaLoss:2.0738	Prec@1 44.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0152, Accuracy: 6243/10000 (62.4300%)
+
+
+Epoch: 36
+Epoch: [37/120]	Iters: [50/490]	Loss: 2.0020	MetaLoss:2.0708	Prec@1 30.00	Prec_meta@1 32.00
+Epoch: [37/120]	Iters: [100/490]	Loss: 1.9994	MetaLoss:2.0709	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [37/120]	Iters: [150/490]	Loss: 2.0042	MetaLoss:2.0724	Prec@1 35.00	Prec_meta@1 36.00
+Epoch: [37/120]	Iters: [200/490]	Loss: 2.0053	MetaLoss:2.0716	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [37/120]	Iters: [250/490]	Loss: 2.0101	MetaLoss:2.0713	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [37/120]	Iters: [300/490]	Loss: 2.0108	MetaLoss:2.0720	Prec@1 37.00	Prec_meta@1 38.00
+Epoch: [37/120]	Iters: [350/490]	Loss: 2.0149	MetaLoss:2.0735	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [37/120]	Iters: [400/490]	Loss: 2.0165	MetaLoss:2.0733	Prec@1 36.00	Prec_meta@1 33.00
+Epoch: [37/120]	Iters: [450/490]	Loss: 2.0166	MetaLoss:2.0732	Prec@1 29.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0141, Accuracy: 6693/10000 (66.9300%)
+
+
+Epoch: 37
+Epoch: [38/120]	Iters: [50/490]	Loss: 2.0139	MetaLoss:2.0603	Prec@1 35.00	Prec_meta@1 48.00
+Epoch: [38/120]	Iters: [100/490]	Loss: 2.0154	MetaLoss:2.0628	Prec@1 40.00	Prec_meta@1 39.00
+Epoch: [38/120]	Iters: [150/490]	Loss: 2.0180	MetaLoss:2.0633	Prec@1 34.00	Prec_meta@1 28.00
+Epoch: [38/120]	Iters: [200/490]	Loss: 2.0175	MetaLoss:2.0666	Prec@1 36.00	Prec_meta@1 50.00
+Epoch: [38/120]	Iters: [250/490]	Loss: 2.0179	MetaLoss:2.0681	Prec@1 32.00	Prec_meta@1 39.00
+Epoch: [38/120]	Iters: [300/490]	Loss: 2.0203	MetaLoss:2.0685	Prec@1 35.00	Prec_meta@1 34.00
+Epoch: [38/120]	Iters: [350/490]	Loss: 2.0199	MetaLoss:2.0693	Prec@1 38.00	Prec_meta@1 29.00
+Epoch: [38/120]	Iters: [400/490]	Loss: 2.0183	MetaLoss:2.0686	Prec@1 29.00	Prec_meta@1 36.00
+Epoch: [38/120]	Iters: [450/490]	Loss: 2.0203	MetaLoss:2.0684	Prec@1 20.00	Prec_meta@1 30.00
+
+Test set: Average loss: 0.0163, Accuracy: 5556/10000 (55.5600%)
+
+
+Epoch: 38
+Epoch: [39/120]	Iters: [50/490]	Loss: 2.0213	MetaLoss:2.0755	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [39/120]	Iters: [100/490]	Loss: 2.0237	MetaLoss:2.0766	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [39/120]	Iters: [150/490]	Loss: 2.0277	MetaLoss:2.0731	Prec@1 28.00	Prec_meta@1 33.00
+Epoch: [39/120]	Iters: [200/490]	Loss: 2.0278	MetaLoss:2.0744	Prec@1 36.00	Prec_meta@1 29.00
+Epoch: [39/120]	Iters: [250/490]	Loss: 2.0251	MetaLoss:2.0753	Prec@1 38.00	Prec_meta@1 35.00
+Epoch: [39/120]	Iters: [300/490]	Loss: 2.0218	MetaLoss:2.0734	Prec@1 26.00	Prec_meta@1 42.00
+Epoch: [39/120]	Iters: [350/490]	Loss: 2.0191	MetaLoss:2.0721	Prec@1 30.00	Prec_meta@1 28.00
+Epoch: [39/120]	Iters: [400/490]	Loss: 2.0184	MetaLoss:2.0716	Prec@1 33.00	Prec_meta@1 36.00
+Epoch: [39/120]	Iters: [450/490]	Loss: 2.0186	MetaLoss:2.0710	Prec@1 28.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0151, Accuracy: 6024/10000 (60.2400%)
+
+
+Epoch: 39
+Epoch: [40/120]	Iters: [50/490]	Loss: 2.0128	MetaLoss:2.0673	Prec@1 25.00	Prec_meta@1 36.00
+Epoch: [40/120]	Iters: [100/490]	Loss: 2.0312	MetaLoss:2.0695	Prec@1 31.00	Prec_meta@1 34.00
+Epoch: [40/120]	Iters: [150/490]	Loss: 2.0240	MetaLoss:2.0683	Prec@1 42.00	Prec_meta@1 39.00
+Epoch: [40/120]	Iters: [200/490]	Loss: 2.0254	MetaLoss:2.0694	Prec@1 31.00	Prec_meta@1 31.00
+Epoch: [40/120]	Iters: [250/490]	Loss: 2.0256	MetaLoss:2.0724	Prec@1 41.00	Prec_meta@1 31.00
+Epoch: [40/120]	Iters: [300/490]	Loss: 2.0250	MetaLoss:2.0709	Prec@1 42.00	Prec_meta@1 47.00
+Epoch: [40/120]	Iters: [350/490]	Loss: 2.0242	MetaLoss:2.0716	Prec@1 39.00	Prec_meta@1 29.00
+Epoch: [40/120]	Iters: [400/490]	Loss: 2.0204	MetaLoss:2.0708	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [40/120]	Iters: [450/490]	Loss: 2.0190	MetaLoss:2.0718	Prec@1 38.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0155, Accuracy: 5999/10000 (59.9900%)
+
+
+Epoch: 40
+Epoch: [41/120]	Iters: [50/490]	Loss: 2.0111	MetaLoss:2.0640	Prec@1 29.00	Prec_meta@1 36.00
+Epoch: [41/120]	Iters: [100/490]	Loss: 2.0021	MetaLoss:2.0693	Prec@1 30.00	Prec_meta@1 29.00
+Epoch: [41/120]	Iters: [150/490]	Loss: 2.0015	MetaLoss:2.0716	Prec@1 38.00	Prec_meta@1 39.00
+Epoch: [41/120]	Iters: [200/490]	Loss: 2.0040	MetaLoss:2.0742	Prec@1 43.00	Prec_meta@1 21.00
+Epoch: [41/120]	Iters: [250/490]	Loss: 2.0102	MetaLoss:2.0753	Prec@1 42.00	Prec_meta@1 32.00
+Epoch: [41/120]	Iters: [300/490]	Loss: 2.0137	MetaLoss:2.0750	Prec@1 29.00	Prec_meta@1 34.00
+Epoch: [41/120]	Iters: [350/490]	Loss: 2.0144	MetaLoss:2.0745	Prec@1 34.00	Prec_meta@1 33.00
+Epoch: [41/120]	Iters: [400/490]	Loss: 2.0168	MetaLoss:2.0760	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [41/120]	Iters: [450/490]	Loss: 2.0190	MetaLoss:2.0746	Prec@1 35.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0147, Accuracy: 6567/10000 (65.6700%)
+
+
+Epoch: 41
+Epoch: [42/120]	Iters: [50/490]	Loss: 2.0370	MetaLoss:2.0720	Prec@1 29.00	Prec_meta@1 28.00
+Epoch: [42/120]	Iters: [100/490]	Loss: 2.0318	MetaLoss:2.0697	Prec@1 23.00	Prec_meta@1 25.00
+Epoch: [42/120]	Iters: [150/490]	Loss: 2.0309	MetaLoss:2.0689	Prec@1 43.00	Prec_meta@1 25.00
+Epoch: [42/120]	Iters: [200/490]	Loss: 2.0324	MetaLoss:2.0689	Prec@1 35.00	Prec_meta@1 33.00
+Epoch: [42/120]	Iters: [250/490]	Loss: 2.0278	MetaLoss:2.0694	Prec@1 25.00	Prec_meta@1 34.00
+Epoch: [42/120]	Iters: [300/490]	Loss: 2.0253	MetaLoss:2.0695	Prec@1 28.00	Prec_meta@1 29.00
+Epoch: [42/120]	Iters: [350/490]	Loss: 2.0250	MetaLoss:2.0697	Prec@1 36.00	Prec_meta@1 30.00
+Epoch: [42/120]	Iters: [400/490]	Loss: 2.0228	MetaLoss:2.0696	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [42/120]	Iters: [450/490]	Loss: 2.0184	MetaLoss:2.0701	Prec@1 26.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0152, Accuracy: 5801/10000 (58.0100%)
+
+
+Epoch: 42
+Epoch: [43/120]	Iters: [50/490]	Loss: 2.0147	MetaLoss:2.0774	Prec@1 37.00	Prec_meta@1 29.00
+Epoch: [43/120]	Iters: [100/490]	Loss: 2.0133	MetaLoss:2.0762	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [43/120]	Iters: [150/490]	Loss: 2.0228	MetaLoss:2.0777	Prec@1 29.00	Prec_meta@1 29.00
+Epoch: [43/120]	Iters: [200/490]	Loss: 2.0147	MetaLoss:2.0783	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [43/120]	Iters: [250/490]	Loss: 2.0164	MetaLoss:2.0780	Prec@1 44.00	Prec_meta@1 31.00
+Epoch: [43/120]	Iters: [300/490]	Loss: 2.0157	MetaLoss:2.0776	Prec@1 39.00	Prec_meta@1 33.00
+Epoch: [43/120]	Iters: [350/490]	Loss: 2.0184	MetaLoss:2.0762	Prec@1 41.00	Prec_meta@1 33.00
+Epoch: [43/120]	Iters: [400/490]	Loss: 2.0228	MetaLoss:2.0757	Prec@1 24.00	Prec_meta@1 33.00
+Epoch: [43/120]	Iters: [450/490]	Loss: 2.0223	MetaLoss:2.0742	Prec@1 35.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0156, Accuracy: 5895/10000 (58.9500%)
+
+
+Epoch: 43
+Epoch: [44/120]	Iters: [50/490]	Loss: 2.0261	MetaLoss:2.0731	Prec@1 35.00	Prec_meta@1 35.00
+Epoch: [44/120]	Iters: [100/490]	Loss: 2.0204	MetaLoss:2.0700	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [44/120]	Iters: [150/490]	Loss: 2.0162	MetaLoss:2.0707	Prec@1 31.00	Prec_meta@1 31.00
+Epoch: [44/120]	Iters: [200/490]	Loss: 2.0163	MetaLoss:2.0717	Prec@1 27.00	Prec_meta@1 30.00
+Epoch: [44/120]	Iters: [250/490]	Loss: 2.0147	MetaLoss:2.0701	Prec@1 27.00	Prec_meta@1 35.00
+Epoch: [44/120]	Iters: [300/490]	Loss: 2.0159	MetaLoss:2.0724	Prec@1 24.00	Prec_meta@1 33.00
+Epoch: [44/120]	Iters: [350/490]	Loss: 2.0179	MetaLoss:2.0726	Prec@1 32.00	Prec_meta@1 41.00
+Epoch: [44/120]	Iters: [400/490]	Loss: 2.0171	MetaLoss:2.0728	Prec@1 28.00	Prec_meta@1 28.00
+Epoch: [44/120]	Iters: [450/490]	Loss: 2.0171	MetaLoss:2.0736	Prec@1 31.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0154, Accuracy: 5836/10000 (58.3600%)
+
+
+Epoch: 44
+Epoch: [45/120]	Iters: [50/490]	Loss: 2.0046	MetaLoss:2.0595	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [45/120]	Iters: [100/490]	Loss: 2.0154	MetaLoss:2.0679	Prec@1 23.00	Prec_meta@1 34.00
+Epoch: [45/120]	Iters: [150/490]	Loss: 2.0204	MetaLoss:2.0675	Prec@1 25.00	Prec_meta@1 25.00
+Epoch: [45/120]	Iters: [200/490]	Loss: 2.0190	MetaLoss:2.0691	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [45/120]	Iters: [250/490]	Loss: 2.0183	MetaLoss:2.0687	Prec@1 33.00	Prec_meta@1 36.00
+Epoch: [45/120]	Iters: [300/490]	Loss: 2.0182	MetaLoss:2.0680	Prec@1 39.00	Prec_meta@1 36.00
+Epoch: [45/120]	Iters: [350/490]	Loss: 2.0213	MetaLoss:2.0685	Prec@1 36.00	Prec_meta@1 30.00
+Epoch: [45/120]	Iters: [400/490]	Loss: 2.0199	MetaLoss:2.0695	Prec@1 33.00	Prec_meta@1 29.00
+Epoch: [45/120]	Iters: [450/490]	Loss: 2.0181	MetaLoss:2.0692	Prec@1 29.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0136, Accuracy: 6853/10000 (68.5300%)
+
+
+Epoch: 45
+Epoch: [46/120]	Iters: [50/490]	Loss: 2.0091	MetaLoss:2.0651	Prec@1 36.00	Prec_meta@1 38.00
+Epoch: [46/120]	Iters: [100/490]	Loss: 2.0131	MetaLoss:2.0701	Prec@1 31.00	Prec_meta@1 36.00
+Epoch: [46/120]	Iters: [150/490]	Loss: 2.0112	MetaLoss:2.0736	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [46/120]	Iters: [200/490]	Loss: 2.0096	MetaLoss:2.0710	Prec@1 31.00	Prec_meta@1 35.00
+Epoch: [46/120]	Iters: [250/490]	Loss: 2.0094	MetaLoss:2.0701	Prec@1 28.00	Prec_meta@1 38.00
+Epoch: [46/120]	Iters: [300/490]	Loss: 2.0071	MetaLoss:2.0694	Prec@1 47.00	Prec_meta@1 40.00
+Epoch: [46/120]	Iters: [350/490]	Loss: 2.0093	MetaLoss:2.0704	Prec@1 34.00	Prec_meta@1 36.00
+Epoch: [46/120]	Iters: [400/490]	Loss: 2.0088	MetaLoss:2.0717	Prec@1 37.00	Prec_meta@1 42.00
+Epoch: [46/120]	Iters: [450/490]	Loss: 2.0108	MetaLoss:2.0718	Prec@1 32.00	Prec_meta@1 37.00
+
+Test set: Average loss: 0.0156, Accuracy: 5421/10000 (54.2100%)
+
+
+Epoch: 46
+Epoch: [47/120]	Iters: [50/490]	Loss: 2.0070	MetaLoss:2.0816	Prec@1 33.00	Prec_meta@1 28.00
+Epoch: [47/120]	Iters: [100/490]	Loss: 2.0101	MetaLoss:2.0752	Prec@1 29.00	Prec_meta@1 29.00
+Epoch: [47/120]	Iters: [150/490]	Loss: 2.0102	MetaLoss:2.0726	Prec@1 39.00	Prec_meta@1 27.00
+Epoch: [47/120]	Iters: [200/490]	Loss: 2.0166	MetaLoss:2.0712	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [47/120]	Iters: [250/490]	Loss: 2.0163	MetaLoss:2.0682	Prec@1 25.00	Prec_meta@1 38.00
+Epoch: [47/120]	Iters: [300/490]	Loss: 2.0182	MetaLoss:2.0691	Prec@1 31.00	Prec_meta@1 33.00
+Epoch: [47/120]	Iters: [350/490]	Loss: 2.0196	MetaLoss:2.0693	Prec@1 28.00	Prec_meta@1 23.00
+Epoch: [47/120]	Iters: [400/490]	Loss: 2.0179	MetaLoss:2.0701	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [47/120]	Iters: [450/490]	Loss: 2.0188	MetaLoss:2.0709	Prec@1 31.00	Prec_meta@1 22.00
+
+Test set: Average loss: 0.0145, Accuracy: 6380/10000 (63.8000%)
+
+
+Epoch: 47
+Epoch: [48/120]	Iters: [50/490]	Loss: 2.0117	MetaLoss:2.0744	Prec@1 34.00	Prec_meta@1 27.00
+Epoch: [48/120]	Iters: [100/490]	Loss: 2.0168	MetaLoss:2.0729	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [48/120]	Iters: [150/490]	Loss: 2.0188	MetaLoss:2.0710	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [48/120]	Iters: [200/490]	Loss: 2.0209	MetaLoss:2.0738	Prec@1 38.00	Prec_meta@1 34.00
+Epoch: [48/120]	Iters: [250/490]	Loss: 2.0192	MetaLoss:2.0710	Prec@1 28.00	Prec_meta@1 40.00
+Epoch: [48/120]	Iters: [300/490]	Loss: 2.0200	MetaLoss:2.0715	Prec@1 35.00	Prec_meta@1 36.00
+Epoch: [48/120]	Iters: [350/490]	Loss: 2.0185	MetaLoss:2.0718	Prec@1 35.00	Prec_meta@1 34.00
+Epoch: [48/120]	Iters: [400/490]	Loss: 2.0169	MetaLoss:2.0725	Prec@1 39.00	Prec_meta@1 36.00
+Epoch: [48/120]	Iters: [450/490]	Loss: 2.0158	MetaLoss:2.0724	Prec@1 33.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0157, Accuracy: 5997/10000 (59.9700%)
+
+
+Epoch: 48
+Epoch: [49/120]	Iters: [50/490]	Loss: 2.0265	MetaLoss:2.0682	Prec@1 36.00	Prec_meta@1 33.00
+Epoch: [49/120]	Iters: [100/490]	Loss: 2.0159	MetaLoss:2.0730	Prec@1 33.00	Prec_meta@1 33.00
+Epoch: [49/120]	Iters: [150/490]	Loss: 2.0138	MetaLoss:2.0763	Prec@1 30.00	Prec_meta@1 30.00
+Epoch: [49/120]	Iters: [200/490]	Loss: 2.0107	MetaLoss:2.0752	Prec@1 35.00	Prec_meta@1 39.00
+Epoch: [49/120]	Iters: [250/490]	Loss: 2.0076	MetaLoss:2.0753	Prec@1 37.00	Prec_meta@1 30.00
+Epoch: [49/120]	Iters: [300/490]	Loss: 2.0058	MetaLoss:2.0748	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [49/120]	Iters: [350/490]	Loss: 2.0077	MetaLoss:2.0728	Prec@1 32.00	Prec_meta@1 32.00
+Epoch: [49/120]	Iters: [400/490]	Loss: 2.0100	MetaLoss:2.0719	Prec@1 33.00	Prec_meta@1 34.00
+Epoch: [49/120]	Iters: [450/490]	Loss: 2.0130	MetaLoss:2.0723	Prec@1 36.00	Prec_meta@1 29.00
+
+Test set: Average loss: 0.0143, Accuracy: 6698/10000 (66.9800%)
+
+
+Epoch: 49
+Epoch: [50/120]	Iters: [50/490]	Loss: 2.0124	MetaLoss:2.0699	Prec@1 29.00	Prec_meta@1 30.00
+Epoch: [50/120]	Iters: [100/490]	Loss: 2.0223	MetaLoss:2.0712	Prec@1 36.00	Prec_meta@1 27.00
+Epoch: [50/120]	Iters: [150/490]	Loss: 2.0250	MetaLoss:2.0704	Prec@1 34.00	Prec_meta@1 39.00
+Epoch: [50/120]	Iters: [200/490]	Loss: 2.0177	MetaLoss:2.0715	Prec@1 27.00	Prec_meta@1 37.00
+Epoch: [50/120]	Iters: [250/490]	Loss: 2.0160	MetaLoss:2.0702	Prec@1 27.00	Prec_meta@1 37.00
+Epoch: [50/120]	Iters: [300/490]	Loss: 2.0172	MetaLoss:2.0733	Prec@1 38.00	Prec_meta@1 35.00
+Epoch: [50/120]	Iters: [350/490]	Loss: 2.0179	MetaLoss:2.0722	Prec@1 27.00	Prec_meta@1 29.00
+Epoch: [50/120]	Iters: [400/490]	Loss: 2.0158	MetaLoss:2.0718	Prec@1 30.00	Prec_meta@1 24.00
+Epoch: [50/120]	Iters: [450/490]	Loss: 2.0143	MetaLoss:2.0719	Prec@1 37.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0141, Accuracy: 6577/10000 (65.7700%)
+
+
+Epoch: 50
+Epoch: [51/120]	Iters: [50/490]	Loss: 1.9893	MetaLoss:2.0631	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [51/120]	Iters: [100/490]	Loss: 1.9978	MetaLoss:2.0663	Prec@1 36.00	Prec_meta@1 32.00
+Epoch: [51/120]	Iters: [150/490]	Loss: 1.9996	MetaLoss:2.0653	Prec@1 33.00	Prec_meta@1 37.00
+Epoch: [51/120]	Iters: [200/490]	Loss: 2.0063	MetaLoss:2.0651	Prec@1 37.00	Prec_meta@1 35.00
+Epoch: [51/120]	Iters: [250/490]	Loss: 2.0080	MetaLoss:2.0658	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [51/120]	Iters: [300/490]	Loss: 2.0088	MetaLoss:2.0663	Prec@1 27.00	Prec_meta@1 27.00
+Epoch: [51/120]	Iters: [350/490]	Loss: 2.0072	MetaLoss:2.0650	Prec@1 33.00	Prec_meta@1 34.00
+Epoch: [51/120]	Iters: [400/490]	Loss: 2.0080	MetaLoss:2.0652	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [51/120]	Iters: [450/490]	Loss: 2.0104	MetaLoss:2.0665	Prec@1 28.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0145, Accuracy: 6618/10000 (66.1800%)
+
+
+Epoch: 51
+Epoch: [52/120]	Iters: [50/490]	Loss: 1.9955	MetaLoss:2.0710	Prec@1 27.00	Prec_meta@1 30.00
+Epoch: [52/120]	Iters: [100/490]	Loss: 2.0076	MetaLoss:2.0693	Prec@1 36.00	Prec_meta@1 34.00
+Epoch: [52/120]	Iters: [150/490]	Loss: 2.0095	MetaLoss:2.0663	Prec@1 34.00	Prec_meta@1 29.00
+Epoch: [52/120]	Iters: [200/490]	Loss: 2.0108	MetaLoss:2.0667	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [52/120]	Iters: [250/490]	Loss: 2.0145	MetaLoss:2.0664	Prec@1 30.00	Prec_meta@1 29.00
+Epoch: [52/120]	Iters: [300/490]	Loss: 2.0165	MetaLoss:2.0658	Prec@1 42.00	Prec_meta@1 37.00
+Epoch: [52/120]	Iters: [350/490]	Loss: 2.0167	MetaLoss:2.0670	Prec@1 36.00	Prec_meta@1 29.00
+Epoch: [52/120]	Iters: [400/490]	Loss: 2.0178	MetaLoss:2.0686	Prec@1 31.00	Prec_meta@1 34.00
+Epoch: [52/120]	Iters: [450/490]	Loss: 2.0178	MetaLoss:2.0689	Prec@1 29.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0142, Accuracy: 6482/10000 (64.8200%)
+
+
+Epoch: 52
+Epoch: [53/120]	Iters: [50/490]	Loss: 2.0113	MetaLoss:2.0721	Prec@1 26.00	Prec_meta@1 41.00
+Epoch: [53/120]	Iters: [100/490]	Loss: 2.0138	MetaLoss:2.0673	Prec@1 35.00	Prec_meta@1 17.00
+Epoch: [53/120]	Iters: [150/490]	Loss: 2.0175	MetaLoss:2.0642	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [53/120]	Iters: [200/490]	Loss: 2.0146	MetaLoss:2.0604	Prec@1 37.00	Prec_meta@1 34.00
+Epoch: [53/120]	Iters: [250/490]	Loss: 2.0174	MetaLoss:2.0615	Prec@1 25.00	Prec_meta@1 37.00
+Epoch: [53/120]	Iters: [300/490]	Loss: 2.0190	MetaLoss:2.0613	Prec@1 43.00	Prec_meta@1 35.00
+Epoch: [53/120]	Iters: [350/490]	Loss: 2.0178	MetaLoss:2.0609	Prec@1 38.00	Prec_meta@1 39.00
+Epoch: [53/120]	Iters: [400/490]	Loss: 2.0170	MetaLoss:2.0629	Prec@1 33.00	Prec_meta@1 42.00
+Epoch: [53/120]	Iters: [450/490]	Loss: 2.0160	MetaLoss:2.0630	Prec@1 42.00	Prec_meta@1 33.00
+
+Test set: Average loss: 0.0159, Accuracy: 5505/10000 (55.0500%)
+
+
+Epoch: 53
+Epoch: [54/120]	Iters: [50/490]	Loss: 1.9994	MetaLoss:2.0668	Prec@1 29.00	Prec_meta@1 27.00
+Epoch: [54/120]	Iters: [100/490]	Loss: 2.0047	MetaLoss:2.0639	Prec@1 37.00	Prec_meta@1 28.00
+Epoch: [54/120]	Iters: [150/490]	Loss: 2.0111	MetaLoss:2.0657	Prec@1 31.00	Prec_meta@1 41.00
+Epoch: [54/120]	Iters: [200/490]	Loss: 2.0129	MetaLoss:2.0678	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [54/120]	Iters: [250/490]	Loss: 2.0120	MetaLoss:2.0689	Prec@1 29.00	Prec_meta@1 37.00
+Epoch: [54/120]	Iters: [300/490]	Loss: 2.0151	MetaLoss:2.0668	Prec@1 41.00	Prec_meta@1 38.00
+Epoch: [54/120]	Iters: [350/490]	Loss: 2.0177	MetaLoss:2.0667	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [54/120]	Iters: [400/490]	Loss: 2.0181	MetaLoss:2.0673	Prec@1 26.00	Prec_meta@1 40.00
+Epoch: [54/120]	Iters: [450/490]	Loss: 2.0195	MetaLoss:2.0662	Prec@1 30.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0142, Accuracy: 6529/10000 (65.2900%)
+
+
+Epoch: 54
+Epoch: [55/120]	Iters: [50/490]	Loss: 2.0326	MetaLoss:2.0731	Prec@1 41.00	Prec_meta@1 28.00
+Epoch: [55/120]	Iters: [100/490]	Loss: 2.0297	MetaLoss:2.0650	Prec@1 33.00	Prec_meta@1 39.00
+Epoch: [55/120]	Iters: [150/490]	Loss: 2.0321	MetaLoss:2.0700	Prec@1 30.00	Prec_meta@1 32.00
+Epoch: [55/120]	Iters: [200/490]	Loss: 2.0291	MetaLoss:2.0698	Prec@1 31.00	Prec_meta@1 35.00
+Epoch: [55/120]	Iters: [250/490]	Loss: 2.0247	MetaLoss:2.0680	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [55/120]	Iters: [300/490]	Loss: 2.0240	MetaLoss:2.0684	Prec@1 29.00	Prec_meta@1 34.00
+Epoch: [55/120]	Iters: [350/490]	Loss: 2.0228	MetaLoss:2.0678	Prec@1 36.00	Prec_meta@1 37.00
+Epoch: [55/120]	Iters: [400/490]	Loss: 2.0199	MetaLoss:2.0673	Prec@1 33.00	Prec_meta@1 34.00
+Epoch: [55/120]	Iters: [450/490]	Loss: 2.0189	MetaLoss:2.0678	Prec@1 39.00	Prec_meta@1 30.00
+
+Test set: Average loss: 0.0147, Accuracy: 6057/10000 (60.5700%)
+
+
+Epoch: 55
+Epoch: [56/120]	Iters: [50/490]	Loss: 2.0214	MetaLoss:2.0635	Prec@1 43.00	Prec_meta@1 34.00
+Epoch: [56/120]	Iters: [100/490]	Loss: 2.0157	MetaLoss:2.0580	Prec@1 29.00	Prec_meta@1 36.00
+Epoch: [56/120]	Iters: [150/490]	Loss: 2.0145	MetaLoss:2.0582	Prec@1 38.00	Prec_meta@1 30.00
+Epoch: [56/120]	Iters: [200/490]	Loss: 2.0215	MetaLoss:2.0615	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [56/120]	Iters: [250/490]	Loss: 2.0203	MetaLoss:2.0621	Prec@1 33.00	Prec_meta@1 34.00
+Epoch: [56/120]	Iters: [300/490]	Loss: 2.0216	MetaLoss:2.0644	Prec@1 34.00	Prec_meta@1 36.00
+Epoch: [56/120]	Iters: [350/490]	Loss: 2.0201	MetaLoss:2.0651	Prec@1 35.00	Prec_meta@1 34.00
+Epoch: [56/120]	Iters: [400/490]	Loss: 2.0188	MetaLoss:2.0646	Prec@1 31.00	Prec_meta@1 37.00
+Epoch: [56/120]	Iters: [450/490]	Loss: 2.0187	MetaLoss:2.0658	Prec@1 29.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0153, Accuracy: 6127/10000 (61.2700%)
+
+
+Epoch: 56
+Epoch: [57/120]	Iters: [50/490]	Loss: 2.0166	MetaLoss:2.0654	Prec@1 41.00	Prec_meta@1 34.00
+Epoch: [57/120]	Iters: [100/490]	Loss: 2.0107	MetaLoss:2.0678	Prec@1 34.00	Prec_meta@1 27.00
+Epoch: [57/120]	Iters: [150/490]	Loss: 2.0068	MetaLoss:2.0656	Prec@1 34.00	Prec_meta@1 33.00
+Epoch: [57/120]	Iters: [200/490]	Loss: 2.0080	MetaLoss:2.0698	Prec@1 40.00	Prec_meta@1 33.00
+Epoch: [57/120]	Iters: [250/490]	Loss: 2.0068	MetaLoss:2.0669	Prec@1 36.00	Prec_meta@1 27.00
+Epoch: [57/120]	Iters: [300/490]	Loss: 2.0060	MetaLoss:2.0679	Prec@1 29.00	Prec_meta@1 33.00
+Epoch: [57/120]	Iters: [350/490]	Loss: 2.0050	MetaLoss:2.0663	Prec@1 26.00	Prec_meta@1 29.00
+Epoch: [57/120]	Iters: [400/490]	Loss: 2.0054	MetaLoss:2.0658	Prec@1 24.00	Prec_meta@1 32.00
+Epoch: [57/120]	Iters: [450/490]	Loss: 2.0038	MetaLoss:2.0651	Prec@1 34.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0145, Accuracy: 6736/10000 (67.3600%)
+
+
+Epoch: 57
+Epoch: [58/120]	Iters: [50/490]	Loss: 2.0032	MetaLoss:2.0612	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [58/120]	Iters: [100/490]	Loss: 2.0096	MetaLoss:2.0633	Prec@1 31.00	Prec_meta@1 40.00
+Epoch: [58/120]	Iters: [150/490]	Loss: 2.0141	MetaLoss:2.0638	Prec@1 34.00	Prec_meta@1 34.00
+Epoch: [58/120]	Iters: [200/490]	Loss: 2.0116	MetaLoss:2.0639	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [58/120]	Iters: [250/490]	Loss: 2.0149	MetaLoss:2.0663	Prec@1 36.00	Prec_meta@1 27.00
+Epoch: [58/120]	Iters: [300/490]	Loss: 2.0156	MetaLoss:2.0676	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [58/120]	Iters: [350/490]	Loss: 2.0176	MetaLoss:2.0677	Prec@1 39.00	Prec_meta@1 29.00
+Epoch: [58/120]	Iters: [400/490]	Loss: 2.0171	MetaLoss:2.0673	Prec@1 30.00	Prec_meta@1 28.00
+Epoch: [58/120]	Iters: [450/490]	Loss: 2.0164	MetaLoss:2.0671	Prec@1 35.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0158, Accuracy: 6253/10000 (62.5300%)
+
+
+Epoch: 58
+Epoch: [59/120]	Iters: [50/490]	Loss: 2.0189	MetaLoss:2.0725	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [59/120]	Iters: [100/490]	Loss: 2.0278	MetaLoss:2.0737	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [59/120]	Iters: [150/490]	Loss: 2.0266	MetaLoss:2.0681	Prec@1 33.00	Prec_meta@1 31.00
+Epoch: [59/120]	Iters: [200/490]	Loss: 2.0218	MetaLoss:2.0687	Prec@1 37.00	Prec_meta@1 38.00
+Epoch: [59/120]	Iters: [250/490]	Loss: 2.0199	MetaLoss:2.0701	Prec@1 29.00	Prec_meta@1 30.00
+Epoch: [59/120]	Iters: [300/490]	Loss: 2.0205	MetaLoss:2.0706	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [59/120]	Iters: [350/490]	Loss: 2.0203	MetaLoss:2.0705	Prec@1 36.00	Prec_meta@1 29.00
+Epoch: [59/120]	Iters: [400/490]	Loss: 2.0203	MetaLoss:2.0699	Prec@1 28.00	Prec_meta@1 31.00
+Epoch: [59/120]	Iters: [450/490]	Loss: 2.0222	MetaLoss:2.0698	Prec@1 28.00	Prec_meta@1 29.00
+
+Test set: Average loss: 0.0147, Accuracy: 6310/10000 (63.1000%)
+
+
+Epoch: 59
+Epoch: [60/120]	Iters: [50/490]	Loss: 2.0371	MetaLoss:2.0667	Prec@1 31.00	Prec_meta@1 41.00
+Epoch: [60/120]	Iters: [100/490]	Loss: 2.0332	MetaLoss:2.0709	Prec@1 27.00	Prec_meta@1 34.00
+Epoch: [60/120]	Iters: [150/490]	Loss: 2.0299	MetaLoss:2.0706	Prec@1 31.00	Prec_meta@1 28.00
+Epoch: [60/120]	Iters: [200/490]	Loss: 2.0300	MetaLoss:2.0707	Prec@1 29.00	Prec_meta@1 40.00
+Epoch: [60/120]	Iters: [250/490]	Loss: 2.0274	MetaLoss:2.0695	Prec@1 33.00	Prec_meta@1 40.00
+Epoch: [60/120]	Iters: [300/490]	Loss: 2.0244	MetaLoss:2.0711	Prec@1 37.00	Prec_meta@1 33.00
+Epoch: [60/120]	Iters: [350/490]	Loss: 2.0241	MetaLoss:2.0705	Prec@1 27.00	Prec_meta@1 42.00
+Epoch: [60/120]	Iters: [400/490]	Loss: 2.0232	MetaLoss:2.0688	Prec@1 28.00	Prec_meta@1 31.00
+Epoch: [60/120]	Iters: [450/490]	Loss: 2.0221	MetaLoss:2.0688	Prec@1 31.00	Prec_meta@1 35.00
+
+Test set: Average loss: 0.0158, Accuracy: 6304/10000 (63.0400%)
+
+
+Epoch: 60
+Epoch: [61/120]	Iters: [50/490]	Loss: 2.0371	MetaLoss:2.0623	Prec@1 28.00	Prec_meta@1 40.00
+Epoch: [61/120]	Iters: [100/490]	Loss: 2.0251	MetaLoss:2.0629	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [61/120]	Iters: [150/490]	Loss: 2.0162	MetaLoss:2.0664	Prec@1 34.00	Prec_meta@1 40.00
+Epoch: [61/120]	Iters: [200/490]	Loss: 2.0198	MetaLoss:2.0667	Prec@1 34.00	Prec_meta@1 34.00
+Epoch: [61/120]	Iters: [250/490]	Loss: 2.0152	MetaLoss:2.0676	Prec@1 29.00	Prec_meta@1 36.00
+Epoch: [61/120]	Iters: [300/490]	Loss: 2.0145	MetaLoss:2.0684	Prec@1 33.00	Prec_meta@1 40.00
+Epoch: [61/120]	Iters: [350/490]	Loss: 2.0155	MetaLoss:2.0692	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [61/120]	Iters: [400/490]	Loss: 2.0178	MetaLoss:2.0696	Prec@1 28.00	Prec_meta@1 32.00
+Epoch: [61/120]	Iters: [450/490]	Loss: 2.0175	MetaLoss:2.0699	Prec@1 27.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0149, Accuracy: 6327/10000 (63.2700%)
+
+
+Epoch: 61
+Epoch: [62/120]	Iters: [50/490]	Loss: 1.9859	MetaLoss:2.0711	Prec@1 41.00	Prec_meta@1 35.00
+Epoch: [62/120]	Iters: [100/490]	Loss: 2.0009	MetaLoss:2.0701	Prec@1 31.00	Prec_meta@1 27.00
+Epoch: [62/120]	Iters: [150/490]	Loss: 2.0060	MetaLoss:2.0683	Prec@1 34.00	Prec_meta@1 36.00
+Epoch: [62/120]	Iters: [200/490]	Loss: 2.0117	MetaLoss:2.0664	Prec@1 28.00	Prec_meta@1 32.00
+Epoch: [62/120]	Iters: [250/490]	Loss: 2.0149	MetaLoss:2.0656	Prec@1 31.00	Prec_meta@1 33.00
+Epoch: [62/120]	Iters: [300/490]	Loss: 2.0194	MetaLoss:2.0670	Prec@1 36.00	Prec_meta@1 32.00
+Epoch: [62/120]	Iters: [350/490]	Loss: 2.0190	MetaLoss:2.0670	Prec@1 35.00	Prec_meta@1 35.00
+Epoch: [62/120]	Iters: [400/490]	Loss: 2.0176	MetaLoss:2.0658	Prec@1 39.00	Prec_meta@1 36.00
+Epoch: [62/120]	Iters: [450/490]	Loss: 2.0168	MetaLoss:2.0670	Prec@1 29.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0153, Accuracy: 6386/10000 (63.8600%)
+
+
+Epoch: 62
+Epoch: [63/120]	Iters: [50/490]	Loss: 1.9900	MetaLoss:2.0734	Prec@1 31.00	Prec_meta@1 41.00
+Epoch: [63/120]	Iters: [100/490]	Loss: 2.0035	MetaLoss:2.0686	Prec@1 35.00	Prec_meta@1 28.00
+Epoch: [63/120]	Iters: [150/490]	Loss: 2.0087	MetaLoss:2.0643	Prec@1 27.00	Prec_meta@1 34.00
+Epoch: [63/120]	Iters: [200/490]	Loss: 2.0101	MetaLoss:2.0634	Prec@1 36.00	Prec_meta@1 31.00
+Epoch: [63/120]	Iters: [250/490]	Loss: 2.0085	MetaLoss:2.0664	Prec@1 39.00	Prec_meta@1 33.00
+Epoch: [63/120]	Iters: [300/490]	Loss: 2.0109	MetaLoss:2.0642	Prec@1 38.00	Prec_meta@1 37.00
+Epoch: [63/120]	Iters: [350/490]	Loss: 2.0107	MetaLoss:2.0635	Prec@1 28.00	Prec_meta@1 41.00
+Epoch: [63/120]	Iters: [400/490]	Loss: 2.0126	MetaLoss:2.0635	Prec@1 30.00	Prec_meta@1 40.00
+Epoch: [63/120]	Iters: [450/490]	Loss: 2.0148	MetaLoss:2.0643	Prec@1 41.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0152, Accuracy: 6181/10000 (61.8100%)
+
+
+Epoch: 63
+Epoch: [64/120]	Iters: [50/490]	Loss: 2.0095	MetaLoss:2.0607	Prec@1 27.00	Prec_meta@1 40.00
+Epoch: [64/120]	Iters: [100/490]	Loss: 2.0020	MetaLoss:2.0627	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [64/120]	Iters: [150/490]	Loss: 2.0160	MetaLoss:2.0676	Prec@1 39.00	Prec_meta@1 29.00
+Epoch: [64/120]	Iters: [200/490]	Loss: 2.0125	MetaLoss:2.0685	Prec@1 43.00	Prec_meta@1 34.00
+Epoch: [64/120]	Iters: [250/490]	Loss: 2.0107	MetaLoss:2.0694	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [64/120]	Iters: [300/490]	Loss: 2.0089	MetaLoss:2.0683	Prec@1 28.00	Prec_meta@1 44.00
+Epoch: [64/120]	Iters: [350/490]	Loss: 2.0093	MetaLoss:2.0700	Prec@1 29.00	Prec_meta@1 32.00
+Epoch: [64/120]	Iters: [400/490]	Loss: 2.0122	MetaLoss:2.0687	Prec@1 37.00	Prec_meta@1 33.00
+Epoch: [64/120]	Iters: [450/490]	Loss: 2.0153	MetaLoss:2.0696	Prec@1 34.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0146, Accuracy: 6696/10000 (66.9600%)
+
+
+Epoch: 64
+Epoch: [65/120]	Iters: [50/490]	Loss: 2.0214	MetaLoss:2.0641	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [65/120]	Iters: [100/490]	Loss: 2.0286	MetaLoss:2.0605	Prec@1 31.00	Prec_meta@1 27.00
+Epoch: [65/120]	Iters: [150/490]	Loss: 2.0254	MetaLoss:2.0626	Prec@1 25.00	Prec_meta@1 32.00
+Epoch: [65/120]	Iters: [200/490]	Loss: 2.0283	MetaLoss:2.0680	Prec@1 27.00	Prec_meta@1 25.00
+Epoch: [65/120]	Iters: [250/490]	Loss: 2.0247	MetaLoss:2.0683	Prec@1 38.00	Prec_meta@1 29.00
+Epoch: [65/120]	Iters: [300/490]	Loss: 2.0210	MetaLoss:2.0679	Prec@1 34.00	Prec_meta@1 40.00
+Epoch: [65/120]	Iters: [350/490]	Loss: 2.0217	MetaLoss:2.0669	Prec@1 24.00	Prec_meta@1 29.00
+Epoch: [65/120]	Iters: [400/490]	Loss: 2.0212	MetaLoss:2.0672	Prec@1 28.00	Prec_meta@1 30.00
+Epoch: [65/120]	Iters: [450/490]	Loss: 2.0178	MetaLoss:2.0673	Prec@1 40.00	Prec_meta@1 35.00
+
+Test set: Average loss: 0.0167, Accuracy: 5266/10000 (52.6600%)
+
+
+Epoch: 65
+Epoch: [66/120]	Iters: [50/490]	Loss: 2.0109	MetaLoss:2.0789	Prec@1 37.00	Prec_meta@1 29.00
+Epoch: [66/120]	Iters: [100/490]	Loss: 1.9993	MetaLoss:2.0744	Prec@1 34.00	Prec_meta@1 39.00
+Epoch: [66/120]	Iters: [150/490]	Loss: 2.0061	MetaLoss:2.0697	Prec@1 29.00	Prec_meta@1 37.00
+Epoch: [66/120]	Iters: [200/490]	Loss: 2.0074	MetaLoss:2.0675	Prec@1 38.00	Prec_meta@1 33.00
+Epoch: [66/120]	Iters: [250/490]	Loss: 2.0094	MetaLoss:2.0668	Prec@1 43.00	Prec_meta@1 25.00
+Epoch: [66/120]	Iters: [300/490]	Loss: 2.0122	MetaLoss:2.0676	Prec@1 25.00	Prec_meta@1 38.00
+Epoch: [66/120]	Iters: [350/490]	Loss: 2.0114	MetaLoss:2.0657	Prec@1 26.00	Prec_meta@1 32.00
+Epoch: [66/120]	Iters: [400/490]	Loss: 2.0141	MetaLoss:2.0648	Prec@1 33.00	Prec_meta@1 40.00
+Epoch: [66/120]	Iters: [450/490]	Loss: 2.0141	MetaLoss:2.0638	Prec@1 30.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0162, Accuracy: 5216/10000 (52.1600%)
+
+
+Epoch: 66
+Epoch: [67/120]	Iters: [50/490]	Loss: 2.0238	MetaLoss:2.0644	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [67/120]	Iters: [100/490]	Loss: 2.0135	MetaLoss:2.0597	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [67/120]	Iters: [150/490]	Loss: 2.0140	MetaLoss:2.0602	Prec@1 42.00	Prec_meta@1 34.00
+Epoch: [67/120]	Iters: [200/490]	Loss: 2.0097	MetaLoss:2.0604	Prec@1 26.00	Prec_meta@1 30.00
+Epoch: [67/120]	Iters: [250/490]	Loss: 2.0111	MetaLoss:2.0642	Prec@1 37.00	Prec_meta@1 28.00
+Epoch: [67/120]	Iters: [300/490]	Loss: 2.0115	MetaLoss:2.0659	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [67/120]	Iters: [350/490]	Loss: 2.0122	MetaLoss:2.0665	Prec@1 32.00	Prec_meta@1 38.00
+Epoch: [67/120]	Iters: [400/490]	Loss: 2.0121	MetaLoss:2.0667	Prec@1 40.00	Prec_meta@1 27.00
+Epoch: [67/120]	Iters: [450/490]	Loss: 2.0121	MetaLoss:2.0679	Prec@1 32.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0152, Accuracy: 6042/10000 (60.4200%)
+
+
+Epoch: 67
+Epoch: [68/120]	Iters: [50/490]	Loss: 2.0148	MetaLoss:2.0587	Prec@1 36.00	Prec_meta@1 39.00
+Epoch: [68/120]	Iters: [100/490]	Loss: 2.0149	MetaLoss:2.0609	Prec@1 34.00	Prec_meta@1 34.00
+Epoch: [68/120]	Iters: [150/490]	Loss: 2.0189	MetaLoss:2.0646	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [68/120]	Iters: [200/490]	Loss: 2.0286	MetaLoss:2.0690	Prec@1 31.00	Prec_meta@1 38.00
+Epoch: [68/120]	Iters: [250/490]	Loss: 2.0277	MetaLoss:2.0693	Prec@1 31.00	Prec_meta@1 33.00
+Epoch: [68/120]	Iters: [300/490]	Loss: 2.0272	MetaLoss:2.0677	Prec@1 42.00	Prec_meta@1 30.00
+Epoch: [68/120]	Iters: [350/490]	Loss: 2.0213	MetaLoss:2.0682	Prec@1 31.00	Prec_meta@1 37.00
+Epoch: [68/120]	Iters: [400/490]	Loss: 2.0206	MetaLoss:2.0676	Prec@1 41.00	Prec_meta@1 35.00
+Epoch: [68/120]	Iters: [450/490]	Loss: 2.0204	MetaLoss:2.0690	Prec@1 34.00	Prec_meta@1 27.00
+
+Test set: Average loss: 0.0141, Accuracy: 6596/10000 (65.9600%)
+
+
+Epoch: 68
+Epoch: [69/120]	Iters: [50/490]	Loss: 2.0191	MetaLoss:2.0634	Prec@1 35.00	Prec_meta@1 26.00
+Epoch: [69/120]	Iters: [100/490]	Loss: 2.0143	MetaLoss:2.0659	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [69/120]	Iters: [150/490]	Loss: 2.0191	MetaLoss:2.0681	Prec@1 37.00	Prec_meta@1 35.00
+Epoch: [69/120]	Iters: [200/490]	Loss: 2.0219	MetaLoss:2.0697	Prec@1 39.00	Prec_meta@1 30.00
+Epoch: [69/120]	Iters: [250/490]	Loss: 2.0212	MetaLoss:2.0681	Prec@1 38.00	Prec_meta@1 29.00
+Epoch: [69/120]	Iters: [300/490]	Loss: 2.0198	MetaLoss:2.0686	Prec@1 31.00	Prec_meta@1 34.00
+Epoch: [69/120]	Iters: [350/490]	Loss: 2.0213	MetaLoss:2.0691	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [69/120]	Iters: [400/490]	Loss: 2.0222	MetaLoss:2.0699	Prec@1 27.00	Prec_meta@1 31.00
+Epoch: [69/120]	Iters: [450/490]	Loss: 2.0205	MetaLoss:2.0695	Prec@1 32.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0151, Accuracy: 6435/10000 (64.3500%)
+
+
+Epoch: 69
+Epoch: [70/120]	Iters: [50/490]	Loss: 2.0209	MetaLoss:2.0625	Prec@1 23.00	Prec_meta@1 27.00
+Epoch: [70/120]	Iters: [100/490]	Loss: 2.0165	MetaLoss:2.0646	Prec@1 33.00	Prec_meta@1 30.00
+Epoch: [70/120]	Iters: [150/490]	Loss: 2.0137	MetaLoss:2.0623	Prec@1 35.00	Prec_meta@1 34.00
+Epoch: [70/120]	Iters: [200/490]	Loss: 2.0166	MetaLoss:2.0621	Prec@1 30.00	Prec_meta@1 40.00
+Epoch: [70/120]	Iters: [250/490]	Loss: 2.0152	MetaLoss:2.0640	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [70/120]	Iters: [300/490]	Loss: 2.0193	MetaLoss:2.0634	Prec@1 37.00	Prec_meta@1 24.00
+Epoch: [70/120]	Iters: [350/490]	Loss: 2.0185	MetaLoss:2.0637	Prec@1 38.00	Prec_meta@1 23.00
+Epoch: [70/120]	Iters: [400/490]	Loss: 2.0180	MetaLoss:2.0649	Prec@1 42.00	Prec_meta@1 37.00
+Epoch: [70/120]	Iters: [450/490]	Loss: 2.0193	MetaLoss:2.0645	Prec@1 34.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0154, Accuracy: 6142/10000 (61.4200%)
+
+
+Epoch: 70
+Epoch: [71/120]	Iters: [50/490]	Loss: 2.0023	MetaLoss:2.0660	Prec@1 28.00	Prec_meta@1 36.00
+Epoch: [71/120]	Iters: [100/490]	Loss: 2.0208	MetaLoss:2.0640	Prec@1 38.00	Prec_meta@1 38.00
+Epoch: [71/120]	Iters: [150/490]	Loss: 2.0164	MetaLoss:2.0613	Prec@1 40.00	Prec_meta@1 27.00
+Epoch: [71/120]	Iters: [200/490]	Loss: 2.0141	MetaLoss:2.0649	Prec@1 33.00	Prec_meta@1 35.00
+Epoch: [71/120]	Iters: [250/490]	Loss: 2.0158	MetaLoss:2.0673	Prec@1 38.00	Prec_meta@1 35.00
+Epoch: [71/120]	Iters: [300/490]	Loss: 2.0188	MetaLoss:2.0670	Prec@1 38.00	Prec_meta@1 32.00
+Epoch: [71/120]	Iters: [350/490]	Loss: 2.0178	MetaLoss:2.0666	Prec@1 33.00	Prec_meta@1 26.00
+Epoch: [71/120]	Iters: [400/490]	Loss: 2.0191	MetaLoss:2.0668	Prec@1 41.00	Prec_meta@1 32.00
+Epoch: [71/120]	Iters: [450/490]	Loss: 2.0205	MetaLoss:2.0665	Prec@1 34.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0144, Accuracy: 6616/10000 (66.1600%)
+
+
+Epoch: 71
+Epoch: [72/120]	Iters: [50/490]	Loss: 2.0149	MetaLoss:2.0804	Prec@1 30.00	Prec_meta@1 41.00
+Epoch: [72/120]	Iters: [100/490]	Loss: 2.0163	MetaLoss:2.0749	Prec@1 33.00	Prec_meta@1 40.00
+Epoch: [72/120]	Iters: [150/490]	Loss: 2.0127	MetaLoss:2.0694	Prec@1 25.00	Prec_meta@1 38.00
+Epoch: [72/120]	Iters: [200/490]	Loss: 2.0078	MetaLoss:2.0692	Prec@1 31.00	Prec_meta@1 32.00
+Epoch: [72/120]	Iters: [250/490]	Loss: 2.0127	MetaLoss:2.0682	Prec@1 36.00	Prec_meta@1 24.00
+Epoch: [72/120]	Iters: [300/490]	Loss: 2.0132	MetaLoss:2.0684	Prec@1 34.00	Prec_meta@1 27.00
+Epoch: [72/120]	Iters: [350/490]	Loss: 2.0165	MetaLoss:2.0693	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [72/120]	Iters: [400/490]	Loss: 2.0159	MetaLoss:2.0690	Prec@1 36.00	Prec_meta@1 42.00
+Epoch: [72/120]	Iters: [450/490]	Loss: 2.0164	MetaLoss:2.0706	Prec@1 38.00	Prec_meta@1 26.00
+
+Test set: Average loss: 0.0153, Accuracy: 5914/10000 (59.1400%)
+
+
+Epoch: 72
+Epoch: [73/120]	Iters: [50/490]	Loss: 2.0232	MetaLoss:2.0697	Prec@1 37.00	Prec_meta@1 41.00
+Epoch: [73/120]	Iters: [100/490]	Loss: 2.0116	MetaLoss:2.0698	Prec@1 33.00	Prec_meta@1 28.00
+Epoch: [73/120]	Iters: [150/490]	Loss: 1.9973	MetaLoss:2.0677	Prec@1 40.00	Prec_meta@1 32.00
+Epoch: [73/120]	Iters: [200/490]	Loss: 2.0002	MetaLoss:2.0677	Prec@1 42.00	Prec_meta@1 42.00
+Epoch: [73/120]	Iters: [250/490]	Loss: 1.9985	MetaLoss:2.0667	Prec@1 24.00	Prec_meta@1 36.00
+Epoch: [73/120]	Iters: [300/490]	Loss: 2.0026	MetaLoss:2.0690	Prec@1 31.00	Prec_meta@1 34.00
+Epoch: [73/120]	Iters: [350/490]	Loss: 2.0015	MetaLoss:2.0679	Prec@1 40.00	Prec_meta@1 42.00
+Epoch: [73/120]	Iters: [400/490]	Loss: 2.0031	MetaLoss:2.0690	Prec@1 37.00	Prec_meta@1 37.00
+Epoch: [73/120]	Iters: [450/490]	Loss: 2.0045	MetaLoss:2.0682	Prec@1 30.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0149, Accuracy: 6344/10000 (63.4400%)
+
+
+Epoch: 73
+Epoch: [74/120]	Iters: [50/490]	Loss: 2.0039	MetaLoss:2.0621	Prec@1 43.00	Prec_meta@1 34.00
+Epoch: [74/120]	Iters: [100/490]	Loss: 2.0061	MetaLoss:2.0645	Prec@1 29.00	Prec_meta@1 32.00
+Epoch: [74/120]	Iters: [150/490]	Loss: 2.0072	MetaLoss:2.0638	Prec@1 32.00	Prec_meta@1 37.00
+Epoch: [74/120]	Iters: [200/490]	Loss: 2.0088	MetaLoss:2.0631	Prec@1 30.00	Prec_meta@1 36.00
+Epoch: [74/120]	Iters: [250/490]	Loss: 2.0059	MetaLoss:2.0604	Prec@1 31.00	Prec_meta@1 31.00
+Epoch: [74/120]	Iters: [300/490]	Loss: 2.0069	MetaLoss:2.0621	Prec@1 37.00	Prec_meta@1 33.00
+Epoch: [74/120]	Iters: [350/490]	Loss: 2.0103	MetaLoss:2.0634	Prec@1 34.00	Prec_meta@1 35.00
+Epoch: [74/120]	Iters: [400/490]	Loss: 2.0110	MetaLoss:2.0652	Prec@1 35.00	Prec_meta@1 39.00
+Epoch: [74/120]	Iters: [450/490]	Loss: 2.0139	MetaLoss:2.0658	Prec@1 30.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0151, Accuracy: 6515/10000 (65.1500%)
+
+
+Epoch: 74
+Epoch: [75/120]	Iters: [50/490]	Loss: 2.0087	MetaLoss:2.0713	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [75/120]	Iters: [100/490]	Loss: 2.0100	MetaLoss:2.0699	Prec@1 31.00	Prec_meta@1 31.00
+Epoch: [75/120]	Iters: [150/490]	Loss: 2.0098	MetaLoss:2.0735	Prec@1 34.00	Prec_meta@1 31.00
+Epoch: [75/120]	Iters: [200/490]	Loss: 2.0136	MetaLoss:2.0700	Prec@1 35.00	Prec_meta@1 30.00
+Epoch: [75/120]	Iters: [250/490]	Loss: 2.0166	MetaLoss:2.0705	Prec@1 30.00	Prec_meta@1 33.00
+Epoch: [75/120]	Iters: [300/490]	Loss: 2.0180	MetaLoss:2.0708	Prec@1 37.00	Prec_meta@1 36.00
+Epoch: [75/120]	Iters: [350/490]	Loss: 2.0183	MetaLoss:2.0706	Prec@1 26.00	Prec_meta@1 32.00
+Epoch: [75/120]	Iters: [400/490]	Loss: 2.0190	MetaLoss:2.0706	Prec@1 32.00	Prec_meta@1 33.00
+Epoch: [75/120]	Iters: [450/490]	Loss: 2.0191	MetaLoss:2.0695	Prec@1 34.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0152, Accuracy: 6225/10000 (62.2500%)
+
+
+Epoch: 75
+Epoch: [76/120]	Iters: [50/490]	Loss: 2.0152	MetaLoss:2.0658	Prec@1 32.00	Prec_meta@1 24.00
+Epoch: [76/120]	Iters: [100/490]	Loss: 2.0194	MetaLoss:2.0633	Prec@1 31.00	Prec_meta@1 38.00
+Epoch: [76/120]	Iters: [150/490]	Loss: 2.0096	MetaLoss:2.0650	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [76/120]	Iters: [200/490]	Loss: 2.0081	MetaLoss:2.0630	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [76/120]	Iters: [250/490]	Loss: 2.0105	MetaLoss:2.0639	Prec@1 35.00	Prec_meta@1 36.00
+Epoch: [76/120]	Iters: [300/490]	Loss: 2.0143	MetaLoss:2.0637	Prec@1 27.00	Prec_meta@1 36.00
+Epoch: [76/120]	Iters: [350/490]	Loss: 2.0135	MetaLoss:2.0634	Prec@1 34.00	Prec_meta@1 25.00
+Epoch: [76/120]	Iters: [400/490]	Loss: 2.0148	MetaLoss:2.0634	Prec@1 34.00	Prec_meta@1 28.00
+Epoch: [76/120]	Iters: [450/490]	Loss: 2.0122	MetaLoss:2.0635	Prec@1 26.00	Prec_meta@1 37.00
+
+Test set: Average loss: 0.0165, Accuracy: 5504/10000 (55.0400%)
+
+
+Epoch: 76
+Epoch: [77/120]	Iters: [50/490]	Loss: 2.0022	MetaLoss:2.0710	Prec@1 25.00	Prec_meta@1 38.00
+Epoch: [77/120]	Iters: [100/490]	Loss: 2.0222	MetaLoss:2.0674	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [77/120]	Iters: [150/490]	Loss: 2.0174	MetaLoss:2.0646	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [77/120]	Iters: [200/490]	Loss: 2.0142	MetaLoss:2.0660	Prec@1 38.00	Prec_meta@1 32.00
+Epoch: [77/120]	Iters: [250/490]	Loss: 2.0149	MetaLoss:2.0673	Prec@1 36.00	Prec_meta@1 40.00
+Epoch: [77/120]	Iters: [300/490]	Loss: 2.0131	MetaLoss:2.0671	Prec@1 30.00	Prec_meta@1 40.00
+Epoch: [77/120]	Iters: [350/490]	Loss: 2.0110	MetaLoss:2.0663	Prec@1 30.00	Prec_meta@1 34.00
+Epoch: [77/120]	Iters: [400/490]	Loss: 2.0111	MetaLoss:2.0671	Prec@1 30.00	Prec_meta@1 38.00
+Epoch: [77/120]	Iters: [450/490]	Loss: 2.0110	MetaLoss:2.0668	Prec@1 29.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0151, Accuracy: 6295/10000 (62.9500%)
+
+
+Epoch: 77
+Epoch: [78/120]	Iters: [50/490]	Loss: 2.0149	MetaLoss:2.0707	Prec@1 30.00	Prec_meta@1 27.00
+Epoch: [78/120]	Iters: [100/490]	Loss: 2.0148	MetaLoss:2.0697	Prec@1 28.00	Prec_meta@1 34.00
+Epoch: [78/120]	Iters: [150/490]	Loss: 2.0174	MetaLoss:2.0699	Prec@1 36.00	Prec_meta@1 31.00
+Epoch: [78/120]	Iters: [200/490]	Loss: 2.0166	MetaLoss:2.0660	Prec@1 28.00	Prec_meta@1 29.00
+Epoch: [78/120]	Iters: [250/490]	Loss: 2.0122	MetaLoss:2.0669	Prec@1 26.00	Prec_meta@1 36.00
+Epoch: [78/120]	Iters: [300/490]	Loss: 2.0130	MetaLoss:2.0661	Prec@1 37.00	Prec_meta@1 19.00
+Epoch: [78/120]	Iters: [350/490]	Loss: 2.0134	MetaLoss:2.0665	Prec@1 30.00	Prec_meta@1 30.00
+Epoch: [78/120]	Iters: [400/490]	Loss: 2.0142	MetaLoss:2.0649	Prec@1 29.00	Prec_meta@1 33.00
+Epoch: [78/120]	Iters: [450/490]	Loss: 2.0126	MetaLoss:2.0643	Prec@1 38.00	Prec_meta@1 32.00
+
+Test set: Average loss: 0.0146, Accuracy: 6510/10000 (65.1000%)
+
+
+Epoch: 78
+Epoch: [79/120]	Iters: [50/490]	Loss: 2.0086	MetaLoss:2.0651	Prec@1 38.00	Prec_meta@1 35.00
+Epoch: [79/120]	Iters: [100/490]	Loss: 2.0117	MetaLoss:2.0613	Prec@1 36.00	Prec_meta@1 32.00
+Epoch: [79/120]	Iters: [150/490]	Loss: 2.0172	MetaLoss:2.0623	Prec@1 42.00	Prec_meta@1 32.00
+Epoch: [79/120]	Iters: [200/490]	Loss: 2.0200	MetaLoss:2.0619	Prec@1 24.00	Prec_meta@1 28.00
+Epoch: [79/120]	Iters: [250/490]	Loss: 2.0172	MetaLoss:2.0591	Prec@1 29.00	Prec_meta@1 26.00
+Epoch: [79/120]	Iters: [300/490]	Loss: 2.0172	MetaLoss:2.0607	Prec@1 27.00	Prec_meta@1 37.00
+Epoch: [79/120]	Iters: [350/490]	Loss: 2.0184	MetaLoss:2.0615	Prec@1 30.00	Prec_meta@1 29.00
+Epoch: [79/120]	Iters: [400/490]	Loss: 2.0181	MetaLoss:2.0638	Prec@1 40.00	Prec_meta@1 40.00
+Epoch: [79/120]	Iters: [450/490]	Loss: 2.0193	MetaLoss:2.0653	Prec@1 34.00	Prec_meta@1 51.00
+
+Test set: Average loss: 0.0171, Accuracy: 4730/10000 (47.3000%)
+
+
+Epoch: 79
+Epoch: [80/120]	Iters: [50/490]	Loss: 2.0128	MetaLoss:2.0656	Prec@1 33.00	Prec_meta@1 32.00
+Epoch: [80/120]	Iters: [100/490]	Loss: 2.0080	MetaLoss:2.0656	Prec@1 31.00	Prec_meta@1 34.00
+Epoch: [80/120]	Iters: [150/490]	Loss: 2.0083	MetaLoss:2.0698	Prec@1 37.00	Prec_meta@1 32.00
+Epoch: [80/120]	Iters: [200/490]	Loss: 2.0077	MetaLoss:2.0710	Prec@1 27.00	Prec_meta@1 30.00
+Epoch: [80/120]	Iters: [250/490]	Loss: 2.0119	MetaLoss:2.0697	Prec@1 38.00	Prec_meta@1 36.00
+Epoch: [80/120]	Iters: [300/490]	Loss: 2.0137	MetaLoss:2.0674	Prec@1 38.00	Prec_meta@1 32.00
+Epoch: [80/120]	Iters: [350/490]	Loss: 2.0131	MetaLoss:2.0667	Prec@1 41.00	Prec_meta@1 28.00
+Epoch: [80/120]	Iters: [400/490]	Loss: 2.0134	MetaLoss:2.0646	Prec@1 41.00	Prec_meta@1 41.00
+Epoch: [80/120]	Iters: [450/490]	Loss: 2.0141	MetaLoss:2.0657	Prec@1 27.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0153, Accuracy: 6487/10000 (64.8700%)
+
+
+Epoch: 80
+Epoch: [81/120]	Iters: [50/490]	Loss: 2.0023	MetaLoss:2.0479	Prec@1 38.00	Prec_meta@1 43.00
+Epoch: [81/120]	Iters: [100/490]	Loss: 1.9757	MetaLoss:2.0393	Prec@1 38.00	Prec_meta@1 34.00
+Epoch: [81/120]	Iters: [150/490]	Loss: 1.9600	MetaLoss:2.0336	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [81/120]	Iters: [200/490]	Loss: 1.9496	MetaLoss:2.0312	Prec@1 34.00	Prec_meta@1 42.00
+Epoch: [81/120]	Iters: [250/490]	Loss: 1.9332	MetaLoss:2.0295	Prec@1 45.00	Prec_meta@1 36.00
+Epoch: [81/120]	Iters: [300/490]	Loss: 1.9172	MetaLoss:2.0282	Prec@1 26.00	Prec_meta@1 40.00
+Epoch: [81/120]	Iters: [350/490]	Loss: 1.9037	MetaLoss:2.0263	Prec@1 32.00	Prec_meta@1 34.00
+Epoch: [81/120]	Iters: [400/490]	Loss: 1.8926	MetaLoss:2.0254	Prec@1 36.00	Prec_meta@1 37.00
+Epoch: [81/120]	Iters: [450/490]	Loss: 1.8801	MetaLoss:2.0249	Prec@1 42.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0125, Accuracy: 7903/10000 (79.0300%)
+
+
+Epoch: 81
+Epoch: [82/120]	Iters: [50/490]	Loss: 1.7078	MetaLoss:2.0241	Prec@1 32.00	Prec_meta@1 37.00
+Epoch: [82/120]	Iters: [100/490]	Loss: 1.6882	MetaLoss:2.0204	Prec@1 41.00	Prec_meta@1 41.00
+Epoch: [82/120]	Iters: [150/490]	Loss: 1.6664	MetaLoss:2.0194	Prec@1 45.00	Prec_meta@1 36.00
+Epoch: [82/120]	Iters: [200/490]	Loss: 1.6471	MetaLoss:2.0191	Prec@1 37.00	Prec_meta@1 36.00
+Epoch: [82/120]	Iters: [250/490]	Loss: 1.6313	MetaLoss:2.0199	Prec@1 31.00	Prec_meta@1 40.00
+Epoch: [82/120]	Iters: [300/490]	Loss: 1.6144	MetaLoss:2.0187	Prec@1 32.00	Prec_meta@1 37.00
+Epoch: [82/120]	Iters: [350/490]	Loss: 1.5938	MetaLoss:2.0188	Prec@1 37.00	Prec_meta@1 33.00
+Epoch: [82/120]	Iters: [400/490]	Loss: 1.5773	MetaLoss:2.0185	Prec@1 37.00	Prec_meta@1 42.00
+Epoch: [82/120]	Iters: [450/490]	Loss: 1.5569	MetaLoss:2.0181	Prec@1 42.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0119, Accuracy: 8023/10000 (80.2300%)
+
+
+Epoch: 82
+Epoch: [83/120]	Iters: [50/490]	Loss: 1.3304	MetaLoss:2.0155	Prec@1 43.00	Prec_meta@1 39.00
+Epoch: [83/120]	Iters: [100/490]	Loss: 1.3273	MetaLoss:2.0147	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [83/120]	Iters: [150/490]	Loss: 1.3170	MetaLoss:2.0123	Prec@1 41.00	Prec_meta@1 30.00
+Epoch: [83/120]	Iters: [200/490]	Loss: 1.3022	MetaLoss:2.0127	Prec@1 40.00	Prec_meta@1 36.00
+Epoch: [83/120]	Iters: [250/490]	Loss: 1.2893	MetaLoss:2.0134	Prec@1 32.00	Prec_meta@1 33.00
+Epoch: [83/120]	Iters: [300/490]	Loss: 1.2765	MetaLoss:2.0142	Prec@1 38.00	Prec_meta@1 33.00
+Epoch: [83/120]	Iters: [350/490]	Loss: 1.2635	MetaLoss:2.0149	Prec@1 43.00	Prec_meta@1 38.00
+Epoch: [83/120]	Iters: [400/490]	Loss: 1.2530	MetaLoss:2.0148	Prec@1 43.00	Prec_meta@1 31.00
+Epoch: [83/120]	Iters: [450/490]	Loss: 1.2437	MetaLoss:2.0146	Prec@1 38.00	Prec_meta@1 26.00
+
+Test set: Average loss: 0.0117, Accuracy: 8104/10000 (81.0400%)
+
+
+Epoch: 83
+Epoch: [84/120]	Iters: [50/490]	Loss: 1.1247	MetaLoss:2.0127	Prec@1 37.00	Prec_meta@1 41.00
+Epoch: [84/120]	Iters: [100/490]	Loss: 1.1219	MetaLoss:2.0136	Prec@1 40.00	Prec_meta@1 29.00
+Epoch: [84/120]	Iters: [150/490]	Loss: 1.1176	MetaLoss:2.0141	Prec@1 41.00	Prec_meta@1 37.00
+Epoch: [84/120]	Iters: [200/490]	Loss: 1.1187	MetaLoss:2.0141	Prec@1 34.00	Prec_meta@1 44.00
+Epoch: [84/120]	Iters: [250/490]	Loss: 1.1128	MetaLoss:2.0128	Prec@1 41.00	Prec_meta@1 27.00
+Epoch: [84/120]	Iters: [300/490]	Loss: 1.1076	MetaLoss:2.0128	Prec@1 38.00	Prec_meta@1 36.00
+Epoch: [84/120]	Iters: [350/490]	Loss: 1.1025	MetaLoss:2.0120	Prec@1 41.00	Prec_meta@1 38.00
+Epoch: [84/120]	Iters: [400/490]	Loss: 1.0997	MetaLoss:2.0118	Prec@1 35.00	Prec_meta@1 37.00
+Epoch: [84/120]	Iters: [450/490]	Loss: 1.0968	MetaLoss:2.0125	Prec@1 47.00	Prec_meta@1 44.00
+
+Test set: Average loss: 0.0112, Accuracy: 8146/10000 (81.4600%)
+
+
+Epoch: 84
+Epoch: [85/120]	Iters: [50/490]	Loss: 1.0487	MetaLoss:2.0140	Prec@1 35.00	Prec_meta@1 31.00
+Epoch: [85/120]	Iters: [100/490]	Loss: 1.0406	MetaLoss:2.0142	Prec@1 42.00	Prec_meta@1 38.00
+Epoch: [85/120]	Iters: [150/490]	Loss: 1.0453	MetaLoss:2.0130	Prec@1 45.00	Prec_meta@1 30.00
+Epoch: [85/120]	Iters: [200/490]	Loss: 1.0440	MetaLoss:2.0129	Prec@1 38.00	Prec_meta@1 40.00
+Epoch: [85/120]	Iters: [250/490]	Loss: 1.0426	MetaLoss:2.0133	Prec@1 38.00	Prec_meta@1 40.00
+Epoch: [85/120]	Iters: [300/490]	Loss: 1.0430	MetaLoss:2.0131	Prec@1 37.00	Prec_meta@1 42.00
+Epoch: [85/120]	Iters: [350/490]	Loss: 1.0424	MetaLoss:2.0131	Prec@1 46.00	Prec_meta@1 34.00
+Epoch: [85/120]	Iters: [400/490]	Loss: 1.0430	MetaLoss:2.0126	Prec@1 39.00	Prec_meta@1 33.00
+Epoch: [85/120]	Iters: [450/490]	Loss: 1.0440	MetaLoss:2.0131	Prec@1 42.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0113, Accuracy: 8163/10000 (81.6300%)
+
+
+Epoch: 85
+Epoch: [86/120]	Iters: [50/490]	Loss: 1.0336	MetaLoss:2.0119	Prec@1 41.00	Prec_meta@1 32.00
+Epoch: [86/120]	Iters: [100/490]	Loss: 1.0391	MetaLoss:2.0145	Prec@1 35.00	Prec_meta@1 44.00
+Epoch: [86/120]	Iters: [150/490]	Loss: 1.0328	MetaLoss:2.0143	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [86/120]	Iters: [200/490]	Loss: 1.0312	MetaLoss:2.0136	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [86/120]	Iters: [250/490]	Loss: 1.0294	MetaLoss:2.0125	Prec@1 45.00	Prec_meta@1 28.00
+Epoch: [86/120]	Iters: [300/490]	Loss: 1.0264	MetaLoss:2.0113	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [86/120]	Iters: [350/490]	Loss: 1.0245	MetaLoss:2.0108	Prec@1 41.00	Prec_meta@1 35.00
+Epoch: [86/120]	Iters: [400/490]	Loss: 1.0230	MetaLoss:2.0105	Prec@1 39.00	Prec_meta@1 34.00
+Epoch: [86/120]	Iters: [450/490]	Loss: 1.0213	MetaLoss:2.0106	Prec@1 41.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0111, Accuracy: 8173/10000 (81.7300%)
+
+
+Epoch: 86
+Epoch: [87/120]	Iters: [50/490]	Loss: 0.9966	MetaLoss:2.0156	Prec@1 37.00	Prec_meta@1 35.00
+Epoch: [87/120]	Iters: [100/490]	Loss: 0.9911	MetaLoss:2.0144	Prec@1 41.00	Prec_meta@1 35.00
+Epoch: [87/120]	Iters: [150/490]	Loss: 0.9963	MetaLoss:2.0135	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [87/120]	Iters: [200/490]	Loss: 0.9936	MetaLoss:2.0135	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [87/120]	Iters: [250/490]	Loss: 0.9948	MetaLoss:2.0125	Prec@1 56.00	Prec_meta@1 41.00
+Epoch: [87/120]	Iters: [300/490]	Loss: 0.9962	MetaLoss:2.0129	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [87/120]	Iters: [350/490]	Loss: 0.9985	MetaLoss:2.0127	Prec@1 35.00	Prec_meta@1 31.00
+Epoch: [87/120]	Iters: [400/490]	Loss: 0.9988	MetaLoss:2.0130	Prec@1 36.00	Prec_meta@1 39.00
+Epoch: [87/120]	Iters: [450/490]	Loss: 0.9997	MetaLoss:2.0134	Prec@1 46.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0111, Accuracy: 8151/10000 (81.5100%)
+
+
+Epoch: 87
+Epoch: [88/120]	Iters: [50/490]	Loss: 0.9945	MetaLoss:2.0095	Prec@1 36.00	Prec_meta@1 33.00
+Epoch: [88/120]	Iters: [100/490]	Loss: 0.9914	MetaLoss:2.0138	Prec@1 36.00	Prec_meta@1 39.00
+Epoch: [88/120]	Iters: [150/490]	Loss: 0.9931	MetaLoss:2.0152	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [88/120]	Iters: [200/490]	Loss: 0.9977	MetaLoss:2.0152	Prec@1 41.00	Prec_meta@1 37.00
+Epoch: [88/120]	Iters: [250/490]	Loss: 1.0007	MetaLoss:2.0160	Prec@1 34.00	Prec_meta@1 32.00
+Epoch: [88/120]	Iters: [300/490]	Loss: 1.0011	MetaLoss:2.0155	Prec@1 42.00	Prec_meta@1 43.00
+Epoch: [88/120]	Iters: [350/490]	Loss: 1.0035	MetaLoss:2.0148	Prec@1 45.00	Prec_meta@1 40.00
+Epoch: [88/120]	Iters: [400/490]	Loss: 1.0047	MetaLoss:2.0149	Prec@1 41.00	Prec_meta@1 43.00
+Epoch: [88/120]	Iters: [450/490]	Loss: 1.0057	MetaLoss:2.0145	Prec@1 47.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0108, Accuracy: 8150/10000 (81.5000%)
+
+
+Epoch: 88
+Epoch: [89/120]	Iters: [50/490]	Loss: 1.0229	MetaLoss:2.0170	Prec@1 36.00	Prec_meta@1 37.00
+Epoch: [89/120]	Iters: [100/490]	Loss: 1.0253	MetaLoss:2.0177	Prec@1 39.00	Prec_meta@1 39.00
+Epoch: [89/120]	Iters: [150/490]	Loss: 1.0257	MetaLoss:2.0156	Prec@1 40.00	Prec_meta@1 37.00
+Epoch: [89/120]	Iters: [200/490]	Loss: 1.0277	MetaLoss:2.0135	Prec@1 45.00	Prec_meta@1 41.00
+Epoch: [89/120]	Iters: [250/490]	Loss: 1.0280	MetaLoss:2.0130	Prec@1 40.00	Prec_meta@1 50.00
+Epoch: [89/120]	Iters: [300/490]	Loss: 1.0296	MetaLoss:2.0125	Prec@1 26.00	Prec_meta@1 36.00
+Epoch: [89/120]	Iters: [350/490]	Loss: 1.0294	MetaLoss:2.0118	Prec@1 40.00	Prec_meta@1 32.00
+Epoch: [89/120]	Iters: [400/490]	Loss: 1.0298	MetaLoss:2.0125	Prec@1 37.00	Prec_meta@1 44.00
+Epoch: [89/120]	Iters: [450/490]	Loss: 1.0301	MetaLoss:2.0125	Prec@1 40.00	Prec_meta@1 35.00
+
+Test set: Average loss: 0.0112, Accuracy: 8096/10000 (80.9600%)
+
+
+Epoch: 89
+Epoch: [90/120]	Iters: [50/490]	Loss: 1.0213	MetaLoss:2.0097	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [90/120]	Iters: [100/490]	Loss: 1.0175	MetaLoss:2.0103	Prec@1 52.00	Prec_meta@1 38.00
+Epoch: [90/120]	Iters: [150/490]	Loss: 1.0195	MetaLoss:2.0090	Prec@1 38.00	Prec_meta@1 43.00
+Epoch: [90/120]	Iters: [200/490]	Loss: 1.0194	MetaLoss:2.0114	Prec@1 38.00	Prec_meta@1 37.00
+Epoch: [90/120]	Iters: [250/490]	Loss: 1.0187	MetaLoss:2.0108	Prec@1 39.00	Prec_meta@1 37.00
+Epoch: [90/120]	Iters: [300/490]	Loss: 1.0218	MetaLoss:2.0111	Prec@1 38.00	Prec_meta@1 40.00
+Epoch: [90/120]	Iters: [350/490]	Loss: 1.0223	MetaLoss:2.0116	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [90/120]	Iters: [400/490]	Loss: 1.0232	MetaLoss:2.0117	Prec@1 40.00	Prec_meta@1 33.00
+Epoch: [90/120]	Iters: [450/490]	Loss: 1.0246	MetaLoss:2.0115	Prec@1 35.00	Prec_meta@1 37.00
+
+Test set: Average loss: 0.0111, Accuracy: 8144/10000 (81.4400%)
+
+
+Epoch: 90
+Epoch: [91/120]	Iters: [50/490]	Loss: 1.0232	MetaLoss:2.0098	Prec@1 36.00	Prec_meta@1 37.00
+Epoch: [91/120]	Iters: [100/490]	Loss: 1.0318	MetaLoss:2.0100	Prec@1 51.00	Prec_meta@1 39.00
+Epoch: [91/120]	Iters: [150/490]	Loss: 1.0331	MetaLoss:2.0111	Prec@1 37.00	Prec_meta@1 46.00
+Epoch: [91/120]	Iters: [200/490]	Loss: 1.0328	MetaLoss:2.0102	Prec@1 48.00	Prec_meta@1 34.00
+Epoch: [91/120]	Iters: [250/490]	Loss: 1.0305	MetaLoss:2.0106	Prec@1 41.00	Prec_meta@1 38.00
+Epoch: [91/120]	Iters: [300/490]	Loss: 1.0291	MetaLoss:2.0119	Prec@1 34.00	Prec_meta@1 36.00
+Epoch: [91/120]	Iters: [350/490]	Loss: 1.0291	MetaLoss:2.0122	Prec@1 40.00	Prec_meta@1 44.00
+Epoch: [91/120]	Iters: [400/490]	Loss: 1.0301	MetaLoss:2.0127	Prec@1 38.00	Prec_meta@1 28.00
+Epoch: [91/120]	Iters: [450/490]	Loss: 1.0311	MetaLoss:2.0134	Prec@1 46.00	Prec_meta@1 28.00
+
+Test set: Average loss: 0.0110, Accuracy: 8106/10000 (81.0600%)
+
+
+Epoch: 91
+Epoch: [92/120]	Iters: [50/490]	Loss: 1.0409	MetaLoss:2.0019	Prec@1 37.00	Prec_meta@1 37.00
+Epoch: [92/120]	Iters: [100/490]	Loss: 1.0365	MetaLoss:2.0065	Prec@1 44.00	Prec_meta@1 32.00
+Epoch: [92/120]	Iters: [150/490]	Loss: 1.0378	MetaLoss:2.0078	Prec@1 35.00	Prec_meta@1 38.00
+Epoch: [92/120]	Iters: [200/490]	Loss: 1.0358	MetaLoss:2.0091	Prec@1 39.00	Prec_meta@1 39.00
+Epoch: [92/120]	Iters: [250/490]	Loss: 1.0334	MetaLoss:2.0102	Prec@1 44.00	Prec_meta@1 39.00
+Epoch: [92/120]	Iters: [300/490]	Loss: 1.0372	MetaLoss:2.0112	Prec@1 33.00	Prec_meta@1 36.00
+Epoch: [92/120]	Iters: [350/490]	Loss: 1.0386	MetaLoss:2.0115	Prec@1 42.00	Prec_meta@1 35.00
+Epoch: [92/120]	Iters: [400/490]	Loss: 1.0411	MetaLoss:2.0117	Prec@1 45.00	Prec_meta@1 43.00
+Epoch: [92/120]	Iters: [450/490]	Loss: 1.0424	MetaLoss:2.0117	Prec@1 36.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0108, Accuracy: 8153/10000 (81.5300%)
+
+
+Epoch: 92
+Epoch: [93/120]	Iters: [50/490]	Loss: 1.0323	MetaLoss:2.0136	Prec@1 39.00	Prec_meta@1 38.00
+Epoch: [93/120]	Iters: [100/490]	Loss: 1.0396	MetaLoss:2.0129	Prec@1 40.00	Prec_meta@1 42.00
+Epoch: [93/120]	Iters: [150/490]	Loss: 1.0422	MetaLoss:2.0126	Prec@1 48.00	Prec_meta@1 42.00
+Epoch: [93/120]	Iters: [200/490]	Loss: 1.0426	MetaLoss:2.0135	Prec@1 42.00	Prec_meta@1 38.00
+Epoch: [93/120]	Iters: [250/490]	Loss: 1.0453	MetaLoss:2.0134	Prec@1 41.00	Prec_meta@1 41.00
+Epoch: [93/120]	Iters: [300/490]	Loss: 1.0448	MetaLoss:2.0127	Prec@1 48.00	Prec_meta@1 37.00
+Epoch: [93/120]	Iters: [350/490]	Loss: 1.0464	MetaLoss:2.0129	Prec@1 33.00	Prec_meta@1 36.00
+Epoch: [93/120]	Iters: [400/490]	Loss: 1.0468	MetaLoss:2.0130	Prec@1 42.00	Prec_meta@1 34.00
+Epoch: [93/120]	Iters: [450/490]	Loss: 1.0472	MetaLoss:2.0131	Prec@1 34.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0114, Accuracy: 8037/10000 (80.3700%)
+
+
+Epoch: 93
+Epoch: [94/120]	Iters: [50/490]	Loss: 1.0422	MetaLoss:2.0078	Prec@1 41.00	Prec_meta@1 36.00
+Epoch: [94/120]	Iters: [100/490]	Loss: 1.0490	MetaLoss:2.0088	Prec@1 42.00	Prec_meta@1 37.00
+Epoch: [94/120]	Iters: [150/490]	Loss: 1.0501	MetaLoss:2.0083	Prec@1 32.00	Prec_meta@1 31.00
+Epoch: [94/120]	Iters: [200/490]	Loss: 1.0482	MetaLoss:2.0090	Prec@1 44.00	Prec_meta@1 30.00
+Epoch: [94/120]	Iters: [250/490]	Loss: 1.0494	MetaLoss:2.0096	Prec@1 44.00	Prec_meta@1 39.00
+Epoch: [94/120]	Iters: [300/490]	Loss: 1.0505	MetaLoss:2.0109	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [94/120]	Iters: [350/490]	Loss: 1.0523	MetaLoss:2.0118	Prec@1 45.00	Prec_meta@1 36.00
+Epoch: [94/120]	Iters: [400/490]	Loss: 1.0527	MetaLoss:2.0127	Prec@1 38.00	Prec_meta@1 38.00
+Epoch: [94/120]	Iters: [450/490]	Loss: 1.0550	MetaLoss:2.0129	Prec@1 44.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0112, Accuracy: 8036/10000 (80.3600%)
+
+
+Epoch: 94
+Epoch: [95/120]	Iters: [50/490]	Loss: 1.0634	MetaLoss:2.0172	Prec@1 37.00	Prec_meta@1 38.00
+Epoch: [95/120]	Iters: [100/490]	Loss: 1.0681	MetaLoss:2.0136	Prec@1 47.00	Prec_meta@1 41.00
+Epoch: [95/120]	Iters: [150/490]	Loss: 1.0634	MetaLoss:2.0133	Prec@1 42.00	Prec_meta@1 33.00
+Epoch: [95/120]	Iters: [200/490]	Loss: 1.0621	MetaLoss:2.0154	Prec@1 48.00	Prec_meta@1 32.00
+Epoch: [95/120]	Iters: [250/490]	Loss: 1.0671	MetaLoss:2.0147	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [95/120]	Iters: [300/490]	Loss: 1.0686	MetaLoss:2.0147	Prec@1 47.00	Prec_meta@1 35.00
+Epoch: [95/120]	Iters: [350/490]	Loss: 1.0701	MetaLoss:2.0155	Prec@1 43.00	Prec_meta@1 33.00
+Epoch: [95/120]	Iters: [400/490]	Loss: 1.0702	MetaLoss:2.0158	Prec@1 50.00	Prec_meta@1 36.00
+Epoch: [95/120]	Iters: [450/490]	Loss: 1.0722	MetaLoss:2.0160	Prec@1 39.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0112, Accuracy: 8026/10000 (80.2600%)
+
+
+Epoch: 95
+Epoch: [96/120]	Iters: [50/490]	Loss: 1.0756	MetaLoss:2.0316	Prec@1 34.00	Prec_meta@1 29.00
+Epoch: [96/120]	Iters: [100/490]	Loss: 1.0835	MetaLoss:2.0301	Prec@1 41.00	Prec_meta@1 31.00
+Epoch: [96/120]	Iters: [150/490]	Loss: 1.0912	MetaLoss:2.0301	Prec@1 46.00	Prec_meta@1 41.00
+Epoch: [96/120]	Iters: [200/490]	Loss: 1.0935	MetaLoss:2.0281	Prec@1 37.00	Prec_meta@1 34.00
+Epoch: [96/120]	Iters: [250/490]	Loss: 1.0950	MetaLoss:2.0278	Prec@1 43.00	Prec_meta@1 41.00
+Epoch: [96/120]	Iters: [300/490]	Loss: 1.0991	MetaLoss:2.0267	Prec@1 32.00	Prec_meta@1 35.00
+Epoch: [96/120]	Iters: [350/490]	Loss: 1.1036	MetaLoss:2.0252	Prec@1 36.00	Prec_meta@1 38.00
+Epoch: [96/120]	Iters: [400/490]	Loss: 1.1061	MetaLoss:2.0254	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [96/120]	Iters: [450/490]	Loss: 1.1071	MetaLoss:2.0249	Prec@1 43.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0114, Accuracy: 7959/10000 (79.5900%)
+
+
+Epoch: 96
+Epoch: [97/120]	Iters: [50/490]	Loss: 1.1101	MetaLoss:2.0162	Prec@1 29.00	Prec_meta@1 40.00
+Epoch: [97/120]	Iters: [100/490]	Loss: 1.1074	MetaLoss:2.0230	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [97/120]	Iters: [150/490]	Loss: 1.1067	MetaLoss:2.0210	Prec@1 45.00	Prec_meta@1 33.00
+Epoch: [97/120]	Iters: [200/490]	Loss: 1.1133	MetaLoss:2.0199	Prec@1 38.00	Prec_meta@1 30.00
+Epoch: [97/120]	Iters: [250/490]	Loss: 1.1186	MetaLoss:2.0195	Prec@1 39.00	Prec_meta@1 35.00
+Epoch: [97/120]	Iters: [300/490]	Loss: 1.1190	MetaLoss:2.0181	Prec@1 39.00	Prec_meta@1 38.00
+Epoch: [97/120]	Iters: [350/490]	Loss: 1.1183	MetaLoss:2.0187	Prec@1 34.00	Prec_meta@1 36.00
+Epoch: [97/120]	Iters: [400/490]	Loss: 1.1190	MetaLoss:2.0185	Prec@1 42.00	Prec_meta@1 35.00
+Epoch: [97/120]	Iters: [450/490]	Loss: 1.1188	MetaLoss:2.0186	Prec@1 32.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0112, Accuracy: 7947/10000 (79.4700%)
+
+
+Epoch: 97
+Epoch: [98/120]	Iters: [50/490]	Loss: 1.1090	MetaLoss:2.0254	Prec@1 49.00	Prec_meta@1 33.00
+Epoch: [98/120]	Iters: [100/490]	Loss: 1.1131	MetaLoss:2.0261	Prec@1 40.00	Prec_meta@1 36.00
+Epoch: [98/120]	Iters: [150/490]	Loss: 1.1097	MetaLoss:2.0245	Prec@1 37.00	Prec_meta@1 42.00
+Epoch: [98/120]	Iters: [200/490]	Loss: 1.1122	MetaLoss:2.0218	Prec@1 51.00	Prec_meta@1 45.00
+Epoch: [98/120]	Iters: [250/490]	Loss: 1.1131	MetaLoss:2.0214	Prec@1 42.00	Prec_meta@1 36.00
+Epoch: [98/120]	Iters: [300/490]	Loss: 1.1141	MetaLoss:2.0208	Prec@1 39.00	Prec_meta@1 39.00
+Epoch: [98/120]	Iters: [350/490]	Loss: 1.1145	MetaLoss:2.0209	Prec@1 46.00	Prec_meta@1 39.00
+Epoch: [98/120]	Iters: [400/490]	Loss: 1.1166	MetaLoss:2.0202	Prec@1 48.00	Prec_meta@1 46.00
+Epoch: [98/120]	Iters: [450/490]	Loss: 1.1198	MetaLoss:2.0205	Prec@1 38.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0112, Accuracy: 8043/10000 (80.4300%)
+
+
+Epoch: 98
+Epoch: [99/120]	Iters: [50/490]	Loss: 1.1349	MetaLoss:2.0268	Prec@1 39.00	Prec_meta@1 31.00
+Epoch: [99/120]	Iters: [100/490]	Loss: 1.1298	MetaLoss:2.0245	Prec@1 41.00	Prec_meta@1 39.00
+Epoch: [99/120]	Iters: [150/490]	Loss: 1.1226	MetaLoss:2.0239	Prec@1 44.00	Prec_meta@1 31.00
+Epoch: [99/120]	Iters: [200/490]	Loss: 1.1203	MetaLoss:2.0249	Prec@1 49.00	Prec_meta@1 43.00
+Epoch: [99/120]	Iters: [250/490]	Loss: 1.1208	MetaLoss:2.0237	Prec@1 40.00	Prec_meta@1 32.00
+Epoch: [99/120]	Iters: [300/490]	Loss: 1.1241	MetaLoss:2.0219	Prec@1 41.00	Prec_meta@1 41.00
+Epoch: [99/120]	Iters: [350/490]	Loss: 1.1272	MetaLoss:2.0219	Prec@1 37.00	Prec_meta@1 31.00
+Epoch: [99/120]	Iters: [400/490]	Loss: 1.1287	MetaLoss:2.0222	Prec@1 56.00	Prec_meta@1 37.00
+Epoch: [99/120]	Iters: [450/490]	Loss: 1.1319	MetaLoss:2.0224	Prec@1 42.00	Prec_meta@1 37.00
+
+Test set: Average loss: 0.0113, Accuracy: 8010/10000 (80.1000%)
+
+
+Epoch: 99
+Epoch: [100/120]	Iters: [50/490]	Loss: 1.1391	MetaLoss:2.0126	Prec@1 40.00	Prec_meta@1 39.00
+Epoch: [100/120]	Iters: [100/490]	Loss: 1.1511	MetaLoss:2.0225	Prec@1 44.00	Prec_meta@1 36.00
+Epoch: [100/120]	Iters: [150/490]	Loss: 1.1580	MetaLoss:2.0232	Prec@1 38.00	Prec_meta@1 38.00
+Epoch: [100/120]	Iters: [200/490]	Loss: 1.1587	MetaLoss:2.0248	Prec@1 37.00	Prec_meta@1 39.00
+Epoch: [100/120]	Iters: [250/490]	Loss: 1.1596	MetaLoss:2.0245	Prec@1 49.00	Prec_meta@1 33.00
+Epoch: [100/120]	Iters: [300/490]	Loss: 1.1595	MetaLoss:2.0248	Prec@1 40.00	Prec_meta@1 39.00
+Epoch: [100/120]	Iters: [350/490]	Loss: 1.1608	MetaLoss:2.0262	Prec@1 44.00	Prec_meta@1 33.00
+Epoch: [100/120]	Iters: [400/490]	Loss: 1.1609	MetaLoss:2.0266	Prec@1 44.00	Prec_meta@1 36.00
+Epoch: [100/120]	Iters: [450/490]	Loss: 1.1658	MetaLoss:2.0254	Prec@1 36.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0114, Accuracy: 7867/10000 (78.6700%)
+
+
+Epoch: 100
+Epoch: [101/120]	Iters: [50/490]	Loss: 1.1650	MetaLoss:2.0317	Prec@1 48.00	Prec_meta@1 37.00
+Epoch: [101/120]	Iters: [100/490]	Loss: 1.1576	MetaLoss:2.0253	Prec@1 46.00	Prec_meta@1 42.00
+Epoch: [101/120]	Iters: [150/490]	Loss: 1.1548	MetaLoss:2.0241	Prec@1 42.00	Prec_meta@1 37.00
+Epoch: [101/120]	Iters: [200/490]	Loss: 1.1465	MetaLoss:2.0234	Prec@1 38.00	Prec_meta@1 37.00
+Epoch: [101/120]	Iters: [250/490]	Loss: 1.1422	MetaLoss:2.0221	Prec@1 43.00	Prec_meta@1 33.00
+Epoch: [101/120]	Iters: [300/490]	Loss: 1.1392	MetaLoss:2.0203	Prec@1 46.00	Prec_meta@1 38.00
+Epoch: [101/120]	Iters: [350/490]	Loss: 1.1354	MetaLoss:2.0194	Prec@1 43.00	Prec_meta@1 37.00
+Epoch: [101/120]	Iters: [400/490]	Loss: 1.1346	MetaLoss:2.0195	Prec@1 38.00	Prec_meta@1 37.00
+Epoch: [101/120]	Iters: [450/490]	Loss: 1.1329	MetaLoss:2.0189	Prec@1 35.00	Prec_meta@1 43.00
+
+Test set: Average loss: 0.0108, Accuracy: 8212/10000 (82.1200%)
+
+
+Epoch: 101
+Epoch: [102/120]	Iters: [50/490]	Loss: 1.0955	MetaLoss:2.0133	Prec@1 48.00	Prec_meta@1 45.00
+Epoch: [102/120]	Iters: [100/490]	Loss: 1.0910	MetaLoss:2.0147	Prec@1 48.00	Prec_meta@1 31.00
+Epoch: [102/120]	Iters: [150/490]	Loss: 1.0946	MetaLoss:2.0171	Prec@1 43.00	Prec_meta@1 39.00
+Epoch: [102/120]	Iters: [200/490]	Loss: 1.0955	MetaLoss:2.0169	Prec@1 40.00	Prec_meta@1 41.00
+Epoch: [102/120]	Iters: [250/490]	Loss: 1.0918	MetaLoss:2.0170	Prec@1 32.00	Prec_meta@1 43.00
+Epoch: [102/120]	Iters: [300/490]	Loss: 1.0897	MetaLoss:2.0175	Prec@1 42.00	Prec_meta@1 40.00
+Epoch: [102/120]	Iters: [350/490]	Loss: 1.0899	MetaLoss:2.0183	Prec@1 37.00	Prec_meta@1 43.00
+Epoch: [102/120]	Iters: [400/490]	Loss: 1.0882	MetaLoss:2.0171	Prec@1 42.00	Prec_meta@1 30.00
+Epoch: [102/120]	Iters: [450/490]	Loss: 1.0865	MetaLoss:2.0173	Prec@1 44.00	Prec_meta@1 36.00
+
+Test set: Average loss: 0.0107, Accuracy: 8223/10000 (82.2300%)
+
+
+Epoch: 102
+Epoch: [103/120]	Iters: [50/490]	Loss: 1.0586	MetaLoss:2.0208	Prec@1 41.00	Prec_meta@1 38.00
+Epoch: [103/120]	Iters: [100/490]	Loss: 1.0581	MetaLoss:2.0220	Prec@1 41.00	Prec_meta@1 37.00
+Epoch: [103/120]	Iters: [150/490]	Loss: 1.0566	MetaLoss:2.0209	Prec@1 46.00	Prec_meta@1 28.00
+Epoch: [103/120]	Iters: [200/490]	Loss: 1.0548	MetaLoss:2.0227	Prec@1 42.00	Prec_meta@1 41.00
+Epoch: [103/120]	Iters: [250/490]	Loss: 1.0536	MetaLoss:2.0224	Prec@1 44.00	Prec_meta@1 44.00
+Epoch: [103/120]	Iters: [300/490]	Loss: 1.0533	MetaLoss:2.0216	Prec@1 50.00	Prec_meta@1 30.00
+Epoch: [103/120]	Iters: [350/490]	Loss: 1.0513	MetaLoss:2.0221	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [103/120]	Iters: [400/490]	Loss: 1.0485	MetaLoss:2.0219	Prec@1 43.00	Prec_meta@1 38.00
+Epoch: [103/120]	Iters: [450/490]	Loss: 1.0470	MetaLoss:2.0221	Prec@1 42.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0108, Accuracy: 8184/10000 (81.8400%)
+
+
+Epoch: 103
+Epoch: [104/120]	Iters: [50/490]	Loss: 1.0292	MetaLoss:2.0169	Prec@1 45.00	Prec_meta@1 37.00
+Epoch: [104/120]	Iters: [100/490]	Loss: 1.0229	MetaLoss:2.0203	Prec@1 36.00	Prec_meta@1 40.00
+Epoch: [104/120]	Iters: [150/490]	Loss: 1.0269	MetaLoss:2.0226	Prec@1 43.00	Prec_meta@1 32.00
+Epoch: [104/120]	Iters: [200/490]	Loss: 1.0256	MetaLoss:2.0237	Prec@1 37.00	Prec_meta@1 40.00
+Epoch: [104/120]	Iters: [250/490]	Loss: 1.0215	MetaLoss:2.0231	Prec@1 44.00	Prec_meta@1 36.00
+Epoch: [104/120]	Iters: [300/490]	Loss: 1.0208	MetaLoss:2.0231	Prec@1 40.00	Prec_meta@1 37.00
+Epoch: [104/120]	Iters: [350/490]	Loss: 1.0182	MetaLoss:2.0244	Prec@1 41.00	Prec_meta@1 37.00
+Epoch: [104/120]	Iters: [400/490]	Loss: 1.0161	MetaLoss:2.0252	Prec@1 38.00	Prec_meta@1 50.00
+Epoch: [104/120]	Iters: [450/490]	Loss: 1.0150	MetaLoss:2.0252	Prec@1 35.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0108, Accuracy: 8140/10000 (81.4000%)
+
+
+Epoch: 104
+Epoch: [105/120]	Iters: [50/490]	Loss: 0.9813	MetaLoss:2.0224	Prec@1 48.00	Prec_meta@1 36.00
+Epoch: [105/120]	Iters: [100/490]	Loss: 0.9908	MetaLoss:2.0214	Prec@1 43.00	Prec_meta@1 51.00
+Epoch: [105/120]	Iters: [150/490]	Loss: 0.9938	MetaLoss:2.0213	Prec@1 43.00	Prec_meta@1 35.00
+Epoch: [105/120]	Iters: [200/490]	Loss: 0.9918	MetaLoss:2.0225	Prec@1 50.00	Prec_meta@1 40.00
+Epoch: [105/120]	Iters: [250/490]	Loss: 0.9889	MetaLoss:2.0238	Prec@1 38.00	Prec_meta@1 34.00
+Epoch: [105/120]	Iters: [300/490]	Loss: 0.9888	MetaLoss:2.0242	Prec@1 50.00	Prec_meta@1 32.00
+Epoch: [105/120]	Iters: [350/490]	Loss: 0.9883	MetaLoss:2.0247	Prec@1 35.00	Prec_meta@1 32.00
+Epoch: [105/120]	Iters: [400/490]	Loss: 0.9876	MetaLoss:2.0247	Prec@1 42.00	Prec_meta@1 35.00
+Epoch: [105/120]	Iters: [450/490]	Loss: 0.9857	MetaLoss:2.0246	Prec@1 39.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0107, Accuracy: 8142/10000 (81.4200%)
+
+
+Epoch: 105
+Epoch: [106/120]	Iters: [50/490]	Loss: 0.9817	MetaLoss:2.0256	Prec@1 44.00	Prec_meta@1 48.00
+Epoch: [106/120]	Iters: [100/490]	Loss: 0.9750	MetaLoss:2.0307	Prec@1 45.00	Prec_meta@1 37.00
+Epoch: [106/120]	Iters: [150/490]	Loss: 0.9709	MetaLoss:2.0263	Prec@1 45.00	Prec_meta@1 44.00
+Epoch: [106/120]	Iters: [200/490]	Loss: 0.9694	MetaLoss:2.0261	Prec@1 40.00	Prec_meta@1 44.00
+Epoch: [106/120]	Iters: [250/490]	Loss: 0.9681	MetaLoss:2.0264	Prec@1 43.00	Prec_meta@1 37.00
+Epoch: [106/120]	Iters: [300/490]	Loss: 0.9663	MetaLoss:2.0267	Prec@1 46.00	Prec_meta@1 42.00
+Epoch: [106/120]	Iters: [350/490]	Loss: 0.9658	MetaLoss:2.0272	Prec@1 41.00	Prec_meta@1 34.00
+Epoch: [106/120]	Iters: [400/490]	Loss: 0.9642	MetaLoss:2.0277	Prec@1 48.00	Prec_meta@1 44.00
+Epoch: [106/120]	Iters: [450/490]	Loss: 0.9644	MetaLoss:2.0276	Prec@1 45.00	Prec_meta@1 46.00
+
+Test set: Average loss: 0.0108, Accuracy: 8119/10000 (81.1900%)
+
+
+Epoch: 106
+Epoch: [107/120]	Iters: [50/490]	Loss: 0.9492	MetaLoss:2.0287	Prec@1 39.00	Prec_meta@1 42.00
+Epoch: [107/120]	Iters: [100/490]	Loss: 0.9460	MetaLoss:2.0309	Prec@1 36.00	Prec_meta@1 33.00
+Epoch: [107/120]	Iters: [150/490]	Loss: 0.9487	MetaLoss:2.0301	Prec@1 46.00	Prec_meta@1 35.00
+Epoch: [107/120]	Iters: [200/490]	Loss: 0.9480	MetaLoss:2.0306	Prec@1 45.00	Prec_meta@1 39.00
+Epoch: [107/120]	Iters: [250/490]	Loss: 0.9498	MetaLoss:2.0310	Prec@1 39.00	Prec_meta@1 36.00
+Epoch: [107/120]	Iters: [300/490]	Loss: 0.9506	MetaLoss:2.0307	Prec@1 40.00	Prec_meta@1 42.00
+Epoch: [107/120]	Iters: [350/490]	Loss: 0.9496	MetaLoss:2.0311	Prec@1 48.00	Prec_meta@1 40.00
+Epoch: [107/120]	Iters: [400/490]	Loss: 0.9487	MetaLoss:2.0309	Prec@1 42.00	Prec_meta@1 35.00
+Epoch: [107/120]	Iters: [450/490]	Loss: 0.9483	MetaLoss:2.0309	Prec@1 36.00	Prec_meta@1 34.00
+
+Test set: Average loss: 0.0108, Accuracy: 8116/10000 (81.1600%)
+
+
+Epoch: 107
+Epoch: [108/120]	Iters: [50/490]	Loss: 0.9496	MetaLoss:2.0289	Prec@1 46.00	Prec_meta@1 37.00
+Epoch: [108/120]	Iters: [100/490]	Loss: 0.9427	MetaLoss:2.0326	Prec@1 47.00	Prec_meta@1 42.00
+Epoch: [108/120]	Iters: [150/490]	Loss: 0.9426	MetaLoss:2.0320	Prec@1 38.00	Prec_meta@1 39.00
+Epoch: [108/120]	Iters: [200/490]	Loss: 0.9437	MetaLoss:2.0315	Prec@1 47.00	Prec_meta@1 43.00
+Epoch: [108/120]	Iters: [250/490]	Loss: 0.9424	MetaLoss:2.0324	Prec@1 47.00	Prec_meta@1 36.00
+Epoch: [108/120]	Iters: [300/490]	Loss: 0.9417	MetaLoss:2.0315	Prec@1 44.00	Prec_meta@1 40.00
+Epoch: [108/120]	Iters: [350/490]	Loss: 0.9411	MetaLoss:2.0323	Prec@1 42.00	Prec_meta@1 33.00
+Epoch: [108/120]	Iters: [400/490]	Loss: 0.9407	MetaLoss:2.0330	Prec@1 42.00	Prec_meta@1 37.00
+Epoch: [108/120]	Iters: [450/490]	Loss: 0.9409	MetaLoss:2.0331	Prec@1 58.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0109, Accuracy: 8084/10000 (80.8400%)
+
+
+Epoch: 108
+Epoch: [109/120]	Iters: [50/490]	Loss: 0.9259	MetaLoss:2.0327	Prec@1 43.00	Prec_meta@1 36.00
+Epoch: [109/120]	Iters: [100/490]	Loss: 0.9285	MetaLoss:2.0306	Prec@1 50.00	Prec_meta@1 37.00
+Epoch: [109/120]	Iters: [150/490]	Loss: 0.9304	MetaLoss:2.0367	Prec@1 44.00	Prec_meta@1 41.00
+Epoch: [109/120]	Iters: [200/490]	Loss: 0.9322	MetaLoss:2.0338	Prec@1 36.00	Prec_meta@1 36.00
+Epoch: [109/120]	Iters: [250/490]	Loss: 0.9344	MetaLoss:2.0340	Prec@1 45.00	Prec_meta@1 40.00
+Epoch: [109/120]	Iters: [300/490]	Loss: 0.9342	MetaLoss:2.0328	Prec@1 49.00	Prec_meta@1 37.00
+Epoch: [109/120]	Iters: [350/490]	Loss: 0.9356	MetaLoss:2.0333	Prec@1 52.00	Prec_meta@1 35.00
+Epoch: [109/120]	Iters: [400/490]	Loss: 0.9356	MetaLoss:2.0340	Prec@1 49.00	Prec_meta@1 42.00
+Epoch: [109/120]	Iters: [450/490]	Loss: 0.9350	MetaLoss:2.0334	Prec@1 40.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0109, Accuracy: 8066/10000 (80.6600%)
+
+
+Epoch: 109
+Epoch: [110/120]	Iters: [50/490]	Loss: 0.9209	MetaLoss:2.0403	Prec@1 41.00	Prec_meta@1 42.00
+Epoch: [110/120]	Iters: [100/490]	Loss: 0.9211	MetaLoss:2.0363	Prec@1 36.00	Prec_meta@1 35.00
+Epoch: [110/120]	Iters: [150/490]	Loss: 0.9218	MetaLoss:2.0362	Prec@1 43.00	Prec_meta@1 37.00
+Epoch: [110/120]	Iters: [200/490]	Loss: 0.9215	MetaLoss:2.0372	Prec@1 38.00	Prec_meta@1 38.00
+Epoch: [110/120]	Iters: [250/490]	Loss: 0.9204	MetaLoss:2.0386	Prec@1 42.00	Prec_meta@1 36.00
+Epoch: [110/120]	Iters: [300/490]	Loss: 0.9231	MetaLoss:2.0386	Prec@1 43.00	Prec_meta@1 37.00
+Epoch: [110/120]	Iters: [350/490]	Loss: 0.9235	MetaLoss:2.0374	Prec@1 39.00	Prec_meta@1 36.00
+Epoch: [110/120]	Iters: [400/490]	Loss: 0.9252	MetaLoss:2.0367	Prec@1 42.00	Prec_meta@1 38.00
+Epoch: [110/120]	Iters: [450/490]	Loss: 0.9259	MetaLoss:2.0353	Prec@1 38.00	Prec_meta@1 47.00
+
+Test set: Average loss: 0.0108, Accuracy: 8081/10000 (80.8100%)
+
+
+Epoch: 110
+Epoch: [111/120]	Iters: [50/490]	Loss: 0.9431	MetaLoss:2.0345	Prec@1 42.00	Prec_meta@1 38.00
+Epoch: [111/120]	Iters: [100/490]	Loss: 0.9457	MetaLoss:2.0343	Prec@1 54.00	Prec_meta@1 38.00
+Epoch: [111/120]	Iters: [150/490]	Loss: 0.9450	MetaLoss:2.0363	Prec@1 43.00	Prec_meta@1 50.00
+Epoch: [111/120]	Iters: [200/490]	Loss: 0.9452	MetaLoss:2.0363	Prec@1 35.00	Prec_meta@1 46.00
+Epoch: [111/120]	Iters: [250/490]	Loss: 0.9440	MetaLoss:2.0362	Prec@1 48.00	Prec_meta@1 37.00
+Epoch: [111/120]	Iters: [300/490]	Loss: 0.9463	MetaLoss:2.0367	Prec@1 42.00	Prec_meta@1 45.00
+Epoch: [111/120]	Iters: [350/490]	Loss: 0.9457	MetaLoss:2.0355	Prec@1 43.00	Prec_meta@1 43.00
+Epoch: [111/120]	Iters: [400/490]	Loss: 0.9453	MetaLoss:2.0356	Prec@1 44.00	Prec_meta@1 42.00
+Epoch: [111/120]	Iters: [450/490]	Loss: 0.9450	MetaLoss:2.0351	Prec@1 42.00	Prec_meta@1 45.00
+
+Test set: Average loss: 0.0107, Accuracy: 8039/10000 (80.3900%)
+
+
+Epoch: 111
+Epoch: [112/120]	Iters: [50/490]	Loss: 0.9364	MetaLoss:2.0343	Prec@1 44.00	Prec_meta@1 31.00
+Epoch: [112/120]	Iters: [100/490]	Loss: 0.9372	MetaLoss:2.0371	Prec@1 45.00	Prec_meta@1 41.00
+Epoch: [112/120]	Iters: [150/490]	Loss: 0.9411	MetaLoss:2.0391	Prec@1 48.00	Prec_meta@1 37.00
+Epoch: [112/120]	Iters: [200/490]	Loss: 0.9406	MetaLoss:2.0396	Prec@1 43.00	Prec_meta@1 34.00
+Epoch: [112/120]	Iters: [250/490]	Loss: 0.9398	MetaLoss:2.0400	Prec@1 40.00	Prec_meta@1 38.00
+Epoch: [112/120]	Iters: [300/490]	Loss: 0.9405	MetaLoss:2.0396	Prec@1 32.00	Prec_meta@1 37.00
+Epoch: [112/120]	Iters: [350/490]	Loss: 0.9402	MetaLoss:2.0409	Prec@1 44.00	Prec_meta@1 31.00
+Epoch: [112/120]	Iters: [400/490]	Loss: 0.9395	MetaLoss:2.0406	Prec@1 45.00	Prec_meta@1 40.00
+Epoch: [112/120]	Iters: [450/490]	Loss: 0.9396	MetaLoss:2.0403	Prec@1 42.00	Prec_meta@1 44.00
+
+Test set: Average loss: 0.0107, Accuracy: 8063/10000 (80.6300%)
+
+
+Epoch: 112
+Epoch: [113/120]	Iters: [50/490]	Loss: 0.9328	MetaLoss:2.0315	Prec@1 44.00	Prec_meta@1 35.00
+Epoch: [113/120]	Iters: [100/490]	Loss: 0.9307	MetaLoss:2.0356	Prec@1 49.00	Prec_meta@1 44.00
+Epoch: [113/120]	Iters: [150/490]	Loss: 0.9340	MetaLoss:2.0390	Prec@1 47.00	Prec_meta@1 36.00
+Epoch: [113/120]	Iters: [200/490]	Loss: 0.9321	MetaLoss:2.0388	Prec@1 40.00	Prec_meta@1 42.00
+Epoch: [113/120]	Iters: [250/490]	Loss: 0.9297	MetaLoss:2.0394	Prec@1 42.00	Prec_meta@1 47.00
+Epoch: [113/120]	Iters: [300/490]	Loss: 0.9295	MetaLoss:2.0391	Prec@1 43.00	Prec_meta@1 37.00
+Epoch: [113/120]	Iters: [350/490]	Loss: 0.9297	MetaLoss:2.0395	Prec@1 46.00	Prec_meta@1 46.00
+Epoch: [113/120]	Iters: [400/490]	Loss: 0.9287	MetaLoss:2.0387	Prec@1 42.00	Prec_meta@1 36.00
+Epoch: [113/120]	Iters: [450/490]	Loss: 0.9295	MetaLoss:2.0385	Prec@1 44.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0110, Accuracy: 7988/10000 (79.8800%)
+
+
+Epoch: 113
+Epoch: [114/120]	Iters: [50/490]	Loss: 0.9203	MetaLoss:2.0455	Prec@1 43.00	Prec_meta@1 32.00
+Epoch: [114/120]	Iters: [100/490]	Loss: 0.9319	MetaLoss:2.0427	Prec@1 34.00	Prec_meta@1 40.00
+Epoch: [114/120]	Iters: [150/490]	Loss: 0.9295	MetaLoss:2.0405	Prec@1 47.00	Prec_meta@1 31.00
+Epoch: [114/120]	Iters: [200/490]	Loss: 0.9315	MetaLoss:2.0421	Prec@1 35.00	Prec_meta@1 43.00
+Epoch: [114/120]	Iters: [250/490]	Loss: 0.9329	MetaLoss:2.0418	Prec@1 45.00	Prec_meta@1 44.00
+Epoch: [114/120]	Iters: [300/490]	Loss: 0.9334	MetaLoss:2.0428	Prec@1 46.00	Prec_meta@1 39.00
+Epoch: [114/120]	Iters: [350/490]	Loss: 0.9331	MetaLoss:2.0426	Prec@1 39.00	Prec_meta@1 37.00
+Epoch: [114/120]	Iters: [400/490]	Loss: 0.9340	MetaLoss:2.0428	Prec@1 43.00	Prec_meta@1 36.00
+Epoch: [114/120]	Iters: [450/490]	Loss: 0.9340	MetaLoss:2.0426	Prec@1 47.00	Prec_meta@1 39.00
+
+Test set: Average loss: 0.0107, Accuracy: 8015/10000 (80.1500%)
+
+
+Epoch: 114
+Epoch: [115/120]	Iters: [50/490]	Loss: 0.9277	MetaLoss:2.0426	Prec@1 43.00	Prec_meta@1 42.00
+Epoch: [115/120]	Iters: [100/490]	Loss: 0.9256	MetaLoss:2.0410	Prec@1 52.00	Prec_meta@1 41.00
+Epoch: [115/120]	Iters: [150/490]	Loss: 0.9279	MetaLoss:2.0410	Prec@1 39.00	Prec_meta@1 40.00
+Epoch: [115/120]	Iters: [200/490]	Loss: 0.9290	MetaLoss:2.0412	Prec@1 40.00	Prec_meta@1 35.00
+Epoch: [115/120]	Iters: [250/490]	Loss: 0.9273	MetaLoss:2.0406	Prec@1 56.00	Prec_meta@1 42.00
+Epoch: [115/120]	Iters: [300/490]	Loss: 0.9298	MetaLoss:2.0405	Prec@1 44.00	Prec_meta@1 45.00
+Epoch: [115/120]	Iters: [350/490]	Loss: 0.9314	MetaLoss:2.0409	Prec@1 43.00	Prec_meta@1 44.00
+Epoch: [115/120]	Iters: [400/490]	Loss: 0.9335	MetaLoss:2.0413	Prec@1 49.00	Prec_meta@1 40.00
+Epoch: [115/120]	Iters: [450/490]	Loss: 0.9332	MetaLoss:2.0417	Prec@1 46.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0108, Accuracy: 7988/10000 (79.8800%)
+
+
+Epoch: 115
+Epoch: [116/120]	Iters: [50/490]	Loss: 0.9452	MetaLoss:2.0477	Prec@1 40.00	Prec_meta@1 27.00
+Epoch: [116/120]	Iters: [100/490]	Loss: 0.9490	MetaLoss:2.0402	Prec@1 54.00	Prec_meta@1 33.00
+Epoch: [116/120]	Iters: [150/490]	Loss: 0.9435	MetaLoss:2.0403	Prec@1 50.00	Prec_meta@1 35.00
+Epoch: [116/120]	Iters: [200/490]	Loss: 0.9425	MetaLoss:2.0424	Prec@1 44.00	Prec_meta@1 38.00
+Epoch: [116/120]	Iters: [250/490]	Loss: 0.9403	MetaLoss:2.0420	Prec@1 40.00	Prec_meta@1 39.00
+Epoch: [116/120]	Iters: [300/490]	Loss: 0.9386	MetaLoss:2.0436	Prec@1 47.00	Prec_meta@1 34.00
+Epoch: [116/120]	Iters: [350/490]	Loss: 0.9394	MetaLoss:2.0442	Prec@1 48.00	Prec_meta@1 44.00
+Epoch: [116/120]	Iters: [400/490]	Loss: 0.9391	MetaLoss:2.0450	Prec@1 42.00	Prec_meta@1 39.00
+Epoch: [116/120]	Iters: [450/490]	Loss: 0.9400	MetaLoss:2.0460	Prec@1 35.00	Prec_meta@1 40.00
+
+Test set: Average loss: 0.0110, Accuracy: 7955/10000 (79.5500%)
+
+
+Epoch: 116
+Epoch: [117/120]	Iters: [50/490]	Loss: 0.9400	MetaLoss:2.0550	Prec@1 43.00	Prec_meta@1 34.00
+Epoch: [117/120]	Iters: [100/490]	Loss: 0.9438	MetaLoss:2.0530	Prec@1 62.00	Prec_meta@1 43.00
+Epoch: [117/120]	Iters: [150/490]	Loss: 0.9447	MetaLoss:2.0531	Prec@1 48.00	Prec_meta@1 39.00
+Epoch: [117/120]	Iters: [200/490]	Loss: 0.9447	MetaLoss:2.0540	Prec@1 41.00	Prec_meta@1 39.00
+Epoch: [117/120]	Iters: [250/490]	Loss: 0.9425	MetaLoss:2.0528	Prec@1 40.00	Prec_meta@1 36.00
+Epoch: [117/120]	Iters: [300/490]	Loss: 0.9397	MetaLoss:2.0519	Prec@1 45.00	Prec_meta@1 44.00
+Epoch: [117/120]	Iters: [350/490]	Loss: 0.9411	MetaLoss:2.0519	Prec@1 41.00	Prec_meta@1 42.00
+Epoch: [117/120]	Iters: [400/490]	Loss: 0.9403	MetaLoss:2.0511	Prec@1 48.00	Prec_meta@1 40.00
+Epoch: [117/120]	Iters: [450/490]	Loss: 0.9403	MetaLoss:2.0505	Prec@1 40.00	Prec_meta@1 31.00
+
+Test set: Average loss: 0.0110, Accuracy: 7973/10000 (79.7300%)
+
+
+Epoch: 117
+Epoch: [118/120]	Iters: [50/490]	Loss: 0.9309	MetaLoss:2.0524	Prec@1 44.00	Prec_meta@1 44.00
+Epoch: [118/120]	Iters: [100/490]	Loss: 0.9265	MetaLoss:2.0502	Prec@1 48.00	Prec_meta@1 43.00
+Epoch: [118/120]	Iters: [150/490]	Loss: 0.9273	MetaLoss:2.0510	Prec@1 42.00	Prec_meta@1 40.00
+Epoch: [118/120]	Iters: [200/490]	Loss: 0.9280	MetaLoss:2.0497	Prec@1 50.00	Prec_meta@1 32.00
+Epoch: [118/120]	Iters: [250/490]	Loss: 0.9284	MetaLoss:2.0513	Prec@1 49.00	Prec_meta@1 33.00
+Epoch: [118/120]	Iters: [300/490]	Loss: 0.9288	MetaLoss:2.0506	Prec@1 44.00	Prec_meta@1 31.00
+Epoch: [118/120]	Iters: [350/490]	Loss: 0.9296	MetaLoss:2.0523	Prec@1 54.00	Prec_meta@1 43.00
+Epoch: [118/120]	Iters: [400/490]	Loss: 0.9306	MetaLoss:2.0529	Prec@1 50.00	Prec_meta@1 32.00
+Epoch: [118/120]	Iters: [450/490]	Loss: 0.9304	MetaLoss:2.0529	Prec@1 44.00	Prec_meta@1 43.00
+
+Test set: Average loss: 0.0111, Accuracy: 7943/10000 (79.4300%)
+
+
+Epoch: 118
+Epoch: [119/120]	Iters: [50/490]	Loss: 0.9188	MetaLoss:2.0499	Prec@1 42.00	Prec_meta@1 35.00
+Epoch: [119/120]	Iters: [100/490]	Loss: 0.9284	MetaLoss:2.0535	Prec@1 34.00	Prec_meta@1 39.00
+Epoch: [119/120]	Iters: [150/490]	Loss: 0.9335	MetaLoss:2.0559	Prec@1 45.00	Prec_meta@1 32.00
+Epoch: [119/120]	Iters: [200/490]	Loss: 0.9292	MetaLoss:2.0559	Prec@1 44.00	Prec_meta@1 36.00
+Epoch: [119/120]	Iters: [250/490]	Loss: 0.9288	MetaLoss:2.0550	Prec@1 42.00	Prec_meta@1 30.00
+Epoch: [119/120]	Iters: [300/490]	Loss: 0.9281	MetaLoss:2.0536	Prec@1 45.00	Prec_meta@1 39.00
+Epoch: [119/120]	Iters: [350/490]	Loss: 0.9307	MetaLoss:2.0527	Prec@1 44.00	Prec_meta@1 37.00
+Epoch: [119/120]	Iters: [400/490]	Loss: 0.9288	MetaLoss:2.0531	Prec@1 42.00	Prec_meta@1 45.00
+Epoch: [119/120]	Iters: [450/490]	Loss: 0.9284	MetaLoss:2.0534	Prec@1 33.00	Prec_meta@1 43.00
+
+Test set: Average loss: 0.0110, Accuracy: 7920/10000 (79.2000%)
+
+
+Epoch: 119
+Epoch: [120/120]	Iters: [50/490]	Loss: 0.9227	MetaLoss:2.0504	Prec@1 44.00	Prec_meta@1 38.00
+Epoch: [120/120]	Iters: [100/490]	Loss: 0.9179	MetaLoss:2.0494	Prec@1 47.00	Prec_meta@1 41.00
+Epoch: [120/120]	Iters: [150/490]	Loss: 0.9203	MetaLoss:2.0511	Prec@1 43.00	Prec_meta@1 26.00
+Epoch: [120/120]	Iters: [200/490]	Loss: 0.9203	MetaLoss:2.0499	Prec@1 45.00	Prec_meta@1 35.00
+Epoch: [120/120]	Iters: [250/490]	Loss: 0.9187	MetaLoss:2.0519	Prec@1 44.00	Prec_meta@1 38.00
+Epoch: [120/120]	Iters: [300/490]	Loss: 0.9167	MetaLoss:2.0519	Prec@1 46.00	Prec_meta@1 32.00
+Epoch: [120/120]	Iters: [350/490]	Loss: 0.9166	MetaLoss:2.0522	Prec@1 42.00	Prec_meta@1 27.00
+Epoch: [120/120]	Iters: [400/490]	Loss: 0.9169	MetaLoss:2.0523	Prec@1 47.00	Prec_meta@1 31.00
+Epoch: [120/120]	Iters: [450/490]	Loss: 0.9174	MetaLoss:2.0528	Prec@1 42.00	Prec_meta@1 38.00
+
+Test set: Average loss: 0.0111, Accuracy: 7935/10000 (79.3500%)
+
+best accuracy: 82.23

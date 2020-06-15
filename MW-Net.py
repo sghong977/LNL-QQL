@@ -34,10 +34,16 @@ writer = SummaryWriter('runs/CIFAR10_experiment_1')
 parser = argparse.ArgumentParser(description='PyTorch WideResNet Training')
 parser.add_argument('--dataset', default='cifar10', type=str,
                     help='dataset (cifar10 [default] or cifar100)')
-parser.add_argument('--corruption_prob', type=float, default=0.4,
-                    help='label noise')
-parser.add_argument('--corruption_type', '-ctype', type=str, default='unif',
-                    help='Type of corruption ("unif" or "flip" or "flip2").')
+# corruption level and type
+parser.add_argument('--corruption_prob_meta', type=float, default=0.4,
+                    help='meta label noise')
+parser.add_argument('--corruption_prob_train', type=float, default=0.4,
+                    help='train label noise')
+parser.add_argument('--corruption_type_meta', type=str, default='unif',
+                    help='Type of meta corruption ("unif" or "flip" or "flip2").')
+parser.add_argument('--corruption_type_train', '-ctype', type=str, default='unif',
+                    help='Type of train corruption ("unif" or "flip" or "flip2").')
+
 parser.add_argument('--num_meta', type=int, default=1000)
 parser.add_argument('--epochs', default=120, type=int,
                     help='number of total epochs to run')
@@ -106,21 +112,29 @@ def build_dataset():
 
     if args.dataset == 'cifar10':
         train_data_meta = CIFAR10(
-            root='../data', train=True, meta=True, num_meta=args.num_meta, corruption_prob=args.corruption_prob,
-            corruption_type=args.corruption_type, transform=train_transform, download=True)
+            root='../data', train=True, meta=True, num_meta=args.num_meta,
+            corruption_prob_meta=args.corruption_prob_meta, corruption_prob_train=args.corruption_prob_train,
+            corruption_type_meta=args.corruption_type_meta, corruption_type_train=args.corruption_type_train, 
+            transform=train_transform, download=True)
         train_data = CIFAR10(
-            root='../data', train=True, meta=False, num_meta=args.num_meta, corruption_prob=args.corruption_prob,
-            corruption_type=args.corruption_type, transform=train_transform, download=True, seed=args.seed)
+            root='../data', train=True, meta=False, num_meta=args.num_meta,
+            corruption_prob_meta=args.corruption_prob_meta, corruption_prob_train=args.corruption_prob_train,
+            corruption_type_meta=args.corruption_type_meta, corruption_type_train=args.corruption_type_train, 
+            transform=train_transform, download=True, seed=args.seed)
         test_data = CIFAR10(root='../data', train=False, transform=test_transform, download=True)
 
 
     elif args.dataset == 'cifar100':
         train_data_meta = CIFAR100(
-            root='../data', train=True, meta=True, num_meta=args.num_meta, corruption_prob=args.corruption_prob,
-            corruption_type=args.corruption_type, transform=train_transform, download=True)
+            root='../data', train=True, meta=True, num_meta=args.num_meta,
+            corruption_prob_meta=args.corruption_prob_meta, corruption_prob_train=args.corruption_prob_train,
+            corruption_type_meta=args.corruption_type_meta, corruption_type_train=args.corruption_type_train, 
+            transform=train_transform, download=True)
         train_data = CIFAR100(
-            root='../data', train=True, meta=False, num_meta=args.num_meta, corruption_prob=args.corruption_prob,
-            corruption_type=args.corruption_type, transform=train_transform, download=True, seed=args.seed)
+            root='../data', train=True, meta=False, num_meta=args.num_meta,
+            corruption_prob_meta=args.corruption_prob_meta, corruption_prob_train=args.corruption_prob_train,
+            corruption_type_meta=args.corruption_type_meta, corruption_type_train=args.corruption_type_train, 
+            transform=train_transform, download=True, seed=args.seed)
         test_data = CIFAR100(root='../data', train=False, transform=test_transform, download=True)
 
 
@@ -167,7 +181,7 @@ def adjust_learning_rate(optimizer, epochs):
         param_group['lr'] = lr
 
 
-
+# accuracy measured on test data
 def test(model, test_loader):
     model.eval()
     correct = 0
@@ -266,8 +280,8 @@ def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_v
                   'Iters: [%d/%d]\t'
                   'Loss: %.4f\t'
                   'MetaLoss:%.4f\t'
-                  'Prec@1 %.2f\t'
-                  'Prec_meta@1 %.2f' % (
+                  'Accuracy_TrainData@1 %.2f\t'
+                  'Accuracy_MetaData@1 %.2f' % (
                       (epoch + 1), args.epochs, batch_idx + 1, len(train_loader.dataset)/args.batch_size,
                       (train_loss / (batch_idx + 1)),(meta_loss / (batch_idx + 1)), prec_train, prec_meta))
 
@@ -277,10 +291,10 @@ def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_v
             writer.add_scalar('MetaLoss',
                             (meta_loss / (batch_idx + 1)),
                             epoch * len(train_loader) + batch_idx)
-            writer.add_scalar('Precision_MetaData',
+            writer.add_scalar('Accuracy_MetaData',
                             prec_train,
                             epoch * len(train_loader) + batch_idx)
-            writer.add_scalar('Precision_TrainData',
+            writer.add_scalar('Accuracy_TrainData',
                             prec_meta,
                             epoch * len(train_loader) + batch_idx)
             # visualize
@@ -315,20 +329,35 @@ def select_n_random(data, labels, n=100):
 
 def main():
     best_acc = 0
+    results = []
     for epoch in range(args.epochs):
         adjust_learning_rate(optimizer_model, epoch)
         train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_vnet,epoch)
         test_acc = test(model=model, test_loader=test_loader)
         if test_acc >= best_acc:
             best_acc = test_acc
-                
+
+        results.append(test_acc)
         # write test acc
         writer.add_scalar('TestAccuracy',
                         test_acc,
                         epoch)
+        print("EPOCH"+ str(epoch)+" TEST ACCURACY" + str(test_acc))
 
     print('best accuracy:', best_acc)
 
+    #-------- write result file------
+    m_type = args.corruption_type_meta
+    t_type = args.corruption_type_train
+    m_rate = str(args.corruption_prob_meta)
+    t_rate = str(args.corruption_prob_train)
+    timestr = "./results/" + args.data + m_type + m_rate+ t_type + t_rate + time.strftime("%Y%m%d-%H%M%S")
+    with open(timestr+'.txt', 'w') as f:
+        f.write("Dataset:" + args.dataset + '\n')
+        f.write("Meta Label Corruption" + m_type + m_rate + '\n')
+        f.write("Train Label Corruption" + t_type + t_rate + '\n')
+        for i in results:
+            f.write("%s " % round(i,5))
 
 if __name__ == '__main__':
     main()
