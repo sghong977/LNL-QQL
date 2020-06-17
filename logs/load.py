@@ -42,6 +42,7 @@ for i in range(len(filename)):
     plt.title(titles[i])
     x = [i for i in range(1,121)]
     plt.plot(x, list_read)
+    plt.grid()
     plt.savefig(titles[i]+".png")
     plt.cla()
 
@@ -54,4 +55,5 @@ for i in range(len(filename)):
     plt.title("compare test accuracy")
     plt.plot(x, results[i], alpha=0.5, label=titles[i], color=colors[i])
 plt.legend()
+plt.grid()
 plt.savefig("entire.png")
