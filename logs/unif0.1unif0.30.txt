@@ -1626,3 +1626,203 @@ Epoch: [107/120]	Iters: [300/490]	Loss: 0.2822	MetaLoss:0.6519	Accuracy_TrainDat
 Epoch: [107/120]	Iters: [350/490]	Loss: 0.2819	MetaLoss:0.6522	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 83.00
 Epoch: [107/120]	Iters: [400/490]	Loss: 0.2815	MetaLoss:0.6527	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 86.00
 Epoch: [107/120]	Iters: [450/490]	Loss: 0.2798	MetaLoss:0.6517	Accuracy_TrainData@1 64.00	Accuracy_MetaData@1 83.00
+
+Test set: Average loss: 0.0041, Accuracy: 8871/10000 (88.7100%)
+
+EPOCH106 TEST ACCURACY88.71
+
+Epoch: 107
+Epoch: [108/120]	Iters: [50/490]	Loss: 0.2635	MetaLoss:0.6525	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 88.00
+Epoch: [108/120]	Iters: [100/490]	Loss: 0.2561	MetaLoss:0.6528	Accuracy_TrainData@1 78.00	Accuracy_MetaData@1 86.00
+Epoch: [108/120]	Iters: [150/490]	Loss: 0.2555	MetaLoss:0.6564	Accuracy_TrainData@1 65.00	Accuracy_MetaData@1 88.00
+Epoch: [108/120]	Iters: [200/490]	Loss: 0.2591	MetaLoss:0.6591	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 90.00
+Epoch: [108/120]	Iters: [250/490]	Loss: 0.2596	MetaLoss:0.6591	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 81.00
+Epoch: [108/120]	Iters: [300/490]	Loss: 0.2597	MetaLoss:0.6575	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 88.00
+Epoch: [108/120]	Iters: [350/490]	Loss: 0.2584	MetaLoss:0.6561	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 81.00
+Epoch: [108/120]	Iters: [400/490]	Loss: 0.2564	MetaLoss:0.6561	Accuracy_TrainData@1 65.00	Accuracy_MetaData@1 87.00
+Epoch: [108/120]	Iters: [450/490]	Loss: 0.2563	MetaLoss:0.6565	Accuracy_TrainData@1 83.00	Accuracy_MetaData@1 78.00
+
+Test set: Average loss: 0.0041, Accuracy: 8857/10000 (88.5700%)
+
+EPOCH107 TEST ACCURACY88.57
+
+Epoch: 108
+Epoch: [109/120]	Iters: [50/490]	Loss: 0.2666	MetaLoss:0.6480	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 88.00
+Epoch: [109/120]	Iters: [100/490]	Loss: 0.2746	MetaLoss:0.6501	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 83.00
+Epoch: [109/120]	Iters: [150/490]	Loss: 0.2794	MetaLoss:0.6542	Accuracy_TrainData@1 68.00	Accuracy_MetaData@1 84.00
+Epoch: [109/120]	Iters: [200/490]	Loss: 0.2814	MetaLoss:0.6566	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 78.00
+Epoch: [109/120]	Iters: [250/490]	Loss: 0.2797	MetaLoss:0.6597	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 82.00
+Epoch: [109/120]	Iters: [300/490]	Loss: 0.2752	MetaLoss:0.6597	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 83.00
+Epoch: [109/120]	Iters: [350/490]	Loss: 0.2725	MetaLoss:0.6590	Accuracy_TrainData@1 83.00	Accuracy_MetaData@1 86.00
+Epoch: [109/120]	Iters: [400/490]	Loss: 0.2694	MetaLoss:0.6573	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 85.00
+Epoch: [109/120]	Iters: [450/490]	Loss: 0.2673	MetaLoss:0.6556	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 84.00
+
+Test set: Average loss: 0.0042, Accuracy: 8855/10000 (88.5500%)
+
+EPOCH108 TEST ACCURACY88.55
+
+Epoch: 109
+Epoch: [110/120]	Iters: [50/490]	Loss: 0.2331	MetaLoss:0.6483	Accuracy_TrainData@1 68.00	Accuracy_MetaData@1 88.00
+Epoch: [110/120]	Iters: [100/490]	Loss: 0.2390	MetaLoss:0.6459	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 84.00
+Epoch: [110/120]	Iters: [150/490]	Loss: 0.2463	MetaLoss:0.6496	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 87.00
+Epoch: [110/120]	Iters: [200/490]	Loss: 0.2489	MetaLoss:0.6517	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 76.00
+Epoch: [110/120]	Iters: [250/490]	Loss: 0.2489	MetaLoss:0.6517	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 84.00
+Epoch: [110/120]	Iters: [300/490]	Loss: 0.2484	MetaLoss:0.6528	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 88.00
+Epoch: [110/120]	Iters: [350/490]	Loss: 0.2468	MetaLoss:0.6529	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 78.00
+Epoch: [110/120]	Iters: [400/490]	Loss: 0.2462	MetaLoss:0.6524	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 85.00
+Epoch: [110/120]	Iters: [450/490]	Loss: 0.2463	MetaLoss:0.6516	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 88.00
+
+Test set: Average loss: 0.0042, Accuracy: 8849/10000 (88.4900%)
+
+EPOCH109 TEST ACCURACY88.49
+
+Epoch: 110
+Epoch: [111/120]	Iters: [50/490]	Loss: 0.2567	MetaLoss:0.6490	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 82.00
+Epoch: [111/120]	Iters: [100/490]	Loss: 0.2588	MetaLoss:0.6527	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 92.00
+Epoch: [111/120]	Iters: [150/490]	Loss: 0.2560	MetaLoss:0.6565	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 82.00
+Epoch: [111/120]	Iters: [200/490]	Loss: 0.2530	MetaLoss:0.6555	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 88.00
+Epoch: [111/120]	Iters: [250/490]	Loss: 0.2523	MetaLoss:0.6567	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 84.00
+Epoch: [111/120]	Iters: [300/490]	Loss: 0.2512	MetaLoss:0.6577	Accuracy_TrainData@1 79.00	Accuracy_MetaData@1 92.00
+Epoch: [111/120]	Iters: [350/490]	Loss: 0.2484	MetaLoss:0.6565	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 87.00
+Epoch: [111/120]	Iters: [400/490]	Loss: 0.2454	MetaLoss:0.6557	Accuracy_TrainData@1 64.00	Accuracy_MetaData@1 87.00
+Epoch: [111/120]	Iters: [450/490]	Loss: 0.2448	MetaLoss:0.6551	Accuracy_TrainData@1 79.00	Accuracy_MetaData@1 85.00
+
+Test set: Average loss: 0.0041, Accuracy: 8829/10000 (88.2900%)
+
+EPOCH110 TEST ACCURACY88.29
+
+Epoch: 111
+Epoch: [112/120]	Iters: [50/490]	Loss: 0.2604	MetaLoss:0.6573	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 91.00
+Epoch: [112/120]	Iters: [100/490]	Loss: 0.2623	MetaLoss:0.6567	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 89.00
+Epoch: [112/120]	Iters: [150/490]	Loss: 0.2638	MetaLoss:0.6556	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 87.00
+Epoch: [112/120]	Iters: [200/490]	Loss: 0.2576	MetaLoss:0.6525	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 83.00
+Epoch: [112/120]	Iters: [250/490]	Loss: 0.2545	MetaLoss:0.6529	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 84.00
+Epoch: [112/120]	Iters: [300/490]	Loss: 0.2528	MetaLoss:0.6526	Accuracy_TrainData@1 60.00	Accuracy_MetaData@1 85.00
+Epoch: [112/120]	Iters: [350/490]	Loss: 0.2508	MetaLoss:0.6530	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 83.00
+Epoch: [112/120]	Iters: [400/490]	Loss: 0.2513	MetaLoss:0.6535	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 83.00
+Epoch: [112/120]	Iters: [450/490]	Loss: 0.2528	MetaLoss:0.6543	Accuracy_TrainData@1 80.00	Accuracy_MetaData@1 85.00
+
+Test set: Average loss: 0.0042, Accuracy: 8840/10000 (88.4000%)
+
+EPOCH111 TEST ACCURACY88.4
+
+Epoch: 112
+Epoch: [113/120]	Iters: [50/490]	Loss: 0.2733	MetaLoss:0.6547	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 83.00
+Epoch: [113/120]	Iters: [100/490]	Loss: 0.2554	MetaLoss:0.6562	Accuracy_TrainData@1 82.00	Accuracy_MetaData@1 86.00
+Epoch: [113/120]	Iters: [150/490]	Loss: 0.2426	MetaLoss:0.6559	Accuracy_TrainData@1 80.00	Accuracy_MetaData@1 82.00
+Epoch: [113/120]	Iters: [200/490]	Loss: 0.2375	MetaLoss:0.6524	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 91.00
+Epoch: [113/120]	Iters: [250/490]	Loss: 0.2369	MetaLoss:0.6534	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 85.00
+Epoch: [113/120]	Iters: [300/490]	Loss: 0.2404	MetaLoss:0.6553	Accuracy_TrainData@1 64.00	Accuracy_MetaData@1 81.00
+Epoch: [113/120]	Iters: [350/490]	Loss: 0.2429	MetaLoss:0.6556	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 87.00
+Epoch: [113/120]	Iters: [400/490]	Loss: 0.2455	MetaLoss:0.6543	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 85.00
+Epoch: [113/120]	Iters: [450/490]	Loss: 0.2466	MetaLoss:0.6545	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 92.00
+
+Test set: Average loss: 0.0042, Accuracy: 8839/10000 (88.3900%)
+
+EPOCH112 TEST ACCURACY88.39
+
+Epoch: 113
+Epoch: [114/120]	Iters: [50/490]	Loss: 0.2196	MetaLoss:0.6527	Accuracy_TrainData@1 78.00	Accuracy_MetaData@1 85.00
+Epoch: [114/120]	Iters: [100/490]	Loss: 0.2399	MetaLoss:0.6490	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 88.00
+Epoch: [114/120]	Iters: [150/490]	Loss: 0.2477	MetaLoss:0.6498	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 92.00
+Epoch: [114/120]	Iters: [200/490]	Loss: 0.2465	MetaLoss:0.6528	Accuracy_TrainData@1 65.00	Accuracy_MetaData@1 86.00
+Epoch: [114/120]	Iters: [250/490]	Loss: 0.2439	MetaLoss:0.6539	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 79.00
+Epoch: [114/120]	Iters: [300/490]	Loss: 0.2417	MetaLoss:0.6541	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 83.00
+Epoch: [114/120]	Iters: [350/490]	Loss: 0.2380	MetaLoss:0.6526	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 87.00
+Epoch: [114/120]	Iters: [400/490]	Loss: 0.2362	MetaLoss:0.6515	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 86.00
+Epoch: [114/120]	Iters: [450/490]	Loss: 0.2376	MetaLoss:0.6510	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 89.00
+
+Test set: Average loss: 0.0043, Accuracy: 8823/10000 (88.2300%)
+
+EPOCH113 TEST ACCURACY88.23
+
+Epoch: 114
+Epoch: [115/120]	Iters: [50/490]	Loss: 0.2217	MetaLoss:0.6511	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 86.00
+Epoch: [115/120]	Iters: [100/490]	Loss: 0.2161	MetaLoss:0.6559	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 90.00
+Epoch: [115/120]	Iters: [150/490]	Loss: 0.2244	MetaLoss:0.6541	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 86.00
+Epoch: [115/120]	Iters: [200/490]	Loss: 0.2292	MetaLoss:0.6558	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 84.00
+Epoch: [115/120]	Iters: [250/490]	Loss: 0.2295	MetaLoss:0.6543	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 87.00
+Epoch: [115/120]	Iters: [300/490]	Loss: 0.2318	MetaLoss:0.6558	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 90.00
+Epoch: [115/120]	Iters: [350/490]	Loss: 0.2299	MetaLoss:0.6559	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 86.00
+Epoch: [115/120]	Iters: [400/490]	Loss: 0.2296	MetaLoss:0.6548	Accuracy_TrainData@1 75.00	Accuracy_MetaData@1 88.00
+Epoch: [115/120]	Iters: [450/490]	Loss: 0.2302	MetaLoss:0.6545	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 90.00
+
+Test set: Average loss: 0.0042, Accuracy: 8841/10000 (88.4100%)
+
+EPOCH114 TEST ACCURACY88.41
+
+Epoch: 115
+Epoch: [116/120]	Iters: [50/490]	Loss: 0.2324	MetaLoss:0.6638	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 78.00
+Epoch: [116/120]	Iters: [100/490]	Loss: 0.2356	MetaLoss:0.6600	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 88.00
+Epoch: [116/120]	Iters: [150/490]	Loss: 0.2365	MetaLoss:0.6579	Accuracy_TrainData@1 79.00	Accuracy_MetaData@1 83.00
+Epoch: [116/120]	Iters: [200/490]	Loss: 0.2331	MetaLoss:0.6568	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 84.00
+Epoch: [116/120]	Iters: [250/490]	Loss: 0.2348	MetaLoss:0.6564	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 82.00
+Epoch: [116/120]	Iters: [300/490]	Loss: 0.2379	MetaLoss:0.6567	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 87.00
+Epoch: [116/120]	Iters: [350/490]	Loss: 0.2394	MetaLoss:0.6560	Accuracy_TrainData@1 80.00	Accuracy_MetaData@1 90.00
+Epoch: [116/120]	Iters: [400/490]	Loss: 0.2405	MetaLoss:0.6558	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 90.00
+Epoch: [116/120]	Iters: [450/490]	Loss: 0.2432	MetaLoss:0.6547	Accuracy_TrainData@1 63.00	Accuracy_MetaData@1 86.00
+
+Test set: Average loss: 0.0044, Accuracy: 8812/10000 (88.1200%)
+
+EPOCH115 TEST ACCURACY88.12
+
+Epoch: 116
+Epoch: [117/120]	Iters: [50/490]	Loss: 0.2167	MetaLoss:0.6634	Accuracy_TrainData@1 68.00	Accuracy_MetaData@1 83.00
+Epoch: [117/120]	Iters: [100/490]	Loss: 0.2157	MetaLoss:0.6583	Accuracy_TrainData@1 78.00	Accuracy_MetaData@1 90.00
+Epoch: [117/120]	Iters: [150/490]	Loss: 0.2245	MetaLoss:0.6565	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 84.00
+Epoch: [117/120]	Iters: [200/490]	Loss: 0.2317	MetaLoss:0.6554	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 86.00
+Epoch: [117/120]	Iters: [250/490]	Loss: 0.2380	MetaLoss:0.6568	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 84.00
+Epoch: [117/120]	Iters: [300/490]	Loss: 0.2405	MetaLoss:0.6559	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 83.00
+Epoch: [117/120]	Iters: [350/490]	Loss: 0.2412	MetaLoss:0.6574	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 87.00
+Epoch: [117/120]	Iters: [400/490]	Loss: 0.2382	MetaLoss:0.6582	Accuracy_TrainData@1 77.00	Accuracy_MetaData@1 88.00
+Epoch: [117/120]	Iters: [450/490]	Loss: 0.2354	MetaLoss:0.6570	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 87.00
+
+Test set: Average loss: 0.0042, Accuracy: 8827/10000 (88.2700%)
+
+EPOCH116 TEST ACCURACY88.27
+
+Epoch: 117
+Epoch: [118/120]	Iters: [50/490]	Loss: 0.2424	MetaLoss:0.6466	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 90.00
+Epoch: [118/120]	Iters: [100/490]	Loss: 0.2531	MetaLoss:0.6491	Accuracy_TrainData@1 65.00	Accuracy_MetaData@1 89.00
+Epoch: [118/120]	Iters: [150/490]	Loss: 0.2554	MetaLoss:0.6501	Accuracy_TrainData@1 66.00	Accuracy_MetaData@1 85.00
+Epoch: [118/120]	Iters: [200/490]	Loss: 0.2529	MetaLoss:0.6510	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 85.00
+Epoch: [118/120]	Iters: [250/490]	Loss: 0.2477	MetaLoss:0.6518	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 87.00
+Epoch: [118/120]	Iters: [300/490]	Loss: 0.2446	MetaLoss:0.6535	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 85.00
+Epoch: [118/120]	Iters: [350/490]	Loss: 0.2428	MetaLoss:0.6549	Accuracy_TrainData@1 78.00	Accuracy_MetaData@1 87.00
+Epoch: [118/120]	Iters: [400/490]	Loss: 0.2420	MetaLoss:0.6558	Accuracy_TrainData@1 79.00	Accuracy_MetaData@1 90.00
+Epoch: [118/120]	Iters: [450/490]	Loss: 0.2418	MetaLoss:0.6557	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 84.00
+
+Test set: Average loss: 0.0043, Accuracy: 8805/10000 (88.0500%)
+
+EPOCH117 TEST ACCURACY88.05
+
+Epoch: 118
+Epoch: [119/120]	Iters: [50/490]	Loss: 0.2614	MetaLoss:0.6680	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 88.00
+Epoch: [119/120]	Iters: [100/490]	Loss: 0.2512	MetaLoss:0.6654	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 87.00
+Epoch: [119/120]	Iters: [150/490]	Loss: 0.2439	MetaLoss:0.6614	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 78.00
+Epoch: [119/120]	Iters: [200/490]	Loss: 0.2400	MetaLoss:0.6612	Accuracy_TrainData@1 67.00	Accuracy_MetaData@1 90.00
+Epoch: [119/120]	Iters: [250/490]	Loss: 0.2346	MetaLoss:0.6573	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 86.00
+Epoch: [119/120]	Iters: [300/490]	Loss: 0.2313	MetaLoss:0.6591	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 88.00
+Epoch: [119/120]	Iters: [350/490]	Loss: 0.2303	MetaLoss:0.6578	Accuracy_TrainData@1 73.00	Accuracy_MetaData@1 80.00
+Epoch: [119/120]	Iters: [400/490]	Loss: 0.2279	MetaLoss:0.6587	Accuracy_TrainData@1 70.00	Accuracy_MetaData@1 89.00
+Epoch: [119/120]	Iters: [450/490]	Loss: 0.2264	MetaLoss:0.6585	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 88.00
+
+Test set: Average loss: 0.0042, Accuracy: 8815/10000 (88.1500%)
+
+EPOCH118 TEST ACCURACY88.15
+
+Epoch: 119
+Epoch: [120/120]	Iters: [50/490]	Loss: 0.2237	MetaLoss:0.6502	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 90.00
+Epoch: [120/120]	Iters: [100/490]	Loss: 0.2324	MetaLoss:0.6533	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 86.00
+Epoch: [120/120]	Iters: [150/490]	Loss: 0.2348	MetaLoss:0.6555	Accuracy_TrainData@1 71.00	Accuracy_MetaData@1 83.00
+Epoch: [120/120]	Iters: [200/490]	Loss: 0.2354	MetaLoss:0.6591	Accuracy_TrainData@1 78.00	Accuracy_MetaData@1 81.00
+Epoch: [120/120]	Iters: [250/490]	Loss: 0.2352	MetaLoss:0.6586	Accuracy_TrainData@1 69.00	Accuracy_MetaData@1 86.00
+Epoch: [120/120]	Iters: [300/490]	Loss: 0.2362	MetaLoss:0.6580	Accuracy_TrainData@1 74.00	Accuracy_MetaData@1 86.00
+Epoch: [120/120]	Iters: [350/490]	Loss: 0.2382	MetaLoss:0.6571	Accuracy_TrainData@1 72.00	Accuracy_MetaData@1 87.00
+Epoch: [120/120]	Iters: [400/490]	Loss: 0.2365	MetaLoss:0.6570	Accuracy_TrainData@1 76.00	Accuracy_MetaData@1 89.00
+Epoch: [120/120]	Iters: [450/490]	Loss: 0.2342	MetaLoss:0.6581	Accuracy_TrainData@1 64.00	Accuracy_MetaData@1 83.00
+
+Test set: Average loss: 0.0043, Accuracy: 8803/10000 (88.0300%)
+
+EPOCH119 TEST ACCURACY88.03
+best accuracy: 88.87

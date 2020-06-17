@@ -86,6 +86,11 @@ device = torch.device("cuda" if use_cuda else "cpu")
 print()
 print(args)
 
+m_type = args.corruption_type_meta
+t_type = args.corruption_type_train
+m_rate = str(args.corruption_prob_meta)
+t_rate = str(args.corruption_prob_train)
+
 def build_dataset():
     normalize = transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
                                      std=[x / 255.0 for x in [63.0, 62.1, 66.7]])
