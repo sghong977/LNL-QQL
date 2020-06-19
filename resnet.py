@@ -189,6 +189,12 @@ class MetaBatchNorm2d(MetaModule):
     def named_leaves(self):
         return [('weight', self.weight), ('bias', self.bias)]
 
+# weight init for basic model (w/o LNL)
+def _weights_init_basic(m):
+    classname = m.__class__.__name__
+    # print(classname)
+    if isinstance(m, nn.Linear) or isinstance(m, nn.Conv2d):
+        init.kaiming_normal(m.weight)
 
 def _weights_init(m):
     classname = m.__class__.__name__
@@ -236,7 +242,7 @@ class BasicBlock(MetaModule):
         out = F.relu(out)
         return out
 
-
+# LNL applied (mwnet)
 class ResNet32(MetaModule):
     def __init__(self, num_classes, block=BasicBlock, num_blocks=[5, 5, 5]):
         super(ResNet32, self).__init__()
@@ -270,7 +276,40 @@ class ResNet32(MetaModule):
         out = self.linear(out)
         return out
 
+# without LNL
+# first conv, BN and linear function changed (idk the issues related to it)
+class ResNet32_Basic(nn.Module):
+    def __init__(self, num_classes, block=BasicBlock, num_blocks=[5, 5, 5]):
+        super(ResNet32_Basic, self).__init__()
+        self.in_planes = 16
 
+        self.conv1 = nn.Conv2d(3, 16, kernel_size=3, stride=1, padding=1, bias=False)
+        self.bn1 = nn.BatchNorm2d(16)
+        self.layer1 = self._make_layer(block, 16, num_blocks[0], stride=1)
+        self.layer2 = self._make_layer(block, 32, num_blocks[1], stride=2)
+        self.layer3 = self._make_layer(block, 64, num_blocks[2], stride=2)
+        self.linear = nn.Linear(64, num_classes)
+
+        self.apply(_weights_init_basic)
+
+    def _make_layer(self, block, planes, num_blocks, stride):
+        strides = [stride] + [1]*(num_blocks-1)
+        layers = []
+        for stride in strides:
+            layers.append(block(self.in_planes, planes, stride))
+            self.in_planes = planes * block.expansion
+
+        return nn.Sequential(*layers)
+
+    def forward(self, x):
+        out = F.relu(self.bn1(self.conv1(x)))
+        out = self.layer1(out)
+        out = self.layer2(out)
+        out = self.layer3(out)
+        out = F.avg_pool2d(out, out.size()[3])
+        out = out.view(out.size(0), -1)
+        out = self.linear(out)
+        return out
 
 class VNet(MetaModule):
     def __init__(self, input, hidden1, output):

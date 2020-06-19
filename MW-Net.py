@@ -25,6 +25,7 @@ import numpy as np
 
 # from wideresnet import WideResNet, VNet
 from resnet import ResNet32,VNet
+from resnet_basic import ResNet32_Basic
 from load_corrupted_data import CIFAR10, CIFAR100
 
 # to visualize
@@ -34,6 +35,7 @@ writer = SummaryWriter('runs/CIFAR10_experiment_1')
 parser = argparse.ArgumentParser(description='PyTorch WideResNet Training')
 parser.add_argument('--dataset', default='cifar10', type=str,
                     help='dataset (cifar10 [default] or cifar100)')
+
 # corruption level and type
 parser.add_argument('--corruption_prob_meta', type=float, default=0.4,
                     help='meta label noise')
@@ -43,6 +45,10 @@ parser.add_argument('--corruption_type_meta', type=str, default='unif',
                     help='Type of meta corruption ("unif" or "flip" or "flip2").')
 parser.add_argument('--corruption_type_train', '-ctype', type=str, default='unif',
                     help='Type of train corruption ("unif" or "flip" or "flip2").')
+
+# LNL or not
+parser.add_argument('--LNL', type=bool, default=False,
+                    help='LNL or not')
 
 parser.add_argument('--num_meta', type=int, default=1000)
 parser.add_argument('--epochs', default=120, type=int,
@@ -90,6 +96,7 @@ m_type = args.corruption_type_meta
 t_type = args.corruption_type_train
 m_rate = str(args.corruption_prob_meta)
 t_rate = str(args.corruption_prob_train)
+print(m_type, t_type, m_rate, t_rate)
 
 def build_dataset():
     normalize = transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
@@ -156,7 +163,12 @@ def build_dataset():
 
 
 def build_model():
-    model = ResNet32(args.dataset == 'cifar10' and 10 or 100)
+    if args.LNL == False:
+        # load ResNet32 basic model (not mwnet)
+        print("BASIC MODEL CALLED by build_model")
+        model = ResNet32_Basic(args.dataset == 'cifar10' and 10 or 100)
+    else:
+        model = ResNet32(args.dataset == 'cifar10' and 10 or 100)
 
     if torch.cuda.is_available():
         model.cuda()
@@ -220,6 +232,42 @@ def test(model, test_loader):
 
 
     return accuracy
+
+# train model without LNL
+def train_basic(train_loader,model, optimizer_model,epoch):
+    print('\nEpoch: %d' % epoch)
+    model.train()
+
+    # remove meta_loss, train_meta_loader_iter
+    train_loss = 0
+    for batch_idx, (inputs, targets) in enumerate(train_loader):
+        
+        inputs, targets = inputs.to(device), targets.to(device)
+        
+        outputs = model(inputs)
+        # loss
+        loss = criterion(outputs, targets)
+
+        optimizer_model.zero_grad()
+        loss.backward()
+        optimizer_model.step()      ###
+
+        train_loss += loss.item()
+        prec_train = accuracy(outputs.data, targets.data, topk=(1,))[0]
+        if (batch_idx + 1) % 50 == 0:
+            print('Epoch: [%d/%d]\t'
+                  'Iters: [%d/%d]\t'
+                  'Loss: %.4f\t'
+                  'Accuracy_TrainData@1 %.2f\t' % (
+                      (epoch + 1), args.epochs, batch_idx + 1, len(train_loader.dataset)/args.batch_size,
+                      (train_loss / (batch_idx + 1)), prec_train))
+
+            writer.add_scalar('TrainLoss',
+                            (train_loss / (batch_idx + 1)),
+                            epoch * len(train_loader) + batch_idx)
+            writer.add_scalar('Accuracy_TrainData',
+                            prec_train,
+                            epoch * len(train_loader) + batch_idx)
 
 
 def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_vnet,epoch):
@@ -297,10 +345,10 @@ def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_v
                             (meta_loss / (batch_idx + 1)),
                             epoch * len(train_loader) + batch_idx)
             writer.add_scalar('Accuracy_MetaData',
-                            prec_train,
+                            prec_meta,
                             epoch * len(train_loader) + batch_idx)
             writer.add_scalar('Accuracy_TrainData',
-                            prec_meta,
+                            prec_train,
                             epoch * len(train_loader) + batch_idx)
             # visualize
 #            writer.add_figure('predictions vs. actuals',
@@ -311,18 +359,21 @@ def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_v
 train_loader, train_meta_loader, test_loader = build_dataset()
 # create model
 model = build_model()
-vnet = VNet(1, 100, 1).cuda()
+# for basic model (w/o LNL)
+criterion = nn.CrossEntropyLoss().cuda()
+optimizer_model = torch.optim.SGD(model.parameters(), args.lr,
+                                  momentum=args.momentum, weight_decay=args.weight_decay)
+if args.LNL == True:
+    vnet = VNet(1, 100, 1).cuda()
+    optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-3,
+                             weight_decay=1e-4)
+    optimizer_model = torch.optim.SGD(model.params(), args.lr,
+                                  momentum=args.momentum, weight_decay=args.weight_decay)
 
 if args.dataset == 'cifar10':
     num_classes = 10
 if args.dataset == 'cifar100':
     num_classes = 100
-
-
-optimizer_model = torch.optim.SGD(model.params(), args.lr,
-                                  momentum=args.momentum, weight_decay=args.weight_decay)
-optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-3,
-                             weight_decay=1e-4)
 
 
 # to visualize
@@ -333,11 +384,19 @@ def select_n_random(data, labels, n=100):
     return data[perm][:n], labels[perm][:n]
 
 def main():
+    global t_type, m_type, m_rate, t_rate
     best_acc = 0
     results = []
     for epoch in range(args.epochs):
         adjust_learning_rate(optimizer_model, epoch)
-        train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_vnet,epoch)
+        
+        # select LNL or not
+        print("flag", args.LNL)
+        if args.LNL == True:
+            train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_vnet,epoch)
+        else:
+            train_basic(train_loader,model,optimizer_model,epoch)
+        
         test_acc = test(model=model, test_loader=test_loader)
         if test_acc >= best_acc:
             best_acc = test_acc
@@ -347,19 +406,18 @@ def main():
         writer.add_scalar('TestAccuracy',
                         test_acc,
                         epoch)
-        print("EPOCH"+ str(epoch)+" TEST ACCURACY" + str(test_acc))
+        print("EPOCH " + str(test_acc))
 
     print('best accuracy:', best_acc)
 
     #-------- write result file------
-    m_type = args.corruption_type_meta
-    t_type = args.corruption_type_train
-    m_rate = str(args.corruption_prob_meta)
-    t_rate = str(args.corruption_prob_train)
+    # select LNL or not
+
     timestr = "./results/" + args.data + m_type + m_rate+ t_type + t_rate + time.strftime("%Y%m%d-%H%M%S")
     with open(timestr+'.txt', 'w') as f:
         f.write("Dataset:" + args.dataset + '\n')
-        f.write("Meta Label Corruption" + m_type + m_rate + '\n')
+        if args.LNL == True:
+            f.write("Meta Label Corruption" + m_type + m_rate + '\n')
         f.write("Train Label Corruption" + t_type + t_rate + '\n')
         for i in results:
             f.write("%s " % round(i,5))

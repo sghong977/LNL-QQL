@@ -1,0 +1,1941 @@
+
+Namespace(LNL=False, augment=True, batch_size=100, corruption_prob_meta=0.0, corruption_prob_train=0.1, corruption_type_meta='clean', corruption_type_train='flip', dataset='cifar10', droprate=0, epochs=120, iters=60000, layers=28, lr=0.1, momentum=0.9, name='WideResNet-28-10', nesterov=True, num_meta=1000, prefetch=0, print_freq=10, resume='', seed=1, start_epoch=0, weight_decay=0.0005, widen_factor=10)
+clean flip 0.0 0.1
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+meta data is clean
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+[[0.9 0.  0.  0.  0.  0.  0.1 0.  0.  0. ]
+ [0.  0.9 0.  0.  0.  0.  0.  0.  0.  0.1]
+ [0.  0.  0.9 0.  0.  0.  0.1 0.  0.  0. ]
+ [0.1 0.  0.  0.9 0.  0.  0.  0.  0.  0. ]
+ [0.1 0.  0.  0.  0.9 0.  0.  0.  0.  0. ]
+ [0.  0.1 0.  0.  0.  0.9 0.  0.  0.  0. ]
+ [0.  0.  0.  0.  0.  0.  0.9 0.  0.1 0. ]
+ [0.  0.  0.  0.  0.  0.  0.1 0.9 0.  0. ]
+ [0.  0.  0.1 0.  0.  0.  0.  0.  0.9 0. ]
+ [0.  0.  0.  0.  0.1 0.  0.  0.  0.  0.9]]
+Files already downloaded and verified
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 0
+Epoch: [1/120]	Iters: [50/490]	Loss: 3.2488	Accuracy_TrainData@1 14.00	
+Epoch: [1/120]	Iters: [100/490]	Loss: 2.7786	Accuracy_TrainData@1 8.00	
+Epoch: [1/120]	Iters: [150/490]	Loss: 2.6170	Accuracy_TrainData@1 16.00	
+Epoch: [1/120]	Iters: [200/490]	Loss: 2.5311	Accuracy_TrainData@1 22.00	
+Epoch: [1/120]	Iters: [250/490]	Loss: 2.4599	Accuracy_TrainData@1 25.00	
+Epoch: [1/120]	Iters: [300/490]	Loss: 2.3964	Accuracy_TrainData@1 18.00	
+Epoch: [1/120]	Iters: [350/490]	Loss: 2.3389	Accuracy_TrainData@1 31.00	
+Epoch: [1/120]	Iters: [400/490]	Loss: 2.2890	Accuracy_TrainData@1 32.00	
+Epoch: [1/120]	Iters: [450/490]	Loss: 2.2453	Accuracy_TrainData@1 34.00	
+
+Test set: Average loss: 0.0177, Accuracy: 3485/10000 (34.8500%)
+
+EPOCH 34.85
+flag False
+
+Epoch: 1
+Epoch: [2/120]	Iters: [50/490]	Loss: 1.8401	Accuracy_TrainData@1 32.00	
+Epoch: [2/120]	Iters: [100/490]	Loss: 1.8281	Accuracy_TrainData@1 40.00	
+Epoch: [2/120]	Iters: [150/490]	Loss: 1.8168	Accuracy_TrainData@1 24.00	
+Epoch: [2/120]	Iters: [200/490]	Loss: 1.8031	Accuracy_TrainData@1 37.00	
+Epoch: [2/120]	Iters: [250/490]	Loss: 1.7908	Accuracy_TrainData@1 42.00	
+Epoch: [2/120]	Iters: [300/490]	Loss: 1.7692	Accuracy_TrainData@1 41.00	
+Epoch: [2/120]	Iters: [350/490]	Loss: 1.7592	Accuracy_TrainData@1 45.00	
+Epoch: [2/120]	Iters: [400/490]	Loss: 1.7415	Accuracy_TrainData@1 48.00	
+Epoch: [2/120]	Iters: [450/490]	Loss: 1.7261	Accuracy_TrainData@1 50.00	
+
+Test set: Average loss: 0.0141, Accuracy: 5013/10000 (50.1300%)
+
+EPOCH 50.13
+flag False
+
+Epoch: 2
+Epoch: [3/120]	Iters: [50/490]	Loss: 1.5312	Accuracy_TrainData@1 51.00	
+Epoch: [3/120]	Iters: [100/490]	Loss: 1.5413	Accuracy_TrainData@1 51.00	
+Epoch: [3/120]	Iters: [150/490]	Loss: 1.5344	Accuracy_TrainData@1 52.00	
+Epoch: [3/120]	Iters: [200/490]	Loss: 1.5282	Accuracy_TrainData@1 55.00	
+Epoch: [3/120]	Iters: [250/490]	Loss: 1.5206	Accuracy_TrainData@1 48.00	
+Epoch: [3/120]	Iters: [300/490]	Loss: 1.5109	Accuracy_TrainData@1 50.00	
+Epoch: [3/120]	Iters: [350/490]	Loss: 1.5078	Accuracy_TrainData@1 47.00	
+Epoch: [3/120]	Iters: [400/490]	Loss: 1.5012	Accuracy_TrainData@1 53.00	
+Epoch: [3/120]	Iters: [450/490]	Loss: 1.4941	Accuracy_TrainData@1 45.00	
+
+Test set: Average loss: 0.0146, Accuracy: 5018/10000 (50.1800%)
+
+EPOCH 50.18
+flag False
+
+Epoch: 3
+Epoch: [4/120]	Iters: [50/490]	Loss: 1.3746	Accuracy_TrainData@1 47.00	
+Epoch: [4/120]	Iters: [100/490]	Loss: 1.3702	Accuracy_TrainData@1 58.00	
+Epoch: [4/120]	Iters: [150/490]	Loss: 1.3689	Accuracy_TrainData@1 54.00	
+Epoch: [4/120]	Iters: [200/490]	Loss: 1.3615	Accuracy_TrainData@1 56.00	
+Epoch: [4/120]	Iters: [250/490]	Loss: 1.3564	Accuracy_TrainData@1 59.00	
+Epoch: [4/120]	Iters: [300/490]	Loss: 1.3540	Accuracy_TrainData@1 57.00	
+Epoch: [4/120]	Iters: [350/490]	Loss: 1.3525	Accuracy_TrainData@1 53.00	
+Epoch: [4/120]	Iters: [400/490]	Loss: 1.3498	Accuracy_TrainData@1 68.00	
+Epoch: [4/120]	Iters: [450/490]	Loss: 1.3470	Accuracy_TrainData@1 65.00	
+
+Test set: Average loss: 0.0119, Accuracy: 6017/10000 (60.1700%)
+
+EPOCH 60.17
+flag False
+
+Epoch: 4
+Epoch: [5/120]	Iters: [50/490]	Loss: 1.2951	Accuracy_TrainData@1 57.00	
+Epoch: [5/120]	Iters: [100/490]	Loss: 1.2830	Accuracy_TrainData@1 52.00	
+Epoch: [5/120]	Iters: [150/490]	Loss: 1.2765	Accuracy_TrainData@1 51.00	
+Epoch: [5/120]	Iters: [200/490]	Loss: 1.2678	Accuracy_TrainData@1 63.00	
+Epoch: [5/120]	Iters: [250/490]	Loss: 1.2710	Accuracy_TrainData@1 61.00	
+Epoch: [5/120]	Iters: [300/490]	Loss: 1.2675	Accuracy_TrainData@1 59.00	
+Epoch: [5/120]	Iters: [350/490]	Loss: 1.2644	Accuracy_TrainData@1 59.00	
+Epoch: [5/120]	Iters: [400/490]	Loss: 1.2596	Accuracy_TrainData@1 71.00	
+Epoch: [5/120]	Iters: [450/490]	Loss: 1.2559	Accuracy_TrainData@1 64.00	
+
+Test set: Average loss: 0.0102, Accuracy: 6641/10000 (66.4100%)
+
+EPOCH 66.41
+flag False
+
+Epoch: 5
+Epoch: [6/120]	Iters: [50/490]	Loss: 1.2151	Accuracy_TrainData@1 66.00	
+Epoch: [6/120]	Iters: [100/490]	Loss: 1.2032	Accuracy_TrainData@1 56.00	
+Epoch: [6/120]	Iters: [150/490]	Loss: 1.2060	Accuracy_TrainData@1 61.00	
+Epoch: [6/120]	Iters: [200/490]	Loss: 1.1967	Accuracy_TrainData@1 59.00	
+Epoch: [6/120]	Iters: [250/490]	Loss: 1.1855	Accuracy_TrainData@1 66.00	
+Epoch: [6/120]	Iters: [300/490]	Loss: 1.1839	Accuracy_TrainData@1 54.00	
+Epoch: [6/120]	Iters: [350/490]	Loss: 1.1847	Accuracy_TrainData@1 53.00	
+Epoch: [6/120]	Iters: [400/490]	Loss: 1.1864	Accuracy_TrainData@1 66.00	
+Epoch: [6/120]	Iters: [450/490]	Loss: 1.1865	Accuracy_TrainData@1 61.00	
+
+Test set: Average loss: 0.0109, Accuracy: 6421/10000 (64.2100%)
+
+EPOCH 64.21
+flag False
+
+Epoch: 6
+Epoch: [7/120]	Iters: [50/490]	Loss: 1.1468	Accuracy_TrainData@1 60.00	
+Epoch: [7/120]	Iters: [100/490]	Loss: 1.1632	Accuracy_TrainData@1 66.00	
+Epoch: [7/120]	Iters: [150/490]	Loss: 1.1553	Accuracy_TrainData@1 57.00	
+Epoch: [7/120]	Iters: [200/490]	Loss: 1.1475	Accuracy_TrainData@1 58.00	
+Epoch: [7/120]	Iters: [250/490]	Loss: 1.1406	Accuracy_TrainData@1 60.00	
+Epoch: [7/120]	Iters: [300/490]	Loss: 1.1388	Accuracy_TrainData@1 59.00	
+Epoch: [7/120]	Iters: [350/490]	Loss: 1.1349	Accuracy_TrainData@1 61.00	
+Epoch: [7/120]	Iters: [400/490]	Loss: 1.1316	Accuracy_TrainData@1 70.00	
+Epoch: [7/120]	Iters: [450/490]	Loss: 1.1308	Accuracy_TrainData@1 54.00	
+
+Test set: Average loss: 0.0104, Accuracy: 6516/10000 (65.1600%)
+
+EPOCH 65.16
+flag False
+
+Epoch: 7
+Epoch: [8/120]	Iters: [50/490]	Loss: 1.0974	Accuracy_TrainData@1 62.00	
+Epoch: [8/120]	Iters: [100/490]	Loss: 1.0857	Accuracy_TrainData@1 60.00	
+Epoch: [8/120]	Iters: [150/490]	Loss: 1.0843	Accuracy_TrainData@1 68.00	
+Epoch: [8/120]	Iters: [200/490]	Loss: 1.0876	Accuracy_TrainData@1 61.00	
+Epoch: [8/120]	Iters: [250/490]	Loss: 1.0871	Accuracy_TrainData@1 60.00	
+Epoch: [8/120]	Iters: [300/490]	Loss: 1.0885	Accuracy_TrainData@1 66.00	
+Epoch: [8/120]	Iters: [350/490]	Loss: 1.0889	Accuracy_TrainData@1 65.00	
+Epoch: [8/120]	Iters: [400/490]	Loss: 1.0859	Accuracy_TrainData@1 58.00	
+Epoch: [8/120]	Iters: [450/490]	Loss: 1.0863	Accuracy_TrainData@1 63.00	
+
+Test set: Average loss: 0.0125, Accuracy: 6125/10000 (61.2500%)
+
+EPOCH 61.25
+flag False
+
+Epoch: 8
+Epoch: [9/120]	Iters: [50/490]	Loss: 1.0693	Accuracy_TrainData@1 66.00	
+Epoch: [9/120]	Iters: [100/490]	Loss: 1.0591	Accuracy_TrainData@1 59.00	
+Epoch: [9/120]	Iters: [150/490]	Loss: 1.0560	Accuracy_TrainData@1 69.00	
+Epoch: [9/120]	Iters: [200/490]	Loss: 1.0471	Accuracy_TrainData@1 67.00	
+Epoch: [9/120]	Iters: [250/490]	Loss: 1.0501	Accuracy_TrainData@1 61.00	
+Epoch: [9/120]	Iters: [300/490]	Loss: 1.0489	Accuracy_TrainData@1 69.00	
+Epoch: [9/120]	Iters: [350/490]	Loss: 1.0523	Accuracy_TrainData@1 66.00	
+Epoch: [9/120]	Iters: [400/490]	Loss: 1.0511	Accuracy_TrainData@1 68.00	
+Epoch: [9/120]	Iters: [450/490]	Loss: 1.0462	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0093, Accuracy: 7081/10000 (70.8100%)
+
+EPOCH 70.81
+flag False
+
+Epoch: 9
+Epoch: [10/120]	Iters: [50/490]	Loss: 1.0353	Accuracy_TrainData@1 58.00	
+Epoch: [10/120]	Iters: [100/490]	Loss: 1.0296	Accuracy_TrainData@1 64.00	
+Epoch: [10/120]	Iters: [150/490]	Loss: 1.0431	Accuracy_TrainData@1 63.00	
+Epoch: [10/120]	Iters: [200/490]	Loss: 1.0356	Accuracy_TrainData@1 62.00	
+Epoch: [10/120]	Iters: [250/490]	Loss: 1.0308	Accuracy_TrainData@1 63.00	
+Epoch: [10/120]	Iters: [300/490]	Loss: 1.0286	Accuracy_TrainData@1 69.00	
+Epoch: [10/120]	Iters: [350/490]	Loss: 1.0225	Accuracy_TrainData@1 65.00	
+Epoch: [10/120]	Iters: [400/490]	Loss: 1.0207	Accuracy_TrainData@1 68.00	
+Epoch: [10/120]	Iters: [450/490]	Loss: 1.0197	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0088, Accuracy: 7193/10000 (71.9300%)
+
+EPOCH 71.93
+flag False
+
+Epoch: 10
+Epoch: [11/120]	Iters: [50/490]	Loss: 1.0039	Accuracy_TrainData@1 72.00	
+Epoch: [11/120]	Iters: [100/490]	Loss: 0.9950	Accuracy_TrainData@1 68.00	
+Epoch: [11/120]	Iters: [150/490]	Loss: 0.9965	Accuracy_TrainData@1 67.00	
+Epoch: [11/120]	Iters: [200/490]	Loss: 1.0034	Accuracy_TrainData@1 75.00	
+Epoch: [11/120]	Iters: [250/490]	Loss: 1.0025	Accuracy_TrainData@1 63.00	
+Epoch: [11/120]	Iters: [300/490]	Loss: 1.0004	Accuracy_TrainData@1 70.00	
+Epoch: [11/120]	Iters: [350/490]	Loss: 1.0019	Accuracy_TrainData@1 68.00	
+Epoch: [11/120]	Iters: [400/490]	Loss: 1.0000	Accuracy_TrainData@1 76.00	
+Epoch: [11/120]	Iters: [450/490]	Loss: 0.9994	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7383/10000 (73.8300%)
+
+EPOCH 73.83
+flag False
+
+Epoch: 11
+Epoch: [12/120]	Iters: [50/490]	Loss: 0.9641	Accuracy_TrainData@1 74.00	
+Epoch: [12/120]	Iters: [100/490]	Loss: 0.9770	Accuracy_TrainData@1 70.00	
+Epoch: [12/120]	Iters: [150/490]	Loss: 0.9784	Accuracy_TrainData@1 66.00	
+Epoch: [12/120]	Iters: [200/490]	Loss: 0.9815	Accuracy_TrainData@1 67.00	
+Epoch: [12/120]	Iters: [250/490]	Loss: 0.9767	Accuracy_TrainData@1 66.00	
+Epoch: [12/120]	Iters: [300/490]	Loss: 0.9814	Accuracy_TrainData@1 70.00	
+Epoch: [12/120]	Iters: [350/490]	Loss: 0.9863	Accuracy_TrainData@1 69.00	
+Epoch: [12/120]	Iters: [400/490]	Loss: 0.9867	Accuracy_TrainData@1 72.00	
+Epoch: [12/120]	Iters: [450/490]	Loss: 0.9873	Accuracy_TrainData@1 64.00	
+
+Test set: Average loss: 0.0085, Accuracy: 7339/10000 (73.3900%)
+
+EPOCH 73.39
+flag False
+
+Epoch: 12
+Epoch: [13/120]	Iters: [50/490]	Loss: 0.9589	Accuracy_TrainData@1 73.00	
+Epoch: [13/120]	Iters: [100/490]	Loss: 0.9757	Accuracy_TrainData@1 76.00	
+Epoch: [13/120]	Iters: [150/490]	Loss: 0.9680	Accuracy_TrainData@1 76.00	
+Epoch: [13/120]	Iters: [200/490]	Loss: 0.9709	Accuracy_TrainData@1 70.00	
+Epoch: [13/120]	Iters: [250/490]	Loss: 0.9718	Accuracy_TrainData@1 70.00	
+Epoch: [13/120]	Iters: [300/490]	Loss: 0.9684	Accuracy_TrainData@1 64.00	
+Epoch: [13/120]	Iters: [350/490]	Loss: 0.9671	Accuracy_TrainData@1 68.00	
+Epoch: [13/120]	Iters: [400/490]	Loss: 0.9690	Accuracy_TrainData@1 72.00	
+Epoch: [13/120]	Iters: [450/490]	Loss: 0.9679	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0098, Accuracy: 6909/10000 (69.0900%)
+
+EPOCH 69.09
+flag False
+
+Epoch: 13
+Epoch: [14/120]	Iters: [50/490]	Loss: 0.9300	Accuracy_TrainData@1 73.00	
+Epoch: [14/120]	Iters: [100/490]	Loss: 0.9341	Accuracy_TrainData@1 69.00	
+Epoch: [14/120]	Iters: [150/490]	Loss: 0.9459	Accuracy_TrainData@1 69.00	
+Epoch: [14/120]	Iters: [200/490]	Loss: 0.9565	Accuracy_TrainData@1 70.00	
+Epoch: [14/120]	Iters: [250/490]	Loss: 0.9578	Accuracy_TrainData@1 66.00	
+Epoch: [14/120]	Iters: [300/490]	Loss: 0.9561	Accuracy_TrainData@1 76.00	
+Epoch: [14/120]	Iters: [350/490]	Loss: 0.9557	Accuracy_TrainData@1 58.00	
+Epoch: [14/120]	Iters: [400/490]	Loss: 0.9572	Accuracy_TrainData@1 67.00	
+Epoch: [14/120]	Iters: [450/490]	Loss: 0.9610	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0097, Accuracy: 6799/10000 (67.9900%)
+
+EPOCH 67.99
+flag False
+
+Epoch: 14
+Epoch: [15/120]	Iters: [50/490]	Loss: 0.9396	Accuracy_TrainData@1 72.00	
+Epoch: [15/120]	Iters: [100/490]	Loss: 0.9531	Accuracy_TrainData@1 61.00	
+Epoch: [15/120]	Iters: [150/490]	Loss: 0.9521	Accuracy_TrainData@1 72.00	
+Epoch: [15/120]	Iters: [200/490]	Loss: 0.9514	Accuracy_TrainData@1 69.00	
+Epoch: [15/120]	Iters: [250/490]	Loss: 0.9530	Accuracy_TrainData@1 64.00	
+Epoch: [15/120]	Iters: [300/490]	Loss: 0.9543	Accuracy_TrainData@1 70.00	
+Epoch: [15/120]	Iters: [350/490]	Loss: 0.9534	Accuracy_TrainData@1 77.00	
+Epoch: [15/120]	Iters: [400/490]	Loss: 0.9504	Accuracy_TrainData@1 67.00	
+Epoch: [15/120]	Iters: [450/490]	Loss: 0.9489	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0094, Accuracy: 7260/10000 (72.6000%)
+
+EPOCH 72.6
+flag False
+
+Epoch: 15
+Epoch: [16/120]	Iters: [50/490]	Loss: 0.9411	Accuracy_TrainData@1 77.00	
+Epoch: [16/120]	Iters: [100/490]	Loss: 0.9251	Accuracy_TrainData@1 72.00	
+Epoch: [16/120]	Iters: [150/490]	Loss: 0.9355	Accuracy_TrainData@1 77.00	
+Epoch: [16/120]	Iters: [200/490]	Loss: 0.9361	Accuracy_TrainData@1 66.00	
+Epoch: [16/120]	Iters: [250/490]	Loss: 0.9383	Accuracy_TrainData@1 63.00	
+Epoch: [16/120]	Iters: [300/490]	Loss: 0.9379	Accuracy_TrainData@1 69.00	
+Epoch: [16/120]	Iters: [350/490]	Loss: 0.9362	Accuracy_TrainData@1 65.00	
+Epoch: [16/120]	Iters: [400/490]	Loss: 0.9347	Accuracy_TrainData@1 65.00	
+Epoch: [16/120]	Iters: [450/490]	Loss: 0.9334	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0119, Accuracy: 6398/10000 (63.9800%)
+
+EPOCH 63.98
+flag False
+
+Epoch: 16
+Epoch: [17/120]	Iters: [50/490]	Loss: 0.9109	Accuracy_TrainData@1 69.00	
+Epoch: [17/120]	Iters: [100/490]	Loss: 0.9161	Accuracy_TrainData@1 70.00	
+Epoch: [17/120]	Iters: [150/490]	Loss: 0.9320	Accuracy_TrainData@1 65.00	
+Epoch: [17/120]	Iters: [200/490]	Loss: 0.9290	Accuracy_TrainData@1 72.00	
+Epoch: [17/120]	Iters: [250/490]	Loss: 0.9302	Accuracy_TrainData@1 71.00	
+Epoch: [17/120]	Iters: [300/490]	Loss: 0.9247	Accuracy_TrainData@1 71.00	
+Epoch: [17/120]	Iters: [350/490]	Loss: 0.9245	Accuracy_TrainData@1 70.00	
+Epoch: [17/120]	Iters: [400/490]	Loss: 0.9264	Accuracy_TrainData@1 61.00	
+Epoch: [17/120]	Iters: [450/490]	Loss: 0.9255	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0097, Accuracy: 6992/10000 (69.9200%)
+
+EPOCH 69.92
+flag False
+
+Epoch: 17
+Epoch: [18/120]	Iters: [50/490]	Loss: 0.9072	Accuracy_TrainData@1 66.00	
+Epoch: [18/120]	Iters: [100/490]	Loss: 0.9145	Accuracy_TrainData@1 74.00	
+Epoch: [18/120]	Iters: [150/490]	Loss: 0.9166	Accuracy_TrainData@1 68.00	
+Epoch: [18/120]	Iters: [200/490]	Loss: 0.9142	Accuracy_TrainData@1 70.00	
+Epoch: [18/120]	Iters: [250/490]	Loss: 0.9138	Accuracy_TrainData@1 67.00	
+Epoch: [18/120]	Iters: [300/490]	Loss: 0.9203	Accuracy_TrainData@1 62.00	
+Epoch: [18/120]	Iters: [350/490]	Loss: 0.9221	Accuracy_TrainData@1 66.00	
+Epoch: [18/120]	Iters: [400/490]	Loss: 0.9217	Accuracy_TrainData@1 63.00	
+Epoch: [18/120]	Iters: [450/490]	Loss: 0.9216	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0085, Accuracy: 7355/10000 (73.5500%)
+
+EPOCH 73.55
+flag False
+
+Epoch: 18
+Epoch: [19/120]	Iters: [50/490]	Loss: 0.8914	Accuracy_TrainData@1 75.00	
+Epoch: [19/120]	Iters: [100/490]	Loss: 0.8922	Accuracy_TrainData@1 77.00	
+Epoch: [19/120]	Iters: [150/490]	Loss: 0.8993	Accuracy_TrainData@1 75.00	
+Epoch: [19/120]	Iters: [200/490]	Loss: 0.8986	Accuracy_TrainData@1 69.00	
+Epoch: [19/120]	Iters: [250/490]	Loss: 0.9039	Accuracy_TrainData@1 66.00	
+Epoch: [19/120]	Iters: [300/490]	Loss: 0.9095	Accuracy_TrainData@1 73.00	
+Epoch: [19/120]	Iters: [350/490]	Loss: 0.9076	Accuracy_TrainData@1 66.00	
+Epoch: [19/120]	Iters: [400/490]	Loss: 0.9061	Accuracy_TrainData@1 70.00	
+Epoch: [19/120]	Iters: [450/490]	Loss: 0.9062	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0094, Accuracy: 7136/10000 (71.3600%)
+
+EPOCH 71.36
+flag False
+
+Epoch: 19
+Epoch: [20/120]	Iters: [50/490]	Loss: 0.8789	Accuracy_TrainData@1 72.00	
+Epoch: [20/120]	Iters: [100/490]	Loss: 0.8919	Accuracy_TrainData@1 69.00	
+Epoch: [20/120]	Iters: [150/490]	Loss: 0.9026	Accuracy_TrainData@1 66.00	
+Epoch: [20/120]	Iters: [200/490]	Loss: 0.9016	Accuracy_TrainData@1 68.00	
+Epoch: [20/120]	Iters: [250/490]	Loss: 0.9052	Accuracy_TrainData@1 65.00	
+Epoch: [20/120]	Iters: [300/490]	Loss: 0.9043	Accuracy_TrainData@1 69.00	
+Epoch: [20/120]	Iters: [350/490]	Loss: 0.9043	Accuracy_TrainData@1 67.00	
+Epoch: [20/120]	Iters: [400/490]	Loss: 0.9030	Accuracy_TrainData@1 85.00	
+Epoch: [20/120]	Iters: [450/490]	Loss: 0.9077	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0080, Accuracy: 7381/10000 (73.8100%)
+
+EPOCH 73.81
+flag False
+
+Epoch: 20
+Epoch: [21/120]	Iters: [50/490]	Loss: 0.9092	Accuracy_TrainData@1 76.00	
+Epoch: [21/120]	Iters: [100/490]	Loss: 0.8973	Accuracy_TrainData@1 69.00	
+Epoch: [21/120]	Iters: [150/490]	Loss: 0.8974	Accuracy_TrainData@1 75.00	
+Epoch: [21/120]	Iters: [200/490]	Loss: 0.8921	Accuracy_TrainData@1 73.00	
+Epoch: [21/120]	Iters: [250/490]	Loss: 0.8929	Accuracy_TrainData@1 74.00	
+Epoch: [21/120]	Iters: [300/490]	Loss: 0.8976	Accuracy_TrainData@1 68.00	
+Epoch: [21/120]	Iters: [350/490]	Loss: 0.8997	Accuracy_TrainData@1 72.00	
+Epoch: [21/120]	Iters: [400/490]	Loss: 0.9019	Accuracy_TrainData@1 63.00	
+Epoch: [21/120]	Iters: [450/490]	Loss: 0.9040	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0076, Accuracy: 7664/10000 (76.6400%)
+
+EPOCH 76.64
+flag False
+
+Epoch: 21
+Epoch: [22/120]	Iters: [50/490]	Loss: 0.8738	Accuracy_TrainData@1 78.00	
+Epoch: [22/120]	Iters: [100/490]	Loss: 0.8832	Accuracy_TrainData@1 71.00	
+Epoch: [22/120]	Iters: [150/490]	Loss: 0.8972	Accuracy_TrainData@1 76.00	
+Epoch: [22/120]	Iters: [200/490]	Loss: 0.8857	Accuracy_TrainData@1 77.00	
+Epoch: [22/120]	Iters: [250/490]	Loss: 0.8897	Accuracy_TrainData@1 72.00	
+Epoch: [22/120]	Iters: [300/490]	Loss: 0.8908	Accuracy_TrainData@1 69.00	
+Epoch: [22/120]	Iters: [350/490]	Loss: 0.8931	Accuracy_TrainData@1 74.00	
+Epoch: [22/120]	Iters: [400/490]	Loss: 0.8917	Accuracy_TrainData@1 66.00	
+Epoch: [22/120]	Iters: [450/490]	Loss: 0.8903	Accuracy_TrainData@1 65.00	
+
+Test set: Average loss: 0.0116, Accuracy: 6728/10000 (67.2800%)
+
+EPOCH 67.28
+flag False
+
+Epoch: 22
+Epoch: [23/120]	Iters: [50/490]	Loss: 0.8863	Accuracy_TrainData@1 70.00	
+Epoch: [23/120]	Iters: [100/490]	Loss: 0.9020	Accuracy_TrainData@1 69.00	
+Epoch: [23/120]	Iters: [150/490]	Loss: 0.9102	Accuracy_TrainData@1 63.00	
+Epoch: [23/120]	Iters: [200/490]	Loss: 0.9033	Accuracy_TrainData@1 73.00	
+Epoch: [23/120]	Iters: [250/490]	Loss: 0.8947	Accuracy_TrainData@1 79.00	
+Epoch: [23/120]	Iters: [300/490]	Loss: 0.8901	Accuracy_TrainData@1 76.00	
+Epoch: [23/120]	Iters: [350/490]	Loss: 0.8915	Accuracy_TrainData@1 70.00	
+Epoch: [23/120]	Iters: [400/490]	Loss: 0.8916	Accuracy_TrainData@1 71.00	
+Epoch: [23/120]	Iters: [450/490]	Loss: 0.8928	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7377/10000 (73.7700%)
+
+EPOCH 73.77
+flag False
+
+Epoch: 23
+Epoch: [24/120]	Iters: [50/490]	Loss: 0.8964	Accuracy_TrainData@1 68.00	
+Epoch: [24/120]	Iters: [100/490]	Loss: 0.8868	Accuracy_TrainData@1 75.00	
+Epoch: [24/120]	Iters: [150/490]	Loss: 0.8791	Accuracy_TrainData@1 78.00	
+Epoch: [24/120]	Iters: [200/490]	Loss: 0.8783	Accuracy_TrainData@1 66.00	
+Epoch: [24/120]	Iters: [250/490]	Loss: 0.8797	Accuracy_TrainData@1 79.00	
+Epoch: [24/120]	Iters: [300/490]	Loss: 0.8825	Accuracy_TrainData@1 73.00	
+Epoch: [24/120]	Iters: [350/490]	Loss: 0.8824	Accuracy_TrainData@1 71.00	
+Epoch: [24/120]	Iters: [400/490]	Loss: 0.8824	Accuracy_TrainData@1 78.00	
+Epoch: [24/120]	Iters: [450/490]	Loss: 0.8867	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0078, Accuracy: 7487/10000 (74.8700%)
+
+EPOCH 74.87
+flag False
+
+Epoch: 24
+Epoch: [25/120]	Iters: [50/490]	Loss: 0.8751	Accuracy_TrainData@1 76.00	
+Epoch: [25/120]	Iters: [100/490]	Loss: 0.8937	Accuracy_TrainData@1 64.00	
+Epoch: [25/120]	Iters: [150/490]	Loss: 0.8880	Accuracy_TrainData@1 74.00	
+Epoch: [25/120]	Iters: [200/490]	Loss: 0.8806	Accuracy_TrainData@1 64.00	
+Epoch: [25/120]	Iters: [250/490]	Loss: 0.8884	Accuracy_TrainData@1 67.00	
+Epoch: [25/120]	Iters: [300/490]	Loss: 0.8889	Accuracy_TrainData@1 64.00	
+Epoch: [25/120]	Iters: [350/490]	Loss: 0.8882	Accuracy_TrainData@1 74.00	
+Epoch: [25/120]	Iters: [400/490]	Loss: 0.8864	Accuracy_TrainData@1 74.00	
+Epoch: [25/120]	Iters: [450/490]	Loss: 0.8881	Accuracy_TrainData@1 65.00	
+
+Test set: Average loss: 0.0076, Accuracy: 7689/10000 (76.8900%)
+
+EPOCH 76.89
+flag False
+
+Epoch: 25
+Epoch: [26/120]	Iters: [50/490]	Loss: 0.8489	Accuracy_TrainData@1 77.00	
+Epoch: [26/120]	Iters: [100/490]	Loss: 0.8660	Accuracy_TrainData@1 64.00	
+Epoch: [26/120]	Iters: [150/490]	Loss: 0.8768	Accuracy_TrainData@1 76.00	
+Epoch: [26/120]	Iters: [200/490]	Loss: 0.8827	Accuracy_TrainData@1 62.00	
+Epoch: [26/120]	Iters: [250/490]	Loss: 0.8812	Accuracy_TrainData@1 68.00	
+Epoch: [26/120]	Iters: [300/490]	Loss: 0.8772	Accuracy_TrainData@1 64.00	
+Epoch: [26/120]	Iters: [350/490]	Loss: 0.8772	Accuracy_TrainData@1 79.00	
+Epoch: [26/120]	Iters: [400/490]	Loss: 0.8749	Accuracy_TrainData@1 70.00	
+Epoch: [26/120]	Iters: [450/490]	Loss: 0.8773	Accuracy_TrainData@1 61.00	
+
+Test set: Average loss: 0.0116, Accuracy: 6764/10000 (67.6400%)
+
+EPOCH 67.64
+flag False
+
+Epoch: 26
+Epoch: [27/120]	Iters: [50/490]	Loss: 0.8279	Accuracy_TrainData@1 70.00	
+Epoch: [27/120]	Iters: [100/490]	Loss: 0.8622	Accuracy_TrainData@1 77.00	
+Epoch: [27/120]	Iters: [150/490]	Loss: 0.8671	Accuracy_TrainData@1 74.00	
+Epoch: [27/120]	Iters: [200/490]	Loss: 0.8728	Accuracy_TrainData@1 72.00	
+Epoch: [27/120]	Iters: [250/490]	Loss: 0.8746	Accuracy_TrainData@1 73.00	
+Epoch: [27/120]	Iters: [300/490]	Loss: 0.8769	Accuracy_TrainData@1 81.00	
+Epoch: [27/120]	Iters: [350/490]	Loss: 0.8774	Accuracy_TrainData@1 73.00	
+Epoch: [27/120]	Iters: [400/490]	Loss: 0.8798	Accuracy_TrainData@1 70.00	
+Epoch: [27/120]	Iters: [450/490]	Loss: 0.8771	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0072, Accuracy: 7866/10000 (78.6600%)
+
+EPOCH 78.66
+flag False
+
+Epoch: 27
+Epoch: [28/120]	Iters: [50/490]	Loss: 0.8301	Accuracy_TrainData@1 78.00	
+Epoch: [28/120]	Iters: [100/490]	Loss: 0.8462	Accuracy_TrainData@1 71.00	
+Epoch: [28/120]	Iters: [150/490]	Loss: 0.8558	Accuracy_TrainData@1 73.00	
+Epoch: [28/120]	Iters: [200/490]	Loss: 0.8553	Accuracy_TrainData@1 65.00	
+Epoch: [28/120]	Iters: [250/490]	Loss: 0.8593	Accuracy_TrainData@1 74.00	
+Epoch: [28/120]	Iters: [300/490]	Loss: 0.8665	Accuracy_TrainData@1 76.00	
+Epoch: [28/120]	Iters: [350/490]	Loss: 0.8660	Accuracy_TrainData@1 77.00	
+Epoch: [28/120]	Iters: [400/490]	Loss: 0.8695	Accuracy_TrainData@1 69.00	
+Epoch: [28/120]	Iters: [450/490]	Loss: 0.8713	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0070, Accuracy: 7852/10000 (78.5200%)
+
+EPOCH 78.52
+flag False
+
+Epoch: 28
+Epoch: [29/120]	Iters: [50/490]	Loss: 0.8344	Accuracy_TrainData@1 69.00	
+Epoch: [29/120]	Iters: [100/490]	Loss: 0.8542	Accuracy_TrainData@1 80.00	
+Epoch: [29/120]	Iters: [150/490]	Loss: 0.8570	Accuracy_TrainData@1 72.00	
+Epoch: [29/120]	Iters: [200/490]	Loss: 0.8612	Accuracy_TrainData@1 80.00	
+Epoch: [29/120]	Iters: [250/490]	Loss: 0.8632	Accuracy_TrainData@1 71.00	
+Epoch: [29/120]	Iters: [300/490]	Loss: 0.8644	Accuracy_TrainData@1 62.00	
+Epoch: [29/120]	Iters: [350/490]	Loss: 0.8683	Accuracy_TrainData@1 65.00	
+Epoch: [29/120]	Iters: [400/490]	Loss: 0.8696	Accuracy_TrainData@1 79.00	
+Epoch: [29/120]	Iters: [450/490]	Loss: 0.8719	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0077, Accuracy: 7583/10000 (75.8300%)
+
+EPOCH 75.83
+flag False
+
+Epoch: 29
+Epoch: [30/120]	Iters: [50/490]	Loss: 0.8566	Accuracy_TrainData@1 72.00	
+Epoch: [30/120]	Iters: [100/490]	Loss: 0.8549	Accuracy_TrainData@1 67.00	
+Epoch: [30/120]	Iters: [150/490]	Loss: 0.8595	Accuracy_TrainData@1 71.00	
+Epoch: [30/120]	Iters: [200/490]	Loss: 0.8552	Accuracy_TrainData@1 76.00	
+Epoch: [30/120]	Iters: [250/490]	Loss: 0.8596	Accuracy_TrainData@1 78.00	
+Epoch: [30/120]	Iters: [300/490]	Loss: 0.8577	Accuracy_TrainData@1 72.00	
+Epoch: [30/120]	Iters: [350/490]	Loss: 0.8594	Accuracy_TrainData@1 75.00	
+Epoch: [30/120]	Iters: [400/490]	Loss: 0.8650	Accuracy_TrainData@1 71.00	
+Epoch: [30/120]	Iters: [450/490]	Loss: 0.8653	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0079, Accuracy: 7657/10000 (76.5700%)
+
+EPOCH 76.57
+flag False
+
+Epoch: 30
+Epoch: [31/120]	Iters: [50/490]	Loss: 0.8496	Accuracy_TrainData@1 76.00	
+Epoch: [31/120]	Iters: [100/490]	Loss: 0.8577	Accuracy_TrainData@1 76.00	
+Epoch: [31/120]	Iters: [150/490]	Loss: 0.8545	Accuracy_TrainData@1 81.00	
+Epoch: [31/120]	Iters: [200/490]	Loss: 0.8524	Accuracy_TrainData@1 80.00	
+Epoch: [31/120]	Iters: [250/490]	Loss: 0.8580	Accuracy_TrainData@1 73.00	
+Epoch: [31/120]	Iters: [300/490]	Loss: 0.8633	Accuracy_TrainData@1 69.00	
+Epoch: [31/120]	Iters: [350/490]	Loss: 0.8658	Accuracy_TrainData@1 68.00	
+Epoch: [31/120]	Iters: [400/490]	Loss: 0.8660	Accuracy_TrainData@1 77.00	
+Epoch: [31/120]	Iters: [450/490]	Loss: 0.8661	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7736/10000 (77.3600%)
+
+EPOCH 77.36
+flag False
+
+Epoch: 31
+Epoch: [32/120]	Iters: [50/490]	Loss: 0.8652	Accuracy_TrainData@1 65.00	
+Epoch: [32/120]	Iters: [100/490]	Loss: 0.8672	Accuracy_TrainData@1 74.00	
+Epoch: [32/120]	Iters: [150/490]	Loss: 0.8760	Accuracy_TrainData@1 76.00	
+Epoch: [32/120]	Iters: [200/490]	Loss: 0.8668	Accuracy_TrainData@1 73.00	
+Epoch: [32/120]	Iters: [250/490]	Loss: 0.8624	Accuracy_TrainData@1 74.00	
+Epoch: [32/120]	Iters: [300/490]	Loss: 0.8627	Accuracy_TrainData@1 71.00	
+Epoch: [32/120]	Iters: [350/490]	Loss: 0.8613	Accuracy_TrainData@1 81.00	
+Epoch: [32/120]	Iters: [400/490]	Loss: 0.8575	Accuracy_TrainData@1 80.00	
+Epoch: [32/120]	Iters: [450/490]	Loss: 0.8590	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0106, Accuracy: 6765/10000 (67.6500%)
+
+EPOCH 67.65
+flag False
+
+Epoch: 32
+Epoch: [33/120]	Iters: [50/490]	Loss: 0.8557	Accuracy_TrainData@1 76.00	
+Epoch: [33/120]	Iters: [100/490]	Loss: 0.8570	Accuracy_TrainData@1 80.00	
+Epoch: [33/120]	Iters: [150/490]	Loss: 0.8539	Accuracy_TrainData@1 70.00	
+Epoch: [33/120]	Iters: [200/490]	Loss: 0.8504	Accuracy_TrainData@1 73.00	
+Epoch: [33/120]	Iters: [250/490]	Loss: 0.8492	Accuracy_TrainData@1 78.00	
+Epoch: [33/120]	Iters: [300/490]	Loss: 0.8569	Accuracy_TrainData@1 68.00	
+Epoch: [33/120]	Iters: [350/490]	Loss: 0.8602	Accuracy_TrainData@1 72.00	
+Epoch: [33/120]	Iters: [400/490]	Loss: 0.8568	Accuracy_TrainData@1 69.00	
+Epoch: [33/120]	Iters: [450/490]	Loss: 0.8590	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0078, Accuracy: 7683/10000 (76.8300%)
+
+EPOCH 76.83
+flag False
+
+Epoch: 33
+Epoch: [34/120]	Iters: [50/490]	Loss: 0.8422	Accuracy_TrainData@1 73.00	
+Epoch: [34/120]	Iters: [100/490]	Loss: 0.8512	Accuracy_TrainData@1 76.00	
+Epoch: [34/120]	Iters: [150/490]	Loss: 0.8532	Accuracy_TrainData@1 72.00	
+Epoch: [34/120]	Iters: [200/490]	Loss: 0.8629	Accuracy_TrainData@1 75.00	
+Epoch: [34/120]	Iters: [250/490]	Loss: 0.8613	Accuracy_TrainData@1 67.00	
+Epoch: [34/120]	Iters: [300/490]	Loss: 0.8655	Accuracy_TrainData@1 79.00	
+Epoch: [34/120]	Iters: [350/490]	Loss: 0.8651	Accuracy_TrainData@1 75.00	
+Epoch: [34/120]	Iters: [400/490]	Loss: 0.8631	Accuracy_TrainData@1 74.00	
+Epoch: [34/120]	Iters: [450/490]	Loss: 0.8587	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0103, Accuracy: 6937/10000 (69.3700%)
+
+EPOCH 69.37
+flag False
+
+Epoch: 34
+Epoch: [35/120]	Iters: [50/490]	Loss: 0.8330	Accuracy_TrainData@1 76.00	
+Epoch: [35/120]	Iters: [100/490]	Loss: 0.8377	Accuracy_TrainData@1 75.00	
+Epoch: [35/120]	Iters: [150/490]	Loss: 0.8226	Accuracy_TrainData@1 76.00	
+Epoch: [35/120]	Iters: [200/490]	Loss: 0.8349	Accuracy_TrainData@1 78.00	
+Epoch: [35/120]	Iters: [250/490]	Loss: 0.8376	Accuracy_TrainData@1 78.00	
+Epoch: [35/120]	Iters: [300/490]	Loss: 0.8410	Accuracy_TrainData@1 81.00	
+Epoch: [35/120]	Iters: [350/490]	Loss: 0.8423	Accuracy_TrainData@1 72.00	
+Epoch: [35/120]	Iters: [400/490]	Loss: 0.8469	Accuracy_TrainData@1 73.00	
+Epoch: [35/120]	Iters: [450/490]	Loss: 0.8503	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0093, Accuracy: 7167/10000 (71.6700%)
+
+EPOCH 71.67
+flag False
+
+Epoch: 35
+Epoch: [36/120]	Iters: [50/490]	Loss: 0.8374	Accuracy_TrainData@1 75.00	
+Epoch: [36/120]	Iters: [100/490]	Loss: 0.8570	Accuracy_TrainData@1 71.00	
+Epoch: [36/120]	Iters: [150/490]	Loss: 0.8546	Accuracy_TrainData@1 77.00	
+Epoch: [36/120]	Iters: [200/490]	Loss: 0.8539	Accuracy_TrainData@1 74.00	
+Epoch: [36/120]	Iters: [250/490]	Loss: 0.8535	Accuracy_TrainData@1 67.00	
+Epoch: [36/120]	Iters: [300/490]	Loss: 0.8519	Accuracy_TrainData@1 69.00	
+Epoch: [36/120]	Iters: [350/490]	Loss: 0.8568	Accuracy_TrainData@1 72.00	
+Epoch: [36/120]	Iters: [400/490]	Loss: 0.8578	Accuracy_TrainData@1 77.00	
+Epoch: [36/120]	Iters: [450/490]	Loss: 0.8593	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0079, Accuracy: 7586/10000 (75.8600%)
+
+EPOCH 75.86
+flag False
+
+Epoch: 36
+Epoch: [37/120]	Iters: [50/490]	Loss: 0.8234	Accuracy_TrainData@1 77.00	
+Epoch: [37/120]	Iters: [100/490]	Loss: 0.8403	Accuracy_TrainData@1 72.00	
+Epoch: [37/120]	Iters: [150/490]	Loss: 0.8408	Accuracy_TrainData@1 77.00	
+Epoch: [37/120]	Iters: [200/490]	Loss: 0.8422	Accuracy_TrainData@1 77.00	
+Epoch: [37/120]	Iters: [250/490]	Loss: 0.8457	Accuracy_TrainData@1 77.00	
+Epoch: [37/120]	Iters: [300/490]	Loss: 0.8484	Accuracy_TrainData@1 73.00	
+Epoch: [37/120]	Iters: [350/490]	Loss: 0.8495	Accuracy_TrainData@1 80.00	
+Epoch: [37/120]	Iters: [400/490]	Loss: 0.8498	Accuracy_TrainData@1 63.00	
+Epoch: [37/120]	Iters: [450/490]	Loss: 0.8499	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0079, Accuracy: 7469/10000 (74.6900%)
+
+EPOCH 74.69
+flag False
+
+Epoch: 37
+Epoch: [38/120]	Iters: [50/490]	Loss: 0.8338	Accuracy_TrainData@1 70.00	
+Epoch: [38/120]	Iters: [100/490]	Loss: 0.8432	Accuracy_TrainData@1 77.00	
+Epoch: [38/120]	Iters: [150/490]	Loss: 0.8404	Accuracy_TrainData@1 69.00	
+Epoch: [38/120]	Iters: [200/490]	Loss: 0.8366	Accuracy_TrainData@1 76.00	
+Epoch: [38/120]	Iters: [250/490]	Loss: 0.8405	Accuracy_TrainData@1 73.00	
+Epoch: [38/120]	Iters: [300/490]	Loss: 0.8447	Accuracy_TrainData@1 72.00	
+Epoch: [38/120]	Iters: [350/490]	Loss: 0.8446	Accuracy_TrainData@1 78.00	
+Epoch: [38/120]	Iters: [400/490]	Loss: 0.8476	Accuracy_TrainData@1 78.00	
+Epoch: [38/120]	Iters: [450/490]	Loss: 0.8491	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0089, Accuracy: 7183/10000 (71.8300%)
+
+EPOCH 71.83
+flag False
+
+Epoch: 38
+Epoch: [39/120]	Iters: [50/490]	Loss: 0.8486	Accuracy_TrainData@1 75.00	
+Epoch: [39/120]	Iters: [100/490]	Loss: 0.8383	Accuracy_TrainData@1 72.00	
+Epoch: [39/120]	Iters: [150/490]	Loss: 0.8432	Accuracy_TrainData@1 68.00	
+Epoch: [39/120]	Iters: [200/490]	Loss: 0.8412	Accuracy_TrainData@1 72.00	
+Epoch: [39/120]	Iters: [250/490]	Loss: 0.8434	Accuracy_TrainData@1 72.00	
+Epoch: [39/120]	Iters: [300/490]	Loss: 0.8452	Accuracy_TrainData@1 75.00	
+Epoch: [39/120]	Iters: [350/490]	Loss: 0.8469	Accuracy_TrainData@1 76.00	
+Epoch: [39/120]	Iters: [400/490]	Loss: 0.8482	Accuracy_TrainData@1 74.00	
+Epoch: [39/120]	Iters: [450/490]	Loss: 0.8490	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0085, Accuracy: 7341/10000 (73.4100%)
+
+EPOCH 73.41
+flag False
+
+Epoch: 39
+Epoch: [40/120]	Iters: [50/490]	Loss: 0.8279	Accuracy_TrainData@1 74.00	
+Epoch: [40/120]	Iters: [100/490]	Loss: 0.8269	Accuracy_TrainData@1 82.00	
+Epoch: [40/120]	Iters: [150/490]	Loss: 0.8421	Accuracy_TrainData@1 70.00	
+Epoch: [40/120]	Iters: [200/490]	Loss: 0.8474	Accuracy_TrainData@1 77.00	
+Epoch: [40/120]	Iters: [250/490]	Loss: 0.8383	Accuracy_TrainData@1 75.00	
+Epoch: [40/120]	Iters: [300/490]	Loss: 0.8407	Accuracy_TrainData@1 80.00	
+Epoch: [40/120]	Iters: [350/490]	Loss: 0.8406	Accuracy_TrainData@1 78.00	
+Epoch: [40/120]	Iters: [400/490]	Loss: 0.8446	Accuracy_TrainData@1 75.00	
+Epoch: [40/120]	Iters: [450/490]	Loss: 0.8422	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0085, Accuracy: 7294/10000 (72.9400%)
+
+EPOCH 72.94
+flag False
+
+Epoch: 40
+Epoch: [41/120]	Iters: [50/490]	Loss: 0.8272	Accuracy_TrainData@1 75.00	
+Epoch: [41/120]	Iters: [100/490]	Loss: 0.8284	Accuracy_TrainData@1 72.00	
+Epoch: [41/120]	Iters: [150/490]	Loss: 0.8328	Accuracy_TrainData@1 83.00	
+Epoch: [41/120]	Iters: [200/490]	Loss: 0.8355	Accuracy_TrainData@1 76.00	
+Epoch: [41/120]	Iters: [250/490]	Loss: 0.8359	Accuracy_TrainData@1 80.00	
+Epoch: [41/120]	Iters: [300/490]	Loss: 0.8407	Accuracy_TrainData@1 75.00	
+Epoch: [41/120]	Iters: [350/490]	Loss: 0.8387	Accuracy_TrainData@1 76.00	
+Epoch: [41/120]	Iters: [400/490]	Loss: 0.8383	Accuracy_TrainData@1 77.00	
+Epoch: [41/120]	Iters: [450/490]	Loss: 0.8407	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7197/10000 (71.9700%)
+
+EPOCH 71.97
+flag False
+
+Epoch: 41
+Epoch: [42/120]	Iters: [50/490]	Loss: 0.8316	Accuracy_TrainData@1 69.00	
+Epoch: [42/120]	Iters: [100/490]	Loss: 0.8379	Accuracy_TrainData@1 72.00	
+Epoch: [42/120]	Iters: [150/490]	Loss: 0.8365	Accuracy_TrainData@1 73.00	
+Epoch: [42/120]	Iters: [200/490]	Loss: 0.8342	Accuracy_TrainData@1 78.00	
+Epoch: [42/120]	Iters: [250/490]	Loss: 0.8361	Accuracy_TrainData@1 78.00	
+Epoch: [42/120]	Iters: [300/490]	Loss: 0.8375	Accuracy_TrainData@1 72.00	
+Epoch: [42/120]	Iters: [350/490]	Loss: 0.8391	Accuracy_TrainData@1 76.00	
+Epoch: [42/120]	Iters: [400/490]	Loss: 0.8368	Accuracy_TrainData@1 73.00	
+Epoch: [42/120]	Iters: [450/490]	Loss: 0.8386	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7758/10000 (77.5800%)
+
+EPOCH 77.58
+flag False
+
+Epoch: 42
+Epoch: [43/120]	Iters: [50/490]	Loss: 0.8275	Accuracy_TrainData@1 75.00	
+Epoch: [43/120]	Iters: [100/490]	Loss: 0.8297	Accuracy_TrainData@1 79.00	
+Epoch: [43/120]	Iters: [150/490]	Loss: 0.8349	Accuracy_TrainData@1 66.00	
+Epoch: [43/120]	Iters: [200/490]	Loss: 0.8357	Accuracy_TrainData@1 68.00	
+Epoch: [43/120]	Iters: [250/490]	Loss: 0.8322	Accuracy_TrainData@1 75.00	
+Epoch: [43/120]	Iters: [300/490]	Loss: 0.8352	Accuracy_TrainData@1 75.00	
+Epoch: [43/120]	Iters: [350/490]	Loss: 0.8327	Accuracy_TrainData@1 66.00	
+Epoch: [43/120]	Iters: [400/490]	Loss: 0.8352	Accuracy_TrainData@1 71.00	
+Epoch: [43/120]	Iters: [450/490]	Loss: 0.8363	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0068, Accuracy: 8077/10000 (80.7700%)
+
+EPOCH 80.77
+flag False
+
+Epoch: 43
+Epoch: [44/120]	Iters: [50/490]	Loss: 0.8609	Accuracy_TrainData@1 73.00	
+Epoch: [44/120]	Iters: [100/490]	Loss: 0.8268	Accuracy_TrainData@1 67.00	
+Epoch: [44/120]	Iters: [150/490]	Loss: 0.8289	Accuracy_TrainData@1 71.00	
+Epoch: [44/120]	Iters: [200/490]	Loss: 0.8335	Accuracy_TrainData@1 71.00	
+Epoch: [44/120]	Iters: [250/490]	Loss: 0.8334	Accuracy_TrainData@1 81.00	
+Epoch: [44/120]	Iters: [300/490]	Loss: 0.8370	Accuracy_TrainData@1 67.00	
+Epoch: [44/120]	Iters: [350/490]	Loss: 0.8364	Accuracy_TrainData@1 80.00	
+Epoch: [44/120]	Iters: [400/490]	Loss: 0.8351	Accuracy_TrainData@1 74.00	
+Epoch: [44/120]	Iters: [450/490]	Loss: 0.8363	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7911/10000 (79.1100%)
+
+EPOCH 79.11
+flag False
+
+Epoch: 44
+Epoch: [45/120]	Iters: [50/490]	Loss: 0.8104	Accuracy_TrainData@1 84.00	
+Epoch: [45/120]	Iters: [100/490]	Loss: 0.8239	Accuracy_TrainData@1 70.00	
+Epoch: [45/120]	Iters: [150/490]	Loss: 0.8333	Accuracy_TrainData@1 70.00	
+Epoch: [45/120]	Iters: [200/490]	Loss: 0.8334	Accuracy_TrainData@1 69.00	
+Epoch: [45/120]	Iters: [250/490]	Loss: 0.8335	Accuracy_TrainData@1 72.00	
+Epoch: [45/120]	Iters: [300/490]	Loss: 0.8357	Accuracy_TrainData@1 76.00	
+Epoch: [45/120]	Iters: [350/490]	Loss: 0.8338	Accuracy_TrainData@1 80.00	
+Epoch: [45/120]	Iters: [400/490]	Loss: 0.8358	Accuracy_TrainData@1 66.00	
+Epoch: [45/120]	Iters: [450/490]	Loss: 0.8376	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0098, Accuracy: 7076/10000 (70.7600%)
+
+EPOCH 70.76
+flag False
+
+Epoch: 45
+Epoch: [46/120]	Iters: [50/490]	Loss: 0.8163	Accuracy_TrainData@1 69.00	
+Epoch: [46/120]	Iters: [100/490]	Loss: 0.8067	Accuracy_TrainData@1 70.00	
+Epoch: [46/120]	Iters: [150/490]	Loss: 0.8061	Accuracy_TrainData@1 71.00	
+Epoch: [46/120]	Iters: [200/490]	Loss: 0.8128	Accuracy_TrainData@1 80.00	
+Epoch: [46/120]	Iters: [250/490]	Loss: 0.8225	Accuracy_TrainData@1 74.00	
+Epoch: [46/120]	Iters: [300/490]	Loss: 0.8238	Accuracy_TrainData@1 77.00	
+Epoch: [46/120]	Iters: [350/490]	Loss: 0.8271	Accuracy_TrainData@1 75.00	
+Epoch: [46/120]	Iters: [400/490]	Loss: 0.8275	Accuracy_TrainData@1 84.00	
+Epoch: [46/120]	Iters: [450/490]	Loss: 0.8306	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0082, Accuracy: 7382/10000 (73.8200%)
+
+EPOCH 73.82
+flag False
+
+Epoch: 46
+Epoch: [47/120]	Iters: [50/490]	Loss: 0.8505	Accuracy_TrainData@1 75.00	
+Epoch: [47/120]	Iters: [100/490]	Loss: 0.8363	Accuracy_TrainData@1 79.00	
+Epoch: [47/120]	Iters: [150/490]	Loss: 0.8285	Accuracy_TrainData@1 79.00	
+Epoch: [47/120]	Iters: [200/490]	Loss: 0.8322	Accuracy_TrainData@1 69.00	
+Epoch: [47/120]	Iters: [250/490]	Loss: 0.8367	Accuracy_TrainData@1 68.00	
+Epoch: [47/120]	Iters: [300/490]	Loss: 0.8341	Accuracy_TrainData@1 74.00	
+Epoch: [47/120]	Iters: [350/490]	Loss: 0.8342	Accuracy_TrainData@1 77.00	
+Epoch: [47/120]	Iters: [400/490]	Loss: 0.8350	Accuracy_TrainData@1 71.00	
+Epoch: [47/120]	Iters: [450/490]	Loss: 0.8363	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7678/10000 (76.7800%)
+
+EPOCH 76.78
+flag False
+
+Epoch: 47
+Epoch: [48/120]	Iters: [50/490]	Loss: 0.8002	Accuracy_TrainData@1 73.00	
+Epoch: [48/120]	Iters: [100/490]	Loss: 0.8104	Accuracy_TrainData@1 75.00	
+Epoch: [48/120]	Iters: [150/490]	Loss: 0.8195	Accuracy_TrainData@1 75.00	
+Epoch: [48/120]	Iters: [200/490]	Loss: 0.8260	Accuracy_TrainData@1 67.00	
+Epoch: [48/120]	Iters: [250/490]	Loss: 0.8279	Accuracy_TrainData@1 74.00	
+Epoch: [48/120]	Iters: [300/490]	Loss: 0.8296	Accuracy_TrainData@1 79.00	
+Epoch: [48/120]	Iters: [350/490]	Loss: 0.8291	Accuracy_TrainData@1 72.00	
+Epoch: [48/120]	Iters: [400/490]	Loss: 0.8326	Accuracy_TrainData@1 66.00	
+Epoch: [48/120]	Iters: [450/490]	Loss: 0.8343	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0092, Accuracy: 7165/10000 (71.6500%)
+
+EPOCH 71.65
+flag False
+
+Epoch: 48
+Epoch: [49/120]	Iters: [50/490]	Loss: 0.8271	Accuracy_TrainData@1 76.00	
+Epoch: [49/120]	Iters: [100/490]	Loss: 0.8355	Accuracy_TrainData@1 72.00	
+Epoch: [49/120]	Iters: [150/490]	Loss: 0.8339	Accuracy_TrainData@1 74.00	
+Epoch: [49/120]	Iters: [200/490]	Loss: 0.8400	Accuracy_TrainData@1 74.00	
+Epoch: [49/120]	Iters: [250/490]	Loss: 0.8378	Accuracy_TrainData@1 69.00	
+Epoch: [49/120]	Iters: [300/490]	Loss: 0.8344	Accuracy_TrainData@1 76.00	
+Epoch: [49/120]	Iters: [350/490]	Loss: 0.8304	Accuracy_TrainData@1 72.00	
+Epoch: [49/120]	Iters: [400/490]	Loss: 0.8298	Accuracy_TrainData@1 68.00	
+Epoch: [49/120]	Iters: [450/490]	Loss: 0.8323	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0076, Accuracy: 7681/10000 (76.8100%)
+
+EPOCH 76.81
+flag False
+
+Epoch: 49
+Epoch: [50/120]	Iters: [50/490]	Loss: 0.8120	Accuracy_TrainData@1 79.00	
+Epoch: [50/120]	Iters: [100/490]	Loss: 0.8025	Accuracy_TrainData@1 78.00	
+Epoch: [50/120]	Iters: [150/490]	Loss: 0.8127	Accuracy_TrainData@1 76.00	
+Epoch: [50/120]	Iters: [200/490]	Loss: 0.8149	Accuracy_TrainData@1 77.00	
+Epoch: [50/120]	Iters: [250/490]	Loss: 0.8263	Accuracy_TrainData@1 72.00	
+Epoch: [50/120]	Iters: [300/490]	Loss: 0.8280	Accuracy_TrainData@1 73.00	
+Epoch: [50/120]	Iters: [350/490]	Loss: 0.8282	Accuracy_TrainData@1 76.00	
+Epoch: [50/120]	Iters: [400/490]	Loss: 0.8282	Accuracy_TrainData@1 74.00	
+Epoch: [50/120]	Iters: [450/490]	Loss: 0.8252	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0081, Accuracy: 7492/10000 (74.9200%)
+
+EPOCH 74.92
+flag False
+
+Epoch: 50
+Epoch: [51/120]	Iters: [50/490]	Loss: 0.8083	Accuracy_TrainData@1 80.00	
+Epoch: [51/120]	Iters: [100/490]	Loss: 0.8128	Accuracy_TrainData@1 75.00	
+Epoch: [51/120]	Iters: [150/490]	Loss: 0.8218	Accuracy_TrainData@1 60.00	
+Epoch: [51/120]	Iters: [200/490]	Loss: 0.8182	Accuracy_TrainData@1 71.00	
+Epoch: [51/120]	Iters: [250/490]	Loss: 0.8245	Accuracy_TrainData@1 81.00	
+Epoch: [51/120]	Iters: [300/490]	Loss: 0.8231	Accuracy_TrainData@1 72.00	
+Epoch: [51/120]	Iters: [350/490]	Loss: 0.8203	Accuracy_TrainData@1 71.00	
+Epoch: [51/120]	Iters: [400/490]	Loss: 0.8202	Accuracy_TrainData@1 76.00	
+Epoch: [51/120]	Iters: [450/490]	Loss: 0.8233	Accuracy_TrainData@1 65.00	
+
+Test set: Average loss: 0.0078, Accuracy: 7619/10000 (76.1900%)
+
+EPOCH 76.19
+flag False
+
+Epoch: 51
+Epoch: [52/120]	Iters: [50/490]	Loss: 0.7995	Accuracy_TrainData@1 80.00	
+Epoch: [52/120]	Iters: [100/490]	Loss: 0.8156	Accuracy_TrainData@1 73.00	
+Epoch: [52/120]	Iters: [150/490]	Loss: 0.8361	Accuracy_TrainData@1 74.00	
+Epoch: [52/120]	Iters: [200/490]	Loss: 0.8384	Accuracy_TrainData@1 72.00	
+Epoch: [52/120]	Iters: [250/490]	Loss: 0.8285	Accuracy_TrainData@1 64.00	
+Epoch: [52/120]	Iters: [300/490]	Loss: 0.8279	Accuracy_TrainData@1 73.00	
+Epoch: [52/120]	Iters: [350/490]	Loss: 0.8295	Accuracy_TrainData@1 69.00	
+Epoch: [52/120]	Iters: [400/490]	Loss: 0.8314	Accuracy_TrainData@1 76.00	
+Epoch: [52/120]	Iters: [450/490]	Loss: 0.8302	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0073, Accuracy: 7892/10000 (78.9200%)
+
+EPOCH 78.92
+flag False
+
+Epoch: 52
+Epoch: [53/120]	Iters: [50/490]	Loss: 0.8479	Accuracy_TrainData@1 74.00	
+Epoch: [53/120]	Iters: [100/490]	Loss: 0.8418	Accuracy_TrainData@1 77.00	
+Epoch: [53/120]	Iters: [150/490]	Loss: 0.8278	Accuracy_TrainData@1 78.00	
+Epoch: [53/120]	Iters: [200/490]	Loss: 0.8292	Accuracy_TrainData@1 76.00	
+Epoch: [53/120]	Iters: [250/490]	Loss: 0.8263	Accuracy_TrainData@1 79.00	
+Epoch: [53/120]	Iters: [300/490]	Loss: 0.8281	Accuracy_TrainData@1 76.00	
+Epoch: [53/120]	Iters: [350/490]	Loss: 0.8248	Accuracy_TrainData@1 75.00	
+Epoch: [53/120]	Iters: [400/490]	Loss: 0.8257	Accuracy_TrainData@1 75.00	
+Epoch: [53/120]	Iters: [450/490]	Loss: 0.8225	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0088, Accuracy: 7407/10000 (74.0700%)
+
+EPOCH 74.07
+flag False
+
+Epoch: 53
+Epoch: [54/120]	Iters: [50/490]	Loss: 0.8104	Accuracy_TrainData@1 69.00	
+Epoch: [54/120]	Iters: [100/490]	Loss: 0.8239	Accuracy_TrainData@1 74.00	
+Epoch: [54/120]	Iters: [150/490]	Loss: 0.8245	Accuracy_TrainData@1 69.00	
+Epoch: [54/120]	Iters: [200/490]	Loss: 0.8183	Accuracy_TrainData@1 72.00	
+Epoch: [54/120]	Iters: [250/490]	Loss: 0.8230	Accuracy_TrainData@1 85.00	
+Epoch: [54/120]	Iters: [300/490]	Loss: 0.8240	Accuracy_TrainData@1 71.00	
+Epoch: [54/120]	Iters: [350/490]	Loss: 0.8243	Accuracy_TrainData@1 80.00	
+Epoch: [54/120]	Iters: [400/490]	Loss: 0.8269	Accuracy_TrainData@1 75.00	
+Epoch: [54/120]	Iters: [450/490]	Loss: 0.8261	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7420/10000 (74.2000%)
+
+EPOCH 74.2
+flag False
+
+Epoch: 54
+Epoch: [55/120]	Iters: [50/490]	Loss: 0.7961	Accuracy_TrainData@1 81.00	
+Epoch: [55/120]	Iters: [100/490]	Loss: 0.8170	Accuracy_TrainData@1 76.00	
+Epoch: [55/120]	Iters: [150/490]	Loss: 0.8154	Accuracy_TrainData@1 72.00	
+Epoch: [55/120]	Iters: [200/490]	Loss: 0.8172	Accuracy_TrainData@1 84.00	
+Epoch: [55/120]	Iters: [250/490]	Loss: 0.8226	Accuracy_TrainData@1 76.00	
+Epoch: [55/120]	Iters: [300/490]	Loss: 0.8243	Accuracy_TrainData@1 79.00	
+Epoch: [55/120]	Iters: [350/490]	Loss: 0.8232	Accuracy_TrainData@1 79.00	
+Epoch: [55/120]	Iters: [400/490]	Loss: 0.8249	Accuracy_TrainData@1 76.00	
+Epoch: [55/120]	Iters: [450/490]	Loss: 0.8252	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0068, Accuracy: 8042/10000 (80.4200%)
+
+EPOCH 80.42
+flag False
+
+Epoch: 55
+Epoch: [56/120]	Iters: [50/490]	Loss: 0.8298	Accuracy_TrainData@1 73.00	
+Epoch: [56/120]	Iters: [100/490]	Loss: 0.8279	Accuracy_TrainData@1 79.00	
+Epoch: [56/120]	Iters: [150/490]	Loss: 0.8240	Accuracy_TrainData@1 78.00	
+Epoch: [56/120]	Iters: [200/490]	Loss: 0.8251	Accuracy_TrainData@1 69.00	
+Epoch: [56/120]	Iters: [250/490]	Loss: 0.8296	Accuracy_TrainData@1 73.00	
+Epoch: [56/120]	Iters: [300/490]	Loss: 0.8289	Accuracy_TrainData@1 75.00	
+Epoch: [56/120]	Iters: [350/490]	Loss: 0.8280	Accuracy_TrainData@1 76.00	
+Epoch: [56/120]	Iters: [400/490]	Loss: 0.8267	Accuracy_TrainData@1 80.00	
+Epoch: [56/120]	Iters: [450/490]	Loss: 0.8229	Accuracy_TrainData@1 66.00	
+
+Test set: Average loss: 0.0096, Accuracy: 7219/10000 (72.1900%)
+
+EPOCH 72.19
+flag False
+
+Epoch: 56
+Epoch: [57/120]	Iters: [50/490]	Loss: 0.8236	Accuracy_TrainData@1 68.00	
+Epoch: [57/120]	Iters: [100/490]	Loss: 0.8353	Accuracy_TrainData@1 69.00	
+Epoch: [57/120]	Iters: [150/490]	Loss: 0.8277	Accuracy_TrainData@1 79.00	
+Epoch: [57/120]	Iters: [200/490]	Loss: 0.8284	Accuracy_TrainData@1 71.00	
+Epoch: [57/120]	Iters: [250/490]	Loss: 0.8250	Accuracy_TrainData@1 75.00	
+Epoch: [57/120]	Iters: [300/490]	Loss: 0.8217	Accuracy_TrainData@1 78.00	
+Epoch: [57/120]	Iters: [350/490]	Loss: 0.8231	Accuracy_TrainData@1 69.00	
+Epoch: [57/120]	Iters: [400/490]	Loss: 0.8191	Accuracy_TrainData@1 82.00	
+Epoch: [57/120]	Iters: [450/490]	Loss: 0.8211	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7402/10000 (74.0200%)
+
+EPOCH 74.02
+flag False
+
+Epoch: 57
+Epoch: [58/120]	Iters: [50/490]	Loss: 0.8027	Accuracy_TrainData@1 78.00	
+Epoch: [58/120]	Iters: [100/490]	Loss: 0.8098	Accuracy_TrainData@1 70.00	
+Epoch: [58/120]	Iters: [150/490]	Loss: 0.8184	Accuracy_TrainData@1 71.00	
+Epoch: [58/120]	Iters: [200/490]	Loss: 0.8232	Accuracy_TrainData@1 78.00	
+Epoch: [58/120]	Iters: [250/490]	Loss: 0.8244	Accuracy_TrainData@1 76.00	
+Epoch: [58/120]	Iters: [300/490]	Loss: 0.8218	Accuracy_TrainData@1 79.00	
+Epoch: [58/120]	Iters: [350/490]	Loss: 0.8284	Accuracy_TrainData@1 74.00	
+Epoch: [58/120]	Iters: [400/490]	Loss: 0.8278	Accuracy_TrainData@1 71.00	
+Epoch: [58/120]	Iters: [450/490]	Loss: 0.8258	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0101, Accuracy: 6968/10000 (69.6800%)
+
+EPOCH 69.68
+flag False
+
+Epoch: 58
+Epoch: [59/120]	Iters: [50/490]	Loss: 0.8198	Accuracy_TrainData@1 69.00	
+Epoch: [59/120]	Iters: [100/490]	Loss: 0.8185	Accuracy_TrainData@1 79.00	
+Epoch: [59/120]	Iters: [150/490]	Loss: 0.8159	Accuracy_TrainData@1 76.00	
+Epoch: [59/120]	Iters: [200/490]	Loss: 0.8145	Accuracy_TrainData@1 61.00	
+Epoch: [59/120]	Iters: [250/490]	Loss: 0.8164	Accuracy_TrainData@1 75.00	
+Epoch: [59/120]	Iters: [300/490]	Loss: 0.8134	Accuracy_TrainData@1 74.00	
+Epoch: [59/120]	Iters: [350/490]	Loss: 0.8133	Accuracy_TrainData@1 69.00	
+Epoch: [59/120]	Iters: [400/490]	Loss: 0.8136	Accuracy_TrainData@1 75.00	
+Epoch: [59/120]	Iters: [450/490]	Loss: 0.8148	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7751/10000 (77.5100%)
+
+EPOCH 77.51
+flag False
+
+Epoch: 59
+Epoch: [60/120]	Iters: [50/490]	Loss: 0.7971	Accuracy_TrainData@1 78.00	
+Epoch: [60/120]	Iters: [100/490]	Loss: 0.7929	Accuracy_TrainData@1 77.00	
+Epoch: [60/120]	Iters: [150/490]	Loss: 0.7980	Accuracy_TrainData@1 75.00	
+Epoch: [60/120]	Iters: [200/490]	Loss: 0.8038	Accuracy_TrainData@1 66.00	
+Epoch: [60/120]	Iters: [250/490]	Loss: 0.8058	Accuracy_TrainData@1 77.00	
+Epoch: [60/120]	Iters: [300/490]	Loss: 0.8072	Accuracy_TrainData@1 76.00	
+Epoch: [60/120]	Iters: [350/490]	Loss: 0.8104	Accuracy_TrainData@1 73.00	
+Epoch: [60/120]	Iters: [400/490]	Loss: 0.8125	Accuracy_TrainData@1 75.00	
+Epoch: [60/120]	Iters: [450/490]	Loss: 0.8147	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0086, Accuracy: 7455/10000 (74.5500%)
+
+EPOCH 74.55
+flag False
+
+Epoch: 60
+Epoch: [61/120]	Iters: [50/490]	Loss: 0.8276	Accuracy_TrainData@1 72.00	
+Epoch: [61/120]	Iters: [100/490]	Loss: 0.8170	Accuracy_TrainData@1 87.00	
+Epoch: [61/120]	Iters: [150/490]	Loss: 0.8163	Accuracy_TrainData@1 73.00	
+Epoch: [61/120]	Iters: [200/490]	Loss: 0.8272	Accuracy_TrainData@1 73.00	
+Epoch: [61/120]	Iters: [250/490]	Loss: 0.8258	Accuracy_TrainData@1 75.00	
+Epoch: [61/120]	Iters: [300/490]	Loss: 0.8216	Accuracy_TrainData@1 74.00	
+Epoch: [61/120]	Iters: [350/490]	Loss: 0.8243	Accuracy_TrainData@1 73.00	
+Epoch: [61/120]	Iters: [400/490]	Loss: 0.8252	Accuracy_TrainData@1 78.00	
+Epoch: [61/120]	Iters: [450/490]	Loss: 0.8242	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0068, Accuracy: 7980/10000 (79.8000%)
+
+EPOCH 79.8
+flag False
+
+Epoch: 61
+Epoch: [62/120]	Iters: [50/490]	Loss: 0.8001	Accuracy_TrainData@1 69.00	
+Epoch: [62/120]	Iters: [100/490]	Loss: 0.8042	Accuracy_TrainData@1 75.00	
+Epoch: [62/120]	Iters: [150/490]	Loss: 0.8061	Accuracy_TrainData@1 79.00	
+Epoch: [62/120]	Iters: [200/490]	Loss: 0.8134	Accuracy_TrainData@1 66.00	
+Epoch: [62/120]	Iters: [250/490]	Loss: 0.8145	Accuracy_TrainData@1 80.00	
+Epoch: [62/120]	Iters: [300/490]	Loss: 0.8164	Accuracy_TrainData@1 83.00	
+Epoch: [62/120]	Iters: [350/490]	Loss: 0.8136	Accuracy_TrainData@1 78.00	
+Epoch: [62/120]	Iters: [400/490]	Loss: 0.8163	Accuracy_TrainData@1 82.00	
+Epoch: [62/120]	Iters: [450/490]	Loss: 0.8174	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0081, Accuracy: 7652/10000 (76.5200%)
+
+EPOCH 76.52
+flag False
+
+Epoch: 62
+Epoch: [63/120]	Iters: [50/490]	Loss: 0.8226	Accuracy_TrainData@1 67.00	
+Epoch: [63/120]	Iters: [100/490]	Loss: 0.8253	Accuracy_TrainData@1 69.00	
+Epoch: [63/120]	Iters: [150/490]	Loss: 0.8251	Accuracy_TrainData@1 72.00	
+Epoch: [63/120]	Iters: [200/490]	Loss: 0.8152	Accuracy_TrainData@1 77.00	
+Epoch: [63/120]	Iters: [250/490]	Loss: 0.8120	Accuracy_TrainData@1 77.00	
+Epoch: [63/120]	Iters: [300/490]	Loss: 0.8132	Accuracy_TrainData@1 73.00	
+Epoch: [63/120]	Iters: [350/490]	Loss: 0.8145	Accuracy_TrainData@1 63.00	
+Epoch: [63/120]	Iters: [400/490]	Loss: 0.8191	Accuracy_TrainData@1 71.00	
+Epoch: [63/120]	Iters: [450/490]	Loss: 0.8195	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0079, Accuracy: 7642/10000 (76.4200%)
+
+EPOCH 76.42
+flag False
+
+Epoch: 63
+Epoch: [64/120]	Iters: [50/490]	Loss: 0.8094	Accuracy_TrainData@1 73.00	
+Epoch: [64/120]	Iters: [100/490]	Loss: 0.8206	Accuracy_TrainData@1 75.00	
+Epoch: [64/120]	Iters: [150/490]	Loss: 0.8258	Accuracy_TrainData@1 74.00	
+Epoch: [64/120]	Iters: [200/490]	Loss: 0.8212	Accuracy_TrainData@1 76.00	
+Epoch: [64/120]	Iters: [250/490]	Loss: 0.8184	Accuracy_TrainData@1 72.00	
+Epoch: [64/120]	Iters: [300/490]	Loss: 0.8167	Accuracy_TrainData@1 66.00	
+Epoch: [64/120]	Iters: [350/490]	Loss: 0.8141	Accuracy_TrainData@1 86.00	
+Epoch: [64/120]	Iters: [400/490]	Loss: 0.8135	Accuracy_TrainData@1 77.00	
+Epoch: [64/120]	Iters: [450/490]	Loss: 0.8148	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0091, Accuracy: 7295/10000 (72.9500%)
+
+EPOCH 72.95
+flag False
+
+Epoch: 64
+Epoch: [65/120]	Iters: [50/490]	Loss: 0.8133	Accuracy_TrainData@1 71.00	
+Epoch: [65/120]	Iters: [100/490]	Loss: 0.8071	Accuracy_TrainData@1 72.00	
+Epoch: [65/120]	Iters: [150/490]	Loss: 0.8111	Accuracy_TrainData@1 69.00	
+Epoch: [65/120]	Iters: [200/490]	Loss: 0.8146	Accuracy_TrainData@1 67.00	
+Epoch: [65/120]	Iters: [250/490]	Loss: 0.8154	Accuracy_TrainData@1 80.00	
+Epoch: [65/120]	Iters: [300/490]	Loss: 0.8140	Accuracy_TrainData@1 76.00	
+Epoch: [65/120]	Iters: [350/490]	Loss: 0.8120	Accuracy_TrainData@1 70.00	
+Epoch: [65/120]	Iters: [400/490]	Loss: 0.8148	Accuracy_TrainData@1 75.00	
+Epoch: [65/120]	Iters: [450/490]	Loss: 0.8183	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0065, Accuracy: 8026/10000 (80.2600%)
+
+EPOCH 80.26
+flag False
+
+Epoch: 65
+Epoch: [66/120]	Iters: [50/490]	Loss: 0.8149	Accuracy_TrainData@1 79.00	
+Epoch: [66/120]	Iters: [100/490]	Loss: 0.8087	Accuracy_TrainData@1 77.00	
+Epoch: [66/120]	Iters: [150/490]	Loss: 0.8098	Accuracy_TrainData@1 73.00	
+Epoch: [66/120]	Iters: [200/490]	Loss: 0.8091	Accuracy_TrainData@1 70.00	
+Epoch: [66/120]	Iters: [250/490]	Loss: 0.8153	Accuracy_TrainData@1 71.00	
+Epoch: [66/120]	Iters: [300/490]	Loss: 0.8143	Accuracy_TrainData@1 73.00	
+Epoch: [66/120]	Iters: [350/490]	Loss: 0.8152	Accuracy_TrainData@1 68.00	
+Epoch: [66/120]	Iters: [400/490]	Loss: 0.8158	Accuracy_TrainData@1 75.00	
+Epoch: [66/120]	Iters: [450/490]	Loss: 0.8148	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7718/10000 (77.1800%)
+
+EPOCH 77.18
+flag False
+
+Epoch: 66
+Epoch: [67/120]	Iters: [50/490]	Loss: 0.8356	Accuracy_TrainData@1 71.00	
+Epoch: [67/120]	Iters: [100/490]	Loss: 0.8000	Accuracy_TrainData@1 83.00	
+Epoch: [67/120]	Iters: [150/490]	Loss: 0.8087	Accuracy_TrainData@1 73.00	
+Epoch: [67/120]	Iters: [200/490]	Loss: 0.8097	Accuracy_TrainData@1 78.00	
+Epoch: [67/120]	Iters: [250/490]	Loss: 0.8133	Accuracy_TrainData@1 79.00	
+Epoch: [67/120]	Iters: [300/490]	Loss: 0.8091	Accuracy_TrainData@1 67.00	
+Epoch: [67/120]	Iters: [350/490]	Loss: 0.8138	Accuracy_TrainData@1 74.00	
+Epoch: [67/120]	Iters: [400/490]	Loss: 0.8149	Accuracy_TrainData@1 66.00	
+Epoch: [67/120]	Iters: [450/490]	Loss: 0.8120	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7805/10000 (78.0500%)
+
+EPOCH 78.05
+flag False
+
+Epoch: 67
+Epoch: [68/120]	Iters: [50/490]	Loss: 0.8409	Accuracy_TrainData@1 70.00	
+Epoch: [68/120]	Iters: [100/490]	Loss: 0.8137	Accuracy_TrainData@1 80.00	
+Epoch: [68/120]	Iters: [150/490]	Loss: 0.8087	Accuracy_TrainData@1 78.00	
+Epoch: [68/120]	Iters: [200/490]	Loss: 0.8065	Accuracy_TrainData@1 70.00	
+Epoch: [68/120]	Iters: [250/490]	Loss: 0.8056	Accuracy_TrainData@1 76.00	
+Epoch: [68/120]	Iters: [300/490]	Loss: 0.8037	Accuracy_TrainData@1 81.00	
+Epoch: [68/120]	Iters: [350/490]	Loss: 0.8097	Accuracy_TrainData@1 80.00	
+Epoch: [68/120]	Iters: [400/490]	Loss: 0.8096	Accuracy_TrainData@1 77.00	
+Epoch: [68/120]	Iters: [450/490]	Loss: 0.8110	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0065, Accuracy: 7943/10000 (79.4300%)
+
+EPOCH 79.43
+flag False
+
+Epoch: 68
+Epoch: [69/120]	Iters: [50/490]	Loss: 0.7940	Accuracy_TrainData@1 71.00	
+Epoch: [69/120]	Iters: [100/490]	Loss: 0.8051	Accuracy_TrainData@1 76.00	
+Epoch: [69/120]	Iters: [150/490]	Loss: 0.8044	Accuracy_TrainData@1 71.00	
+Epoch: [69/120]	Iters: [200/490]	Loss: 0.8118	Accuracy_TrainData@1 78.00	
+Epoch: [69/120]	Iters: [250/490]	Loss: 0.8150	Accuracy_TrainData@1 71.00	
+Epoch: [69/120]	Iters: [300/490]	Loss: 0.8150	Accuracy_TrainData@1 76.00	
+Epoch: [69/120]	Iters: [350/490]	Loss: 0.8134	Accuracy_TrainData@1 77.00	
+Epoch: [69/120]	Iters: [400/490]	Loss: 0.8133	Accuracy_TrainData@1 71.00	
+Epoch: [69/120]	Iters: [450/490]	Loss: 0.8159	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7222/10000 (72.2200%)
+
+EPOCH 72.22
+flag False
+
+Epoch: 69
+Epoch: [70/120]	Iters: [50/490]	Loss: 0.8055	Accuracy_TrainData@1 82.00	
+Epoch: [70/120]	Iters: [100/490]	Loss: 0.8153	Accuracy_TrainData@1 72.00	
+Epoch: [70/120]	Iters: [150/490]	Loss: 0.8109	Accuracy_TrainData@1 73.00	
+Epoch: [70/120]	Iters: [200/490]	Loss: 0.8149	Accuracy_TrainData@1 80.00	
+Epoch: [70/120]	Iters: [250/490]	Loss: 0.8198	Accuracy_TrainData@1 75.00	
+Epoch: [70/120]	Iters: [300/490]	Loss: 0.8191	Accuracy_TrainData@1 72.00	
+Epoch: [70/120]	Iters: [350/490]	Loss: 0.8146	Accuracy_TrainData@1 68.00	
+Epoch: [70/120]	Iters: [400/490]	Loss: 0.8130	Accuracy_TrainData@1 82.00	
+Epoch: [70/120]	Iters: [450/490]	Loss: 0.8157	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7907/10000 (79.0700%)
+
+EPOCH 79.07
+flag False
+
+Epoch: 70
+Epoch: [71/120]	Iters: [50/490]	Loss: 0.7792	Accuracy_TrainData@1 63.00	
+Epoch: [71/120]	Iters: [100/490]	Loss: 0.7932	Accuracy_TrainData@1 76.00	
+Epoch: [71/120]	Iters: [150/490]	Loss: 0.7915	Accuracy_TrainData@1 76.00	
+Epoch: [71/120]	Iters: [200/490]	Loss: 0.8011	Accuracy_TrainData@1 66.00	
+Epoch: [71/120]	Iters: [250/490]	Loss: 0.8029	Accuracy_TrainData@1 72.00	
+Epoch: [71/120]	Iters: [300/490]	Loss: 0.8050	Accuracy_TrainData@1 69.00	
+Epoch: [71/120]	Iters: [350/490]	Loss: 0.8061	Accuracy_TrainData@1 70.00	
+Epoch: [71/120]	Iters: [400/490]	Loss: 0.8105	Accuracy_TrainData@1 71.00	
+Epoch: [71/120]	Iters: [450/490]	Loss: 0.8119	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0068, Accuracy: 7926/10000 (79.2600%)
+
+EPOCH 79.26
+flag False
+
+Epoch: 71
+Epoch: [72/120]	Iters: [50/490]	Loss: 0.7796	Accuracy_TrainData@1 79.00	
+Epoch: [72/120]	Iters: [100/490]	Loss: 0.8024	Accuracy_TrainData@1 76.00	
+Epoch: [72/120]	Iters: [150/490]	Loss: 0.8168	Accuracy_TrainData@1 75.00	
+Epoch: [72/120]	Iters: [200/490]	Loss: 0.8143	Accuracy_TrainData@1 75.00	
+Epoch: [72/120]	Iters: [250/490]	Loss: 0.8104	Accuracy_TrainData@1 70.00	
+Epoch: [72/120]	Iters: [300/490]	Loss: 0.8127	Accuracy_TrainData@1 70.00	
+Epoch: [72/120]	Iters: [350/490]	Loss: 0.8130	Accuracy_TrainData@1 75.00	
+Epoch: [72/120]	Iters: [400/490]	Loss: 0.8139	Accuracy_TrainData@1 78.00	
+Epoch: [72/120]	Iters: [450/490]	Loss: 0.8136	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0068, Accuracy: 7919/10000 (79.1900%)
+
+EPOCH 79.19
+flag False
+
+Epoch: 72
+Epoch: [73/120]	Iters: [50/490]	Loss: 0.7770	Accuracy_TrainData@1 78.00	
+Epoch: [73/120]	Iters: [100/490]	Loss: 0.7854	Accuracy_TrainData@1 74.00	
+Epoch: [73/120]	Iters: [150/490]	Loss: 0.7915	Accuracy_TrainData@1 77.00	
+Epoch: [73/120]	Iters: [200/490]	Loss: 0.7926	Accuracy_TrainData@1 76.00	
+Epoch: [73/120]	Iters: [250/490]	Loss: 0.7958	Accuracy_TrainData@1 74.00	
+Epoch: [73/120]	Iters: [300/490]	Loss: 0.7980	Accuracy_TrainData@1 77.00	
+Epoch: [73/120]	Iters: [350/490]	Loss: 0.7991	Accuracy_TrainData@1 79.00	
+Epoch: [73/120]	Iters: [400/490]	Loss: 0.8030	Accuracy_TrainData@1 77.00	
+Epoch: [73/120]	Iters: [450/490]	Loss: 0.8066	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0076, Accuracy: 7751/10000 (77.5100%)
+
+EPOCH 77.51
+flag False
+
+Epoch: 73
+Epoch: [74/120]	Iters: [50/490]	Loss: 0.7890	Accuracy_TrainData@1 79.00	
+Epoch: [74/120]	Iters: [100/490]	Loss: 0.8109	Accuracy_TrainData@1 75.00	
+Epoch: [74/120]	Iters: [150/490]	Loss: 0.8085	Accuracy_TrainData@1 74.00	
+Epoch: [74/120]	Iters: [200/490]	Loss: 0.8078	Accuracy_TrainData@1 68.00	
+Epoch: [74/120]	Iters: [250/490]	Loss: 0.8087	Accuracy_TrainData@1 74.00	
+Epoch: [74/120]	Iters: [300/490]	Loss: 0.8098	Accuracy_TrainData@1 76.00	
+Epoch: [74/120]	Iters: [350/490]	Loss: 0.8105	Accuracy_TrainData@1 74.00	
+Epoch: [74/120]	Iters: [400/490]	Loss: 0.8127	Accuracy_TrainData@1 73.00	
+Epoch: [74/120]	Iters: [450/490]	Loss: 0.8152	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7727/10000 (77.2700%)
+
+EPOCH 77.27
+flag False
+
+Epoch: 74
+Epoch: [75/120]	Iters: [50/490]	Loss: 0.7884	Accuracy_TrainData@1 75.00	
+Epoch: [75/120]	Iters: [100/490]	Loss: 0.7995	Accuracy_TrainData@1 77.00	
+Epoch: [75/120]	Iters: [150/490]	Loss: 0.8030	Accuracy_TrainData@1 69.00	
+Epoch: [75/120]	Iters: [200/490]	Loss: 0.8006	Accuracy_TrainData@1 81.00	
+Epoch: [75/120]	Iters: [250/490]	Loss: 0.8016	Accuracy_TrainData@1 77.00	
+Epoch: [75/120]	Iters: [300/490]	Loss: 0.8027	Accuracy_TrainData@1 79.00	
+Epoch: [75/120]	Iters: [350/490]	Loss: 0.8022	Accuracy_TrainData@1 76.00	
+Epoch: [75/120]	Iters: [400/490]	Loss: 0.8047	Accuracy_TrainData@1 71.00	
+Epoch: [75/120]	Iters: [450/490]	Loss: 0.8067	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0099, Accuracy: 6987/10000 (69.8700%)
+
+EPOCH 69.87
+flag False
+
+Epoch: 75
+Epoch: [76/120]	Iters: [50/490]	Loss: 0.8053	Accuracy_TrainData@1 66.00	
+Epoch: [76/120]	Iters: [100/490]	Loss: 0.8105	Accuracy_TrainData@1 73.00	
+Epoch: [76/120]	Iters: [150/490]	Loss: 0.8122	Accuracy_TrainData@1 75.00	
+Epoch: [76/120]	Iters: [200/490]	Loss: 0.8134	Accuracy_TrainData@1 76.00	
+Epoch: [76/120]	Iters: [250/490]	Loss: 0.8096	Accuracy_TrainData@1 73.00	
+Epoch: [76/120]	Iters: [300/490]	Loss: 0.8140	Accuracy_TrainData@1 75.00	
+Epoch: [76/120]	Iters: [350/490]	Loss: 0.8168	Accuracy_TrainData@1 70.00	
+Epoch: [76/120]	Iters: [400/490]	Loss: 0.8163	Accuracy_TrainData@1 76.00	
+Epoch: [76/120]	Iters: [450/490]	Loss: 0.8167	Accuracy_TrainData@1 63.00	
+
+Test set: Average loss: 0.0077, Accuracy: 7736/10000 (77.3600%)
+
+EPOCH 77.36
+flag False
+
+Epoch: 76
+Epoch: [77/120]	Iters: [50/490]	Loss: 0.8149	Accuracy_TrainData@1 73.00	
+Epoch: [77/120]	Iters: [100/490]	Loss: 0.8066	Accuracy_TrainData@1 72.00	
+Epoch: [77/120]	Iters: [150/490]	Loss: 0.8022	Accuracy_TrainData@1 72.00	
+Epoch: [77/120]	Iters: [200/490]	Loss: 0.8071	Accuracy_TrainData@1 75.00	
+Epoch: [77/120]	Iters: [250/490]	Loss: 0.8085	Accuracy_TrainData@1 78.00	
+Epoch: [77/120]	Iters: [300/490]	Loss: 0.8164	Accuracy_TrainData@1 77.00	
+Epoch: [77/120]	Iters: [350/490]	Loss: 0.8171	Accuracy_TrainData@1 65.00	
+Epoch: [77/120]	Iters: [400/490]	Loss: 0.8138	Accuracy_TrainData@1 74.00	
+Epoch: [77/120]	Iters: [450/490]	Loss: 0.8130	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7763/10000 (77.6300%)
+
+EPOCH 77.63
+flag False
+
+Epoch: 77
+Epoch: [78/120]	Iters: [50/490]	Loss: 0.7981	Accuracy_TrainData@1 76.00	
+Epoch: [78/120]	Iters: [100/490]	Loss: 0.8020	Accuracy_TrainData@1 74.00	
+Epoch: [78/120]	Iters: [150/490]	Loss: 0.8122	Accuracy_TrainData@1 77.00	
+Epoch: [78/120]	Iters: [200/490]	Loss: 0.8094	Accuracy_TrainData@1 80.00	
+Epoch: [78/120]	Iters: [250/490]	Loss: 0.8101	Accuracy_TrainData@1 71.00	
+Epoch: [78/120]	Iters: [300/490]	Loss: 0.8108	Accuracy_TrainData@1 63.00	
+Epoch: [78/120]	Iters: [350/490]	Loss: 0.8098	Accuracy_TrainData@1 73.00	
+Epoch: [78/120]	Iters: [400/490]	Loss: 0.8110	Accuracy_TrainData@1 67.00	
+Epoch: [78/120]	Iters: [450/490]	Loss: 0.8124	Accuracy_TrainData@1 64.00	
+
+Test set: Average loss: 0.0072, Accuracy: 7876/10000 (78.7600%)
+
+EPOCH 78.76
+flag False
+
+Epoch: 78
+Epoch: [79/120]	Iters: [50/490]	Loss: 0.8068	Accuracy_TrainData@1 70.00	
+Epoch: [79/120]	Iters: [100/490]	Loss: 0.7992	Accuracy_TrainData@1 79.00	
+Epoch: [79/120]	Iters: [150/490]	Loss: 0.7910	Accuracy_TrainData@1 73.00	
+Epoch: [79/120]	Iters: [200/490]	Loss: 0.7940	Accuracy_TrainData@1 78.00	
+Epoch: [79/120]	Iters: [250/490]	Loss: 0.7998	Accuracy_TrainData@1 68.00	
+Epoch: [79/120]	Iters: [300/490]	Loss: 0.7976	Accuracy_TrainData@1 76.00	
+Epoch: [79/120]	Iters: [350/490]	Loss: 0.8007	Accuracy_TrainData@1 74.00	
+Epoch: [79/120]	Iters: [400/490]	Loss: 0.8053	Accuracy_TrainData@1 71.00	
+Epoch: [79/120]	Iters: [450/490]	Loss: 0.8053	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0068, Accuracy: 8050/10000 (80.5000%)
+
+EPOCH 80.5
+flag False
+
+Epoch: 79
+Epoch: [80/120]	Iters: [50/490]	Loss: 0.7604	Accuracy_TrainData@1 80.00	
+Epoch: [80/120]	Iters: [100/490]	Loss: 0.7873	Accuracy_TrainData@1 71.00	
+Epoch: [80/120]	Iters: [150/490]	Loss: 0.7870	Accuracy_TrainData@1 82.00	
+Epoch: [80/120]	Iters: [200/490]	Loss: 0.7926	Accuracy_TrainData@1 80.00	
+Epoch: [80/120]	Iters: [250/490]	Loss: 0.7952	Accuracy_TrainData@1 72.00	
+Epoch: [80/120]	Iters: [300/490]	Loss: 0.8001	Accuracy_TrainData@1 78.00	
+Epoch: [80/120]	Iters: [350/490]	Loss: 0.8018	Accuracy_TrainData@1 78.00	
+Epoch: [80/120]	Iters: [400/490]	Loss: 0.8008	Accuracy_TrainData@1 75.00	
+Epoch: [80/120]	Iters: [450/490]	Loss: 0.8025	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0063, Accuracy: 8174/10000 (81.7400%)
+
+EPOCH 81.74
+flag False
+
+Epoch: 80
+Epoch: [81/120]	Iters: [50/490]	Loss: 0.7340	Accuracy_TrainData@1 77.00	
+Epoch: [81/120]	Iters: [100/490]	Loss: 0.7090	Accuracy_TrainData@1 76.00	
+Epoch: [81/120]	Iters: [150/490]	Loss: 0.6827	Accuracy_TrainData@1 81.00	
+Epoch: [81/120]	Iters: [200/490]	Loss: 0.6698	Accuracy_TrainData@1 72.00	
+Epoch: [81/120]	Iters: [250/490]	Loss: 0.6620	Accuracy_TrainData@1 87.00	
+Epoch: [81/120]	Iters: [300/490]	Loss: 0.6548	Accuracy_TrainData@1 80.00	
+Epoch: [81/120]	Iters: [350/490]	Loss: 0.6458	Accuracy_TrainData@1 77.00	
+Epoch: [81/120]	Iters: [400/490]	Loss: 0.6418	Accuracy_TrainData@1 82.00	
+Epoch: [81/120]	Iters: [450/490]	Loss: 0.6369	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0040, Accuracy: 8892/10000 (88.9200%)
+
+EPOCH 88.92
+flag False
+
+Epoch: 81
+Epoch: [82/120]	Iters: [50/490]	Loss: 0.5943	Accuracy_TrainData@1 85.00	
+Epoch: [82/120]	Iters: [100/490]	Loss: 0.5942	Accuracy_TrainData@1 80.00	
+Epoch: [82/120]	Iters: [150/490]	Loss: 0.5861	Accuracy_TrainData@1 81.00	
+Epoch: [82/120]	Iters: [200/490]	Loss: 0.5878	Accuracy_TrainData@1 84.00	
+Epoch: [82/120]	Iters: [250/490]	Loss: 0.5865	Accuracy_TrainData@1 84.00	
+Epoch: [82/120]	Iters: [300/490]	Loss: 0.5864	Accuracy_TrainData@1 79.00	
+Epoch: [82/120]	Iters: [350/490]	Loss: 0.5866	Accuracy_TrainData@1 81.00	
+Epoch: [82/120]	Iters: [400/490]	Loss: 0.5877	Accuracy_TrainData@1 82.00	
+Epoch: [82/120]	Iters: [450/490]	Loss: 0.5882	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8948/10000 (89.4800%)
+
+EPOCH 89.48
+flag False
+
+Epoch: 82
+Epoch: [83/120]	Iters: [50/490]	Loss: 0.5479	Accuracy_TrainData@1 77.00	
+Epoch: [83/120]	Iters: [100/490]	Loss: 0.5591	Accuracy_TrainData@1 82.00	
+Epoch: [83/120]	Iters: [150/490]	Loss: 0.5671	Accuracy_TrainData@1 82.00	
+Epoch: [83/120]	Iters: [200/490]	Loss: 0.5676	Accuracy_TrainData@1 81.00	
+Epoch: [83/120]	Iters: [250/490]	Loss: 0.5650	Accuracy_TrainData@1 87.00	
+Epoch: [83/120]	Iters: [300/490]	Loss: 0.5646	Accuracy_TrainData@1 85.00	
+Epoch: [83/120]	Iters: [350/490]	Loss: 0.5653	Accuracy_TrainData@1 82.00	
+Epoch: [83/120]	Iters: [400/490]	Loss: 0.5661	Accuracy_TrainData@1 84.00	
+Epoch: [83/120]	Iters: [450/490]	Loss: 0.5669	Accuracy_TrainData@1 82.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8951/10000 (89.5100%)
+
+EPOCH 89.51
+flag False
+
+Epoch: 83
+Epoch: [84/120]	Iters: [50/490]	Loss: 0.5378	Accuracy_TrainData@1 80.00	
+Epoch: [84/120]	Iters: [100/490]	Loss: 0.5541	Accuracy_TrainData@1 80.00	
+Epoch: [84/120]	Iters: [150/490]	Loss: 0.5531	Accuracy_TrainData@1 86.00	
+Epoch: [84/120]	Iters: [200/490]	Loss: 0.5538	Accuracy_TrainData@1 83.00	
+Epoch: [84/120]	Iters: [250/490]	Loss: 0.5507	Accuracy_TrainData@1 82.00	
+Epoch: [84/120]	Iters: [300/490]	Loss: 0.5479	Accuracy_TrainData@1 85.00	
+Epoch: [84/120]	Iters: [350/490]	Loss: 0.5515	Accuracy_TrainData@1 83.00	
+Epoch: [84/120]	Iters: [400/490]	Loss: 0.5524	Accuracy_TrainData@1 80.00	
+Epoch: [84/120]	Iters: [450/490]	Loss: 0.5529	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8970/10000 (89.7000%)
+
+EPOCH 89.7
+flag False
+
+Epoch: 84
+Epoch: [85/120]	Iters: [50/490]	Loss: 0.5343	Accuracy_TrainData@1 76.00	
+Epoch: [85/120]	Iters: [100/490]	Loss: 0.5402	Accuracy_TrainData@1 87.00	
+Epoch: [85/120]	Iters: [150/490]	Loss: 0.5371	Accuracy_TrainData@1 80.00	
+Epoch: [85/120]	Iters: [200/490]	Loss: 0.5359	Accuracy_TrainData@1 88.00	
+Epoch: [85/120]	Iters: [250/490]	Loss: 0.5394	Accuracy_TrainData@1 83.00	
+Epoch: [85/120]	Iters: [300/490]	Loss: 0.5393	Accuracy_TrainData@1 89.00	
+Epoch: [85/120]	Iters: [350/490]	Loss: 0.5415	Accuracy_TrainData@1 83.00	
+Epoch: [85/120]	Iters: [400/490]	Loss: 0.5437	Accuracy_TrainData@1 90.00	
+Epoch: [85/120]	Iters: [450/490]	Loss: 0.5445	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8984/10000 (89.8400%)
+
+EPOCH 89.84
+flag False
+
+Epoch: 85
+Epoch: [86/120]	Iters: [50/490]	Loss: 0.5130	Accuracy_TrainData@1 84.00	
+Epoch: [86/120]	Iters: [100/490]	Loss: 0.5273	Accuracy_TrainData@1 88.00	
+Epoch: [86/120]	Iters: [150/490]	Loss: 0.5302	Accuracy_TrainData@1 79.00	
+Epoch: [86/120]	Iters: [200/490]	Loss: 0.5305	Accuracy_TrainData@1 84.00	
+Epoch: [86/120]	Iters: [250/490]	Loss: 0.5274	Accuracy_TrainData@1 84.00	
+Epoch: [86/120]	Iters: [300/490]	Loss: 0.5282	Accuracy_TrainData@1 89.00	
+Epoch: [86/120]	Iters: [350/490]	Loss: 0.5281	Accuracy_TrainData@1 93.00	
+Epoch: [86/120]	Iters: [400/490]	Loss: 0.5290	Accuracy_TrainData@1 86.00	
+Epoch: [86/120]	Iters: [450/490]	Loss: 0.5318	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8990/10000 (89.9000%)
+
+EPOCH 89.9
+flag False
+
+Epoch: 86
+Epoch: [87/120]	Iters: [50/490]	Loss: 0.5158	Accuracy_TrainData@1 79.00	
+Epoch: [87/120]	Iters: [100/490]	Loss: 0.5180	Accuracy_TrainData@1 85.00	
+Epoch: [87/120]	Iters: [150/490]	Loss: 0.5155	Accuracy_TrainData@1 79.00	
+Epoch: [87/120]	Iters: [200/490]	Loss: 0.5190	Accuracy_TrainData@1 90.00	
+Epoch: [87/120]	Iters: [250/490]	Loss: 0.5184	Accuracy_TrainData@1 73.00	
+Epoch: [87/120]	Iters: [300/490]	Loss: 0.5202	Accuracy_TrainData@1 82.00	
+Epoch: [87/120]	Iters: [350/490]	Loss: 0.5206	Accuracy_TrainData@1 84.00	
+Epoch: [87/120]	Iters: [400/490]	Loss: 0.5228	Accuracy_TrainData@1 85.00	
+Epoch: [87/120]	Iters: [450/490]	Loss: 0.5231	Accuracy_TrainData@1 83.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9009/10000 (90.0900%)
+
+EPOCH 90.09
+flag False
+
+Epoch: 87
+Epoch: [88/120]	Iters: [50/490]	Loss: 0.5020	Accuracy_TrainData@1 86.00	
+Epoch: [88/120]	Iters: [100/490]	Loss: 0.5072	Accuracy_TrainData@1 86.00	
+Epoch: [88/120]	Iters: [150/490]	Loss: 0.5155	Accuracy_TrainData@1 82.00	
+Epoch: [88/120]	Iters: [200/490]	Loss: 0.5182	Accuracy_TrainData@1 86.00	
+Epoch: [88/120]	Iters: [250/490]	Loss: 0.5166	Accuracy_TrainData@1 88.00	
+Epoch: [88/120]	Iters: [300/490]	Loss: 0.5168	Accuracy_TrainData@1 84.00	
+Epoch: [88/120]	Iters: [350/490]	Loss: 0.5199	Accuracy_TrainData@1 87.00	
+Epoch: [88/120]	Iters: [400/490]	Loss: 0.5189	Accuracy_TrainData@1 87.00	
+Epoch: [88/120]	Iters: [450/490]	Loss: 0.5179	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8988/10000 (89.8800%)
+
+EPOCH 89.88
+flag False
+
+Epoch: 88
+Epoch: [89/120]	Iters: [50/490]	Loss: 0.5156	Accuracy_TrainData@1 81.00	
+Epoch: [89/120]	Iters: [100/490]	Loss: 0.5105	Accuracy_TrainData@1 84.00	
+Epoch: [89/120]	Iters: [150/490]	Loss: 0.5124	Accuracy_TrainData@1 84.00	
+Epoch: [89/120]	Iters: [200/490]	Loss: 0.5155	Accuracy_TrainData@1 83.00	
+Epoch: [89/120]	Iters: [250/490]	Loss: 0.5139	Accuracy_TrainData@1 82.00	
+Epoch: [89/120]	Iters: [300/490]	Loss: 0.5111	Accuracy_TrainData@1 89.00	
+Epoch: [89/120]	Iters: [350/490]	Loss: 0.5121	Accuracy_TrainData@1 90.00	
+Epoch: [89/120]	Iters: [400/490]	Loss: 0.5140	Accuracy_TrainData@1 89.00	
+Epoch: [89/120]	Iters: [450/490]	Loss: 0.5157	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0040, Accuracy: 8909/10000 (89.0900%)
+
+EPOCH 89.09
+flag False
+
+Epoch: 89
+Epoch: [90/120]	Iters: [50/490]	Loss: 0.4978	Accuracy_TrainData@1 81.00	
+Epoch: [90/120]	Iters: [100/490]	Loss: 0.4957	Accuracy_TrainData@1 88.00	
+Epoch: [90/120]	Iters: [150/490]	Loss: 0.5021	Accuracy_TrainData@1 92.00	
+Epoch: [90/120]	Iters: [200/490]	Loss: 0.5036	Accuracy_TrainData@1 79.00	
+Epoch: [90/120]	Iters: [250/490]	Loss: 0.5050	Accuracy_TrainData@1 78.00	
+Epoch: [90/120]	Iters: [300/490]	Loss: 0.5054	Accuracy_TrainData@1 86.00	
+Epoch: [90/120]	Iters: [350/490]	Loss: 0.5083	Accuracy_TrainData@1 82.00	
+Epoch: [90/120]	Iters: [400/490]	Loss: 0.5103	Accuracy_TrainData@1 82.00	
+Epoch: [90/120]	Iters: [450/490]	Loss: 0.5111	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8958/10000 (89.5800%)
+
+EPOCH 89.58
+flag False
+
+Epoch: 90
+Epoch: [91/120]	Iters: [50/490]	Loss: 0.4934	Accuracy_TrainData@1 77.00	
+Epoch: [91/120]	Iters: [100/490]	Loss: 0.4996	Accuracy_TrainData@1 90.00	
+Epoch: [91/120]	Iters: [150/490]	Loss: 0.5037	Accuracy_TrainData@1 88.00	
+Epoch: [91/120]	Iters: [200/490]	Loss: 0.5040	Accuracy_TrainData@1 85.00	
+Epoch: [91/120]	Iters: [250/490]	Loss: 0.5000	Accuracy_TrainData@1 83.00	
+Epoch: [91/120]	Iters: [300/490]	Loss: 0.5031	Accuracy_TrainData@1 84.00	
+Epoch: [91/120]	Iters: [350/490]	Loss: 0.5053	Accuracy_TrainData@1 83.00	
+Epoch: [91/120]	Iters: [400/490]	Loss: 0.5072	Accuracy_TrainData@1 84.00	
+Epoch: [91/120]	Iters: [450/490]	Loss: 0.5072	Accuracy_TrainData@1 85.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8966/10000 (89.6600%)
+
+EPOCH 89.66
+flag False
+
+Epoch: 91
+Epoch: [92/120]	Iters: [50/490]	Loss: 0.4857	Accuracy_TrainData@1 85.00	
+Epoch: [92/120]	Iters: [100/490]	Loss: 0.4903	Accuracy_TrainData@1 86.00	
+Epoch: [92/120]	Iters: [150/490]	Loss: 0.4983	Accuracy_TrainData@1 81.00	
+Epoch: [92/120]	Iters: [200/490]	Loss: 0.4996	Accuracy_TrainData@1 94.00	
+Epoch: [92/120]	Iters: [250/490]	Loss: 0.5029	Accuracy_TrainData@1 85.00	
+Epoch: [92/120]	Iters: [300/490]	Loss: 0.5021	Accuracy_TrainData@1 87.00	
+Epoch: [92/120]	Iters: [350/490]	Loss: 0.5023	Accuracy_TrainData@1 84.00	
+Epoch: [92/120]	Iters: [400/490]	Loss: 0.5026	Accuracy_TrainData@1 81.00	
+Epoch: [92/120]	Iters: [450/490]	Loss: 0.5023	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0042, Accuracy: 8876/10000 (88.7600%)
+
+EPOCH 88.76
+flag False
+
+Epoch: 92
+Epoch: [93/120]	Iters: [50/490]	Loss: 0.4763	Accuracy_TrainData@1 84.00	
+Epoch: [93/120]	Iters: [100/490]	Loss: 0.4824	Accuracy_TrainData@1 79.00	
+Epoch: [93/120]	Iters: [150/490]	Loss: 0.4874	Accuracy_TrainData@1 82.00	
+Epoch: [93/120]	Iters: [200/490]	Loss: 0.4872	Accuracy_TrainData@1 84.00	
+Epoch: [93/120]	Iters: [250/490]	Loss: 0.4903	Accuracy_TrainData@1 86.00	
+Epoch: [93/120]	Iters: [300/490]	Loss: 0.4926	Accuracy_TrainData@1 81.00	
+Epoch: [93/120]	Iters: [350/490]	Loss: 0.4973	Accuracy_TrainData@1 80.00	
+Epoch: [93/120]	Iters: [400/490]	Loss: 0.4978	Accuracy_TrainData@1 85.00	
+Epoch: [93/120]	Iters: [450/490]	Loss: 0.4996	Accuracy_TrainData@1 83.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8990/10000 (89.9000%)
+
+EPOCH 89.9
+flag False
+
+Epoch: 93
+Epoch: [94/120]	Iters: [50/490]	Loss: 0.4812	Accuracy_TrainData@1 90.00	
+Epoch: [94/120]	Iters: [100/490]	Loss: 0.4826	Accuracy_TrainData@1 83.00	
+Epoch: [94/120]	Iters: [150/490]	Loss: 0.4873	Accuracy_TrainData@1 86.00	
+Epoch: [94/120]	Iters: [200/490]	Loss: 0.4901	Accuracy_TrainData@1 81.00	
+Epoch: [94/120]	Iters: [250/490]	Loss: 0.4945	Accuracy_TrainData@1 83.00	
+Epoch: [94/120]	Iters: [300/490]	Loss: 0.4903	Accuracy_TrainData@1 80.00	
+Epoch: [94/120]	Iters: [350/490]	Loss: 0.4917	Accuracy_TrainData@1 86.00	
+Epoch: [94/120]	Iters: [400/490]	Loss: 0.4930	Accuracy_TrainData@1 86.00	
+Epoch: [94/120]	Iters: [450/490]	Loss: 0.4945	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0043, Accuracy: 8852/10000 (88.5200%)
+
+EPOCH 88.52
+flag False
+
+Epoch: 94
+Epoch: [95/120]	Iters: [50/490]	Loss: 0.4766	Accuracy_TrainData@1 88.00	
+Epoch: [95/120]	Iters: [100/490]	Loss: 0.4845	Accuracy_TrainData@1 86.00	
+Epoch: [95/120]	Iters: [150/490]	Loss: 0.4854	Accuracy_TrainData@1 90.00	
+Epoch: [95/120]	Iters: [200/490]	Loss: 0.4855	Accuracy_TrainData@1 87.00	
+Epoch: [95/120]	Iters: [250/490]	Loss: 0.4882	Accuracy_TrainData@1 81.00	
+Epoch: [95/120]	Iters: [300/490]	Loss: 0.4896	Accuracy_TrainData@1 82.00	
+Epoch: [95/120]	Iters: [350/490]	Loss: 0.4917	Accuracy_TrainData@1 87.00	
+Epoch: [95/120]	Iters: [400/490]	Loss: 0.4896	Accuracy_TrainData@1 81.00	
+Epoch: [95/120]	Iters: [450/490]	Loss: 0.4916	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0041, Accuracy: 8925/10000 (89.2500%)
+
+EPOCH 89.25
+flag False
+
+Epoch: 95
+Epoch: [96/120]	Iters: [50/490]	Loss: 0.4756	Accuracy_TrainData@1 88.00	
+Epoch: [96/120]	Iters: [100/490]	Loss: 0.4738	Accuracy_TrainData@1 84.00	
+Epoch: [96/120]	Iters: [150/490]	Loss: 0.4714	Accuracy_TrainData@1 87.00	
+Epoch: [96/120]	Iters: [200/490]	Loss: 0.4763	Accuracy_TrainData@1 83.00	
+Epoch: [96/120]	Iters: [250/490]	Loss: 0.4804	Accuracy_TrainData@1 80.00	
+Epoch: [96/120]	Iters: [300/490]	Loss: 0.4817	Accuracy_TrainData@1 87.00	
+Epoch: [96/120]	Iters: [350/490]	Loss: 0.4856	Accuracy_TrainData@1 82.00	
+Epoch: [96/120]	Iters: [400/490]	Loss: 0.4890	Accuracy_TrainData@1 82.00	
+Epoch: [96/120]	Iters: [450/490]	Loss: 0.4904	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0041, Accuracy: 8885/10000 (88.8500%)
+
+EPOCH 88.85
+flag False
+
+Epoch: 96
+Epoch: [97/120]	Iters: [50/490]	Loss: 0.4844	Accuracy_TrainData@1 85.00	
+Epoch: [97/120]	Iters: [100/490]	Loss: 0.4908	Accuracy_TrainData@1 86.00	
+Epoch: [97/120]	Iters: [150/490]	Loss: 0.4911	Accuracy_TrainData@1 77.00	
+Epoch: [97/120]	Iters: [200/490]	Loss: 0.4867	Accuracy_TrainData@1 88.00	
+Epoch: [97/120]	Iters: [250/490]	Loss: 0.4899	Accuracy_TrainData@1 77.00	
+Epoch: [97/120]	Iters: [300/490]	Loss: 0.4905	Accuracy_TrainData@1 89.00	
+Epoch: [97/120]	Iters: [350/490]	Loss: 0.4893	Accuracy_TrainData@1 88.00	
+Epoch: [97/120]	Iters: [400/490]	Loss: 0.4904	Accuracy_TrainData@1 87.00	
+Epoch: [97/120]	Iters: [450/490]	Loss: 0.4930	Accuracy_TrainData@1 83.00	
+
+Test set: Average loss: 0.0041, Accuracy: 8933/10000 (89.3300%)
+
+EPOCH 89.33
+flag False
+
+Epoch: 97
+Epoch: [98/120]	Iters: [50/490]	Loss: 0.4898	Accuracy_TrainData@1 85.00	
+Epoch: [98/120]	Iters: [100/490]	Loss: 0.4772	Accuracy_TrainData@1 84.00	
+Epoch: [98/120]	Iters: [150/490]	Loss: 0.4874	Accuracy_TrainData@1 87.00	
+Epoch: [98/120]	Iters: [200/490]	Loss: 0.4887	Accuracy_TrainData@1 82.00	
+Epoch: [98/120]	Iters: [250/490]	Loss: 0.4906	Accuracy_TrainData@1 78.00	
+Epoch: [98/120]	Iters: [300/490]	Loss: 0.4888	Accuracy_TrainData@1 85.00	
+Epoch: [98/120]	Iters: [350/490]	Loss: 0.4932	Accuracy_TrainData@1 88.00	
+Epoch: [98/120]	Iters: [400/490]	Loss: 0.4943	Accuracy_TrainData@1 78.00	
+Epoch: [98/120]	Iters: [450/490]	Loss: 0.4931	Accuracy_TrainData@1 82.00	
+
+Test set: Average loss: 0.0042, Accuracy: 8868/10000 (88.6800%)
+
+EPOCH 88.68
+flag False
+
+Epoch: 98
+Epoch: [99/120]	Iters: [50/490]	Loss: 0.4694	Accuracy_TrainData@1 86.00	
+Epoch: [99/120]	Iters: [100/490]	Loss: 0.4710	Accuracy_TrainData@1 87.00	
+Epoch: [99/120]	Iters: [150/490]	Loss: 0.4701	Accuracy_TrainData@1 87.00	
+Epoch: [99/120]	Iters: [200/490]	Loss: 0.4769	Accuracy_TrainData@1 84.00	
+Epoch: [99/120]	Iters: [250/490]	Loss: 0.4785	Accuracy_TrainData@1 88.00	
+Epoch: [99/120]	Iters: [300/490]	Loss: 0.4848	Accuracy_TrainData@1 81.00	
+Epoch: [99/120]	Iters: [350/490]	Loss: 0.4871	Accuracy_TrainData@1 87.00	
+Epoch: [99/120]	Iters: [400/490]	Loss: 0.4899	Accuracy_TrainData@1 88.00	
+Epoch: [99/120]	Iters: [450/490]	Loss: 0.4922	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0041, Accuracy: 8885/10000 (88.8500%)
+
+EPOCH 88.85
+flag False
+
+Epoch: 99
+Epoch: [100/120]	Iters: [50/490]	Loss: 0.4728	Accuracy_TrainData@1 83.00	
+Epoch: [100/120]	Iters: [100/490]	Loss: 0.4763	Accuracy_TrainData@1 85.00	
+Epoch: [100/120]	Iters: [150/490]	Loss: 0.4808	Accuracy_TrainData@1 78.00	
+Epoch: [100/120]	Iters: [200/490]	Loss: 0.4819	Accuracy_TrainData@1 83.00	
+Epoch: [100/120]	Iters: [250/490]	Loss: 0.4801	Accuracy_TrainData@1 82.00	
+Epoch: [100/120]	Iters: [300/490]	Loss: 0.4868	Accuracy_TrainData@1 83.00	
+Epoch: [100/120]	Iters: [350/490]	Loss: 0.4876	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [400/490]	Loss: 0.4867	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [450/490]	Loss: 0.4865	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0042, Accuracy: 8889/10000 (88.8900%)
+
+EPOCH 88.89
+flag False
+
+Epoch: 100
+Epoch: [101/120]	Iters: [50/490]	Loss: 0.4813	Accuracy_TrainData@1 82.00	
+Epoch: [101/120]	Iters: [100/490]	Loss: 0.4703	Accuracy_TrainData@1 82.00	
+Epoch: [101/120]	Iters: [150/490]	Loss: 0.4655	Accuracy_TrainData@1 83.00	
+Epoch: [101/120]	Iters: [200/490]	Loss: 0.4606	Accuracy_TrainData@1 87.00	
+Epoch: [101/120]	Iters: [250/490]	Loss: 0.4537	Accuracy_TrainData@1 86.00	
+Epoch: [101/120]	Iters: [300/490]	Loss: 0.4498	Accuracy_TrainData@1 81.00	
+Epoch: [101/120]	Iters: [350/490]	Loss: 0.4475	Accuracy_TrainData@1 88.00	
+Epoch: [101/120]	Iters: [400/490]	Loss: 0.4443	Accuracy_TrainData@1 88.00	
+Epoch: [101/120]	Iters: [450/490]	Loss: 0.4418	Accuracy_TrainData@1 91.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9108/10000 (91.0800%)
+
+EPOCH 91.08
+flag False
+
+Epoch: 101
+Epoch: [102/120]	Iters: [50/490]	Loss: 0.4254	Accuracy_TrainData@1 79.00	
+Epoch: [102/120]	Iters: [100/490]	Loss: 0.4165	Accuracy_TrainData@1 87.00	
+Epoch: [102/120]	Iters: [150/490]	Loss: 0.4171	Accuracy_TrainData@1 90.00	
+Epoch: [102/120]	Iters: [200/490]	Loss: 0.4205	Accuracy_TrainData@1 85.00	
+Epoch: [102/120]	Iters: [250/490]	Loss: 0.4202	Accuracy_TrainData@1 82.00	
+Epoch: [102/120]	Iters: [300/490]	Loss: 0.4198	Accuracy_TrainData@1 91.00	
+Epoch: [102/120]	Iters: [350/490]	Loss: 0.4184	Accuracy_TrainData@1 89.00	
+Epoch: [102/120]	Iters: [400/490]	Loss: 0.4203	Accuracy_TrainData@1 90.00	
+Epoch: [102/120]	Iters: [450/490]	Loss: 0.4186	Accuracy_TrainData@1 86.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9107/10000 (91.0700%)
+
+EPOCH 91.07
+flag False
+
+Epoch: 102
+Epoch: [103/120]	Iters: [50/490]	Loss: 0.4086	Accuracy_TrainData@1 85.00	
+Epoch: [103/120]	Iters: [100/490]	Loss: 0.4114	Accuracy_TrainData@1 87.00	
+Epoch: [103/120]	Iters: [150/490]	Loss: 0.4115	Accuracy_TrainData@1 84.00	
+Epoch: [103/120]	Iters: [200/490]	Loss: 0.4119	Accuracy_TrainData@1 92.00	
+Epoch: [103/120]	Iters: [250/490]	Loss: 0.4103	Accuracy_TrainData@1 88.00	
+Epoch: [103/120]	Iters: [300/490]	Loss: 0.4086	Accuracy_TrainData@1 82.00	
+Epoch: [103/120]	Iters: [350/490]	Loss: 0.4103	Accuracy_TrainData@1 89.00	
+Epoch: [103/120]	Iters: [400/490]	Loss: 0.4107	Accuracy_TrainData@1 76.00	
+Epoch: [103/120]	Iters: [450/490]	Loss: 0.4117	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0035, Accuracy: 9119/10000 (91.1900%)
+
+EPOCH 91.19
+flag False
+
+Epoch: 103
+Epoch: [104/120]	Iters: [50/490]	Loss: 0.4157	Accuracy_TrainData@1 86.00	
+Epoch: [104/120]	Iters: [100/490]	Loss: 0.4030	Accuracy_TrainData@1 87.00	
+Epoch: [104/120]	Iters: [150/490]	Loss: 0.4029	Accuracy_TrainData@1 87.00	
+Epoch: [104/120]	Iters: [200/490]	Loss: 0.4012	Accuracy_TrainData@1 86.00	
+Epoch: [104/120]	Iters: [250/490]	Loss: 0.4036	Accuracy_TrainData@1 83.00	
+Epoch: [104/120]	Iters: [300/490]	Loss: 0.4050	Accuracy_TrainData@1 87.00	
+Epoch: [104/120]	Iters: [350/490]	Loss: 0.4044	Accuracy_TrainData@1 89.00	
+Epoch: [104/120]	Iters: [400/490]	Loss: 0.4039	Accuracy_TrainData@1 79.00	
+Epoch: [104/120]	Iters: [450/490]	Loss: 0.4042	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9108/10000 (91.0800%)
+
+EPOCH 91.08
+flag False
+
+Epoch: 104
+Epoch: [105/120]	Iters: [50/490]	Loss: 0.4023	Accuracy_TrainData@1 93.00	
+Epoch: [105/120]	Iters: [100/490]	Loss: 0.3944	Accuracy_TrainData@1 76.00	
+Epoch: [105/120]	Iters: [150/490]	Loss: 0.3942	Accuracy_TrainData@1 89.00	
+Epoch: [105/120]	Iters: [200/490]	Loss: 0.3944	Accuracy_TrainData@1 80.00	
+Epoch: [105/120]	Iters: [250/490]	Loss: 0.3950	Accuracy_TrainData@1 88.00	
+Epoch: [105/120]	Iters: [300/490]	Loss: 0.3934	Accuracy_TrainData@1 92.00	
+Epoch: [105/120]	Iters: [350/490]	Loss: 0.3962	Accuracy_TrainData@1 88.00	
+Epoch: [105/120]	Iters: [400/490]	Loss: 0.3999	Accuracy_TrainData@1 91.00	
+Epoch: [105/120]	Iters: [450/490]	Loss: 0.3996	Accuracy_TrainData@1 92.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9119/10000 (91.1900%)
+
+EPOCH 91.19
+flag False
+
+Epoch: 105
+Epoch: [106/120]	Iters: [50/490]	Loss: 0.3919	Accuracy_TrainData@1 93.00	
+Epoch: [106/120]	Iters: [100/490]	Loss: 0.3889	Accuracy_TrainData@1 84.00	
+Epoch: [106/120]	Iters: [150/490]	Loss: 0.3902	Accuracy_TrainData@1 89.00	
+Epoch: [106/120]	Iters: [200/490]	Loss: 0.3911	Accuracy_TrainData@1 84.00	
+Epoch: [106/120]	Iters: [250/490]	Loss: 0.3888	Accuracy_TrainData@1 94.00	
+Epoch: [106/120]	Iters: [300/490]	Loss: 0.3916	Accuracy_TrainData@1 79.00	
+Epoch: [106/120]	Iters: [350/490]	Loss: 0.3935	Accuracy_TrainData@1 84.00	
+Epoch: [106/120]	Iters: [400/490]	Loss: 0.3927	Accuracy_TrainData@1 87.00	
+Epoch: [106/120]	Iters: [450/490]	Loss: 0.3918	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9093/10000 (90.9300%)
+
+EPOCH 90.93
+flag False
+
+Epoch: 106
+Epoch: [107/120]	Iters: [50/490]	Loss: 0.4032	Accuracy_TrainData@1 84.00	
+Epoch: [107/120]	Iters: [100/490]	Loss: 0.4008	Accuracy_TrainData@1 85.00	
+Epoch: [107/120]	Iters: [150/490]	Loss: 0.3977	Accuracy_TrainData@1 89.00	
+Epoch: [107/120]	Iters: [200/490]	Loss: 0.3961	Accuracy_TrainData@1 91.00	
+Epoch: [107/120]	Iters: [250/490]	Loss: 0.3957	Accuracy_TrainData@1 83.00	
+Epoch: [107/120]	Iters: [300/490]	Loss: 0.3955	Accuracy_TrainData@1 90.00	
+Epoch: [107/120]	Iters: [350/490]	Loss: 0.3936	Accuracy_TrainData@1 87.00	
+Epoch: [107/120]	Iters: [400/490]	Loss: 0.3923	Accuracy_TrainData@1 83.00	
+Epoch: [107/120]	Iters: [450/490]	Loss: 0.3944	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9118/10000 (91.1800%)
+
+EPOCH 91.18
+flag False
+
+Epoch: 107
+Epoch: [108/120]	Iters: [50/490]	Loss: 0.3855	Accuracy_TrainData@1 85.00	
+Epoch: [108/120]	Iters: [100/490]	Loss: 0.3932	Accuracy_TrainData@1 89.00	
+Epoch: [108/120]	Iters: [150/490]	Loss: 0.3949	Accuracy_TrainData@1 88.00	
+Epoch: [108/120]	Iters: [200/490]	Loss: 0.3968	Accuracy_TrainData@1 89.00	
+Epoch: [108/120]	Iters: [250/490]	Loss: 0.3932	Accuracy_TrainData@1 93.00	
+Epoch: [108/120]	Iters: [300/490]	Loss: 0.3917	Accuracy_TrainData@1 85.00	
+Epoch: [108/120]	Iters: [350/490]	Loss: 0.3929	Accuracy_TrainData@1 88.00	
+Epoch: [108/120]	Iters: [400/490]	Loss: 0.3900	Accuracy_TrainData@1 91.00	
+Epoch: [108/120]	Iters: [450/490]	Loss: 0.3895	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9104/10000 (91.0400%)
+
+EPOCH 91.04
+flag False
+
+Epoch: 108
+Epoch: [109/120]	Iters: [50/490]	Loss: 0.3742	Accuracy_TrainData@1 91.00	
+Epoch: [109/120]	Iters: [100/490]	Loss: 0.3888	Accuracy_TrainData@1 91.00	
+Epoch: [109/120]	Iters: [150/490]	Loss: 0.3822	Accuracy_TrainData@1 86.00	
+Epoch: [109/120]	Iters: [200/490]	Loss: 0.3802	Accuracy_TrainData@1 90.00	
+Epoch: [109/120]	Iters: [250/490]	Loss: 0.3799	Accuracy_TrainData@1 83.00	
+Epoch: [109/120]	Iters: [300/490]	Loss: 0.3817	Accuracy_TrainData@1 93.00	
+Epoch: [109/120]	Iters: [350/490]	Loss: 0.3846	Accuracy_TrainData@1 85.00	
+Epoch: [109/120]	Iters: [400/490]	Loss: 0.3836	Accuracy_TrainData@1 85.00	
+Epoch: [109/120]	Iters: [450/490]	Loss: 0.3850	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9092/10000 (90.9200%)
+
+EPOCH 90.92
+flag False
+
+Epoch: 109
+Epoch: [110/120]	Iters: [50/490]	Loss: 0.3962	Accuracy_TrainData@1 87.00	
+Epoch: [110/120]	Iters: [100/490]	Loss: 0.3906	Accuracy_TrainData@1 92.00	
+Epoch: [110/120]	Iters: [150/490]	Loss: 0.3861	Accuracy_TrainData@1 87.00	
+Epoch: [110/120]	Iters: [200/490]	Loss: 0.3912	Accuracy_TrainData@1 89.00	
+Epoch: [110/120]	Iters: [250/490]	Loss: 0.3895	Accuracy_TrainData@1 91.00	
+Epoch: [110/120]	Iters: [300/490]	Loss: 0.3887	Accuracy_TrainData@1 87.00	
+Epoch: [110/120]	Iters: [350/490]	Loss: 0.3872	Accuracy_TrainData@1 84.00	
+Epoch: [110/120]	Iters: [400/490]	Loss: 0.3838	Accuracy_TrainData@1 93.00	
+Epoch: [110/120]	Iters: [450/490]	Loss: 0.3823	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0038, Accuracy: 9078/10000 (90.7800%)
+
+EPOCH 90.78
+flag False
+
+Epoch: 110
+Epoch: [111/120]	Iters: [50/490]	Loss: 0.3663	Accuracy_TrainData@1 89.00	
+Epoch: [111/120]	Iters: [100/490]	Loss: 0.3714	Accuracy_TrainData@1 87.00	
+Epoch: [111/120]	Iters: [150/490]	Loss: 0.3784	Accuracy_TrainData@1 88.00	
+Epoch: [111/120]	Iters: [200/490]	Loss: 0.3835	Accuracy_TrainData@1 83.00	
+Epoch: [111/120]	Iters: [250/490]	Loss: 0.3837	Accuracy_TrainData@1 88.00	
+Epoch: [111/120]	Iters: [300/490]	Loss: 0.3839	Accuracy_TrainData@1 91.00	
+Epoch: [111/120]	Iters: [350/490]	Loss: 0.3836	Accuracy_TrainData@1 88.00	
+Epoch: [111/120]	Iters: [400/490]	Loss: 0.3831	Accuracy_TrainData@1 87.00	
+Epoch: [111/120]	Iters: [450/490]	Loss: 0.3811	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9098/10000 (90.9800%)
+
+EPOCH 90.98
+flag False
+
+Epoch: 111
+Epoch: [112/120]	Iters: [50/490]	Loss: 0.3644	Accuracy_TrainData@1 82.00	
+Epoch: [112/120]	Iters: [100/490]	Loss: 0.3785	Accuracy_TrainData@1 83.00	
+Epoch: [112/120]	Iters: [150/490]	Loss: 0.3785	Accuracy_TrainData@1 83.00	
+Epoch: [112/120]	Iters: [200/490]	Loss: 0.3803	Accuracy_TrainData@1 86.00	
+Epoch: [112/120]	Iters: [250/490]	Loss: 0.3828	Accuracy_TrainData@1 89.00	
+Epoch: [112/120]	Iters: [300/490]	Loss: 0.3818	Accuracy_TrainData@1 88.00	
+Epoch: [112/120]	Iters: [350/490]	Loss: 0.3811	Accuracy_TrainData@1 88.00	
+Epoch: [112/120]	Iters: [400/490]	Loss: 0.3792	Accuracy_TrainData@1 82.00	
+Epoch: [112/120]	Iters: [450/490]	Loss: 0.3794	Accuracy_TrainData@1 93.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9087/10000 (90.8700%)
+
+EPOCH 90.87
+flag False
+
+Epoch: 112
+Epoch: [113/120]	Iters: [50/490]	Loss: 0.3540	Accuracy_TrainData@1 90.00	
+Epoch: [113/120]	Iters: [100/490]	Loss: 0.3638	Accuracy_TrainData@1 92.00	
+Epoch: [113/120]	Iters: [150/490]	Loss: 0.3679	Accuracy_TrainData@1 89.00	
+Epoch: [113/120]	Iters: [200/490]	Loss: 0.3710	Accuracy_TrainData@1 90.00	
+Epoch: [113/120]	Iters: [250/490]	Loss: 0.3719	Accuracy_TrainData@1 90.00	
+Epoch: [113/120]	Iters: [300/490]	Loss: 0.3726	Accuracy_TrainData@1 88.00	
+Epoch: [113/120]	Iters: [350/490]	Loss: 0.3727	Accuracy_TrainData@1 86.00	
+Epoch: [113/120]	Iters: [400/490]	Loss: 0.3733	Accuracy_TrainData@1 88.00	
+Epoch: [113/120]	Iters: [450/490]	Loss: 0.3733	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0038, Accuracy: 9080/10000 (90.8000%)
+
+EPOCH 90.8
+flag False
+
+Epoch: 113
+Epoch: [114/120]	Iters: [50/490]	Loss: 0.3751	Accuracy_TrainData@1 91.00	
+Epoch: [114/120]	Iters: [100/490]	Loss: 0.3702	Accuracy_TrainData@1 87.00	
+Epoch: [114/120]	Iters: [150/490]	Loss: 0.3701	Accuracy_TrainData@1 92.00	
+Epoch: [114/120]	Iters: [200/490]	Loss: 0.3706	Accuracy_TrainData@1 92.00	
+Epoch: [114/120]	Iters: [250/490]	Loss: 0.3732	Accuracy_TrainData@1 86.00	
+Epoch: [114/120]	Iters: [300/490]	Loss: 0.3721	Accuracy_TrainData@1 85.00	
+Epoch: [114/120]	Iters: [350/490]	Loss: 0.3722	Accuracy_TrainData@1 86.00	
+Epoch: [114/120]	Iters: [400/490]	Loss: 0.3727	Accuracy_TrainData@1 88.00	
+Epoch: [114/120]	Iters: [450/490]	Loss: 0.3704	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0038, Accuracy: 9087/10000 (90.8700%)
+
+EPOCH 90.87
+flag False
+
+Epoch: 114
+Epoch: [115/120]	Iters: [50/490]	Loss: 0.3645	Accuracy_TrainData@1 86.00	
+Epoch: [115/120]	Iters: [100/490]	Loss: 0.3752	Accuracy_TrainData@1 90.00	
+Epoch: [115/120]	Iters: [150/490]	Loss: 0.3727	Accuracy_TrainData@1 94.00	
+Epoch: [115/120]	Iters: [200/490]	Loss: 0.3685	Accuracy_TrainData@1 83.00	
+Epoch: [115/120]	Iters: [250/490]	Loss: 0.3672	Accuracy_TrainData@1 93.00	
+Epoch: [115/120]	Iters: [300/490]	Loss: 0.3675	Accuracy_TrainData@1 91.00	
+Epoch: [115/120]	Iters: [350/490]	Loss: 0.3668	Accuracy_TrainData@1 90.00	
+Epoch: [115/120]	Iters: [400/490]	Loss: 0.3694	Accuracy_TrainData@1 87.00	
+Epoch: [115/120]	Iters: [450/490]	Loss: 0.3699	Accuracy_TrainData@1 93.00	
+
+Test set: Average loss: 0.0038, Accuracy: 9075/10000 (90.7500%)
+
+EPOCH 90.75
+flag False
+
+Epoch: 115
+Epoch: [116/120]	Iters: [50/490]	Loss: 0.3518	Accuracy_TrainData@1 88.00	
+Epoch: [116/120]	Iters: [100/490]	Loss: 0.3689	Accuracy_TrainData@1 89.00	
+Epoch: [116/120]	Iters: [150/490]	Loss: 0.3713	Accuracy_TrainData@1 92.00	
+Epoch: [116/120]	Iters: [200/490]	Loss: 0.3675	Accuracy_TrainData@1 83.00	
+Epoch: [116/120]	Iters: [250/490]	Loss: 0.3670	Accuracy_TrainData@1 93.00	
+Epoch: [116/120]	Iters: [300/490]	Loss: 0.3675	Accuracy_TrainData@1 80.00	
+Epoch: [116/120]	Iters: [350/490]	Loss: 0.3681	Accuracy_TrainData@1 90.00	
+Epoch: [116/120]	Iters: [400/490]	Loss: 0.3683	Accuracy_TrainData@1 89.00	
+Epoch: [116/120]	Iters: [450/490]	Loss: 0.3683	Accuracy_TrainData@1 91.00	
+
+Test set: Average loss: 0.0038, Accuracy: 9057/10000 (90.5700%)
+
+EPOCH 90.57
+flag False
+
+Epoch: 116
+Epoch: [117/120]	Iters: [50/490]	Loss: 0.3605	Accuracy_TrainData@1 89.00	
+Epoch: [117/120]	Iters: [100/490]	Loss: 0.3648	Accuracy_TrainData@1 87.00	
+Epoch: [117/120]	Iters: [150/490]	Loss: 0.3703	Accuracy_TrainData@1 92.00	
+Epoch: [117/120]	Iters: [200/490]	Loss: 0.3703	Accuracy_TrainData@1 91.00	
+Epoch: [117/120]	Iters: [250/490]	Loss: 0.3702	Accuracy_TrainData@1 82.00	
+Epoch: [117/120]	Iters: [300/490]	Loss: 0.3666	Accuracy_TrainData@1 90.00	
+Epoch: [117/120]	Iters: [350/490]	Loss: 0.3667	Accuracy_TrainData@1 88.00	
+Epoch: [117/120]	Iters: [400/490]	Loss: 0.3659	Accuracy_TrainData@1 83.00	
+Epoch: [117/120]	Iters: [450/490]	Loss: 0.3656	Accuracy_TrainData@1 91.00	
+
+Test set: Average loss: 0.0039, Accuracy: 9044/10000 (90.4400%)
+
+EPOCH 90.44
+flag False
+
+Epoch: 117
+Epoch: [118/120]	Iters: [50/490]	Loss: 0.3553	Accuracy_TrainData@1 91.00	
+Epoch: [118/120]	Iters: [100/490]	Loss: 0.3618	Accuracy_TrainData@1 86.00	
+Epoch: [118/120]	Iters: [150/490]	Loss: 0.3632	Accuracy_TrainData@1 89.00	
+Epoch: [118/120]	Iters: [200/490]	Loss: 0.3617	Accuracy_TrainData@1 90.00	
+Epoch: [118/120]	Iters: [250/490]	Loss: 0.3635	Accuracy_TrainData@1 82.00	
+Epoch: [118/120]	Iters: [300/490]	Loss: 0.3638	Accuracy_TrainData@1 89.00	
+Epoch: [118/120]	Iters: [350/490]	Loss: 0.3657	Accuracy_TrainData@1 90.00	
+Epoch: [118/120]	Iters: [400/490]	Loss: 0.3658	Accuracy_TrainData@1 87.00	
+Epoch: [118/120]	Iters: [450/490]	Loss: 0.3668	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0037, Accuracy: 9109/10000 (91.0900%)
+
+EPOCH 91.09
+flag False
+
+Epoch: 118
+Epoch: [119/120]	Iters: [50/490]	Loss: 0.3742	Accuracy_TrainData@1 89.00	
+Epoch: [119/120]	Iters: [100/490]	Loss: 0.3621	Accuracy_TrainData@1 85.00	
+Epoch: [119/120]	Iters: [150/490]	Loss: 0.3589	Accuracy_TrainData@1 91.00	
+Epoch: [119/120]	Iters: [200/490]	Loss: 0.3562	Accuracy_TrainData@1 84.00	
+Epoch: [119/120]	Iters: [250/490]	Loss: 0.3543	Accuracy_TrainData@1 81.00	
+Epoch: [119/120]	Iters: [300/490]	Loss: 0.3563	Accuracy_TrainData@1 88.00	
+Epoch: [119/120]	Iters: [350/490]	Loss: 0.3592	Accuracy_TrainData@1 83.00	
+Epoch: [119/120]	Iters: [400/490]	Loss: 0.3587	Accuracy_TrainData@1 89.00	
+Epoch: [119/120]	Iters: [450/490]	Loss: 0.3596	Accuracy_TrainData@1 95.00	
+
+Test set: Average loss: 0.0039, Accuracy: 9066/10000 (90.6600%)
+
+EPOCH 90.66
+flag False
+
+Epoch: 119
+Epoch: [120/120]	Iters: [50/490]	Loss: 0.3509	Accuracy_TrainData@1 91.00	
+Epoch: [120/120]	Iters: [100/490]	Loss: 0.3540	Accuracy_TrainData@1 89.00	
+Epoch: [120/120]	Iters: [150/490]	Loss: 0.3569	Accuracy_TrainData@1 88.00	
+Epoch: [120/120]	Iters: [200/490]	Loss: 0.3596	Accuracy_TrainData@1 86.00	
+Epoch: [120/120]	Iters: [250/490]	Loss: 0.3618	Accuracy_TrainData@1 86.00	
+Epoch: [120/120]	Iters: [300/490]	Loss: 0.3624	Accuracy_TrainData@1 86.00	
+Epoch: [120/120]	Iters: [350/490]	Loss: 0.3601	Accuracy_TrainData@1 90.00	
+Epoch: [120/120]	Iters: [400/490]	Loss: 0.3617	Accuracy_TrainData@1 92.00	
+Epoch: [120/120]	Iters: [450/490]	Loss: 0.3624	Accuracy_TrainData@1 92.00	
+
+Test set: Average loss: 0.0039, Accuracy: 9055/10000 (90.5500%)
+
+EPOCH 90.55
+best accuracy: 91.19
