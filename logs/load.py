@@ -24,21 +24,21 @@ titles = [
         ],
         #4
         ["Meta-flip0.1 Train-flip0.1",  #4
-        "Meta-flip0.1 Train-flip0.3",
-        "Meta-flip0.1 Train-flip0.6"],
-        #5
-        ["Meta-unif0.1 Train-unit0.1",   #6
-        "Meta-unif0.1 Train-unit0.3",
-        "Meta-unif0.1 Train-unif0.6"],
-        #6
-        ["Meta-flip0.3 Train-flip0.3",   #5
-        "Meta-flip0.3 Train-flip0.6",
+        "Meta-flip0.3 Train-flip0.3",   #5
         "Meta-flip0.6 Train-flip0.6",
         ],
+        #5
+        ["Meta-unif0.1 Train-unit0.1",
+        "Meta-unif0.3 Train-unif0.3",
+        "Meta-unif0.6 Train-unif0.6"],
+        #6
+        ["Meta-flip0.1 Train-flip0.3",
+        "Meta-flip0.1 Train-flip0.6",
+        "Meta-flip0.3 Train-flip0.6"],
         #7
-        ["Meta-unif0.3 Train-unif0.3",   #7
+        ["Meta-unif0.1 Train-unit0.3",
+        "Meta-unif0.1 Train-unif0.6",
         "Meta-unif0.3 Train-unif0.6",
-        "Meta-unif0.6 Train-unif0.6",
         ]
     ]
 filename = [
@@ -63,22 +63,21 @@ filename = [
         ],
         #4
         ["flip0.1flip0.10.txt",
-        "flip0.1flip0.30.txt",
-        "flip0.1flip0.60.txt"],
-        #5
-        ['unif0.1unif0.10.txt',
-        'unif0.1unif0.30.txt',
-        'unif0.1unif0.60.txt'],
-        #6
-        ["flip0.3flip0.30.txt",
-        "flip0.3flip0.60.txt",
+        "flip0.3flip0.30.txt",
         "flip0.6flip0.60.txt"
         ],
+        #5
+        ['unif0.1unif0.10.txt',
+        'unif0.3unif0.30.txt',
+        'unif0.6unif0.60.txt'],
+        #6
+        ["flip0.1flip0.30.txt",
+        "flip0.1flip0.60.txt",
+        "flip0.3flip0.60.txt"],
         #7
-        ['unif0.3unif0.30.txt',
-            'unif0.3unif0.60.txt',
-            'unif0.6unif0.60.txt',
-        ]
+        ['unif0.1unif0.30.txt',
+        'unif0.1unif0.60.txt',
+        'unif0.3unif0.60.txt']
     ]
 
 results = []
