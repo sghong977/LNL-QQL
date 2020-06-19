@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+from scipy.signal import savgol_filter
 
 # [8][3]
 titles = [
@@ -156,4 +157,47 @@ for j in [0,1,6,7]:
 plt.legend()
 plt.grid()
 plt.savefig("Worse Traindata.png")
+plt.cla()
+
+############ smoothing
+win_sz=51
+order=3
+
+# 0,1, 2,3
+plt.figure(figsize=(12,8))
+plt.title("[filtered]Clean Metadata Exists")
+for j in [0,1,2,3]:
+    for i in range(len(results[j])):
+        x = [k for k in range(1,len(results[j][i])+1)]
+        yhat = savgol_filter(results[j][i], win_sz, order)
+        plt.plot(x, yhat, alpha=0.7, label=titles[j][i], color=colors[j], linestyle=lstyle[i])
+plt.legend()
+plt.grid()
+plt.savefig("[filtered]Clean Metadata Exists.png")
+plt.cla()
+
+# 0,1, 4,5
+plt.figure(figsize=(12,8))
+plt.title("[filtered]Same level corruption")
+for j in [0,1,4,5]:
+    for i in range(len(results[j])):
+        x = [k for k in range(1,len(results[j][i])+1)]
+        yhat = savgol_filter(results[j][i], win_sz, order)
+        plt.plot(x, yhat, alpha=0.7, label=titles[j][i], color=colors[j], linestyle=lstyle[i])
+plt.legend()
+plt.grid()
+plt.savefig("[filtered]Same level corruption.png")
+plt.cla()
+
+# 0,1, 6,7
+plt.figure(figsize=(12,8))
+plt.title("[filtered]Worse Traindata")
+for j in [0,1,6,7]:
+    for i in range(len(results[j])):
+        x = [k for k in range(1,len(results[j][i])+1)]
+        yhat = savgol_filter(results[j][i], win_sz, order)
+        plt.plot(x, yhat, alpha=0.7, label=titles[j][i], color=colors[j], linestyle=lstyle[i])
+plt.legend()
+plt.grid()
+plt.savefig("[filtered]Worse Traindata.png")
 plt.cla()
