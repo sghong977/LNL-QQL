@@ -43,7 +43,7 @@ class MetaModule(nn.Module):
             submodule_prefix = prefix + ('.' if prefix else '') + mname
             for name, p in self.named_params(module, memo, submodule_prefix):
                 yield name, p
-
+#
     def update_params(self, lr_inner, first_order=False, source_params=None, detach=False):
         if source_params is not None:
             for tgt, src in zip(self.named_params(self), source_params):

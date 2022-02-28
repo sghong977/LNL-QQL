@@ -100,7 +100,7 @@ class CIFAR10(data.Dataset):
                     entry = pickle.load(fo)
                 else:
                     entry = pickle.load(fo, encoding='latin1')
-                self.train_data.append(entry['data'])
+                self.train_data.append(entry['data'])                
                 if 'labels' in entry:
                     self.train_labels += entry['labels']
                     img_num_list = [int(self.num_meta/10)] * 10
@@ -130,6 +130,7 @@ class CIFAR10(data.Dataset):
                 img_num = img_num_list[int(cls_idx)]
                 idx_to_meta.extend(img_id_list[:img_num])
                 idx_to_train.extend(img_id_list[img_num:])
+
 
             #---- meta label corruption process ----
             if meta is True:

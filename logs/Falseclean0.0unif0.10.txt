@@ -1,0 +1,2541 @@
+
+Namespace(LNL=False, augment=True, batch_size=100, corruption_prob_meta=0.0, corruption_prob_train=0.1, corruption_type_meta='clean', corruption_type_train='unif', dataset='cifar10', droprate=0, epochs=120, iters=60000, layers=28, lr=0.1, momentum=0.9, name='WideResNet-28-10', nesterov=True, num_meta=1000, prefetch=0, print_freq=10, resume='', seed=0, start_epoch=0, weight_decay=0.0005, widen_factor=10)
+clean unif 0.0 0.1
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+meta data is clean
+Files already downloaded and verified
+[100, 100, 100, 100, 100, 100, 100, 100, 100, 100]
+[[0.91 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01]
+ [0.01 0.91 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01]
+ [0.01 0.01 0.91 0.01 0.01 0.01 0.01 0.01 0.01 0.01]
+ [0.01 0.01 0.01 0.91 0.01 0.01 0.01 0.01 0.01 0.01]
+ [0.01 0.01 0.01 0.01 0.91 0.01 0.01 0.01 0.01 0.01]
+ [0.01 0.01 0.01 0.01 0.01 0.91 0.01 0.01 0.01 0.01]
+ [0.01 0.01 0.01 0.01 0.01 0.01 0.91 0.01 0.01 0.01]
+ [0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.91 0.01 0.01]
+ [0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.91 0.01]
+ [0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.01 0.91]]
+Files already downloaded and verified
+BASIC MODEL CALLED by build_model
+
+Test set: Average loss: 6.0760, Accuracy: 1000/10000 (10.0000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 0
+Epoch: [1/120]	Iters: [50/490]	Loss: 3.1142	Accuracy_TrainData@1 8.00	
+Epoch: [1/120]	Iters: [100/490]	Loss: 2.7229	Accuracy_TrainData@1 12.00	
+Epoch: [1/120]	Iters: [150/490]	Loss: 2.5777	Accuracy_TrainData@1 11.00	
+Epoch: [1/120]	Iters: [200/490]	Loss: 2.5044	Accuracy_TrainData@1 9.00	
+Epoch: [1/120]	Iters: [250/490]	Loss: 2.4594	Accuracy_TrainData@1 12.00	
+Epoch: [1/120]	Iters: [300/490]	Loss: 2.4269	Accuracy_TrainData@1 20.00	
+Epoch: [1/120]	Iters: [350/490]	Loss: 2.3991	Accuracy_TrainData@1 12.00	
+Epoch: [1/120]	Iters: [400/490]	Loss: 2.3729	Accuracy_TrainData@1 21.00	
+Epoch: [1/120]	Iters: [450/490]	Loss: 2.3443	Accuracy_TrainData@1 22.00	
+
+Test set: Average loss: 0.0190, Accuracy: 2981/10000 (29.8100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 29.81
+
+Test set: Average loss: 0.0190, Accuracy: 2981/10000 (29.8100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 1
+Epoch: [2/120]	Iters: [50/490]	Loss: 1.9278	Accuracy_TrainData@1 34.00	
+Epoch: [2/120]	Iters: [100/490]	Loss: 1.9189	Accuracy_TrainData@1 35.00	
+Epoch: [2/120]	Iters: [150/490]	Loss: 1.9088	Accuracy_TrainData@1 31.00	
+Epoch: [2/120]	Iters: [200/490]	Loss: 1.8926	Accuracy_TrainData@1 30.00	
+Epoch: [2/120]	Iters: [250/490]	Loss: 1.8760	Accuracy_TrainData@1 38.00	
+Epoch: [2/120]	Iters: [300/490]	Loss: 1.8618	Accuracy_TrainData@1 35.00	
+Epoch: [2/120]	Iters: [350/490]	Loss: 1.8459	Accuracy_TrainData@1 30.00	
+Epoch: [2/120]	Iters: [400/490]	Loss: 1.8331	Accuracy_TrainData@1 26.00	
+Epoch: [2/120]	Iters: [450/490]	Loss: 1.8218	Accuracy_TrainData@1 36.00	
+
+Test set: Average loss: 0.0162, Accuracy: 4133/10000 (41.3300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 41.33
+
+Test set: Average loss: 0.0162, Accuracy: 4133/10000 (41.3300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 2
+Epoch: [3/120]	Iters: [50/490]	Loss: 1.6518	Accuracy_TrainData@1 42.00	
+Epoch: [3/120]	Iters: [100/490]	Loss: 1.6562	Accuracy_TrainData@1 49.00	
+Epoch: [3/120]	Iters: [150/490]	Loss: 1.6364	Accuracy_TrainData@1 42.00	
+Epoch: [3/120]	Iters: [200/490]	Loss: 1.6134	Accuracy_TrainData@1 57.00	
+Epoch: [3/120]	Iters: [250/490]	Loss: 1.6012	Accuracy_TrainData@1 49.00	
+Epoch: [3/120]	Iters: [300/490]	Loss: 1.5898	Accuracy_TrainData@1 46.00	
+Epoch: [3/120]	Iters: [350/490]	Loss: 1.5734	Accuracy_TrainData@1 55.00	
+Epoch: [3/120]	Iters: [400/490]	Loss: 1.5617	Accuracy_TrainData@1 48.00	
+Epoch: [3/120]	Iters: [450/490]	Loss: 1.5481	Accuracy_TrainData@1 43.00	
+
+Test set: Average loss: 0.0126, Accuracy: 5669/10000 (56.6900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 56.69
+
+Test set: Average loss: 0.0126, Accuracy: 5669/10000 (56.6900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 3
+Epoch: [4/120]	Iters: [50/490]	Loss: 1.4477	Accuracy_TrainData@1 52.00	
+Epoch: [4/120]	Iters: [100/490]	Loss: 1.4145	Accuracy_TrainData@1 58.00	
+Epoch: [4/120]	Iters: [150/490]	Loss: 1.4024	Accuracy_TrainData@1 56.00	
+Epoch: [4/120]	Iters: [200/490]	Loss: 1.3935	Accuracy_TrainData@1 66.00	
+Epoch: [4/120]	Iters: [250/490]	Loss: 1.3924	Accuracy_TrainData@1 57.00	
+Epoch: [4/120]	Iters: [300/490]	Loss: 1.3873	Accuracy_TrainData@1 68.00	
+Epoch: [4/120]	Iters: [350/490]	Loss: 1.3763	Accuracy_TrainData@1 52.00	
+Epoch: [4/120]	Iters: [400/490]	Loss: 1.3736	Accuracy_TrainData@1 61.00	
+Epoch: [4/120]	Iters: [450/490]	Loss: 1.3688	Accuracy_TrainData@1 47.00	
+
+Test set: Average loss: 0.0111, Accuracy: 6111/10000 (61.1100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 61.11
+
+Test set: Average loss: 0.0111, Accuracy: 6111/10000 (61.1100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 4
+Epoch: [5/120]	Iters: [50/490]	Loss: 1.2956	Accuracy_TrainData@1 57.00	
+Epoch: [5/120]	Iters: [100/490]	Loss: 1.2924	Accuracy_TrainData@1 60.00	
+Epoch: [5/120]	Iters: [150/490]	Loss: 1.2938	Accuracy_TrainData@1 61.00	
+Epoch: [5/120]	Iters: [200/490]	Loss: 1.2937	Accuracy_TrainData@1 45.00	
+Epoch: [5/120]	Iters: [250/490]	Loss: 1.2794	Accuracy_TrainData@1 60.00	
+Epoch: [5/120]	Iters: [300/490]	Loss: 1.2731	Accuracy_TrainData@1 56.00	
+Epoch: [5/120]	Iters: [350/490]	Loss: 1.2703	Accuracy_TrainData@1 62.00	
+Epoch: [5/120]	Iters: [400/490]	Loss: 1.2692	Accuracy_TrainData@1 56.00	
+Epoch: [5/120]	Iters: [450/490]	Loss: 1.2647	Accuracy_TrainData@1 63.00	
+
+Test set: Average loss: 0.0092, Accuracy: 6868/10000 (68.6800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 68.68
+
+Test set: Average loss: 0.0092, Accuracy: 6868/10000 (68.6800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 5
+Epoch: [6/120]	Iters: [50/490]	Loss: 1.2010	Accuracy_TrainData@1 60.00	
+Epoch: [6/120]	Iters: [100/490]	Loss: 1.1876	Accuracy_TrainData@1 65.00	
+Epoch: [6/120]	Iters: [150/490]	Loss: 1.1899	Accuracy_TrainData@1 64.00	
+Epoch: [6/120]	Iters: [200/490]	Loss: 1.1941	Accuracy_TrainData@1 66.00	
+Epoch: [6/120]	Iters: [250/490]	Loss: 1.1954	Accuracy_TrainData@1 66.00	
+Epoch: [6/120]	Iters: [300/490]	Loss: 1.1928	Accuracy_TrainData@1 70.00	
+Epoch: [6/120]	Iters: [350/490]	Loss: 1.1941	Accuracy_TrainData@1 63.00	
+Epoch: [6/120]	Iters: [400/490]	Loss: 1.1924	Accuracy_TrainData@1 62.00	
+Epoch: [6/120]	Iters: [450/490]	Loss: 1.1901	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0105, Accuracy: 6504/10000 (65.0400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 65.04
+
+Test set: Average loss: 0.0105, Accuracy: 6504/10000 (65.0400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 6
+Epoch: [7/120]	Iters: [50/490]	Loss: 1.1556	Accuracy_TrainData@1 65.00	
+Epoch: [7/120]	Iters: [100/490]	Loss: 1.1526	Accuracy_TrainData@1 60.00	
+Epoch: [7/120]	Iters: [150/490]	Loss: 1.1380	Accuracy_TrainData@1 66.00	
+Epoch: [7/120]	Iters: [200/490]	Loss: 1.1381	Accuracy_TrainData@1 61.00	
+Epoch: [7/120]	Iters: [250/490]	Loss: 1.1436	Accuracy_TrainData@1 66.00	
+Epoch: [7/120]	Iters: [300/490]	Loss: 1.1478	Accuracy_TrainData@1 55.00	
+Epoch: [7/120]	Iters: [350/490]	Loss: 1.1421	Accuracy_TrainData@1 69.00	
+Epoch: [7/120]	Iters: [400/490]	Loss: 1.1400	Accuracy_TrainData@1 58.00	
+Epoch: [7/120]	Iters: [450/490]	Loss: 1.1378	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0088, Accuracy: 7069/10000 (70.6900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 70.69
+
+Test set: Average loss: 0.0088, Accuracy: 7069/10000 (70.6900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 7
+Epoch: [8/120]	Iters: [50/490]	Loss: 1.1554	Accuracy_TrainData@1 70.00	
+Epoch: [8/120]	Iters: [100/490]	Loss: 1.1147	Accuracy_TrainData@1 68.00	
+Epoch: [8/120]	Iters: [150/490]	Loss: 1.1264	Accuracy_TrainData@1 72.00	
+Epoch: [8/120]	Iters: [200/490]	Loss: 1.1214	Accuracy_TrainData@1 67.00	
+Epoch: [8/120]	Iters: [250/490]	Loss: 1.1197	Accuracy_TrainData@1 62.00	
+Epoch: [8/120]	Iters: [300/490]	Loss: 1.1147	Accuracy_TrainData@1 66.00	
+Epoch: [8/120]	Iters: [350/490]	Loss: 1.1131	Accuracy_TrainData@1 71.00	
+Epoch: [8/120]	Iters: [400/490]	Loss: 1.1118	Accuracy_TrainData@1 62.00	
+Epoch: [8/120]	Iters: [450/490]	Loss: 1.1088	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0086, Accuracy: 7182/10000 (71.8200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 71.82
+
+Test set: Average loss: 0.0086, Accuracy: 7182/10000 (71.8200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 8
+Epoch: [9/120]	Iters: [50/490]	Loss: 1.0623	Accuracy_TrainData@1 76.00	
+Epoch: [9/120]	Iters: [100/490]	Loss: 1.0703	Accuracy_TrainData@1 72.00	
+Epoch: [9/120]	Iters: [150/490]	Loss: 1.0752	Accuracy_TrainData@1 72.00	
+Epoch: [9/120]	Iters: [200/490]	Loss: 1.0837	Accuracy_TrainData@1 60.00	
+Epoch: [9/120]	Iters: [250/490]	Loss: 1.0775	Accuracy_TrainData@1 67.00	
+Epoch: [9/120]	Iters: [300/490]	Loss: 1.0758	Accuracy_TrainData@1 58.00	
+Epoch: [9/120]	Iters: [350/490]	Loss: 1.0772	Accuracy_TrainData@1 76.00	
+Epoch: [9/120]	Iters: [400/490]	Loss: 1.0807	Accuracy_TrainData@1 64.00	
+Epoch: [9/120]	Iters: [450/490]	Loss: 1.0845	Accuracy_TrainData@1 60.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7366/10000 (73.6600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.66
+
+Test set: Average loss: 0.0083, Accuracy: 7366/10000 (73.6600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 9
+Epoch: [10/120]	Iters: [50/490]	Loss: 1.0663	Accuracy_TrainData@1 65.00	
+Epoch: [10/120]	Iters: [100/490]	Loss: 1.0558	Accuracy_TrainData@1 75.00	
+Epoch: [10/120]	Iters: [150/490]	Loss: 1.0691	Accuracy_TrainData@1 73.00	
+Epoch: [10/120]	Iters: [200/490]	Loss: 1.0691	Accuracy_TrainData@1 73.00	
+Epoch: [10/120]	Iters: [250/490]	Loss: 1.0631	Accuracy_TrainData@1 74.00	
+Epoch: [10/120]	Iters: [300/490]	Loss: 1.0597	Accuracy_TrainData@1 71.00	
+Epoch: [10/120]	Iters: [350/490]	Loss: 1.0583	Accuracy_TrainData@1 67.00	
+Epoch: [10/120]	Iters: [400/490]	Loss: 1.0592	Accuracy_TrainData@1 68.00	
+Epoch: [10/120]	Iters: [450/490]	Loss: 1.0582	Accuracy_TrainData@1 59.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7281/10000 (72.8100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.81
+
+Test set: Average loss: 0.0083, Accuracy: 7281/10000 (72.8100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 10
+Epoch: [11/120]	Iters: [50/490]	Loss: 1.0192	Accuracy_TrainData@1 67.00	
+Epoch: [11/120]	Iters: [100/490]	Loss: 1.0368	Accuracy_TrainData@1 72.00	
+Epoch: [11/120]	Iters: [150/490]	Loss: 1.0362	Accuracy_TrainData@1 73.00	
+Epoch: [11/120]	Iters: [200/490]	Loss: 1.0374	Accuracy_TrainData@1 67.00	
+Epoch: [11/120]	Iters: [250/490]	Loss: 1.0457	Accuracy_TrainData@1 67.00	
+Epoch: [11/120]	Iters: [300/490]	Loss: 1.0470	Accuracy_TrainData@1 68.00	
+Epoch: [11/120]	Iters: [350/490]	Loss: 1.0426	Accuracy_TrainData@1 76.00	
+Epoch: [11/120]	Iters: [400/490]	Loss: 1.0431	Accuracy_TrainData@1 75.00	
+Epoch: [11/120]	Iters: [450/490]	Loss: 1.0432	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0102, Accuracy: 6407/10000 (64.0700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 64.07
+
+Test set: Average loss: 0.0102, Accuracy: 6407/10000 (64.0700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 11
+Epoch: [12/120]	Iters: [50/490]	Loss: 1.0409	Accuracy_TrainData@1 72.00	
+Epoch: [12/120]	Iters: [100/490]	Loss: 1.0402	Accuracy_TrainData@1 71.00	
+Epoch: [12/120]	Iters: [150/490]	Loss: 1.0406	Accuracy_TrainData@1 68.00	
+Epoch: [12/120]	Iters: [200/490]	Loss: 1.0394	Accuracy_TrainData@1 68.00	
+Epoch: [12/120]	Iters: [250/490]	Loss: 1.0345	Accuracy_TrainData@1 63.00	
+Epoch: [12/120]	Iters: [300/490]	Loss: 1.0284	Accuracy_TrainData@1 75.00	
+Epoch: [12/120]	Iters: [350/490]	Loss: 1.0345	Accuracy_TrainData@1 68.00	
+Epoch: [12/120]	Iters: [400/490]	Loss: 1.0335	Accuracy_TrainData@1 63.00	
+Epoch: [12/120]	Iters: [450/490]	Loss: 1.0348	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0091, Accuracy: 7136/10000 (71.3600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 71.36
+
+Test set: Average loss: 0.0091, Accuracy: 7136/10000 (71.3600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 12
+Epoch: [13/120]	Iters: [50/490]	Loss: 0.9997	Accuracy_TrainData@1 66.00	
+Epoch: [13/120]	Iters: [100/490]	Loss: 1.0143	Accuracy_TrainData@1 70.00	
+Epoch: [13/120]	Iters: [150/490]	Loss: 1.0103	Accuracy_TrainData@1 69.00	
+Epoch: [13/120]	Iters: [200/490]	Loss: 1.0148	Accuracy_TrainData@1 76.00	
+Epoch: [13/120]	Iters: [250/490]	Loss: 1.0179	Accuracy_TrainData@1 76.00	
+Epoch: [13/120]	Iters: [300/490]	Loss: 1.0159	Accuracy_TrainData@1 68.00	
+Epoch: [13/120]	Iters: [350/490]	Loss: 1.0200	Accuracy_TrainData@1 75.00	
+Epoch: [13/120]	Iters: [400/490]	Loss: 1.0196	Accuracy_TrainData@1 79.00	
+Epoch: [13/120]	Iters: [450/490]	Loss: 1.0170	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0084, Accuracy: 7335/10000 (73.3500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.35
+
+Test set: Average loss: 0.0084, Accuracy: 7335/10000 (73.3500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 13
+Epoch: [14/120]	Iters: [50/490]	Loss: 1.0198	Accuracy_TrainData@1 68.00	
+Epoch: [14/120]	Iters: [100/490]	Loss: 1.0140	Accuracy_TrainData@1 74.00	
+Epoch: [14/120]	Iters: [150/490]	Loss: 1.0172	Accuracy_TrainData@1 70.00	
+Epoch: [14/120]	Iters: [200/490]	Loss: 1.0183	Accuracy_TrainData@1 70.00	
+Epoch: [14/120]	Iters: [250/490]	Loss: 1.0208	Accuracy_TrainData@1 68.00	
+Epoch: [14/120]	Iters: [300/490]	Loss: 1.0140	Accuracy_TrainData@1 71.00	
+Epoch: [14/120]	Iters: [350/490]	Loss: 1.0106	Accuracy_TrainData@1 72.00	
+Epoch: [14/120]	Iters: [400/490]	Loss: 1.0124	Accuracy_TrainData@1 70.00	
+Epoch: [14/120]	Iters: [450/490]	Loss: 1.0108	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0090, Accuracy: 7026/10000 (70.2600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 70.26
+
+Test set: Average loss: 0.0090, Accuracy: 7026/10000 (70.2600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 14
+Epoch: [15/120]	Iters: [50/490]	Loss: 1.0109	Accuracy_TrainData@1 73.00	
+Epoch: [15/120]	Iters: [100/490]	Loss: 0.9983	Accuracy_TrainData@1 66.00	
+Epoch: [15/120]	Iters: [150/490]	Loss: 1.0069	Accuracy_TrainData@1 70.00	
+Epoch: [15/120]	Iters: [200/490]	Loss: 1.0152	Accuracy_TrainData@1 72.00	
+Epoch: [15/120]	Iters: [250/490]	Loss: 1.0137	Accuracy_TrainData@1 74.00	
+Epoch: [15/120]	Iters: [300/490]	Loss: 1.0062	Accuracy_TrainData@1 71.00	
+Epoch: [15/120]	Iters: [350/490]	Loss: 1.0079	Accuracy_TrainData@1 69.00	
+Epoch: [15/120]	Iters: [400/490]	Loss: 1.0078	Accuracy_TrainData@1 72.00	
+Epoch: [15/120]	Iters: [450/490]	Loss: 1.0093	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0066, Accuracy: 7999/10000 (79.9900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 79.99
+
+Test set: Average loss: 0.0066, Accuracy: 7999/10000 (79.9900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 15
+Epoch: [16/120]	Iters: [50/490]	Loss: 0.9841	Accuracy_TrainData@1 74.00	
+Epoch: [16/120]	Iters: [100/490]	Loss: 0.9932	Accuracy_TrainData@1 73.00	
+Epoch: [16/120]	Iters: [150/490]	Loss: 1.0083	Accuracy_TrainData@1 76.00	
+Epoch: [16/120]	Iters: [200/490]	Loss: 1.0062	Accuracy_TrainData@1 68.00	
+Epoch: [16/120]	Iters: [250/490]	Loss: 0.9983	Accuracy_TrainData@1 73.00	
+Epoch: [16/120]	Iters: [300/490]	Loss: 1.0041	Accuracy_TrainData@1 72.00	
+Epoch: [16/120]	Iters: [350/490]	Loss: 1.0014	Accuracy_TrainData@1 70.00	
+Epoch: [16/120]	Iters: [400/490]	Loss: 0.9985	Accuracy_TrainData@1 66.00	
+Epoch: [16/120]	Iters: [450/490]	Loss: 1.0020	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0077, Accuracy: 7644/10000 (76.4400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.44
+
+Test set: Average loss: 0.0077, Accuracy: 7644/10000 (76.4400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 16
+Epoch: [17/120]	Iters: [50/490]	Loss: 0.9826	Accuracy_TrainData@1 67.00	
+Epoch: [17/120]	Iters: [100/490]	Loss: 0.9950	Accuracy_TrainData@1 72.00	
+Epoch: [17/120]	Iters: [150/490]	Loss: 0.9939	Accuracy_TrainData@1 73.00	
+Epoch: [17/120]	Iters: [200/490]	Loss: 0.9908	Accuracy_TrainData@1 75.00	
+Epoch: [17/120]	Iters: [250/490]	Loss: 0.9896	Accuracy_TrainData@1 81.00	
+Epoch: [17/120]	Iters: [300/490]	Loss: 0.9850	Accuracy_TrainData@1 71.00	
+Epoch: [17/120]	Iters: [350/490]	Loss: 0.9881	Accuracy_TrainData@1 71.00	
+Epoch: [17/120]	Iters: [400/490]	Loss: 0.9874	Accuracy_TrainData@1 75.00	
+Epoch: [17/120]	Iters: [450/490]	Loss: 0.9913	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7550/10000 (75.5000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.5
+
+Test set: Average loss: 0.0075, Accuracy: 7550/10000 (75.5000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 17
+Epoch: [18/120]	Iters: [50/490]	Loss: 0.9684	Accuracy_TrainData@1 81.00	
+Epoch: [18/120]	Iters: [100/490]	Loss: 0.9840	Accuracy_TrainData@1 68.00	
+Epoch: [18/120]	Iters: [150/490]	Loss: 0.9891	Accuracy_TrainData@1 75.00	
+Epoch: [18/120]	Iters: [200/490]	Loss: 0.9808	Accuracy_TrainData@1 82.00	
+Epoch: [18/120]	Iters: [250/490]	Loss: 0.9876	Accuracy_TrainData@1 66.00	
+Epoch: [18/120]	Iters: [300/490]	Loss: 0.9842	Accuracy_TrainData@1 72.00	
+Epoch: [18/120]	Iters: [350/490]	Loss: 0.9834	Accuracy_TrainData@1 73.00	
+Epoch: [18/120]	Iters: [400/490]	Loss: 0.9836	Accuracy_TrainData@1 77.00	
+Epoch: [18/120]	Iters: [450/490]	Loss: 0.9817	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7808/10000 (78.0800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.08
+
+Test set: Average loss: 0.0069, Accuracy: 7808/10000 (78.0800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 18
+Epoch: [19/120]	Iters: [50/490]	Loss: 0.9485	Accuracy_TrainData@1 77.00	
+Epoch: [19/120]	Iters: [100/490]	Loss: 0.9629	Accuracy_TrainData@1 71.00	
+Epoch: [19/120]	Iters: [150/490]	Loss: 0.9750	Accuracy_TrainData@1 71.00	
+Epoch: [19/120]	Iters: [200/490]	Loss: 0.9771	Accuracy_TrainData@1 66.00	
+Epoch: [19/120]	Iters: [250/490]	Loss: 0.9807	Accuracy_TrainData@1 64.00	
+Epoch: [19/120]	Iters: [300/490]	Loss: 0.9810	Accuracy_TrainData@1 75.00	
+Epoch: [19/120]	Iters: [350/490]	Loss: 0.9846	Accuracy_TrainData@1 75.00	
+Epoch: [19/120]	Iters: [400/490]	Loss: 0.9823	Accuracy_TrainData@1 73.00	
+Epoch: [19/120]	Iters: [450/490]	Loss: 0.9819	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0082, Accuracy: 7395/10000 (73.9500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.95
+
+Test set: Average loss: 0.0082, Accuracy: 7395/10000 (73.9500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 19
+Epoch: [20/120]	Iters: [50/490]	Loss: 0.9844	Accuracy_TrainData@1 71.00	
+Epoch: [20/120]	Iters: [100/490]	Loss: 0.9793	Accuracy_TrainData@1 70.00	
+Epoch: [20/120]	Iters: [150/490]	Loss: 0.9759	Accuracy_TrainData@1 71.00	
+Epoch: [20/120]	Iters: [200/490]	Loss: 0.9747	Accuracy_TrainData@1 78.00	
+Epoch: [20/120]	Iters: [250/490]	Loss: 0.9721	Accuracy_TrainData@1 79.00	
+Epoch: [20/120]	Iters: [300/490]	Loss: 0.9737	Accuracy_TrainData@1 77.00	
+Epoch: [20/120]	Iters: [350/490]	Loss: 0.9775	Accuracy_TrainData@1 68.00	
+Epoch: [20/120]	Iters: [400/490]	Loss: 0.9769	Accuracy_TrainData@1 79.00	
+Epoch: [20/120]	Iters: [450/490]	Loss: 0.9743	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0073, Accuracy: 7653/10000 (76.5300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.53
+
+Test set: Average loss: 0.0073, Accuracy: 7653/10000 (76.5300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 20
+Epoch: [21/120]	Iters: [50/490]	Loss: 0.9764	Accuracy_TrainData@1 68.00	
+Epoch: [21/120]	Iters: [100/490]	Loss: 0.9893	Accuracy_TrainData@1 73.00	
+Epoch: [21/120]	Iters: [150/490]	Loss: 0.9815	Accuracy_TrainData@1 77.00	
+Epoch: [21/120]	Iters: [200/490]	Loss: 0.9726	Accuracy_TrainData@1 77.00	
+Epoch: [21/120]	Iters: [250/490]	Loss: 0.9738	Accuracy_TrainData@1 78.00	
+Epoch: [21/120]	Iters: [300/490]	Loss: 0.9728	Accuracy_TrainData@1 70.00	
+Epoch: [21/120]	Iters: [350/490]	Loss: 0.9775	Accuracy_TrainData@1 74.00	
+Epoch: [21/120]	Iters: [400/490]	Loss: 0.9788	Accuracy_TrainData@1 74.00	
+Epoch: [21/120]	Iters: [450/490]	Loss: 0.9758	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7764/10000 (77.6400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.64
+
+Test set: Average loss: 0.0071, Accuracy: 7764/10000 (77.6400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 21
+Epoch: [22/120]	Iters: [50/490]	Loss: 0.9395	Accuracy_TrainData@1 72.00	
+Epoch: [22/120]	Iters: [100/490]	Loss: 0.9351	Accuracy_TrainData@1 76.00	
+Epoch: [22/120]	Iters: [150/490]	Loss: 0.9566	Accuracy_TrainData@1 71.00	
+Epoch: [22/120]	Iters: [200/490]	Loss: 0.9521	Accuracy_TrainData@1 78.00	
+Epoch: [22/120]	Iters: [250/490]	Loss: 0.9623	Accuracy_TrainData@1 69.00	
+Epoch: [22/120]	Iters: [300/490]	Loss: 0.9630	Accuracy_TrainData@1 74.00	
+Epoch: [22/120]	Iters: [350/490]	Loss: 0.9686	Accuracy_TrainData@1 72.00	
+Epoch: [22/120]	Iters: [400/490]	Loss: 0.9724	Accuracy_TrainData@1 64.00	
+Epoch: [22/120]	Iters: [450/490]	Loss: 0.9722	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0082, Accuracy: 7371/10000 (73.7100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.71
+
+Test set: Average loss: 0.0082, Accuracy: 7371/10000 (73.7100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 22
+Epoch: [23/120]	Iters: [50/490]	Loss: 0.9385	Accuracy_TrainData@1 73.00	
+Epoch: [23/120]	Iters: [100/490]	Loss: 0.9468	Accuracy_TrainData@1 70.00	
+Epoch: [23/120]	Iters: [150/490]	Loss: 0.9502	Accuracy_TrainData@1 74.00	
+Epoch: [23/120]	Iters: [200/490]	Loss: 0.9518	Accuracy_TrainData@1 71.00	
+Epoch: [23/120]	Iters: [250/490]	Loss: 0.9552	Accuracy_TrainData@1 68.00	
+Epoch: [23/120]	Iters: [300/490]	Loss: 0.9585	Accuracy_TrainData@1 70.00	
+Epoch: [23/120]	Iters: [350/490]	Loss: 0.9571	Accuracy_TrainData@1 73.00	
+Epoch: [23/120]	Iters: [400/490]	Loss: 0.9612	Accuracy_TrainData@1 68.00	
+Epoch: [23/120]	Iters: [450/490]	Loss: 0.9627	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7632/10000 (76.3200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.32
+
+Test set: Average loss: 0.0075, Accuracy: 7632/10000 (76.3200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 23
+Epoch: [24/120]	Iters: [50/490]	Loss: 0.9825	Accuracy_TrainData@1 65.00	
+Epoch: [24/120]	Iters: [100/490]	Loss: 0.9651	Accuracy_TrainData@1 64.00	
+Epoch: [24/120]	Iters: [150/490]	Loss: 0.9591	Accuracy_TrainData@1 70.00	
+Epoch: [24/120]	Iters: [200/490]	Loss: 0.9589	Accuracy_TrainData@1 68.00	
+Epoch: [24/120]	Iters: [250/490]	Loss: 0.9660	Accuracy_TrainData@1 71.00	
+Epoch: [24/120]	Iters: [300/490]	Loss: 0.9629	Accuracy_TrainData@1 70.00	
+Epoch: [24/120]	Iters: [350/490]	Loss: 0.9633	Accuracy_TrainData@1 78.00	
+Epoch: [24/120]	Iters: [400/490]	Loss: 0.9655	Accuracy_TrainData@1 65.00	
+Epoch: [24/120]	Iters: [450/490]	Loss: 0.9662	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0080, Accuracy: 7511/10000 (75.1100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.11
+
+Test set: Average loss: 0.0080, Accuracy: 7511/10000 (75.1100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 24
+Epoch: [25/120]	Iters: [50/490]	Loss: 0.9379	Accuracy_TrainData@1 79.00	
+Epoch: [25/120]	Iters: [100/490]	Loss: 0.9434	Accuracy_TrainData@1 78.00	
+Epoch: [25/120]	Iters: [150/490]	Loss: 0.9413	Accuracy_TrainData@1 76.00	
+Epoch: [25/120]	Iters: [200/490]	Loss: 0.9458	Accuracy_TrainData@1 71.00	
+Epoch: [25/120]	Iters: [250/490]	Loss: 0.9494	Accuracy_TrainData@1 77.00	
+Epoch: [25/120]	Iters: [300/490]	Loss: 0.9498	Accuracy_TrainData@1 67.00	
+Epoch: [25/120]	Iters: [350/490]	Loss: 0.9559	Accuracy_TrainData@1 76.00	
+Epoch: [25/120]	Iters: [400/490]	Loss: 0.9614	Accuracy_TrainData@1 75.00	
+Epoch: [25/120]	Iters: [450/490]	Loss: 0.9633	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0067, Accuracy: 7878/10000 (78.7800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.78
+
+Test set: Average loss: 0.0067, Accuracy: 7878/10000 (78.7800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 25
+Epoch: [26/120]	Iters: [50/490]	Loss: 0.9466	Accuracy_TrainData@1 77.00	
+Epoch: [26/120]	Iters: [100/490]	Loss: 0.9346	Accuracy_TrainData@1 73.00	
+Epoch: [26/120]	Iters: [150/490]	Loss: 0.9469	Accuracy_TrainData@1 82.00	
+Epoch: [26/120]	Iters: [200/490]	Loss: 0.9492	Accuracy_TrainData@1 67.00	
+Epoch: [26/120]	Iters: [250/490]	Loss: 0.9485	Accuracy_TrainData@1 71.00	
+Epoch: [26/120]	Iters: [300/490]	Loss: 0.9455	Accuracy_TrainData@1 76.00	
+Epoch: [26/120]	Iters: [350/490]	Loss: 0.9497	Accuracy_TrainData@1 73.00	
+Epoch: [26/120]	Iters: [400/490]	Loss: 0.9515	Accuracy_TrainData@1 69.00	
+Epoch: [26/120]	Iters: [450/490]	Loss: 0.9578	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7674/10000 (76.7400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.74
+
+Test set: Average loss: 0.0075, Accuracy: 7674/10000 (76.7400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 26
+Epoch: [27/120]	Iters: [50/490]	Loss: 0.9125	Accuracy_TrainData@1 79.00	
+Epoch: [27/120]	Iters: [100/490]	Loss: 0.9297	Accuracy_TrainData@1 76.00	
+Epoch: [27/120]	Iters: [150/490]	Loss: 0.9414	Accuracy_TrainData@1 71.00	
+Epoch: [27/120]	Iters: [200/490]	Loss: 0.9443	Accuracy_TrainData@1 69.00	
+Epoch: [27/120]	Iters: [250/490]	Loss: 0.9525	Accuracy_TrainData@1 72.00	
+Epoch: [27/120]	Iters: [300/490]	Loss: 0.9563	Accuracy_TrainData@1 73.00	
+Epoch: [27/120]	Iters: [350/490]	Loss: 0.9543	Accuracy_TrainData@1 73.00	
+Epoch: [27/120]	Iters: [400/490]	Loss: 0.9562	Accuracy_TrainData@1 74.00	
+Epoch: [27/120]	Iters: [450/490]	Loss: 0.9594	Accuracy_TrainData@1 69.00	
+
+Test set: Average loss: 0.0088, Accuracy: 7109/10000 (71.0900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 71.09
+
+Test set: Average loss: 0.0088, Accuracy: 7109/10000 (71.0900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 27
+Epoch: [28/120]	Iters: [50/490]	Loss: 0.9295	Accuracy_TrainData@1 77.00	
+Epoch: [28/120]	Iters: [100/490]	Loss: 0.9567	Accuracy_TrainData@1 72.00	
+Epoch: [28/120]	Iters: [150/490]	Loss: 0.9520	Accuracy_TrainData@1 72.00	
+Epoch: [28/120]	Iters: [200/490]	Loss: 0.9599	Accuracy_TrainData@1 72.00	
+Epoch: [28/120]	Iters: [250/490]	Loss: 0.9640	Accuracy_TrainData@1 72.00	
+Epoch: [28/120]	Iters: [300/490]	Loss: 0.9576	Accuracy_TrainData@1 68.00	
+Epoch: [28/120]	Iters: [350/490]	Loss: 0.9525	Accuracy_TrainData@1 78.00	
+Epoch: [28/120]	Iters: [400/490]	Loss: 0.9556	Accuracy_TrainData@1 78.00	
+Epoch: [28/120]	Iters: [450/490]	Loss: 0.9584	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7220/10000 (72.2000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.2
+
+Test set: Average loss: 0.0087, Accuracy: 7220/10000 (72.2000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 28
+Epoch: [29/120]	Iters: [50/490]	Loss: 0.9378	Accuracy_TrainData@1 76.00	
+Epoch: [29/120]	Iters: [100/490]	Loss: 0.9385	Accuracy_TrainData@1 71.00	
+Epoch: [29/120]	Iters: [150/490]	Loss: 0.9386	Accuracy_TrainData@1 74.00	
+Epoch: [29/120]	Iters: [200/490]	Loss: 0.9437	Accuracy_TrainData@1 69.00	
+Epoch: [29/120]	Iters: [250/490]	Loss: 0.9445	Accuracy_TrainData@1 76.00	
+Epoch: [29/120]	Iters: [300/490]	Loss: 0.9482	Accuracy_TrainData@1 69.00	
+Epoch: [29/120]	Iters: [350/490]	Loss: 0.9531	Accuracy_TrainData@1 70.00	
+Epoch: [29/120]	Iters: [400/490]	Loss: 0.9535	Accuracy_TrainData@1 64.00	
+Epoch: [29/120]	Iters: [450/490]	Loss: 0.9551	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0072, Accuracy: 7777/10000 (77.7700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.77
+
+Test set: Average loss: 0.0072, Accuracy: 7777/10000 (77.7700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 29
+Epoch: [30/120]	Iters: [50/490]	Loss: 0.9298	Accuracy_TrainData@1 74.00	
+Epoch: [30/120]	Iters: [100/490]	Loss: 0.9532	Accuracy_TrainData@1 73.00	
+Epoch: [30/120]	Iters: [150/490]	Loss: 0.9511	Accuracy_TrainData@1 67.00	
+Epoch: [30/120]	Iters: [200/490]	Loss: 0.9575	Accuracy_TrainData@1 74.00	
+Epoch: [30/120]	Iters: [250/490]	Loss: 0.9626	Accuracy_TrainData@1 67.00	
+Epoch: [30/120]	Iters: [300/490]	Loss: 0.9585	Accuracy_TrainData@1 78.00	
+Epoch: [30/120]	Iters: [350/490]	Loss: 0.9569	Accuracy_TrainData@1 66.00	
+Epoch: [30/120]	Iters: [400/490]	Loss: 0.9543	Accuracy_TrainData@1 77.00	
+Epoch: [30/120]	Iters: [450/490]	Loss: 0.9537	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0080, Accuracy: 7543/10000 (75.4300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.43
+
+Test set: Average loss: 0.0080, Accuracy: 7543/10000 (75.4300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 30
+Epoch: [31/120]	Iters: [50/490]	Loss: 0.9586	Accuracy_TrainData@1 81.00	
+Epoch: [31/120]	Iters: [100/490]	Loss: 0.9490	Accuracy_TrainData@1 67.00	
+Epoch: [31/120]	Iters: [150/490]	Loss: 0.9465	Accuracy_TrainData@1 84.00	
+Epoch: [31/120]	Iters: [200/490]	Loss: 0.9504	Accuracy_TrainData@1 61.00	
+Epoch: [31/120]	Iters: [250/490]	Loss: 0.9519	Accuracy_TrainData@1 70.00	
+Epoch: [31/120]	Iters: [300/490]	Loss: 0.9559	Accuracy_TrainData@1 75.00	
+Epoch: [31/120]	Iters: [350/490]	Loss: 0.9587	Accuracy_TrainData@1 76.00	
+Epoch: [31/120]	Iters: [400/490]	Loss: 0.9539	Accuracy_TrainData@1 73.00	
+Epoch: [31/120]	Iters: [450/490]	Loss: 0.9518	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7860/10000 (78.6000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.6
+
+Test set: Average loss: 0.0069, Accuracy: 7860/10000 (78.6000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 31
+Epoch: [32/120]	Iters: [50/490]	Loss: 0.9547	Accuracy_TrainData@1 64.00	
+Epoch: [32/120]	Iters: [100/490]	Loss: 0.9567	Accuracy_TrainData@1 66.00	
+Epoch: [32/120]	Iters: [150/490]	Loss: 0.9620	Accuracy_TrainData@1 74.00	
+Epoch: [32/120]	Iters: [200/490]	Loss: 0.9564	Accuracy_TrainData@1 69.00	
+Epoch: [32/120]	Iters: [250/490]	Loss: 0.9535	Accuracy_TrainData@1 79.00	
+Epoch: [32/120]	Iters: [300/490]	Loss: 0.9536	Accuracy_TrainData@1 78.00	
+Epoch: [32/120]	Iters: [350/490]	Loss: 0.9531	Accuracy_TrainData@1 80.00	
+Epoch: [32/120]	Iters: [400/490]	Loss: 0.9491	Accuracy_TrainData@1 71.00	
+Epoch: [32/120]	Iters: [450/490]	Loss: 0.9481	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0104, Accuracy: 6516/10000 (65.1600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 65.16
+
+Test set: Average loss: 0.0104, Accuracy: 6516/10000 (65.1600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 32
+Epoch: [33/120]	Iters: [50/490]	Loss: 0.9183	Accuracy_TrainData@1 80.00	
+Epoch: [33/120]	Iters: [100/490]	Loss: 0.9173	Accuracy_TrainData@1 77.00	
+Epoch: [33/120]	Iters: [150/490]	Loss: 0.9352	Accuracy_TrainData@1 72.00	
+Epoch: [33/120]	Iters: [200/490]	Loss: 0.9387	Accuracy_TrainData@1 76.00	
+Epoch: [33/120]	Iters: [250/490]	Loss: 0.9419	Accuracy_TrainData@1 77.00	
+Epoch: [33/120]	Iters: [300/490]	Loss: 0.9477	Accuracy_TrainData@1 75.00	
+Epoch: [33/120]	Iters: [350/490]	Loss: 0.9474	Accuracy_TrainData@1 78.00	
+Epoch: [33/120]	Iters: [400/490]	Loss: 0.9487	Accuracy_TrainData@1 73.00	
+Epoch: [33/120]	Iters: [450/490]	Loss: 0.9474	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0065, Accuracy: 8042/10000 (80.4200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 80.42
+
+Test set: Average loss: 0.0065, Accuracy: 8042/10000 (80.4200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 33
+Epoch: [34/120]	Iters: [50/490]	Loss: 0.9455	Accuracy_TrainData@1 77.00	
+Epoch: [34/120]	Iters: [100/490]	Loss: 0.9146	Accuracy_TrainData@1 71.00	
+Epoch: [34/120]	Iters: [150/490]	Loss: 0.9314	Accuracy_TrainData@1 75.00	
+Epoch: [34/120]	Iters: [200/490]	Loss: 0.9219	Accuracy_TrainData@1 84.00	
+Epoch: [34/120]	Iters: [250/490]	Loss: 0.9285	Accuracy_TrainData@1 73.00	
+Epoch: [34/120]	Iters: [300/490]	Loss: 0.9405	Accuracy_TrainData@1 73.00	
+Epoch: [34/120]	Iters: [350/490]	Loss: 0.9438	Accuracy_TrainData@1 75.00	
+Epoch: [34/120]	Iters: [400/490]	Loss: 0.9442	Accuracy_TrainData@1 73.00	
+Epoch: [34/120]	Iters: [450/490]	Loss: 0.9516	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7647/10000 (76.4700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.47
+
+Test set: Average loss: 0.0071, Accuracy: 7647/10000 (76.4700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 34
+Epoch: [35/120]	Iters: [50/490]	Loss: 0.9120	Accuracy_TrainData@1 84.00	
+Epoch: [35/120]	Iters: [100/490]	Loss: 0.9278	Accuracy_TrainData@1 79.00	
+Epoch: [35/120]	Iters: [150/490]	Loss: 0.9452	Accuracy_TrainData@1 72.00	
+Epoch: [35/120]	Iters: [200/490]	Loss: 0.9546	Accuracy_TrainData@1 79.00	
+Epoch: [35/120]	Iters: [250/490]	Loss: 0.9575	Accuracy_TrainData@1 72.00	
+Epoch: [35/120]	Iters: [300/490]	Loss: 0.9555	Accuracy_TrainData@1 71.00	
+Epoch: [35/120]	Iters: [350/490]	Loss: 0.9485	Accuracy_TrainData@1 69.00	
+Epoch: [35/120]	Iters: [400/490]	Loss: 0.9501	Accuracy_TrainData@1 72.00	
+Epoch: [35/120]	Iters: [450/490]	Loss: 0.9465	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0068, Accuracy: 7880/10000 (78.8000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.8
+
+Test set: Average loss: 0.0068, Accuracy: 7880/10000 (78.8000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 35
+Epoch: [36/120]	Iters: [50/490]	Loss: 0.9274	Accuracy_TrainData@1 72.00	
+Epoch: [36/120]	Iters: [100/490]	Loss: 0.9229	Accuracy_TrainData@1 79.00	
+Epoch: [36/120]	Iters: [150/490]	Loss: 0.9340	Accuracy_TrainData@1 80.00	
+Epoch: [36/120]	Iters: [200/490]	Loss: 0.9370	Accuracy_TrainData@1 75.00	
+Epoch: [36/120]	Iters: [250/490]	Loss: 0.9388	Accuracy_TrainData@1 65.00	
+Epoch: [36/120]	Iters: [300/490]	Loss: 0.9452	Accuracy_TrainData@1 68.00	
+Epoch: [36/120]	Iters: [350/490]	Loss: 0.9478	Accuracy_TrainData@1 79.00	
+Epoch: [36/120]	Iters: [400/490]	Loss: 0.9487	Accuracy_TrainData@1 72.00	
+Epoch: [36/120]	Iters: [450/490]	Loss: 0.9477	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0067, Accuracy: 7877/10000 (78.7700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.77
+
+Test set: Average loss: 0.0067, Accuracy: 7877/10000 (78.7700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 36
+Epoch: [37/120]	Iters: [50/490]	Loss: 0.9222	Accuracy_TrainData@1 74.00	
+Epoch: [37/120]	Iters: [100/490]	Loss: 0.9338	Accuracy_TrainData@1 73.00	
+Epoch: [37/120]	Iters: [150/490]	Loss: 0.9421	Accuracy_TrainData@1 79.00	
+Epoch: [37/120]	Iters: [200/490]	Loss: 0.9426	Accuracy_TrainData@1 71.00	
+Epoch: [37/120]	Iters: [250/490]	Loss: 0.9473	Accuracy_TrainData@1 76.00	
+Epoch: [37/120]	Iters: [300/490]	Loss: 0.9437	Accuracy_TrainData@1 78.00	
+Epoch: [37/120]	Iters: [350/490]	Loss: 0.9452	Accuracy_TrainData@1 71.00	
+Epoch: [37/120]	Iters: [400/490]	Loss: 0.9487	Accuracy_TrainData@1 70.00	
+Epoch: [37/120]	Iters: [450/490]	Loss: 0.9513	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7659/10000 (76.5900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.59
+
+Test set: Average loss: 0.0075, Accuracy: 7659/10000 (76.5900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 37
+Epoch: [38/120]	Iters: [50/490]	Loss: 0.8738	Accuracy_TrainData@1 73.00	
+Epoch: [38/120]	Iters: [100/490]	Loss: 0.9011	Accuracy_TrainData@1 71.00	
+Epoch: [38/120]	Iters: [150/490]	Loss: 0.9194	Accuracy_TrainData@1 73.00	
+Epoch: [38/120]	Iters: [200/490]	Loss: 0.9294	Accuracy_TrainData@1 73.00	
+Epoch: [38/120]	Iters: [250/490]	Loss: 0.9331	Accuracy_TrainData@1 76.00	
+Epoch: [38/120]	Iters: [300/490]	Loss: 0.9353	Accuracy_TrainData@1 68.00	
+Epoch: [38/120]	Iters: [350/490]	Loss: 0.9358	Accuracy_TrainData@1 83.00	
+Epoch: [38/120]	Iters: [400/490]	Loss: 0.9367	Accuracy_TrainData@1 74.00	
+Epoch: [38/120]	Iters: [450/490]	Loss: 0.9363	Accuracy_TrainData@1 66.00	
+
+Test set: Average loss: 0.0079, Accuracy: 7457/10000 (74.5700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 74.57
+
+Test set: Average loss: 0.0079, Accuracy: 7457/10000 (74.5700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 38
+Epoch: [39/120]	Iters: [50/490]	Loss: 0.9261	Accuracy_TrainData@1 70.00	
+Epoch: [39/120]	Iters: [100/490]	Loss: 0.9235	Accuracy_TrainData@1 84.00	
+Epoch: [39/120]	Iters: [150/490]	Loss: 0.9291	Accuracy_TrainData@1 82.00	
+Epoch: [39/120]	Iters: [200/490]	Loss: 0.9378	Accuracy_TrainData@1 75.00	
+Epoch: [39/120]	Iters: [250/490]	Loss: 0.9430	Accuracy_TrainData@1 70.00	
+Epoch: [39/120]	Iters: [300/490]	Loss: 0.9419	Accuracy_TrainData@1 78.00	
+Epoch: [39/120]	Iters: [350/490]	Loss: 0.9440	Accuracy_TrainData@1 68.00	
+Epoch: [39/120]	Iters: [400/490]	Loss: 0.9432	Accuracy_TrainData@1 71.00	
+Epoch: [39/120]	Iters: [450/490]	Loss: 0.9399	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7331/10000 (73.3100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.31
+
+Test set: Average loss: 0.0083, Accuracy: 7331/10000 (73.3100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 39
+Epoch: [40/120]	Iters: [50/490]	Loss: 0.9677	Accuracy_TrainData@1 79.00	
+Epoch: [40/120]	Iters: [100/490]	Loss: 0.9390	Accuracy_TrainData@1 75.00	
+Epoch: [40/120]	Iters: [150/490]	Loss: 0.9387	Accuracy_TrainData@1 79.00	
+Epoch: [40/120]	Iters: [200/490]	Loss: 0.9342	Accuracy_TrainData@1 74.00	
+Epoch: [40/120]	Iters: [250/490]	Loss: 0.9326	Accuracy_TrainData@1 80.00	
+Epoch: [40/120]	Iters: [300/490]	Loss: 0.9412	Accuracy_TrainData@1 70.00	
+Epoch: [40/120]	Iters: [350/490]	Loss: 0.9445	Accuracy_TrainData@1 75.00	
+Epoch: [40/120]	Iters: [400/490]	Loss: 0.9463	Accuracy_TrainData@1 66.00	
+Epoch: [40/120]	Iters: [450/490]	Loss: 0.9418	Accuracy_TrainData@1 75.00	
+
+Test set: Average loss: 0.0066, Accuracy: 7850/10000 (78.5000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.5
+
+Test set: Average loss: 0.0066, Accuracy: 7850/10000 (78.5000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 40
+Epoch: [41/120]	Iters: [50/490]	Loss: 0.9236	Accuracy_TrainData@1 70.00	
+Epoch: [41/120]	Iters: [100/490]	Loss: 0.9156	Accuracy_TrainData@1 77.00	
+Epoch: [41/120]	Iters: [150/490]	Loss: 0.9211	Accuracy_TrainData@1 75.00	
+Epoch: [41/120]	Iters: [200/490]	Loss: 0.9238	Accuracy_TrainData@1 73.00	
+Epoch: [41/120]	Iters: [250/490]	Loss: 0.9261	Accuracy_TrainData@1 75.00	
+Epoch: [41/120]	Iters: [300/490]	Loss: 0.9315	Accuracy_TrainData@1 75.00	
+Epoch: [41/120]	Iters: [350/490]	Loss: 0.9374	Accuracy_TrainData@1 79.00	
+Epoch: [41/120]	Iters: [400/490]	Loss: 0.9365	Accuracy_TrainData@1 78.00	
+Epoch: [41/120]	Iters: [450/490]	Loss: 0.9380	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0078, Accuracy: 7544/10000 (75.4400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.44
+
+Test set: Average loss: 0.0078, Accuracy: 7544/10000 (75.4400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 41
+Epoch: [42/120]	Iters: [50/490]	Loss: 0.9194	Accuracy_TrainData@1 75.00	
+Epoch: [42/120]	Iters: [100/490]	Loss: 0.9340	Accuracy_TrainData@1 72.00	
+Epoch: [42/120]	Iters: [150/490]	Loss: 0.9330	Accuracy_TrainData@1 77.00	
+Epoch: [42/120]	Iters: [200/490]	Loss: 0.9327	Accuracy_TrainData@1 71.00	
+Epoch: [42/120]	Iters: [250/490]	Loss: 0.9393	Accuracy_TrainData@1 73.00	
+Epoch: [42/120]	Iters: [300/490]	Loss: 0.9419	Accuracy_TrainData@1 68.00	
+Epoch: [42/120]	Iters: [350/490]	Loss: 0.9381	Accuracy_TrainData@1 74.00	
+Epoch: [42/120]	Iters: [400/490]	Loss: 0.9408	Accuracy_TrainData@1 75.00	
+Epoch: [42/120]	Iters: [450/490]	Loss: 0.9421	Accuracy_TrainData@1 82.00	
+
+Test set: Average loss: 0.0062, Accuracy: 8035/10000 (80.3500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 80.35
+
+Test set: Average loss: 0.0062, Accuracy: 8035/10000 (80.3500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 42
+Epoch: [43/120]	Iters: [50/490]	Loss: 0.9305	Accuracy_TrainData@1 65.00	
+Epoch: [43/120]	Iters: [100/490]	Loss: 0.9280	Accuracy_TrainData@1 74.00	
+Epoch: [43/120]	Iters: [150/490]	Loss: 0.9307	Accuracy_TrainData@1 65.00	
+Epoch: [43/120]	Iters: [200/490]	Loss: 0.9371	Accuracy_TrainData@1 75.00	
+Epoch: [43/120]	Iters: [250/490]	Loss: 0.9396	Accuracy_TrainData@1 71.00	
+Epoch: [43/120]	Iters: [300/490]	Loss: 0.9378	Accuracy_TrainData@1 76.00	
+Epoch: [43/120]	Iters: [350/490]	Loss: 0.9376	Accuracy_TrainData@1 69.00	
+Epoch: [43/120]	Iters: [400/490]	Loss: 0.9345	Accuracy_TrainData@1 72.00	
+Epoch: [43/120]	Iters: [450/490]	Loss: 0.9337	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7192/10000 (71.9200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 71.92
+
+Test set: Average loss: 0.0087, Accuracy: 7192/10000 (71.9200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 43
+Epoch: [44/120]	Iters: [50/490]	Loss: 0.9081	Accuracy_TrainData@1 78.00	
+Epoch: [44/120]	Iters: [100/490]	Loss: 0.9125	Accuracy_TrainData@1 73.00	
+Epoch: [44/120]	Iters: [150/490]	Loss: 0.9263	Accuracy_TrainData@1 75.00	
+Epoch: [44/120]	Iters: [200/490]	Loss: 0.9190	Accuracy_TrainData@1 72.00	
+Epoch: [44/120]	Iters: [250/490]	Loss: 0.9180	Accuracy_TrainData@1 73.00	
+Epoch: [44/120]	Iters: [300/490]	Loss: 0.9194	Accuracy_TrainData@1 70.00	
+Epoch: [44/120]	Iters: [350/490]	Loss: 0.9267	Accuracy_TrainData@1 75.00	
+Epoch: [44/120]	Iters: [400/490]	Loss: 0.9323	Accuracy_TrainData@1 73.00	
+Epoch: [44/120]	Iters: [450/490]	Loss: 0.9348	Accuracy_TrainData@1 66.00	
+
+Test set: Average loss: 0.0065, Accuracy: 7973/10000 (79.7300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 79.73
+
+Test set: Average loss: 0.0065, Accuracy: 7973/10000 (79.7300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 44
+Epoch: [45/120]	Iters: [50/490]	Loss: 0.9030	Accuracy_TrainData@1 80.00	
+Epoch: [45/120]	Iters: [100/490]	Loss: 0.8996	Accuracy_TrainData@1 76.00	
+Epoch: [45/120]	Iters: [150/490]	Loss: 0.9165	Accuracy_TrainData@1 81.00	
+Epoch: [45/120]	Iters: [200/490]	Loss: 0.9181	Accuracy_TrainData@1 72.00	
+Epoch: [45/120]	Iters: [250/490]	Loss: 0.9160	Accuracy_TrainData@1 74.00	
+Epoch: [45/120]	Iters: [300/490]	Loss: 0.9169	Accuracy_TrainData@1 74.00	
+Epoch: [45/120]	Iters: [350/490]	Loss: 0.9221	Accuracy_TrainData@1 73.00	
+Epoch: [45/120]	Iters: [400/490]	Loss: 0.9276	Accuracy_TrainData@1 69.00	
+Epoch: [45/120]	Iters: [450/490]	Loss: 0.9297	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0062, Accuracy: 8000/10000 (80.0000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 80.0
+
+Test set: Average loss: 0.0062, Accuracy: 8000/10000 (80.0000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 45
+Epoch: [46/120]	Iters: [50/490]	Loss: 0.9261	Accuracy_TrainData@1 76.00	
+Epoch: [46/120]	Iters: [100/490]	Loss: 0.9280	Accuracy_TrainData@1 76.00	
+Epoch: [46/120]	Iters: [150/490]	Loss: 0.9443	Accuracy_TrainData@1 75.00	
+Epoch: [46/120]	Iters: [200/490]	Loss: 0.9362	Accuracy_TrainData@1 75.00	
+Epoch: [46/120]	Iters: [250/490]	Loss: 0.9347	Accuracy_TrainData@1 76.00	
+Epoch: [46/120]	Iters: [300/490]	Loss: 0.9332	Accuracy_TrainData@1 79.00	
+Epoch: [46/120]	Iters: [350/490]	Loss: 0.9345	Accuracy_TrainData@1 73.00	
+Epoch: [46/120]	Iters: [400/490]	Loss: 0.9396	Accuracy_TrainData@1 77.00	
+Epoch: [46/120]	Iters: [450/490]	Loss: 0.9373	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0097, Accuracy: 6775/10000 (67.7500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 67.75
+
+Test set: Average loss: 0.0097, Accuracy: 6775/10000 (67.7500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 46
+Epoch: [47/120]	Iters: [50/490]	Loss: 0.9218	Accuracy_TrainData@1 70.00	
+Epoch: [47/120]	Iters: [100/490]	Loss: 0.9383	Accuracy_TrainData@1 71.00	
+Epoch: [47/120]	Iters: [150/490]	Loss: 0.9288	Accuracy_TrainData@1 71.00	
+Epoch: [47/120]	Iters: [200/490]	Loss: 0.9321	Accuracy_TrainData@1 71.00	
+Epoch: [47/120]	Iters: [250/490]	Loss: 0.9304	Accuracy_TrainData@1 73.00	
+Epoch: [47/120]	Iters: [300/490]	Loss: 0.9289	Accuracy_TrainData@1 78.00	
+Epoch: [47/120]	Iters: [350/490]	Loss: 0.9334	Accuracy_TrainData@1 78.00	
+Epoch: [47/120]	Iters: [400/490]	Loss: 0.9355	Accuracy_TrainData@1 80.00	
+Epoch: [47/120]	Iters: [450/490]	Loss: 0.9324	Accuracy_TrainData@1 66.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7836/10000 (78.3600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.36
+
+Test set: Average loss: 0.0069, Accuracy: 7836/10000 (78.3600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 47
+Epoch: [48/120]	Iters: [50/490]	Loss: 0.9630	Accuracy_TrainData@1 81.00	
+Epoch: [48/120]	Iters: [100/490]	Loss: 0.9391	Accuracy_TrainData@1 79.00	
+Epoch: [48/120]	Iters: [150/490]	Loss: 0.9389	Accuracy_TrainData@1 77.00	
+Epoch: [48/120]	Iters: [200/490]	Loss: 0.9315	Accuracy_TrainData@1 74.00	
+Epoch: [48/120]	Iters: [250/490]	Loss: 0.9268	Accuracy_TrainData@1 82.00	
+Epoch: [48/120]	Iters: [300/490]	Loss: 0.9298	Accuracy_TrainData@1 77.00	
+Epoch: [48/120]	Iters: [350/490]	Loss: 0.9286	Accuracy_TrainData@1 72.00	
+Epoch: [48/120]	Iters: [400/490]	Loss: 0.9292	Accuracy_TrainData@1 75.00	
+Epoch: [48/120]	Iters: [450/490]	Loss: 0.9310	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7730/10000 (77.3000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.3
+
+Test set: Average loss: 0.0071, Accuracy: 7730/10000 (77.3000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 48
+Epoch: [49/120]	Iters: [50/490]	Loss: 0.9260	Accuracy_TrainData@1 70.00	
+Epoch: [49/120]	Iters: [100/490]	Loss: 0.9277	Accuracy_TrainData@1 81.00	
+Epoch: [49/120]	Iters: [150/490]	Loss: 0.9259	Accuracy_TrainData@1 80.00	
+Epoch: [49/120]	Iters: [200/490]	Loss: 0.9314	Accuracy_TrainData@1 74.00	
+Epoch: [49/120]	Iters: [250/490]	Loss: 0.9369	Accuracy_TrainData@1 74.00	
+Epoch: [49/120]	Iters: [300/490]	Loss: 0.9332	Accuracy_TrainData@1 69.00	
+Epoch: [49/120]	Iters: [350/490]	Loss: 0.9345	Accuracy_TrainData@1 71.00	
+Epoch: [49/120]	Iters: [400/490]	Loss: 0.9304	Accuracy_TrainData@1 72.00	
+Epoch: [49/120]	Iters: [450/490]	Loss: 0.9288	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7258/10000 (72.5800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.58
+
+Test set: Average loss: 0.0087, Accuracy: 7258/10000 (72.5800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 49
+Epoch: [50/120]	Iters: [50/490]	Loss: 0.9186	Accuracy_TrainData@1 81.00	
+Epoch: [50/120]	Iters: [100/490]	Loss: 0.9177	Accuracy_TrainData@1 75.00	
+Epoch: [50/120]	Iters: [150/490]	Loss: 0.9291	Accuracy_TrainData@1 69.00	
+Epoch: [50/120]	Iters: [200/490]	Loss: 0.9288	Accuracy_TrainData@1 84.00	
+Epoch: [50/120]	Iters: [250/490]	Loss: 0.9236	Accuracy_TrainData@1 70.00	
+Epoch: [50/120]	Iters: [300/490]	Loss: 0.9223	Accuracy_TrainData@1 78.00	
+Epoch: [50/120]	Iters: [350/490]	Loss: 0.9231	Accuracy_TrainData@1 74.00	
+Epoch: [50/120]	Iters: [400/490]	Loss: 0.9290	Accuracy_TrainData@1 68.00	
+Epoch: [50/120]	Iters: [450/490]	Loss: 0.9304	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0076, Accuracy: 7593/10000 (75.9300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.93
+
+Test set: Average loss: 0.0076, Accuracy: 7593/10000 (75.9300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 50
+Epoch: [51/120]	Iters: [50/490]	Loss: 0.9099	Accuracy_TrainData@1 72.00	
+Epoch: [51/120]	Iters: [100/490]	Loss: 0.9179	Accuracy_TrainData@1 83.00	
+Epoch: [51/120]	Iters: [150/490]	Loss: 0.9164	Accuracy_TrainData@1 79.00	
+Epoch: [51/120]	Iters: [200/490]	Loss: 0.9202	Accuracy_TrainData@1 66.00	
+Epoch: [51/120]	Iters: [250/490]	Loss: 0.9237	Accuracy_TrainData@1 80.00	
+Epoch: [51/120]	Iters: [300/490]	Loss: 0.9285	Accuracy_TrainData@1 75.00	
+Epoch: [51/120]	Iters: [350/490]	Loss: 0.9354	Accuracy_TrainData@1 67.00	
+Epoch: [51/120]	Iters: [400/490]	Loss: 0.9327	Accuracy_TrainData@1 68.00	
+Epoch: [51/120]	Iters: [450/490]	Loss: 0.9333	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0100, Accuracy: 6745/10000 (67.4500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 67.45
+
+Test set: Average loss: 0.0100, Accuracy: 6745/10000 (67.4500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 51
+Epoch: [52/120]	Iters: [50/490]	Loss: 0.9281	Accuracy_TrainData@1 75.00	
+Epoch: [52/120]	Iters: [100/490]	Loss: 0.9292	Accuracy_TrainData@1 81.00	
+Epoch: [52/120]	Iters: [150/490]	Loss: 0.9322	Accuracy_TrainData@1 75.00	
+Epoch: [52/120]	Iters: [200/490]	Loss: 0.9184	Accuracy_TrainData@1 77.00	
+Epoch: [52/120]	Iters: [250/490]	Loss: 0.9275	Accuracy_TrainData@1 80.00	
+Epoch: [52/120]	Iters: [300/490]	Loss: 0.9319	Accuracy_TrainData@1 70.00	
+Epoch: [52/120]	Iters: [350/490]	Loss: 0.9333	Accuracy_TrainData@1 70.00	
+Epoch: [52/120]	Iters: [400/490]	Loss: 0.9372	Accuracy_TrainData@1 69.00	
+Epoch: [52/120]	Iters: [450/490]	Loss: 0.9387	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0060, Accuracy: 8149/10000 (81.4900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 81.49
+
+Test set: Average loss: 0.0060, Accuracy: 8149/10000 (81.4900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 52
+Epoch: [53/120]	Iters: [50/490]	Loss: 0.9119	Accuracy_TrainData@1 69.00	
+Epoch: [53/120]	Iters: [100/490]	Loss: 0.9181	Accuracy_TrainData@1 78.00	
+Epoch: [53/120]	Iters: [150/490]	Loss: 0.9214	Accuracy_TrainData@1 80.00	
+Epoch: [53/120]	Iters: [200/490]	Loss: 0.9182	Accuracy_TrainData@1 77.00	
+Epoch: [53/120]	Iters: [250/490]	Loss: 0.9167	Accuracy_TrainData@1 80.00	
+Epoch: [53/120]	Iters: [300/490]	Loss: 0.9209	Accuracy_TrainData@1 76.00	
+Epoch: [53/120]	Iters: [350/490]	Loss: 0.9182	Accuracy_TrainData@1 84.00	
+Epoch: [53/120]	Iters: [400/490]	Loss: 0.9245	Accuracy_TrainData@1 77.00	
+Epoch: [53/120]	Iters: [450/490]	Loss: 0.9253	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7733/10000 (77.3300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.33
+
+Test set: Average loss: 0.0071, Accuracy: 7733/10000 (77.3300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 53
+Epoch: [54/120]	Iters: [50/490]	Loss: 0.9114	Accuracy_TrainData@1 77.00	
+Epoch: [54/120]	Iters: [100/490]	Loss: 0.9269	Accuracy_TrainData@1 71.00	
+Epoch: [54/120]	Iters: [150/490]	Loss: 0.9338	Accuracy_TrainData@1 76.00	
+Epoch: [54/120]	Iters: [200/490]	Loss: 0.9329	Accuracy_TrainData@1 68.00	
+Epoch: [54/120]	Iters: [250/490]	Loss: 0.9363	Accuracy_TrainData@1 72.00	
+Epoch: [54/120]	Iters: [300/490]	Loss: 0.9339	Accuracy_TrainData@1 73.00	
+Epoch: [54/120]	Iters: [350/490]	Loss: 0.9296	Accuracy_TrainData@1 67.00	
+Epoch: [54/120]	Iters: [400/490]	Loss: 0.9288	Accuracy_TrainData@1 83.00	
+Epoch: [54/120]	Iters: [450/490]	Loss: 0.9306	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0064, Accuracy: 7985/10000 (79.8500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 79.85
+
+Test set: Average loss: 0.0064, Accuracy: 7985/10000 (79.8500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 54
+Epoch: [55/120]	Iters: [50/490]	Loss: 0.8969	Accuracy_TrainData@1 66.00	
+Epoch: [55/120]	Iters: [100/490]	Loss: 0.9063	Accuracy_TrainData@1 75.00	
+Epoch: [55/120]	Iters: [150/490]	Loss: 0.9237	Accuracy_TrainData@1 74.00	
+Epoch: [55/120]	Iters: [200/490]	Loss: 0.9183	Accuracy_TrainData@1 73.00	
+Epoch: [55/120]	Iters: [250/490]	Loss: 0.9239	Accuracy_TrainData@1 74.00	
+Epoch: [55/120]	Iters: [300/490]	Loss: 0.9231	Accuracy_TrainData@1 78.00	
+Epoch: [55/120]	Iters: [350/490]	Loss: 0.9255	Accuracy_TrainData@1 75.00	
+Epoch: [55/120]	Iters: [400/490]	Loss: 0.9259	Accuracy_TrainData@1 83.00	
+Epoch: [55/120]	Iters: [450/490]	Loss: 0.9263	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7628/10000 (76.2800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.28
+
+Test set: Average loss: 0.0075, Accuracy: 7628/10000 (76.2800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 55
+Epoch: [56/120]	Iters: [50/490]	Loss: 0.8746	Accuracy_TrainData@1 83.00	
+Epoch: [56/120]	Iters: [100/490]	Loss: 0.8984	Accuracy_TrainData@1 72.00	
+Epoch: [56/120]	Iters: [150/490]	Loss: 0.9004	Accuracy_TrainData@1 82.00	
+Epoch: [56/120]	Iters: [200/490]	Loss: 0.9114	Accuracy_TrainData@1 71.00	
+Epoch: [56/120]	Iters: [250/490]	Loss: 0.9172	Accuracy_TrainData@1 68.00	
+Epoch: [56/120]	Iters: [300/490]	Loss: 0.9214	Accuracy_TrainData@1 75.00	
+Epoch: [56/120]	Iters: [350/490]	Loss: 0.9275	Accuracy_TrainData@1 72.00	
+Epoch: [56/120]	Iters: [400/490]	Loss: 0.9251	Accuracy_TrainData@1 74.00	
+Epoch: [56/120]	Iters: [450/490]	Loss: 0.9289	Accuracy_TrainData@1 72.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7560/10000 (75.6000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.6
+
+Test set: Average loss: 0.0074, Accuracy: 7560/10000 (75.6000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 56
+Epoch: [57/120]	Iters: [50/490]	Loss: 0.8817	Accuracy_TrainData@1 81.00	
+Epoch: [57/120]	Iters: [100/490]	Loss: 0.8790	Accuracy_TrainData@1 76.00	
+Epoch: [57/120]	Iters: [150/490]	Loss: 0.8940	Accuracy_TrainData@1 74.00	
+Epoch: [57/120]	Iters: [200/490]	Loss: 0.9019	Accuracy_TrainData@1 72.00	
+Epoch: [57/120]	Iters: [250/490]	Loss: 0.9137	Accuracy_TrainData@1 81.00	
+Epoch: [57/120]	Iters: [300/490]	Loss: 0.9204	Accuracy_TrainData@1 66.00	
+Epoch: [57/120]	Iters: [350/490]	Loss: 0.9245	Accuracy_TrainData@1 65.00	
+Epoch: [57/120]	Iters: [400/490]	Loss: 0.9209	Accuracy_TrainData@1 75.00	
+Epoch: [57/120]	Iters: [450/490]	Loss: 0.9242	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0065, Accuracy: 8022/10000 (80.2200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 80.22
+
+Test set: Average loss: 0.0065, Accuracy: 8022/10000 (80.2200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 57
+Epoch: [58/120]	Iters: [50/490]	Loss: 0.8973	Accuracy_TrainData@1 75.00	
+Epoch: [58/120]	Iters: [100/490]	Loss: 0.9178	Accuracy_TrainData@1 81.00	
+Epoch: [58/120]	Iters: [150/490]	Loss: 0.9264	Accuracy_TrainData@1 82.00	
+Epoch: [58/120]	Iters: [200/490]	Loss: 0.9175	Accuracy_TrainData@1 69.00	
+Epoch: [58/120]	Iters: [250/490]	Loss: 0.9236	Accuracy_TrainData@1 69.00	
+Epoch: [58/120]	Iters: [300/490]	Loss: 0.9268	Accuracy_TrainData@1 77.00	
+Epoch: [58/120]	Iters: [350/490]	Loss: 0.9285	Accuracy_TrainData@1 70.00	
+Epoch: [58/120]	Iters: [400/490]	Loss: 0.9288	Accuracy_TrainData@1 78.00	
+Epoch: [58/120]	Iters: [450/490]	Loss: 0.9299	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0077, Accuracy: 7583/10000 (75.8300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.83
+
+Test set: Average loss: 0.0077, Accuracy: 7583/10000 (75.8300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 58
+Epoch: [59/120]	Iters: [50/490]	Loss: 0.8854	Accuracy_TrainData@1 77.00	
+Epoch: [59/120]	Iters: [100/490]	Loss: 0.8973	Accuracy_TrainData@1 73.00	
+Epoch: [59/120]	Iters: [150/490]	Loss: 0.9070	Accuracy_TrainData@1 71.00	
+Epoch: [59/120]	Iters: [200/490]	Loss: 0.9131	Accuracy_TrainData@1 73.00	
+Epoch: [59/120]	Iters: [250/490]	Loss: 0.9148	Accuracy_TrainData@1 79.00	
+Epoch: [59/120]	Iters: [300/490]	Loss: 0.9171	Accuracy_TrainData@1 75.00	
+Epoch: [59/120]	Iters: [350/490]	Loss: 0.9199	Accuracy_TrainData@1 82.00	
+Epoch: [59/120]	Iters: [400/490]	Loss: 0.9199	Accuracy_TrainData@1 82.00	
+Epoch: [59/120]	Iters: [450/490]	Loss: 0.9221	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7791/10000 (77.9100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.91
+
+Test set: Average loss: 0.0071, Accuracy: 7791/10000 (77.9100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 59
+Epoch: [60/120]	Iters: [50/490]	Loss: 0.9128	Accuracy_TrainData@1 67.00	
+Epoch: [60/120]	Iters: [100/490]	Loss: 0.9267	Accuracy_TrainData@1 75.00	
+Epoch: [60/120]	Iters: [150/490]	Loss: 0.9211	Accuracy_TrainData@1 77.00	
+Epoch: [60/120]	Iters: [200/490]	Loss: 0.9268	Accuracy_TrainData@1 67.00	
+Epoch: [60/120]	Iters: [250/490]	Loss: 0.9253	Accuracy_TrainData@1 71.00	
+Epoch: [60/120]	Iters: [300/490]	Loss: 0.9231	Accuracy_TrainData@1 79.00	
+Epoch: [60/120]	Iters: [350/490]	Loss: 0.9263	Accuracy_TrainData@1 79.00	
+Epoch: [60/120]	Iters: [400/490]	Loss: 0.9262	Accuracy_TrainData@1 71.00	
+Epoch: [60/120]	Iters: [450/490]	Loss: 0.9277	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0085, Accuracy: 7268/10000 (72.6800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.68
+
+Test set: Average loss: 0.0085, Accuracy: 7268/10000 (72.6800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 60
+Epoch: [61/120]	Iters: [50/490]	Loss: 0.8807	Accuracy_TrainData@1 67.00	
+Epoch: [61/120]	Iters: [100/490]	Loss: 0.9016	Accuracy_TrainData@1 78.00	
+Epoch: [61/120]	Iters: [150/490]	Loss: 0.9150	Accuracy_TrainData@1 75.00	
+Epoch: [61/120]	Iters: [200/490]	Loss: 0.9147	Accuracy_TrainData@1 79.00	
+Epoch: [61/120]	Iters: [250/490]	Loss: 0.9222	Accuracy_TrainData@1 77.00	
+Epoch: [61/120]	Iters: [300/490]	Loss: 0.9178	Accuracy_TrainData@1 79.00	
+Epoch: [61/120]	Iters: [350/490]	Loss: 0.9188	Accuracy_TrainData@1 74.00	
+Epoch: [61/120]	Iters: [400/490]	Loss: 0.9238	Accuracy_TrainData@1 72.00	
+Epoch: [61/120]	Iters: [450/490]	Loss: 0.9252	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0072, Accuracy: 7670/10000 (76.7000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.7
+
+Test set: Average loss: 0.0072, Accuracy: 7670/10000 (76.7000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 61
+Epoch: [62/120]	Iters: [50/490]	Loss: 0.9002	Accuracy_TrainData@1 78.00	
+Epoch: [62/120]	Iters: [100/490]	Loss: 0.8966	Accuracy_TrainData@1 70.00	
+Epoch: [62/120]	Iters: [150/490]	Loss: 0.8959	Accuracy_TrainData@1 77.00	
+Epoch: [62/120]	Iters: [200/490]	Loss: 0.9126	Accuracy_TrainData@1 78.00	
+Epoch: [62/120]	Iters: [250/490]	Loss: 0.9125	Accuracy_TrainData@1 71.00	
+Epoch: [62/120]	Iters: [300/490]	Loss: 0.9209	Accuracy_TrainData@1 68.00	
+Epoch: [62/120]	Iters: [350/490]	Loss: 0.9234	Accuracy_TrainData@1 81.00	
+Epoch: [62/120]	Iters: [400/490]	Loss: 0.9186	Accuracy_TrainData@1 76.00	
+Epoch: [62/120]	Iters: [450/490]	Loss: 0.9216	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0060, Accuracy: 8103/10000 (81.0300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 81.03
+
+Test set: Average loss: 0.0060, Accuracy: 8103/10000 (81.0300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 62
+Epoch: [63/120]	Iters: [50/490]	Loss: 0.9306	Accuracy_TrainData@1 73.00	
+Epoch: [63/120]	Iters: [100/490]	Loss: 0.9243	Accuracy_TrainData@1 77.00	
+Epoch: [63/120]	Iters: [150/490]	Loss: 0.9248	Accuracy_TrainData@1 75.00	
+Epoch: [63/120]	Iters: [200/490]	Loss: 0.9171	Accuracy_TrainData@1 70.00	
+Epoch: [63/120]	Iters: [250/490]	Loss: 0.9184	Accuracy_TrainData@1 76.00	
+Epoch: [63/120]	Iters: [300/490]	Loss: 0.9160	Accuracy_TrainData@1 74.00	
+Epoch: [63/120]	Iters: [350/490]	Loss: 0.9184	Accuracy_TrainData@1 79.00	
+Epoch: [63/120]	Iters: [400/490]	Loss: 0.9200	Accuracy_TrainData@1 68.00	
+Epoch: [63/120]	Iters: [450/490]	Loss: 0.9255	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0077, Accuracy: 7594/10000 (75.9400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.94
+
+Test set: Average loss: 0.0077, Accuracy: 7594/10000 (75.9400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 63
+Epoch: [64/120]	Iters: [50/490]	Loss: 0.9063	Accuracy_TrainData@1 73.00	
+Epoch: [64/120]	Iters: [100/490]	Loss: 0.9024	Accuracy_TrainData@1 78.00	
+Epoch: [64/120]	Iters: [150/490]	Loss: 0.9105	Accuracy_TrainData@1 75.00	
+Epoch: [64/120]	Iters: [200/490]	Loss: 0.9184	Accuracy_TrainData@1 75.00	
+Epoch: [64/120]	Iters: [250/490]	Loss: 0.9260	Accuracy_TrainData@1 67.00	
+Epoch: [64/120]	Iters: [300/490]	Loss: 0.9258	Accuracy_TrainData@1 71.00	
+Epoch: [64/120]	Iters: [350/490]	Loss: 0.9261	Accuracy_TrainData@1 72.00	
+Epoch: [64/120]	Iters: [400/490]	Loss: 0.9268	Accuracy_TrainData@1 75.00	
+Epoch: [64/120]	Iters: [450/490]	Loss: 0.9246	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7686/10000 (76.8600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.86
+
+Test set: Average loss: 0.0074, Accuracy: 7686/10000 (76.8600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 64
+Epoch: [65/120]	Iters: [50/490]	Loss: 0.9243	Accuracy_TrainData@1 76.00	
+Epoch: [65/120]	Iters: [100/490]	Loss: 0.9289	Accuracy_TrainData@1 72.00	
+Epoch: [65/120]	Iters: [150/490]	Loss: 0.9194	Accuracy_TrainData@1 73.00	
+Epoch: [65/120]	Iters: [200/490]	Loss: 0.9250	Accuracy_TrainData@1 79.00	
+Epoch: [65/120]	Iters: [250/490]	Loss: 0.9243	Accuracy_TrainData@1 73.00	
+Epoch: [65/120]	Iters: [300/490]	Loss: 0.9295	Accuracy_TrainData@1 72.00	
+Epoch: [65/120]	Iters: [350/490]	Loss: 0.9263	Accuracy_TrainData@1 74.00	
+Epoch: [65/120]	Iters: [400/490]	Loss: 0.9241	Accuracy_TrainData@1 71.00	
+Epoch: [65/120]	Iters: [450/490]	Loss: 0.9245	Accuracy_TrainData@1 76.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7881/10000 (78.8100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.81
+
+Test set: Average loss: 0.0069, Accuracy: 7881/10000 (78.8100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 65
+Epoch: [66/120]	Iters: [50/490]	Loss: 0.8926	Accuracy_TrainData@1 74.00	
+Epoch: [66/120]	Iters: [100/490]	Loss: 0.8976	Accuracy_TrainData@1 76.00	
+Epoch: [66/120]	Iters: [150/490]	Loss: 0.9098	Accuracy_TrainData@1 63.00	
+Epoch: [66/120]	Iters: [200/490]	Loss: 0.9124	Accuracy_TrainData@1 73.00	
+Epoch: [66/120]	Iters: [250/490]	Loss: 0.9184	Accuracy_TrainData@1 67.00	
+Epoch: [66/120]	Iters: [300/490]	Loss: 0.9187	Accuracy_TrainData@1 65.00	
+Epoch: [66/120]	Iters: [350/490]	Loss: 0.9226	Accuracy_TrainData@1 86.00	
+Epoch: [66/120]	Iters: [400/490]	Loss: 0.9232	Accuracy_TrainData@1 82.00	
+Epoch: [66/120]	Iters: [450/490]	Loss: 0.9264	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0066, Accuracy: 7960/10000 (79.6000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 79.6
+
+Test set: Average loss: 0.0066, Accuracy: 7960/10000 (79.6000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 66
+Epoch: [67/120]	Iters: [50/490]	Loss: 0.9307	Accuracy_TrainData@1 74.00	
+Epoch: [67/120]	Iters: [100/490]	Loss: 0.9120	Accuracy_TrainData@1 79.00	
+Epoch: [67/120]	Iters: [150/490]	Loss: 0.9137	Accuracy_TrainData@1 73.00	
+Epoch: [67/120]	Iters: [200/490]	Loss: 0.9187	Accuracy_TrainData@1 71.00	
+Epoch: [67/120]	Iters: [250/490]	Loss: 0.9165	Accuracy_TrainData@1 73.00	
+Epoch: [67/120]	Iters: [300/490]	Loss: 0.9176	Accuracy_TrainData@1 78.00	
+Epoch: [67/120]	Iters: [350/490]	Loss: 0.9178	Accuracy_TrainData@1 77.00	
+Epoch: [67/120]	Iters: [400/490]	Loss: 0.9182	Accuracy_TrainData@1 69.00	
+Epoch: [67/120]	Iters: [450/490]	Loss: 0.9217	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0070, Accuracy: 7834/10000 (78.3400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.34
+
+Test set: Average loss: 0.0070, Accuracy: 7834/10000 (78.3400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 67
+Epoch: [68/120]	Iters: [50/490]	Loss: 0.9375	Accuracy_TrainData@1 71.00	
+Epoch: [68/120]	Iters: [100/490]	Loss: 0.9214	Accuracy_TrainData@1 67.00	
+Epoch: [68/120]	Iters: [150/490]	Loss: 0.9257	Accuracy_TrainData@1 69.00	
+Epoch: [68/120]	Iters: [200/490]	Loss: 0.9245	Accuracy_TrainData@1 70.00	
+Epoch: [68/120]	Iters: [250/490]	Loss: 0.9301	Accuracy_TrainData@1 71.00	
+Epoch: [68/120]	Iters: [300/490]	Loss: 0.9252	Accuracy_TrainData@1 80.00	
+Epoch: [68/120]	Iters: [350/490]	Loss: 0.9228	Accuracy_TrainData@1 72.00	
+Epoch: [68/120]	Iters: [400/490]	Loss: 0.9240	Accuracy_TrainData@1 70.00	
+Epoch: [68/120]	Iters: [450/490]	Loss: 0.9219	Accuracy_TrainData@1 67.00	
+
+Test set: Average loss: 0.0081, Accuracy: 7403/10000 (74.0300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 74.03
+
+Test set: Average loss: 0.0081, Accuracy: 7403/10000 (74.0300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 68
+Epoch: [69/120]	Iters: [50/490]	Loss: 0.8781	Accuracy_TrainData@1 80.00	
+Epoch: [69/120]	Iters: [100/490]	Loss: 0.9072	Accuracy_TrainData@1 78.00	
+Epoch: [69/120]	Iters: [150/490]	Loss: 0.9060	Accuracy_TrainData@1 69.00	
+Epoch: [69/120]	Iters: [200/490]	Loss: 0.9072	Accuracy_TrainData@1 72.00	
+Epoch: [69/120]	Iters: [250/490]	Loss: 0.9114	Accuracy_TrainData@1 73.00	
+Epoch: [69/120]	Iters: [300/490]	Loss: 0.9141	Accuracy_TrainData@1 78.00	
+Epoch: [69/120]	Iters: [350/490]	Loss: 0.9127	Accuracy_TrainData@1 80.00	
+Epoch: [69/120]	Iters: [400/490]	Loss: 0.9134	Accuracy_TrainData@1 68.00	
+Epoch: [69/120]	Iters: [450/490]	Loss: 0.9174	Accuracy_TrainData@1 74.00	
+
+Test set: Average loss: 0.0082, Accuracy: 7404/10000 (74.0400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 74.04
+
+Test set: Average loss: 0.0082, Accuracy: 7404/10000 (74.0400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 69
+Epoch: [70/120]	Iters: [50/490]	Loss: 0.9097	Accuracy_TrainData@1 74.00	
+Epoch: [70/120]	Iters: [100/490]	Loss: 0.9291	Accuracy_TrainData@1 78.00	
+Epoch: [70/120]	Iters: [150/490]	Loss: 0.9260	Accuracy_TrainData@1 76.00	
+Epoch: [70/120]	Iters: [200/490]	Loss: 0.9246	Accuracy_TrainData@1 66.00	
+Epoch: [70/120]	Iters: [250/490]	Loss: 0.9204	Accuracy_TrainData@1 77.00	
+Epoch: [70/120]	Iters: [300/490]	Loss: 0.9240	Accuracy_TrainData@1 79.00	
+Epoch: [70/120]	Iters: [350/490]	Loss: 0.9282	Accuracy_TrainData@1 73.00	
+Epoch: [70/120]	Iters: [400/490]	Loss: 0.9270	Accuracy_TrainData@1 73.00	
+Epoch: [70/120]	Iters: [450/490]	Loss: 0.9251	Accuracy_TrainData@1 80.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7744/10000 (77.4400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.44
+
+Test set: Average loss: 0.0071, Accuracy: 7744/10000 (77.4400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 70
+Epoch: [71/120]	Iters: [50/490]	Loss: 0.9143	Accuracy_TrainData@1 74.00	
+Epoch: [71/120]	Iters: [100/490]	Loss: 0.9107	Accuracy_TrainData@1 74.00	
+Epoch: [71/120]	Iters: [150/490]	Loss: 0.9223	Accuracy_TrainData@1 74.00	
+Epoch: [71/120]	Iters: [200/490]	Loss: 0.9242	Accuracy_TrainData@1 83.00	
+Epoch: [71/120]	Iters: [250/490]	Loss: 0.9261	Accuracy_TrainData@1 70.00	
+Epoch: [71/120]	Iters: [300/490]	Loss: 0.9284	Accuracy_TrainData@1 72.00	
+Epoch: [71/120]	Iters: [350/490]	Loss: 0.9290	Accuracy_TrainData@1 74.00	
+Epoch: [71/120]	Iters: [400/490]	Loss: 0.9265	Accuracy_TrainData@1 71.00	
+Epoch: [71/120]	Iters: [450/490]	Loss: 0.9258	Accuracy_TrainData@1 73.00	
+
+Test set: Average loss: 0.0072, Accuracy: 7600/10000 (76.0000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 76.0
+
+Test set: Average loss: 0.0072, Accuracy: 7600/10000 (76.0000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 71
+Epoch: [72/120]	Iters: [50/490]	Loss: 0.9205	Accuracy_TrainData@1 83.00	
+Epoch: [72/120]	Iters: [100/490]	Loss: 0.9238	Accuracy_TrainData@1 69.00	
+Epoch: [72/120]	Iters: [150/490]	Loss: 0.9311	Accuracy_TrainData@1 77.00	
+Epoch: [72/120]	Iters: [200/490]	Loss: 0.9337	Accuracy_TrainData@1 78.00	
+Epoch: [72/120]	Iters: [250/490]	Loss: 0.9236	Accuracy_TrainData@1 78.00	
+Epoch: [72/120]	Iters: [300/490]	Loss: 0.9261	Accuracy_TrainData@1 73.00	
+Epoch: [72/120]	Iters: [350/490]	Loss: 0.9235	Accuracy_TrainData@1 79.00	
+Epoch: [72/120]	Iters: [400/490]	Loss: 0.9199	Accuracy_TrainData@1 83.00	
+Epoch: [72/120]	Iters: [450/490]	Loss: 0.9207	Accuracy_TrainData@1 68.00	
+
+Test set: Average loss: 0.0068, Accuracy: 7911/10000 (79.1100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 79.11
+
+Test set: Average loss: 0.0068, Accuracy: 7911/10000 (79.1100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 72
+Epoch: [73/120]	Iters: [50/490]	Loss: 0.8872	Accuracy_TrainData@1 76.00	
+Epoch: [73/120]	Iters: [100/490]	Loss: 0.9181	Accuracy_TrainData@1 83.00	
+Epoch: [73/120]	Iters: [150/490]	Loss: 0.9282	Accuracy_TrainData@1 72.00	
+Epoch: [73/120]	Iters: [200/490]	Loss: 0.9267	Accuracy_TrainData@1 74.00	
+Epoch: [73/120]	Iters: [250/490]	Loss: 0.9227	Accuracy_TrainData@1 75.00	
+Epoch: [73/120]	Iters: [300/490]	Loss: 0.9234	Accuracy_TrainData@1 72.00	
+Epoch: [73/120]	Iters: [350/490]	Loss: 0.9282	Accuracy_TrainData@1 72.00	
+Epoch: [73/120]	Iters: [400/490]	Loss: 0.9273	Accuracy_TrainData@1 72.00	
+Epoch: [73/120]	Iters: [450/490]	Loss: 0.9282	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0087, Accuracy: 7267/10000 (72.6700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.67
+
+Test set: Average loss: 0.0087, Accuracy: 7267/10000 (72.6700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 73
+Epoch: [74/120]	Iters: [50/490]	Loss: 0.9022	Accuracy_TrainData@1 78.00	
+Epoch: [74/120]	Iters: [100/490]	Loss: 0.9176	Accuracy_TrainData@1 77.00	
+Epoch: [74/120]	Iters: [150/490]	Loss: 0.9150	Accuracy_TrainData@1 76.00	
+Epoch: [74/120]	Iters: [200/490]	Loss: 0.9198	Accuracy_TrainData@1 71.00	
+Epoch: [74/120]	Iters: [250/490]	Loss: 0.9173	Accuracy_TrainData@1 78.00	
+Epoch: [74/120]	Iters: [300/490]	Loss: 0.9134	Accuracy_TrainData@1 71.00	
+Epoch: [74/120]	Iters: [350/490]	Loss: 0.9190	Accuracy_TrainData@1 76.00	
+Epoch: [74/120]	Iters: [400/490]	Loss: 0.9216	Accuracy_TrainData@1 75.00	
+Epoch: [74/120]	Iters: [450/490]	Loss: 0.9190	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0071, Accuracy: 7893/10000 (78.9300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 78.93
+
+Test set: Average loss: 0.0071, Accuracy: 7893/10000 (78.9300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 74
+Epoch: [75/120]	Iters: [50/490]	Loss: 0.9114	Accuracy_TrainData@1 81.00	
+Epoch: [75/120]	Iters: [100/490]	Loss: 0.9189	Accuracy_TrainData@1 84.00	
+Epoch: [75/120]	Iters: [150/490]	Loss: 0.9284	Accuracy_TrainData@1 79.00	
+Epoch: [75/120]	Iters: [200/490]	Loss: 0.9291	Accuracy_TrainData@1 82.00	
+Epoch: [75/120]	Iters: [250/490]	Loss: 0.9254	Accuracy_TrainData@1 86.00	
+Epoch: [75/120]	Iters: [300/490]	Loss: 0.9235	Accuracy_TrainData@1 73.00	
+Epoch: [75/120]	Iters: [350/490]	Loss: 0.9183	Accuracy_TrainData@1 67.00	
+Epoch: [75/120]	Iters: [400/490]	Loss: 0.9220	Accuracy_TrainData@1 75.00	
+Epoch: [75/120]	Iters: [450/490]	Loss: 0.9231	Accuracy_TrainData@1 70.00	
+
+Test set: Average loss: 0.0081, Accuracy: 7376/10000 (73.7600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 73.76
+
+Test set: Average loss: 0.0081, Accuracy: 7376/10000 (73.7600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 75
+Epoch: [76/120]	Iters: [50/490]	Loss: 0.8827	Accuracy_TrainData@1 72.00	
+Epoch: [76/120]	Iters: [100/490]	Loss: 0.9044	Accuracy_TrainData@1 80.00	
+Epoch: [76/120]	Iters: [150/490]	Loss: 0.9158	Accuracy_TrainData@1 75.00	
+Epoch: [76/120]	Iters: [200/490]	Loss: 0.9116	Accuracy_TrainData@1 76.00	
+Epoch: [76/120]	Iters: [250/490]	Loss: 0.9151	Accuracy_TrainData@1 72.00	
+Epoch: [76/120]	Iters: [300/490]	Loss: 0.9203	Accuracy_TrainData@1 72.00	
+Epoch: [76/120]	Iters: [350/490]	Loss: 0.9212	Accuracy_TrainData@1 84.00	
+Epoch: [76/120]	Iters: [400/490]	Loss: 0.9161	Accuracy_TrainData@1 73.00	
+Epoch: [76/120]	Iters: [450/490]	Loss: 0.9189	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0059, Accuracy: 8126/10000 (81.2600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 81.26
+
+Test set: Average loss: 0.0059, Accuracy: 8126/10000 (81.2600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 76
+Epoch: [77/120]	Iters: [50/490]	Loss: 0.8912	Accuracy_TrainData@1 81.00	
+Epoch: [77/120]	Iters: [100/490]	Loss: 0.9043	Accuracy_TrainData@1 82.00	
+Epoch: [77/120]	Iters: [150/490]	Loss: 0.9090	Accuracy_TrainData@1 79.00	
+Epoch: [77/120]	Iters: [200/490]	Loss: 0.9190	Accuracy_TrainData@1 71.00	
+Epoch: [77/120]	Iters: [250/490]	Loss: 0.9150	Accuracy_TrainData@1 70.00	
+Epoch: [77/120]	Iters: [300/490]	Loss: 0.9139	Accuracy_TrainData@1 73.00	
+Epoch: [77/120]	Iters: [350/490]	Loss: 0.9141	Accuracy_TrainData@1 81.00	
+Epoch: [77/120]	Iters: [400/490]	Loss: 0.9162	Accuracy_TrainData@1 67.00	
+Epoch: [77/120]	Iters: [450/490]	Loss: 0.9176	Accuracy_TrainData@1 71.00	
+
+Test set: Average loss: 0.0069, Accuracy: 7718/10000 (77.1800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 77.18
+
+Test set: Average loss: 0.0069, Accuracy: 7718/10000 (77.1800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 77
+Epoch: [78/120]	Iters: [50/490]	Loss: 0.9091	Accuracy_TrainData@1 80.00	
+Epoch: [78/120]	Iters: [100/490]	Loss: 0.9111	Accuracy_TrainData@1 79.00	
+Epoch: [78/120]	Iters: [150/490]	Loss: 0.9203	Accuracy_TrainData@1 83.00	
+Epoch: [78/120]	Iters: [200/490]	Loss: 0.9188	Accuracy_TrainData@1 74.00	
+Epoch: [78/120]	Iters: [250/490]	Loss: 0.9207	Accuracy_TrainData@1 79.00	
+Epoch: [78/120]	Iters: [300/490]	Loss: 0.9164	Accuracy_TrainData@1 76.00	
+Epoch: [78/120]	Iters: [350/490]	Loss: 0.9180	Accuracy_TrainData@1 79.00	
+Epoch: [78/120]	Iters: [400/490]	Loss: 0.9178	Accuracy_TrainData@1 66.00	
+Epoch: [78/120]	Iters: [450/490]	Loss: 0.9184	Accuracy_TrainData@1 79.00	
+
+Test set: Average loss: 0.0083, Accuracy: 7292/10000 (72.9200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 72.92
+
+Test set: Average loss: 0.0083, Accuracy: 7292/10000 (72.9200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 78
+Epoch: [79/120]	Iters: [50/490]	Loss: 0.9142	Accuracy_TrainData@1 77.00	
+Epoch: [79/120]	Iters: [100/490]	Loss: 0.9080	Accuracy_TrainData@1 77.00	
+Epoch: [79/120]	Iters: [150/490]	Loss: 0.9074	Accuracy_TrainData@1 87.00	
+Epoch: [79/120]	Iters: [200/490]	Loss: 0.9125	Accuracy_TrainData@1 75.00	
+Epoch: [79/120]	Iters: [250/490]	Loss: 0.9172	Accuracy_TrainData@1 82.00	
+Epoch: [79/120]	Iters: [300/490]	Loss: 0.9137	Accuracy_TrainData@1 81.00	
+Epoch: [79/120]	Iters: [350/490]	Loss: 0.9160	Accuracy_TrainData@1 75.00	
+Epoch: [79/120]	Iters: [400/490]	Loss: 0.9150	Accuracy_TrainData@1 76.00	
+Epoch: [79/120]	Iters: [450/490]	Loss: 0.9180	Accuracy_TrainData@1 78.00	
+
+Test set: Average loss: 0.0075, Accuracy: 7558/10000 (75.5800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.58
+
+Test set: Average loss: 0.0075, Accuracy: 7558/10000 (75.5800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 79
+Epoch: [80/120]	Iters: [50/490]	Loss: 0.8596	Accuracy_TrainData@1 75.00	
+Epoch: [80/120]	Iters: [100/490]	Loss: 0.8894	Accuracy_TrainData@1 76.00	
+Epoch: [80/120]	Iters: [150/490]	Loss: 0.8899	Accuracy_TrainData@1 70.00	
+Epoch: [80/120]	Iters: [200/490]	Loss: 0.8905	Accuracy_TrainData@1 77.00	
+Epoch: [80/120]	Iters: [250/490]	Loss: 0.9000	Accuracy_TrainData@1 75.00	
+Epoch: [80/120]	Iters: [300/490]	Loss: 0.9071	Accuracy_TrainData@1 71.00	
+Epoch: [80/120]	Iters: [350/490]	Loss: 0.9101	Accuracy_TrainData@1 71.00	
+Epoch: [80/120]	Iters: [400/490]	Loss: 0.9127	Accuracy_TrainData@1 74.00	
+Epoch: [80/120]	Iters: [450/490]	Loss: 0.9142	Accuracy_TrainData@1 81.00	
+
+Test set: Average loss: 0.0074, Accuracy: 7557/10000 (75.5700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 75.57
+
+Test set: Average loss: 0.0074, Accuracy: 7557/10000 (75.5700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 80
+Epoch: [81/120]	Iters: [50/490]	Loss: 0.8481	Accuracy_TrainData@1 77.00	
+Epoch: [81/120]	Iters: [100/490]	Loss: 0.8255	Accuracy_TrainData@1 80.00	
+Epoch: [81/120]	Iters: [150/490]	Loss: 0.8205	Accuracy_TrainData@1 70.00	
+Epoch: [81/120]	Iters: [200/490]	Loss: 0.8058	Accuracy_TrainData@1 76.00	
+Epoch: [81/120]	Iters: [250/490]	Loss: 0.7930	Accuracy_TrainData@1 74.00	
+Epoch: [81/120]	Iters: [300/490]	Loss: 0.7856	Accuracy_TrainData@1 75.00	
+Epoch: [81/120]	Iters: [350/490]	Loss: 0.7822	Accuracy_TrainData@1 80.00	
+Epoch: [81/120]	Iters: [400/490]	Loss: 0.7766	Accuracy_TrainData@1 91.00	
+Epoch: [81/120]	Iters: [450/490]	Loss: 0.7737	Accuracy_TrainData@1 83.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8900/10000 (89.0000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.0
+
+Test set: Average loss: 0.0039, Accuracy: 8900/10000 (89.0000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 81
+Epoch: [82/120]	Iters: [50/490]	Loss: 0.7127	Accuracy_TrainData@1 79.00	
+Epoch: [82/120]	Iters: [100/490]	Loss: 0.7260	Accuracy_TrainData@1 83.00	
+Epoch: [82/120]	Iters: [150/490]	Loss: 0.7279	Accuracy_TrainData@1 79.00	
+Epoch: [82/120]	Iters: [200/490]	Loss: 0.7279	Accuracy_TrainData@1 82.00	
+Epoch: [82/120]	Iters: [250/490]	Loss: 0.7190	Accuracy_TrainData@1 78.00	
+Epoch: [82/120]	Iters: [300/490]	Loss: 0.7234	Accuracy_TrainData@1 83.00	
+Epoch: [82/120]	Iters: [350/490]	Loss: 0.7214	Accuracy_TrainData@1 84.00	
+Epoch: [82/120]	Iters: [400/490]	Loss: 0.7236	Accuracy_TrainData@1 84.00	
+Epoch: [82/120]	Iters: [450/490]	Loss: 0.7218	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8884/10000 (88.8400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 88.84
+
+Test set: Average loss: 0.0038, Accuracy: 8884/10000 (88.8400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 82
+Epoch: [83/120]	Iters: [50/490]	Loss: 0.7005	Accuracy_TrainData@1 78.00	
+Epoch: [83/120]	Iters: [100/490]	Loss: 0.7061	Accuracy_TrainData@1 74.00	
+Epoch: [83/120]	Iters: [150/490]	Loss: 0.7075	Accuracy_TrainData@1 76.00	
+Epoch: [83/120]	Iters: [200/490]	Loss: 0.7060	Accuracy_TrainData@1 86.00	
+Epoch: [83/120]	Iters: [250/490]	Loss: 0.7043	Accuracy_TrainData@1 82.00	
+Epoch: [83/120]	Iters: [300/490]	Loss: 0.7022	Accuracy_TrainData@1 81.00	
+Epoch: [83/120]	Iters: [350/490]	Loss: 0.7026	Accuracy_TrainData@1 83.00	
+Epoch: [83/120]	Iters: [400/490]	Loss: 0.7009	Accuracy_TrainData@1 83.00	
+Epoch: [83/120]	Iters: [450/490]	Loss: 0.6988	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8965/10000 (89.6500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.65
+
+Test set: Average loss: 0.0037, Accuracy: 8965/10000 (89.6500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 83
+Epoch: [84/120]	Iters: [50/490]	Loss: 0.6796	Accuracy_TrainData@1 78.00	
+Epoch: [84/120]	Iters: [100/490]	Loss: 0.6768	Accuracy_TrainData@1 84.00	
+Epoch: [84/120]	Iters: [150/490]	Loss: 0.6781	Accuracy_TrainData@1 88.00	
+Epoch: [84/120]	Iters: [200/490]	Loss: 0.6751	Accuracy_TrainData@1 84.00	
+Epoch: [84/120]	Iters: [250/490]	Loss: 0.6784	Accuracy_TrainData@1 86.00	
+Epoch: [84/120]	Iters: [300/490]	Loss: 0.6832	Accuracy_TrainData@1 89.00	
+Epoch: [84/120]	Iters: [350/490]	Loss: 0.6838	Accuracy_TrainData@1 86.00	
+Epoch: [84/120]	Iters: [400/490]	Loss: 0.6850	Accuracy_TrainData@1 85.00	
+Epoch: [84/120]	Iters: [450/490]	Loss: 0.6844	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8987/10000 (89.8700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.87
+
+Test set: Average loss: 0.0037, Accuracy: 8987/10000 (89.8700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 84
+Epoch: [85/120]	Iters: [50/490]	Loss: 0.6707	Accuracy_TrainData@1 85.00	
+Epoch: [85/120]	Iters: [100/490]	Loss: 0.6595	Accuracy_TrainData@1 81.00	
+Epoch: [85/120]	Iters: [150/490]	Loss: 0.6674	Accuracy_TrainData@1 86.00	
+Epoch: [85/120]	Iters: [200/490]	Loss: 0.6736	Accuracy_TrainData@1 82.00	
+Epoch: [85/120]	Iters: [250/490]	Loss: 0.6736	Accuracy_TrainData@1 81.00	
+Epoch: [85/120]	Iters: [300/490]	Loss: 0.6738	Accuracy_TrainData@1 85.00	
+Epoch: [85/120]	Iters: [350/490]	Loss: 0.6740	Accuracy_TrainData@1 85.00	
+Epoch: [85/120]	Iters: [400/490]	Loss: 0.6733	Accuracy_TrainData@1 84.00	
+Epoch: [85/120]	Iters: [450/490]	Loss: 0.6759	Accuracy_TrainData@1 86.00	
+
+Test set: Average loss: 0.0036, Accuracy: 8977/10000 (89.7700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.77
+
+Test set: Average loss: 0.0036, Accuracy: 8977/10000 (89.7700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 85
+Epoch: [86/120]	Iters: [50/490]	Loss: 0.6362	Accuracy_TrainData@1 85.00	
+Epoch: [86/120]	Iters: [100/490]	Loss: 0.6598	Accuracy_TrainData@1 79.00	
+Epoch: [86/120]	Iters: [150/490]	Loss: 0.6581	Accuracy_TrainData@1 78.00	
+Epoch: [86/120]	Iters: [200/490]	Loss: 0.6579	Accuracy_TrainData@1 87.00	
+Epoch: [86/120]	Iters: [250/490]	Loss: 0.6594	Accuracy_TrainData@1 84.00	
+Epoch: [86/120]	Iters: [300/490]	Loss: 0.6593	Accuracy_TrainData@1 88.00	
+Epoch: [86/120]	Iters: [350/490]	Loss: 0.6608	Accuracy_TrainData@1 81.00	
+Epoch: [86/120]	Iters: [400/490]	Loss: 0.6626	Accuracy_TrainData@1 87.00	
+Epoch: [86/120]	Iters: [450/490]	Loss: 0.6643	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8957/10000 (89.5700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.57
+
+Test set: Average loss: 0.0037, Accuracy: 8957/10000 (89.5700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 86
+Epoch: [87/120]	Iters: [50/490]	Loss: 0.6217	Accuracy_TrainData@1 83.00	
+Epoch: [87/120]	Iters: [100/490]	Loss: 0.6387	Accuracy_TrainData@1 82.00	
+Epoch: [87/120]	Iters: [150/490]	Loss: 0.6518	Accuracy_TrainData@1 82.00	
+Epoch: [87/120]	Iters: [200/490]	Loss: 0.6519	Accuracy_TrainData@1 82.00	
+Epoch: [87/120]	Iters: [250/490]	Loss: 0.6541	Accuracy_TrainData@1 85.00	
+Epoch: [87/120]	Iters: [300/490]	Loss: 0.6587	Accuracy_TrainData@1 81.00	
+Epoch: [87/120]	Iters: [350/490]	Loss: 0.6560	Accuracy_TrainData@1 84.00	
+Epoch: [87/120]	Iters: [400/490]	Loss: 0.6543	Accuracy_TrainData@1 86.00	
+Epoch: [87/120]	Iters: [450/490]	Loss: 0.6555	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8966/10000 (89.6600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.66
+
+Test set: Average loss: 0.0037, Accuracy: 8966/10000 (89.6600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 87
+Epoch: [88/120]	Iters: [50/490]	Loss: 0.6216	Accuracy_TrainData@1 91.00	
+Epoch: [88/120]	Iters: [100/490]	Loss: 0.6338	Accuracy_TrainData@1 85.00	
+Epoch: [88/120]	Iters: [150/490]	Loss: 0.6400	Accuracy_TrainData@1 86.00	
+Epoch: [88/120]	Iters: [200/490]	Loss: 0.6410	Accuracy_TrainData@1 88.00	
+Epoch: [88/120]	Iters: [250/490]	Loss: 0.6496	Accuracy_TrainData@1 86.00	
+Epoch: [88/120]	Iters: [300/490]	Loss: 0.6524	Accuracy_TrainData@1 88.00	
+Epoch: [88/120]	Iters: [350/490]	Loss: 0.6551	Accuracy_TrainData@1 84.00	
+Epoch: [88/120]	Iters: [400/490]	Loss: 0.6563	Accuracy_TrainData@1 87.00	
+Epoch: [88/120]	Iters: [450/490]	Loss: 0.6535	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0036, Accuracy: 8989/10000 (89.8900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.89
+
+Test set: Average loss: 0.0036, Accuracy: 8989/10000 (89.8900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 88
+Epoch: [89/120]	Iters: [50/490]	Loss: 0.6510	Accuracy_TrainData@1 84.00	
+Epoch: [89/120]	Iters: [100/490]	Loss: 0.6454	Accuracy_TrainData@1 84.00	
+Epoch: [89/120]	Iters: [150/490]	Loss: 0.6530	Accuracy_TrainData@1 80.00	
+Epoch: [89/120]	Iters: [200/490]	Loss: 0.6534	Accuracy_TrainData@1 81.00	
+Epoch: [89/120]	Iters: [250/490]	Loss: 0.6586	Accuracy_TrainData@1 87.00	
+Epoch: [89/120]	Iters: [300/490]	Loss: 0.6554	Accuracy_TrainData@1 89.00	
+Epoch: [89/120]	Iters: [350/490]	Loss: 0.6537	Accuracy_TrainData@1 85.00	
+Epoch: [89/120]	Iters: [400/490]	Loss: 0.6497	Accuracy_TrainData@1 90.00	
+Epoch: [89/120]	Iters: [450/490]	Loss: 0.6498	Accuracy_TrainData@1 85.00	
+
+Test set: Average loss: 0.0036, Accuracy: 8998/10000 (89.9800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.98
+
+Test set: Average loss: 0.0036, Accuracy: 8998/10000 (89.9800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 89
+Epoch: [90/120]	Iters: [50/490]	Loss: 0.6311	Accuracy_TrainData@1 88.00	
+Epoch: [90/120]	Iters: [100/490]	Loss: 0.6267	Accuracy_TrainData@1 83.00	
+Epoch: [90/120]	Iters: [150/490]	Loss: 0.6230	Accuracy_TrainData@1 81.00	
+Epoch: [90/120]	Iters: [200/490]	Loss: 0.6251	Accuracy_TrainData@1 87.00	
+Epoch: [90/120]	Iters: [250/490]	Loss: 0.6326	Accuracy_TrainData@1 83.00	
+Epoch: [90/120]	Iters: [300/490]	Loss: 0.6336	Accuracy_TrainData@1 81.00	
+Epoch: [90/120]	Iters: [350/490]	Loss: 0.6382	Accuracy_TrainData@1 83.00	
+Epoch: [90/120]	Iters: [400/490]	Loss: 0.6402	Accuracy_TrainData@1 82.00	
+Epoch: [90/120]	Iters: [450/490]	Loss: 0.6423	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8959/10000 (89.5900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.59
+
+Test set: Average loss: 0.0037, Accuracy: 8959/10000 (89.5900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 90
+Epoch: [91/120]	Iters: [50/490]	Loss: 0.6293	Accuracy_TrainData@1 85.00	
+Epoch: [91/120]	Iters: [100/490]	Loss: 0.6448	Accuracy_TrainData@1 83.00	
+Epoch: [91/120]	Iters: [150/490]	Loss: 0.6420	Accuracy_TrainData@1 82.00	
+Epoch: [91/120]	Iters: [200/490]	Loss: 0.6405	Accuracy_TrainData@1 89.00	
+Epoch: [91/120]	Iters: [250/490]	Loss: 0.6403	Accuracy_TrainData@1 92.00	
+Epoch: [91/120]	Iters: [300/490]	Loss: 0.6377	Accuracy_TrainData@1 84.00	
+Epoch: [91/120]	Iters: [350/490]	Loss: 0.6372	Accuracy_TrainData@1 84.00	
+Epoch: [91/120]	Iters: [400/490]	Loss: 0.6365	Accuracy_TrainData@1 88.00	
+Epoch: [91/120]	Iters: [450/490]	Loss: 0.6369	Accuracy_TrainData@1 82.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8950/10000 (89.5000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.5
+
+Test set: Average loss: 0.0038, Accuracy: 8950/10000 (89.5000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 91
+Epoch: [92/120]	Iters: [50/490]	Loss: 0.6003	Accuracy_TrainData@1 89.00	
+Epoch: [92/120]	Iters: [100/490]	Loss: 0.6106	Accuracy_TrainData@1 89.00	
+Epoch: [92/120]	Iters: [150/490]	Loss: 0.6123	Accuracy_TrainData@1 89.00	
+Epoch: [92/120]	Iters: [200/490]	Loss: 0.6172	Accuracy_TrainData@1 83.00	
+Epoch: [92/120]	Iters: [250/490]	Loss: 0.6169	Accuracy_TrainData@1 85.00	
+Epoch: [92/120]	Iters: [300/490]	Loss: 0.6231	Accuracy_TrainData@1 85.00	
+Epoch: [92/120]	Iters: [350/490]	Loss: 0.6271	Accuracy_TrainData@1 85.00	
+Epoch: [92/120]	Iters: [400/490]	Loss: 0.6291	Accuracy_TrainData@1 90.00	
+Epoch: [92/120]	Iters: [450/490]	Loss: 0.6307	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8917/10000 (89.1700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.17
+
+Test set: Average loss: 0.0039, Accuracy: 8917/10000 (89.1700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 92
+Epoch: [93/120]	Iters: [50/490]	Loss: 0.6331	Accuracy_TrainData@1 86.00	
+Epoch: [93/120]	Iters: [100/490]	Loss: 0.6179	Accuracy_TrainData@1 89.00	
+Epoch: [93/120]	Iters: [150/490]	Loss: 0.6179	Accuracy_TrainData@1 88.00	
+Epoch: [93/120]	Iters: [200/490]	Loss: 0.6163	Accuracy_TrainData@1 80.00	
+Epoch: [93/120]	Iters: [250/490]	Loss: 0.6215	Accuracy_TrainData@1 83.00	
+Epoch: [93/120]	Iters: [300/490]	Loss: 0.6202	Accuracy_TrainData@1 87.00	
+Epoch: [93/120]	Iters: [350/490]	Loss: 0.6255	Accuracy_TrainData@1 86.00	
+Epoch: [93/120]	Iters: [400/490]	Loss: 0.6287	Accuracy_TrainData@1 82.00	
+Epoch: [93/120]	Iters: [450/490]	Loss: 0.6289	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8930/10000 (89.3000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.3
+
+Test set: Average loss: 0.0038, Accuracy: 8930/10000 (89.3000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 93
+Epoch: [94/120]	Iters: [50/490]	Loss: 0.6002	Accuracy_TrainData@1 88.00	
+Epoch: [94/120]	Iters: [100/490]	Loss: 0.6054	Accuracy_TrainData@1 88.00	
+Epoch: [94/120]	Iters: [150/490]	Loss: 0.6121	Accuracy_TrainData@1 84.00	
+Epoch: [94/120]	Iters: [200/490]	Loss: 0.6172	Accuracy_TrainData@1 87.00	
+Epoch: [94/120]	Iters: [250/490]	Loss: 0.6216	Accuracy_TrainData@1 85.00	
+Epoch: [94/120]	Iters: [300/490]	Loss: 0.6196	Accuracy_TrainData@1 84.00	
+Epoch: [94/120]	Iters: [350/490]	Loss: 0.6199	Accuracy_TrainData@1 86.00	
+Epoch: [94/120]	Iters: [400/490]	Loss: 0.6190	Accuracy_TrainData@1 86.00	
+Epoch: [94/120]	Iters: [450/490]	Loss: 0.6214	Accuracy_TrainData@1 77.00	
+
+Test set: Average loss: 0.0041, Accuracy: 8812/10000 (88.1200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 88.12
+
+Test set: Average loss: 0.0041, Accuracy: 8812/10000 (88.1200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 94
+Epoch: [95/120]	Iters: [50/490]	Loss: 0.6128	Accuracy_TrainData@1 87.00	
+Epoch: [95/120]	Iters: [100/490]	Loss: 0.6119	Accuracy_TrainData@1 85.00	
+Epoch: [95/120]	Iters: [150/490]	Loss: 0.6231	Accuracy_TrainData@1 77.00	
+Epoch: [95/120]	Iters: [200/490]	Loss: 0.6204	Accuracy_TrainData@1 95.00	
+Epoch: [95/120]	Iters: [250/490]	Loss: 0.6198	Accuracy_TrainData@1 85.00	
+Epoch: [95/120]	Iters: [300/490]	Loss: 0.6224	Accuracy_TrainData@1 88.00	
+Epoch: [95/120]	Iters: [350/490]	Loss: 0.6201	Accuracy_TrainData@1 94.00	
+Epoch: [95/120]	Iters: [400/490]	Loss: 0.6233	Accuracy_TrainData@1 87.00	
+Epoch: [95/120]	Iters: [450/490]	Loss: 0.6247	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8907/10000 (89.0700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.07
+
+Test set: Average loss: 0.0039, Accuracy: 8907/10000 (89.0700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 95
+Epoch: [96/120]	Iters: [50/490]	Loss: 0.6505	Accuracy_TrainData@1 86.00	
+Epoch: [96/120]	Iters: [100/490]	Loss: 0.6220	Accuracy_TrainData@1 86.00	
+Epoch: [96/120]	Iters: [150/490]	Loss: 0.6257	Accuracy_TrainData@1 91.00	
+Epoch: [96/120]	Iters: [200/490]	Loss: 0.6252	Accuracy_TrainData@1 84.00	
+Epoch: [96/120]	Iters: [250/490]	Loss: 0.6219	Accuracy_TrainData@1 82.00	
+Epoch: [96/120]	Iters: [300/490]	Loss: 0.6252	Accuracy_TrainData@1 89.00	
+Epoch: [96/120]	Iters: [350/490]	Loss: 0.6238	Accuracy_TrainData@1 84.00	
+Epoch: [96/120]	Iters: [400/490]	Loss: 0.6226	Accuracy_TrainData@1 83.00	
+Epoch: [96/120]	Iters: [450/490]	Loss: 0.6247	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8915/10000 (89.1500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.15
+
+Test set: Average loss: 0.0038, Accuracy: 8915/10000 (89.1500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 96
+Epoch: [97/120]	Iters: [50/490]	Loss: 0.5829	Accuracy_TrainData@1 87.00	
+Epoch: [97/120]	Iters: [100/490]	Loss: 0.6105	Accuracy_TrainData@1 84.00	
+Epoch: [97/120]	Iters: [150/490]	Loss: 0.6106	Accuracy_TrainData@1 78.00	
+Epoch: [97/120]	Iters: [200/490]	Loss: 0.6151	Accuracy_TrainData@1 88.00	
+Epoch: [97/120]	Iters: [250/490]	Loss: 0.6178	Accuracy_TrainData@1 90.00	
+Epoch: [97/120]	Iters: [300/490]	Loss: 0.6174	Accuracy_TrainData@1 87.00	
+Epoch: [97/120]	Iters: [350/490]	Loss: 0.6204	Accuracy_TrainData@1 89.00	
+Epoch: [97/120]	Iters: [400/490]	Loss: 0.6253	Accuracy_TrainData@1 75.00	
+Epoch: [97/120]	Iters: [450/490]	Loss: 0.6210	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0037, Accuracy: 8931/10000 (89.3100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.31
+
+Test set: Average loss: 0.0037, Accuracy: 8931/10000 (89.3100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 97
+Epoch: [98/120]	Iters: [50/490]	Loss: 0.5891	Accuracy_TrainData@1 82.00	
+Epoch: [98/120]	Iters: [100/490]	Loss: 0.5996	Accuracy_TrainData@1 88.00	
+Epoch: [98/120]	Iters: [150/490]	Loss: 0.6155	Accuracy_TrainData@1 86.00	
+Epoch: [98/120]	Iters: [200/490]	Loss: 0.6103	Accuracy_TrainData@1 90.00	
+Epoch: [98/120]	Iters: [250/490]	Loss: 0.6091	Accuracy_TrainData@1 87.00	
+Epoch: [98/120]	Iters: [300/490]	Loss: 0.6132	Accuracy_TrainData@1 83.00	
+Epoch: [98/120]	Iters: [350/490]	Loss: 0.6163	Accuracy_TrainData@1 86.00	
+Epoch: [98/120]	Iters: [400/490]	Loss: 0.6185	Accuracy_TrainData@1 87.00	
+Epoch: [98/120]	Iters: [450/490]	Loss: 0.6179	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0039, Accuracy: 8886/10000 (88.8600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 88.86
+
+Test set: Average loss: 0.0039, Accuracy: 8886/10000 (88.8600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 98
+Epoch: [99/120]	Iters: [50/490]	Loss: 0.6338	Accuracy_TrainData@1 92.00	
+Epoch: [99/120]	Iters: [100/490]	Loss: 0.6031	Accuracy_TrainData@1 88.00	
+Epoch: [99/120]	Iters: [150/490]	Loss: 0.5950	Accuracy_TrainData@1 85.00	
+Epoch: [99/120]	Iters: [200/490]	Loss: 0.6045	Accuracy_TrainData@1 88.00	
+Epoch: [99/120]	Iters: [250/490]	Loss: 0.6101	Accuracy_TrainData@1 85.00	
+Epoch: [99/120]	Iters: [300/490]	Loss: 0.6138	Accuracy_TrainData@1 85.00	
+Epoch: [99/120]	Iters: [350/490]	Loss: 0.6151	Accuracy_TrainData@1 88.00	
+Epoch: [99/120]	Iters: [400/490]	Loss: 0.6139	Accuracy_TrainData@1 87.00	
+Epoch: [99/120]	Iters: [450/490]	Loss: 0.6167	Accuracy_TrainData@1 92.00	
+
+Test set: Average loss: 0.0040, Accuracy: 8877/10000 (88.7700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 88.77
+
+Test set: Average loss: 0.0040, Accuracy: 8877/10000 (88.7700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 99
+Epoch: [100/120]	Iters: [50/490]	Loss: 0.5938	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [100/490]	Loss: 0.6057	Accuracy_TrainData@1 86.00	
+Epoch: [100/120]	Iters: [150/490]	Loss: 0.6040	Accuracy_TrainData@1 80.00	
+Epoch: [100/120]	Iters: [200/490]	Loss: 0.6064	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [250/490]	Loss: 0.6111	Accuracy_TrainData@1 88.00	
+Epoch: [100/120]	Iters: [300/490]	Loss: 0.6109	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [350/490]	Loss: 0.6084	Accuracy_TrainData@1 85.00	
+Epoch: [100/120]	Iters: [400/490]	Loss: 0.6109	Accuracy_TrainData@1 84.00	
+Epoch: [100/120]	Iters: [450/490]	Loss: 0.6152	Accuracy_TrainData@1 84.00	
+
+Test set: Average loss: 0.0038, Accuracy: 8920/10000 (89.2000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 89.2
+
+Test set: Average loss: 0.0038, Accuracy: 8920/10000 (89.2000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 100
+Epoch: [101/120]	Iters: [50/490]	Loss: 0.5729	Accuracy_TrainData@1 86.00	
+Epoch: [101/120]	Iters: [100/490]	Loss: 0.5776	Accuracy_TrainData@1 88.00	
+Epoch: [101/120]	Iters: [150/490]	Loss: 0.5732	Accuracy_TrainData@1 81.00	
+Epoch: [101/120]	Iters: [200/490]	Loss: 0.5682	Accuracy_TrainData@1 93.00	
+Epoch: [101/120]	Iters: [250/490]	Loss: 0.5664	Accuracy_TrainData@1 87.00	
+Epoch: [101/120]	Iters: [300/490]	Loss: 0.5661	Accuracy_TrainData@1 92.00	
+Epoch: [101/120]	Iters: [350/490]	Loss: 0.5633	Accuracy_TrainData@1 90.00	
+Epoch: [101/120]	Iters: [400/490]	Loss: 0.5600	Accuracy_TrainData@1 86.00	
+Epoch: [101/120]	Iters: [450/490]	Loss: 0.5594	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9092/10000 (90.9200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.92
+
+Test set: Average loss: 0.0033, Accuracy: 9092/10000 (90.9200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 101
+Epoch: [102/120]	Iters: [50/490]	Loss: 0.5576	Accuracy_TrainData@1 84.00	
+Epoch: [102/120]	Iters: [100/490]	Loss: 0.5389	Accuracy_TrainData@1 85.00	
+Epoch: [102/120]	Iters: [150/490]	Loss: 0.5319	Accuracy_TrainData@1 88.00	
+Epoch: [102/120]	Iters: [200/490]	Loss: 0.5407	Accuracy_TrainData@1 84.00	
+Epoch: [102/120]	Iters: [250/490]	Loss: 0.5383	Accuracy_TrainData@1 82.00	
+Epoch: [102/120]	Iters: [300/490]	Loss: 0.5373	Accuracy_TrainData@1 88.00	
+Epoch: [102/120]	Iters: [350/490]	Loss: 0.5362	Accuracy_TrainData@1 85.00	
+Epoch: [102/120]	Iters: [400/490]	Loss: 0.5363	Accuracy_TrainData@1 81.00	
+Epoch: [102/120]	Iters: [450/490]	Loss: 0.5337	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9089/10000 (90.8900%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.89
+
+Test set: Average loss: 0.0033, Accuracy: 9089/10000 (90.8900%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 102
+Epoch: [103/120]	Iters: [50/490]	Loss: 0.5467	Accuracy_TrainData@1 88.00	
+Epoch: [103/120]	Iters: [100/490]	Loss: 0.5436	Accuracy_TrainData@1 90.00	
+Epoch: [103/120]	Iters: [150/490]	Loss: 0.5356	Accuracy_TrainData@1 88.00	
+Epoch: [103/120]	Iters: [200/490]	Loss: 0.5354	Accuracy_TrainData@1 90.00	
+Epoch: [103/120]	Iters: [250/490]	Loss: 0.5342	Accuracy_TrainData@1 90.00	
+Epoch: [103/120]	Iters: [300/490]	Loss: 0.5248	Accuracy_TrainData@1 89.00	
+Epoch: [103/120]	Iters: [350/490]	Loss: 0.5229	Accuracy_TrainData@1 96.00	
+Epoch: [103/120]	Iters: [400/490]	Loss: 0.5236	Accuracy_TrainData@1 87.00	
+Epoch: [103/120]	Iters: [450/490]	Loss: 0.5228	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9100/10000 (91.0000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 91.0
+
+Test set: Average loss: 0.0033, Accuracy: 9100/10000 (91.0000%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 103
+Epoch: [104/120]	Iters: [50/490]	Loss: 0.5300	Accuracy_TrainData@1 91.00	
+Epoch: [104/120]	Iters: [100/490]	Loss: 0.5163	Accuracy_TrainData@1 90.00	
+Epoch: [104/120]	Iters: [150/490]	Loss: 0.5181	Accuracy_TrainData@1 85.00	
+Epoch: [104/120]	Iters: [200/490]	Loss: 0.5123	Accuracy_TrainData@1 85.00	
+Epoch: [104/120]	Iters: [250/490]	Loss: 0.5116	Accuracy_TrainData@1 92.00	
+Epoch: [104/120]	Iters: [300/490]	Loss: 0.5161	Accuracy_TrainData@1 90.00	
+Epoch: [104/120]	Iters: [350/490]	Loss: 0.5185	Accuracy_TrainData@1 90.00	
+Epoch: [104/120]	Iters: [400/490]	Loss: 0.5171	Accuracy_TrainData@1 86.00	
+Epoch: [104/120]	Iters: [450/490]	Loss: 0.5186	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9097/10000 (90.9700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.97
+
+Test set: Average loss: 0.0033, Accuracy: 9097/10000 (90.9700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 104
+Epoch: [105/120]	Iters: [50/490]	Loss: 0.4910	Accuracy_TrainData@1 94.00	
+Epoch: [105/120]	Iters: [100/490]	Loss: 0.4888	Accuracy_TrainData@1 89.00	
+Epoch: [105/120]	Iters: [150/490]	Loss: 0.4982	Accuracy_TrainData@1 91.00	
+Epoch: [105/120]	Iters: [200/490]	Loss: 0.5067	Accuracy_TrainData@1 89.00	
+Epoch: [105/120]	Iters: [250/490]	Loss: 0.5086	Accuracy_TrainData@1 85.00	
+Epoch: [105/120]	Iters: [300/490]	Loss: 0.5108	Accuracy_TrainData@1 90.00	
+Epoch: [105/120]	Iters: [350/490]	Loss: 0.5096	Accuracy_TrainData@1 85.00	
+Epoch: [105/120]	Iters: [400/490]	Loss: 0.5121	Accuracy_TrainData@1 90.00	
+Epoch: [105/120]	Iters: [450/490]	Loss: 0.5111	Accuracy_TrainData@1 85.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9091/10000 (90.9100%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.91
+
+Test set: Average loss: 0.0033, Accuracy: 9091/10000 (90.9100%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 105
+Epoch: [106/120]	Iters: [50/490]	Loss: 0.4944	Accuracy_TrainData@1 86.00	
+Epoch: [106/120]	Iters: [100/490]	Loss: 0.5104	Accuracy_TrainData@1 88.00	
+Epoch: [106/120]	Iters: [150/490]	Loss: 0.4996	Accuracy_TrainData@1 91.00	
+Epoch: [106/120]	Iters: [200/490]	Loss: 0.5050	Accuracy_TrainData@1 89.00	
+Epoch: [106/120]	Iters: [250/490]	Loss: 0.5053	Accuracy_TrainData@1 86.00	
+Epoch: [106/120]	Iters: [300/490]	Loss: 0.5039	Accuracy_TrainData@1 91.00	
+Epoch: [106/120]	Iters: [350/490]	Loss: 0.5043	Accuracy_TrainData@1 87.00	
+Epoch: [106/120]	Iters: [400/490]	Loss: 0.5046	Accuracy_TrainData@1 84.00	
+Epoch: [106/120]	Iters: [450/490]	Loss: 0.5069	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9067/10000 (90.6700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.67
+
+Test set: Average loss: 0.0034, Accuracy: 9067/10000 (90.6700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 106
+Epoch: [107/120]	Iters: [50/490]	Loss: 0.4889	Accuracy_TrainData@1 90.00	
+Epoch: [107/120]	Iters: [100/490]	Loss: 0.5048	Accuracy_TrainData@1 91.00	
+Epoch: [107/120]	Iters: [150/490]	Loss: 0.5082	Accuracy_TrainData@1 90.00	
+Epoch: [107/120]	Iters: [200/490]	Loss: 0.5047	Accuracy_TrainData@1 91.00	
+Epoch: [107/120]	Iters: [250/490]	Loss: 0.5059	Accuracy_TrainData@1 86.00	
+Epoch: [107/120]	Iters: [300/490]	Loss: 0.5009	Accuracy_TrainData@1 91.00	
+Epoch: [107/120]	Iters: [350/490]	Loss: 0.4987	Accuracy_TrainData@1 79.00	
+Epoch: [107/120]	Iters: [400/490]	Loss: 0.5018	Accuracy_TrainData@1 89.00	
+Epoch: [107/120]	Iters: [450/490]	Loss: 0.5002	Accuracy_TrainData@1 94.00	
+
+Test set: Average loss: 0.0033, Accuracy: 9084/10000 (90.8400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.84
+
+Test set: Average loss: 0.0033, Accuracy: 9084/10000 (90.8400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 107
+Epoch: [108/120]	Iters: [50/490]	Loss: 0.4999	Accuracy_TrainData@1 83.00	
+Epoch: [108/120]	Iters: [100/490]	Loss: 0.4814	Accuracy_TrainData@1 87.00	
+Epoch: [108/120]	Iters: [150/490]	Loss: 0.4888	Accuracy_TrainData@1 88.00	
+Epoch: [108/120]	Iters: [200/490]	Loss: 0.4926	Accuracy_TrainData@1 87.00	
+Epoch: [108/120]	Iters: [250/490]	Loss: 0.4935	Accuracy_TrainData@1 85.00	
+Epoch: [108/120]	Iters: [300/490]	Loss: 0.4925	Accuracy_TrainData@1 92.00	
+Epoch: [108/120]	Iters: [350/490]	Loss: 0.4981	Accuracy_TrainData@1 91.00	
+Epoch: [108/120]	Iters: [400/490]	Loss: 0.4975	Accuracy_TrainData@1 87.00	
+Epoch: [108/120]	Iters: [450/490]	Loss: 0.4988	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.63
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 108
+Epoch: [109/120]	Iters: [50/490]	Loss: 0.5012	Accuracy_TrainData@1 92.00	
+Epoch: [109/120]	Iters: [100/490]	Loss: 0.4803	Accuracy_TrainData@1 92.00	
+Epoch: [109/120]	Iters: [150/490]	Loss: 0.4869	Accuracy_TrainData@1 88.00	
+Epoch: [109/120]	Iters: [200/490]	Loss: 0.4875	Accuracy_TrainData@1 87.00	
+Epoch: [109/120]	Iters: [250/490]	Loss: 0.4893	Accuracy_TrainData@1 89.00	
+Epoch: [109/120]	Iters: [300/490]	Loss: 0.4923	Accuracy_TrainData@1 92.00	
+Epoch: [109/120]	Iters: [350/490]	Loss: 0.4984	Accuracy_TrainData@1 87.00	
+Epoch: [109/120]	Iters: [400/490]	Loss: 0.4950	Accuracy_TrainData@1 88.00	
+Epoch: [109/120]	Iters: [450/490]	Loss: 0.4962	Accuracy_TrainData@1 95.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9064/10000 (90.6400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.64
+
+Test set: Average loss: 0.0034, Accuracy: 9064/10000 (90.6400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 109
+Epoch: [110/120]	Iters: [50/490]	Loss: 0.4858	Accuracy_TrainData@1 82.00	
+Epoch: [110/120]	Iters: [100/490]	Loss: 0.4807	Accuracy_TrainData@1 92.00	
+Epoch: [110/120]	Iters: [150/490]	Loss: 0.4839	Accuracy_TrainData@1 90.00	
+Epoch: [110/120]	Iters: [200/490]	Loss: 0.4887	Accuracy_TrainData@1 87.00	
+Epoch: [110/120]	Iters: [250/490]	Loss: 0.4901	Accuracy_TrainData@1 91.00	
+Epoch: [110/120]	Iters: [300/490]	Loss: 0.4920	Accuracy_TrainData@1 92.00	
+Epoch: [110/120]	Iters: [350/490]	Loss: 0.4938	Accuracy_TrainData@1 92.00	
+Epoch: [110/120]	Iters: [400/490]	Loss: 0.4918	Accuracy_TrainData@1 87.00	
+Epoch: [110/120]	Iters: [450/490]	Loss: 0.4918	Accuracy_TrainData@1 87.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9075/10000 (90.7500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.75
+
+Test set: Average loss: 0.0034, Accuracy: 9075/10000 (90.7500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 110
+Epoch: [111/120]	Iters: [50/490]	Loss: 0.4954	Accuracy_TrainData@1 89.00	
+Epoch: [111/120]	Iters: [100/490]	Loss: 0.4870	Accuracy_TrainData@1 91.00	
+Epoch: [111/120]	Iters: [150/490]	Loss: 0.4870	Accuracy_TrainData@1 87.00	
+Epoch: [111/120]	Iters: [200/490]	Loss: 0.4835	Accuracy_TrainData@1 80.00	
+Epoch: [111/120]	Iters: [250/490]	Loss: 0.4893	Accuracy_TrainData@1 83.00	
+Epoch: [111/120]	Iters: [300/490]	Loss: 0.4924	Accuracy_TrainData@1 88.00	
+Epoch: [111/120]	Iters: [350/490]	Loss: 0.4899	Accuracy_TrainData@1 90.00	
+Epoch: [111/120]	Iters: [400/490]	Loss: 0.4928	Accuracy_TrainData@1 86.00	
+Epoch: [111/120]	Iters: [450/490]	Loss: 0.4905	Accuracy_TrainData@1 94.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.63
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 111
+Epoch: [112/120]	Iters: [50/490]	Loss: 0.4741	Accuracy_TrainData@1 89.00	
+Epoch: [112/120]	Iters: [100/490]	Loss: 0.4692	Accuracy_TrainData@1 86.00	
+Epoch: [112/120]	Iters: [150/490]	Loss: 0.4692	Accuracy_TrainData@1 93.00	
+Epoch: [112/120]	Iters: [200/490]	Loss: 0.4775	Accuracy_TrainData@1 90.00	
+Epoch: [112/120]	Iters: [250/490]	Loss: 0.4802	Accuracy_TrainData@1 91.00	
+Epoch: [112/120]	Iters: [300/490]	Loss: 0.4792	Accuracy_TrainData@1 85.00	
+Epoch: [112/120]	Iters: [350/490]	Loss: 0.4793	Accuracy_TrainData@1 88.00	
+Epoch: [112/120]	Iters: [400/490]	Loss: 0.4805	Accuracy_TrainData@1 92.00	
+Epoch: [112/120]	Iters: [450/490]	Loss: 0.4807	Accuracy_TrainData@1 90.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.63
+
+Test set: Average loss: 0.0034, Accuracy: 9063/10000 (90.6300%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 112
+Epoch: [113/120]	Iters: [50/490]	Loss: 0.4892	Accuracy_TrainData@1 88.00	
+Epoch: [113/120]	Iters: [100/490]	Loss: 0.4653	Accuracy_TrainData@1 92.00	
+Epoch: [113/120]	Iters: [150/490]	Loss: 0.4634	Accuracy_TrainData@1 92.00	
+Epoch: [113/120]	Iters: [200/490]	Loss: 0.4734	Accuracy_TrainData@1 88.00	
+Epoch: [113/120]	Iters: [250/490]	Loss: 0.4753	Accuracy_TrainData@1 87.00	
+Epoch: [113/120]	Iters: [300/490]	Loss: 0.4786	Accuracy_TrainData@1 90.00	
+Epoch: [113/120]	Iters: [350/490]	Loss: 0.4792	Accuracy_TrainData@1 85.00	
+Epoch: [113/120]	Iters: [400/490]	Loss: 0.4764	Accuracy_TrainData@1 88.00	
+Epoch: [113/120]	Iters: [450/490]	Loss: 0.4783	Accuracy_TrainData@1 89.00	
+
+Test set: Average loss: 0.0034, Accuracy: 9087/10000 (90.8700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.87
+
+Test set: Average loss: 0.0034, Accuracy: 9087/10000 (90.8700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 113
+Epoch: [114/120]	Iters: [50/490]	Loss: 0.4831	Accuracy_TrainData@1 86.00	
+Epoch: [114/120]	Iters: [100/490]	Loss: 0.4552	Accuracy_TrainData@1 92.00	
+Epoch: [114/120]	Iters: [150/490]	Loss: 0.4607	Accuracy_TrainData@1 89.00	
+Epoch: [114/120]	Iters: [200/490]	Loss: 0.4629	Accuracy_TrainData@1 91.00	
+Epoch: [114/120]	Iters: [250/490]	Loss: 0.4671	Accuracy_TrainData@1 89.00	
+Epoch: [114/120]	Iters: [300/490]	Loss: 0.4718	Accuracy_TrainData@1 89.00	
+Epoch: [114/120]	Iters: [350/490]	Loss: 0.4736	Accuracy_TrainData@1 89.00	
+Epoch: [114/120]	Iters: [400/490]	Loss: 0.4758	Accuracy_TrainData@1 88.00	
+Epoch: [114/120]	Iters: [450/490]	Loss: 0.4733	Accuracy_TrainData@1 86.00	
+
+Test set: Average loss: 0.0035, Accuracy: 9045/10000 (90.4500%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.45
+
+Test set: Average loss: 0.0035, Accuracy: 9045/10000 (90.4500%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 114
+Epoch: [115/120]	Iters: [50/490]	Loss: 0.4673	Accuracy_TrainData@1 94.00	
+Epoch: [115/120]	Iters: [100/490]	Loss: 0.4565	Accuracy_TrainData@1 92.00	
+Epoch: [115/120]	Iters: [150/490]	Loss: 0.4595	Accuracy_TrainData@1 92.00	
+Epoch: [115/120]	Iters: [200/490]	Loss: 0.4714	Accuracy_TrainData@1 87.00	
+Epoch: [115/120]	Iters: [250/490]	Loss: 0.4729	Accuracy_TrainData@1 88.00	
+Epoch: [115/120]	Iters: [300/490]	Loss: 0.4751	Accuracy_TrainData@1 93.00	
+Epoch: [115/120]	Iters: [350/490]	Loss: 0.4737	Accuracy_TrainData@1 92.00	
+Epoch: [115/120]	Iters: [400/490]	Loss: 0.4746	Accuracy_TrainData@1 90.00	
+Epoch: [115/120]	Iters: [450/490]	Loss: 0.4764	Accuracy_TrainData@1 86.00	
+
+Test set: Average loss: 0.0035, Accuracy: 9058/10000 (90.5800%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.58
+
+Test set: Average loss: 0.0035, Accuracy: 9058/10000 (90.5800%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 115
+Epoch: [116/120]	Iters: [50/490]	Loss: 0.4494	Accuracy_TrainData@1 90.00	
+Epoch: [116/120]	Iters: [100/490]	Loss: 0.4715	Accuracy_TrainData@1 89.00	
+Epoch: [116/120]	Iters: [150/490]	Loss: 0.4711	Accuracy_TrainData@1 90.00	
+Epoch: [116/120]	Iters: [200/490]	Loss: 0.4742	Accuracy_TrainData@1 90.00	
+Epoch: [116/120]	Iters: [250/490]	Loss: 0.4723	Accuracy_TrainData@1 89.00	
+Epoch: [116/120]	Iters: [300/490]	Loss: 0.4737	Accuracy_TrainData@1 93.00	
+Epoch: [116/120]	Iters: [350/490]	Loss: 0.4717	Accuracy_TrainData@1 91.00	
+Epoch: [116/120]	Iters: [400/490]	Loss: 0.4725	Accuracy_TrainData@1 86.00	
+Epoch: [116/120]	Iters: [450/490]	Loss: 0.4697	Accuracy_TrainData@1 91.00	
+
+Test set: Average loss: 0.0035, Accuracy: 9056/10000 (90.5600%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.56
+
+Test set: Average loss: 0.0035, Accuracy: 9056/10000 (90.5600%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 116
+Epoch: [117/120]	Iters: [50/490]	Loss: 0.4747	Accuracy_TrainData@1 93.00	
+Epoch: [117/120]	Iters: [100/490]	Loss: 0.4738	Accuracy_TrainData@1 87.00	
+Epoch: [117/120]	Iters: [150/490]	Loss: 0.4645	Accuracy_TrainData@1 88.00	
+Epoch: [117/120]	Iters: [200/490]	Loss: 0.4616	Accuracy_TrainData@1 92.00	
+Epoch: [117/120]	Iters: [250/490]	Loss: 0.4597	Accuracy_TrainData@1 89.00	
+Epoch: [117/120]	Iters: [300/490]	Loss: 0.4583	Accuracy_TrainData@1 86.00	
+Epoch: [117/120]	Iters: [350/490]	Loss: 0.4625	Accuracy_TrainData@1 88.00	
+Epoch: [117/120]	Iters: [400/490]	Loss: 0.4611	Accuracy_TrainData@1 89.00	
+Epoch: [117/120]	Iters: [450/490]	Loss: 0.4638	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9027/10000 (90.2700%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.27
+
+Test set: Average loss: 0.0036, Accuracy: 9027/10000 (90.2700%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 117
+Epoch: [118/120]	Iters: [50/490]	Loss: 0.4565	Accuracy_TrainData@1 84.00	
+Epoch: [118/120]	Iters: [100/490]	Loss: 0.4615	Accuracy_TrainData@1 91.00	
+Epoch: [118/120]	Iters: [150/490]	Loss: 0.4681	Accuracy_TrainData@1 90.00	
+Epoch: [118/120]	Iters: [200/490]	Loss: 0.4684	Accuracy_TrainData@1 82.00	
+Epoch: [118/120]	Iters: [250/490]	Loss: 0.4658	Accuracy_TrainData@1 92.00	
+Epoch: [118/120]	Iters: [300/490]	Loss: 0.4657	Accuracy_TrainData@1 85.00	
+Epoch: [118/120]	Iters: [350/490]	Loss: 0.4641	Accuracy_TrainData@1 95.00	
+Epoch: [118/120]	Iters: [400/490]	Loss: 0.4650	Accuracy_TrainData@1 88.00	
+Epoch: [118/120]	Iters: [450/490]	Loss: 0.4661	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9042/10000 (90.4200%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.42
+
+Test set: Average loss: 0.0036, Accuracy: 9042/10000 (90.4200%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 118
+Epoch: [119/120]	Iters: [50/490]	Loss: 0.4306	Accuracy_TrainData@1 93.00	
+Epoch: [119/120]	Iters: [100/490]	Loss: 0.4518	Accuracy_TrainData@1 90.00	
+Epoch: [119/120]	Iters: [150/490]	Loss: 0.4516	Accuracy_TrainData@1 84.00	
+Epoch: [119/120]	Iters: [200/490]	Loss: 0.4508	Accuracy_TrainData@1 90.00	
+Epoch: [119/120]	Iters: [250/490]	Loss: 0.4523	Accuracy_TrainData@1 89.00	
+Epoch: [119/120]	Iters: [300/490]	Loss: 0.4558	Accuracy_TrainData@1 92.00	
+Epoch: [119/120]	Iters: [350/490]	Loss: 0.4592	Accuracy_TrainData@1 91.00	
+Epoch: [119/120]	Iters: [400/490]	Loss: 0.4594	Accuracy_TrainData@1 89.00	
+Epoch: [119/120]	Iters: [450/490]	Loss: 0.4619	Accuracy_TrainData@1 91.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9024/10000 (90.2400%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.24
+
+Test set: Average loss: 0.0036, Accuracy: 9024/10000 (90.2400%)
+
+BASIC MODEL CALLED by build_model
+flag False
+
+Epoch: 119
+Epoch: [120/120]	Iters: [50/490]	Loss: 0.4718	Accuracy_TrainData@1 92.00	
+Epoch: [120/120]	Iters: [100/490]	Loss: 0.4720	Accuracy_TrainData@1 95.00	
+Epoch: [120/120]	Iters: [150/490]	Loss: 0.4701	Accuracy_TrainData@1 88.00	
+Epoch: [120/120]	Iters: [200/490]	Loss: 0.4620	Accuracy_TrainData@1 89.00	
+Epoch: [120/120]	Iters: [250/490]	Loss: 0.4563	Accuracy_TrainData@1 91.00	
+Epoch: [120/120]	Iters: [300/490]	Loss: 0.4511	Accuracy_TrainData@1 92.00	
+Epoch: [120/120]	Iters: [350/490]	Loss: 0.4567	Accuracy_TrainData@1 86.00	
+Epoch: [120/120]	Iters: [400/490]	Loss: 0.4580	Accuracy_TrainData@1 85.00	
+Epoch: [120/120]	Iters: [450/490]	Loss: 0.4578	Accuracy_TrainData@1 88.00	
+
+Test set: Average loss: 0.0036, Accuracy: 9020/10000 (90.2000%)
+
+BASIC MODEL CALLED by build_model
+EPOCH 90.2
+best accuracy: 91.0

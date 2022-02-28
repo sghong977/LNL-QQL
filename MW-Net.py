@@ -14,6 +14,7 @@ import torch.optim
 import torch.utils.data
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
+import torchvision.utils as tutils
 from torch.autograd import Variable
 from torch.utils.data.sampler import SubsetRandomSampler
 import matplotlib.pyplot as plt
@@ -30,7 +31,6 @@ from load_corrupted_data import CIFAR10, CIFAR100
 
 # to visualize
 from torch.utils.tensorboard import SummaryWriter
-writer = SummaryWriter('runs/CIFAR10_experiment_1')
 
 parser = argparse.ArgumentParser(description='PyTorch WideResNet Training')
 parser.add_argument('--dataset', default='cifar10', type=str,
@@ -98,6 +98,12 @@ m_rate = str(args.corruption_prob_meta)
 t_rate = str(args.corruption_prob_train)
 print(m_type, t_type, m_rate, t_rate)
 
+
+infoname = m_type + m_rate+ t_type + t_rate + time.strftime("%Y%m%d-%H%M%S")
+pathname= args.dataset + "/" + infoname
+writer = SummaryWriter('runs/' + pathname)
+
+
 def build_dataset():
     normalize = transforms.Normalize(mean=[x / 255.0 for x in [125.3, 123.0, 113.9]],
                                      std=[x / 255.0 for x in [63.0, 62.1, 66.7]])
@@ -149,7 +155,6 @@ def build_dataset():
             transform=train_transform, download=True, seed=args.seed)
         test_data = CIFAR100(root='../data', train=False, transform=test_transform, download=True)
 
-
     train_loader = torch.utils.data.DataLoader(
         train_data, batch_size=args.batch_size, shuffle=True,
         num_workers=args.prefetch, pin_memory=True)
@@ -158,7 +163,7 @@ def build_dataset():
         num_workers=args.prefetch, pin_memory=True)
     test_loader = torch.utils.data.DataLoader(test_data, batch_size=args.batch_size, shuffle=False,
                                               num_workers=args.prefetch, pin_memory=True)
-
+    
     return train_loader, train_meta_loader, test_loader
 
 
@@ -199,7 +204,7 @@ def adjust_learning_rate(optimizer, epochs):
 
 
 # accuracy measured on test data
-def test(model, test_loader):
+def test(model, vnet, test_loader, epoch):
     model.eval()
     correct = 0
     test_loss = 0
@@ -218,18 +223,17 @@ def test(model, test_loader):
     print('\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.4f}%)\n'.format(
         test_loss, correct, len(test_loader.dataset),
         accuracy))
-        
-    """
+       
     ####################
     # visualize every epoch
-    images, labels = select_n_random(train_data.data, train_data.label)
-    class_labels = [classes[lab] for lab in labels]
-    features = images.view(-1, 28 * 28)
-    writer.add_embedding(features,
-                        metadata=class_labels,
-                        label_img=images.unsqueeze(1))
-    """
-
+    dataiter = iter(test_loader)
+    images, labels = dataiter.next()
+#    img_grid = tutils.make_grid(images)
+#    plot_tensorboard(img_grid, one_channel=False)
+    writer.add_figure('one batch of images', plot_tensorboard(model, vnet, images.cuda(), labels.cuda()), global_step=epoch+1)
+    #writer.add_embedding(features,
+    #                    metadata=class_labels,
+    #                    label_img=images)
 
     return accuracy
 
@@ -350,10 +354,6 @@ def train(train_loader,train_meta_loader,model, vnet,optimizer_model,optimizer_v
             writer.add_scalar('Accuracy_TrainData',
                             prec_train,
                             epoch * len(train_loader) + batch_idx)
-            # visualize
-#            writer.add_figure('predictions vs. actuals',
-#                            plot_classes_preds(net, inputs, labels),
-#                            global_step=epoch * len(trainloader) + i)
 
 
 train_loader, train_meta_loader, test_loader = build_dataset()
@@ -361,13 +361,15 @@ train_loader, train_meta_loader, test_loader = build_dataset()
 model = build_model()
 # for basic model (w/o LNL)
 criterion = nn.CrossEntropyLoss().cuda()
-optimizer_model = torch.optim.SGD(model.parameters(), args.lr,
-                                  momentum=args.momentum, weight_decay=args.weight_decay)
+vnet = None
 if args.LNL == True:
     vnet = VNet(1, 100, 1).cuda()
     optimizer_vnet = torch.optim.Adam(vnet.params(), 1e-3,
                              weight_decay=1e-4)
     optimizer_model = torch.optim.SGD(model.params(), args.lr,
+                                  momentum=args.momentum, weight_decay=args.weight_decay)
+else:
+    optimizer_model = torch.optim.SGD(model.parameters(), args.lr,
                                   momentum=args.momentum, weight_decay=args.weight_decay)
 
 if args.dataset == 'cifar10':
@@ -375,6 +377,16 @@ if args.dataset == 'cifar10':
 if args.dataset == 'cifar100':
     num_classes = 100
 
+def matplotlib_imshow(img, one_channel=False):
+    if one_channel:
+        img = img.mean(dim=0)
+    img = img /2 + 0.5
+
+    npimg = img.numpy()
+    if one_channel:
+        plt.imshow(npimg, cmap="Greys")
+    else:
+        plt.imshow(np.transpose(npimg, (1,2,0)))
 
 # to visualize
 def select_n_random(data, labels, n=100):
@@ -383,12 +395,58 @@ def select_n_random(data, labels, n=100):
     perm = torch.randperm(len(data))
     return data[perm][:n], labels[perm][:n]
 
+def plot_tensorboard(model, vnet, images, labels):
+    meta_model = build_model().cuda()
+    meta_model.load_state_dict(model.state_dict())
+    output = meta_model(images)
+    _, preds_tensor = torch.max(output, 1)
+    preds_tensor = preds_tensor.detach().cpu()
+    preds = np.squeeze(preds_tensor.numpy())
+    probs = [F.softmax(el, dim=0)[i].item() for i, el in zip(preds, output)]
+
+    cost = F.cross_entropy(output, labels, reduce=False)
+    CE_ = F.cross_entropy(labels-(10^-5), output, reduce=False)
+    cost_v = torch.reshape(cost, (len(cost), 1))
+    if vnet is None:
+        weight = -100     # when LNL is not applied
+    else:
+        v_lambda = vnet(cost_v.data)
+        v_lambda = v_lambda.cpu().detach().numpy()
+
+    images = images.detach().cpu()
+    plots = len(labels)
+    fig = plt.figure(figsize=(20,35))
+    plt.title("Predicted #0 with probs #1, GT #2, learned weight #3")
+    for idx in np.arange(plots):
+        ax = fig.add_subplot(plots//8,9, idx+1, xticks=[], yticks=[])
+        matplotlib_imshow(images[idx], one_channel=False)
+        # predicted class, loss, gt, weight(v_lambda)
+        if vnet is not None:
+            ax.set_title("{0} {1} {2} {3:.2f} {4}".format(
+                preds[idx],
+                round(probs[idx],2),
+                labels[idx],
+                v_lambda[idx][0],
+                round(CE_[idx], 2)
+            ))
+        else:
+            ax.set_title("{0} {1} {2} _ {4}".format(
+                preds[idx],
+                round(probs[idx],2),
+                labels[idx],
+                round(CE_[idx], 2)
+            ))
+
+    
+    return fig
+
 def main():
-    global t_type, m_type, m_rate, t_rate
+    global t_type, m_type, m_rate, t_rate, infoname
     best_acc = 0
     results = []
     for epoch in range(args.epochs):
         adjust_learning_rate(optimizer_model, epoch)
+        test_acc = test(model=model, vnet=vnet, test_loader=test_loader, epoch=epoch)
         
         # select LNL or not
         print("flag", args.LNL)
@@ -397,7 +455,7 @@ def main():
         else:
             train_basic(train_loader,model,optimizer_model,epoch)
         
-        test_acc = test(model=model, test_loader=test_loader)
+        test_acc = test(model=model, vnet=vnet, test_loader=test_loader, epoch=epoch)
         if test_acc >= best_acc:
             best_acc = test_acc
 
@@ -413,14 +471,14 @@ def main():
     #-------- write result file------
     # select LNL or not
 
-    timestr = "./results/" + args.data + m_type + m_rate+ t_type + t_rate + time.strftime("%Y%m%d-%H%M%S")
+    timestr = "./results/" + args.dataset + infoname
     with open(timestr+'.txt', 'w') as f:
         f.write("Dataset:" + args.dataset + '\n')
         if args.LNL == True:
             f.write("Meta Label Corruption" + m_type + m_rate + '\n')
         f.write("Train Label Corruption" + t_type + t_rate + '\n')
-        for i in results:
-            f.write("%s " % round(i,5))
+        for i in range(len(results)):
+            f.write("%s " % round(results[i],5))
 
 if __name__ == '__main__':
     main()
